@@ -121,21 +121,6 @@ wheels = [
 ]
 
 [[package]]
-name = "canagliflozin-model"
-version = "0.7.0"
-source = { editable = "." }
-dependencies = [
-    { name = "sbmlsim" },
-    { name = "sbmlutils" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "sbmlsim", git = "https://github.com/matthiaskoenig/sbmlsim.git?rev=e6c4c405f4785e5d0d8d481c5f28712682b53be7" },
-    { name = "sbmlutils", specifier = ">=0.9.6" },
-]
-
-[[package]]
 name = "certifi"
 version = "2026.1.4"
 source = { registry = "https://pypi.org/simple" }
@@ -296,6 +281,21 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/12/80/630b4b88364e9a8c8c5797f4602d0f76ef820909ee32f0bacb9f90654042/dill-0.4.0.tar.gz", hash = "sha256:0633f1d2df477324f53a895b02c901fb961bdbf65a17122586ea7019292cbcf0", size = 186976, upload-time = "2025-04-16T00:41:48.867Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/50/3d/9373ad9c56321fdab5b41197068e1d8c25883b3fea29dd361f9b55116869/dill-0.4.0-py3-none-any.whl", hash = "sha256:44f54bf6412c2c8464c14e8243eb163690a9800dbe2c367330883b19c7561049", size = 119668, upload-time = "2025-04-16T00:41:47.671Z" },
+]
+
+[[package]]
+name = "dulaglutide-model"
+version = "0.7.0"
+source = { editable = "." }
+dependencies = [
+    { name = "sbmlsim" },
+    { name = "sbmlutils" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "sbmlsim", git = "https://github.com/matthiaskoenig/sbmlsim.git?rev=22ceed2f5b438e8b22851330d841ad9959e9c357" },
+    { name = "sbmlutils", specifier = ">=0.9.6" },
 ]
 
 [[package]]
@@ -946,7 +946,7 @@ wheels = [
 
 [[package]]
 name = "petab"
-version = "0.8.0"
+version = "0.8.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "antlr4-python3-runtime" },
@@ -959,7 +959,7 @@ dependencies = [
     { name = "pyyaml" },
     { name = "sympy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c0/a3/f7b91d3208f5f2a4634bdca931f1abfad68a9dbc1735bca15fce83321a77/petab-0.8.0.tar.gz", hash = "sha256:e0c7e08209b931b130abc211217fb03c280b02cc84707b91ae39a61255057a8e", size = 151366, upload-time = "2025-12-12T06:47:12.708Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/db/4f/5e676291ccbd6b3ada1f425a3005250e578923e23bc84fbc836689df4296/petab-0.8.1.tar.gz", hash = "sha256:652381ff26dd3d3370d544a69841a59af2cf6c0913eea139ee1f85bb64b8d49a", size = 151421, upload-time = "2026-01-21T21:22:29.614Z" }
 
 [[package]]
 name = "pexpect"
@@ -1509,7 +1509,7 @@ wheels = [
 [[package]]
 name = "sbmlsim"
 version = "0.3.0"
-source = { git = "https://github.com/matthiaskoenig/sbmlsim.git?rev=e6c4c405f4785e5d0d8d481c5f28712682b53be7#e6c4c405f4785e5d0d8d481c5f28712682b53be7" }
+source = { git = "https://github.com/matthiaskoenig/sbmlsim.git?rev=22ceed2f5b438e8b22851330d841ad9959e9c357#22ceed2f5b438e8b22851330d841ad9959e9c357" }
 dependencies = [
     { name = "altair" },
     { name = "bottleneck" },
