@@ -2,6 +2,6 @@
 .idea
 *.pyc
 __pycache__
-results/
+/results/
 src/pkdb_models/models/dulaglutide/results/
 src/pkdb_models/models/dulaglutide/models/results/dulaglutide_model.omex

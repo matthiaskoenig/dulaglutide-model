@@ -1,0 +1,3798 @@
+{
+  "experiment_id": "Hba1cExperiment",
+  "base_path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/hba1c",
+  "data_path": "[PosixPath('/home/mkoenig/git/pkdb_data/studies')]",
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pkdb_models/pkdb_models/models/hba1c/models/results/models/hba1c_model.xml",
+        "path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/hba1c/models/results/models/hba1c_model.xml",
+        "content": "None"
+      },
+      "changes": {}
+    }
+  },
+  "tasks": {
+    "task_fpg_5": {
+      "model": "model",
+      "simulation": "fpg_5"
+    },
+    "task_fpg_6": {
+      "model": "model",
+      "simulation": "fpg_6"
+    },
+    "task_fpg_7": {
+      "model": "model",
+      "simulation": "fpg_7"
+    },
+    "task_fpg_8": {
+      "model": "model",
+      "simulation": "fpg_8"
+    },
+    "task_fpg_9": {
+      "model": "model",
+      "simulation": "fpg_9"
+    },
+    "task_hba1c_5": {
+      "model": "model",
+      "simulation": "hba1c_5"
+    },
+    "task_hba1c_6": {
+      "model": "model",
+      "simulation": "hba1c_6"
+    },
+    "task_hba1c_7": {
+      "model": "model",
+      "simulation": "hba1c_7"
+    },
+    "task_hba1c_8": {
+      "model": "model",
+      "simulation": "hba1c_8"
+    },
+    "task_hba1c_9": {
+      "model": "model",
+      "simulation": "hba1c_9"
+    },
+    "task_concentration_0.0": {
+      "model": "model",
+      "simulation": "concentration_0.0"
+    },
+    "task_concentration_5e-06": {
+      "model": "model",
+      "simulation": "concentration_5e-06"
+    },
+    "task_concentration_1e-05": {
+      "model": "model",
+      "simulation": "concentration_1e-05"
+    },
+    "task_concentration_2e-05": {
+      "model": "model",
+      "simulation": "concentration_2e-05"
+    },
+    "task_concentration_4e-05": {
+      "model": "model",
+      "simulation": "concentration_4e-05"
+    }
+  },
+  "simulations": {
+    "fpg_5": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 5.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "fpg_6": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 6,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 6.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "fpg_7": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 7,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 7.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "fpg_8": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "fpg_9": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 9,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 9.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "hba1c_5": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.05,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.05,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "hba1c_6": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.06,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.06,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "hba1c_7": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.07,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.07,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "hba1c_8": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "hba1c_9": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.09,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.09,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "concentration_0.0": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 0.0,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "concentration_5e-06": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 5e-06,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "concentration_1e-05": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 1e-05,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "concentration_2e-05": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 2e-05,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "concentration_4e-05": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 504000,
+          "steps": 1000,
+          "changes": {
+            "k_fpg": {
+              "_magnitude": 2.0000000000000003e-06,
+              "_units": "l2_per_min_mmole"
+            },
+            "fpg0": {
+              "_magnitude": 8,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.0,
+              "_units": "millimole / liter"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08,
+              "_units": "dimensionless"
+            },
+            "glp1": {
+              "_magnitude": 4e-05,
+              "_units": "millimolar"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_fpg_5__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_fpg_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_5__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_fpg_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_5__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_fpg_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_5__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_fpg_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_5__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_fpg_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_6__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_fpg_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_6__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_fpg_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_6__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_fpg_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_6__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_fpg_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_6__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_fpg_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_7__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_fpg_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_7__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_fpg_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_7__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_fpg_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_7__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_fpg_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_7__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_fpg_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_8__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_fpg_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_8__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_fpg_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_8__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_fpg_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_8__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_fpg_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_8__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_fpg_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_9__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_fpg_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_9__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_fpg_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_9__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_fpg_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_9__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_fpg_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_fpg_9__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_fpg_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_5__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_hba1c_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_5__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_hba1c_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_5__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_hba1c_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_5__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_hba1c_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_5__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_hba1c_5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_6__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_hba1c_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_6__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_hba1c_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_6__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_hba1c_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_6__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_hba1c_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_6__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_hba1c_6",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_7__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_hba1c_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_7__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_hba1c_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_7__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_hba1c_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_7__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_hba1c_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_7__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_hba1c_7",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_8__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_hba1c_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_8__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_hba1c_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_8__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_hba1c_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_8__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_hba1c_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_8__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_hba1c_8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_9__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_hba1c_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_9__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_hba1c_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_9__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_hba1c_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_9__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_hba1c_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_hba1c_9__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_hba1c_9",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_0.0__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_concentration_0.0",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_0.0__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_concentration_0.0",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_0.0__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_concentration_0.0",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_0.0__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_concentration_0.0",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_0.0__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_concentration_0.0",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_5e-06__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_concentration_5e-06",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_5e-06__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_concentration_5e-06",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_5e-06__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_concentration_5e-06",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_5e-06__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_concentration_5e-06",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_5e-06__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_concentration_5e-06",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_1e-05__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_concentration_1e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_1e-05__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_concentration_1e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_1e-05__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_concentration_1e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_1e-05__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_concentration_1e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_1e-05__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_concentration_1e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_2e-05__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_concentration_2e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_2e-05__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_concentration_2e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_2e-05__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_concentration_2e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_2e-05__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_concentration_2e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_2e-05__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_concentration_2e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_4e-05__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_concentration_4e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_4e-05__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_concentration_4e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_4e-05__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_concentration_4e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_4e-05__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_concentration_4e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_concentration_4e-05__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_concentration_4e-05",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    }
+  },
+  "figures": {
+    "Fig_concentration": {
+      "sid": "Fig_concentration",
+      "name": "Concentration",
+      "num_rows": 2,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 10.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_concentration__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_concentration__plot0_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_concentration__plot0_yaxis",
+              "name": "initial FPG [mM]",
+              "label": "initial FPG",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_concentration__plot0_curve0",
+                "name": "0.0 mM",
+                "x": "task_concentration_0.0__time",
+                "y": "task_concentration_0.0__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_concentration__plot0_curve1",
+                "name": "5e-06 mM",
+                "x": "task_concentration_5e-06__time",
+                "y": "task_concentration_5e-06__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_concentration__plot0_curve2",
+                "name": "1e-05 mM",
+                "x": "task_concentration_1e-05__time",
+                "y": "task_concentration_1e-05__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_concentration__plot0_curve3",
+                "name": "2e-05 mM",
+                "x": "task_concentration_2e-05__time",
+                "y": "task_concentration_2e-05__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_concentration__plot0_curve4",
+                "name": "4e-05 mM",
+                "x": "task_concentration_4e-05__time",
+                "y": "task_concentration_4e-05__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_concentration__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_concentration__plot1_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_concentration__plot1_yaxis",
+              "name": "FPG [mM]",
+              "label": "FPG",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_concentration__plot1_curve0",
+                "name": "0.0 mM",
+                "x": "task_concentration_0.0__time",
+                "y": "task_concentration_0.0__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_concentration__plot1_curve1",
+                "name": "5e-06 mM",
+                "x": "task_concentration_5e-06__time",
+                "y": "task_concentration_5e-06__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_concentration__plot1_curve2",
+                "name": "1e-05 mM",
+                "x": "task_concentration_1e-05__time",
+                "y": "task_concentration_1e-05__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_concentration__plot1_curve3",
+                "name": "2e-05 mM",
+                "x": "task_concentration_2e-05__time",
+                "y": "task_concentration_2e-05__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_concentration__plot1_curve4",
+                "name": "4e-05 mM",
+                "x": "task_concentration_4e-05__time",
+                "y": "task_concentration_4e-05__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_concentration__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_concentration__plot2_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_concentration__plot2_yaxis",
+              "name": "initial HbA1c [percent]",
+              "label": "initial HbA1c",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_concentration__plot2_curve0",
+                "name": "0.0 mM",
+                "x": "task_concentration_0.0__time",
+                "y": "task_concentration_0.0__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_concentration__plot2_curve1",
+                "name": "5e-06 mM",
+                "x": "task_concentration_5e-06__time",
+                "y": "task_concentration_5e-06__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_concentration__plot2_curve2",
+                "name": "1e-05 mM",
+                "x": "task_concentration_1e-05__time",
+                "y": "task_concentration_1e-05__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_concentration__plot2_curve3",
+                "name": "2e-05 mM",
+                "x": "task_concentration_2e-05__time",
+                "y": "task_concentration_2e-05__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_concentration__plot2_curve4",
+                "name": "4e-05 mM",
+                "x": "task_concentration_4e-05__time",
+                "y": "task_concentration_4e-05__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_concentration__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_concentration__plot3_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_concentration__plot3_yaxis",
+              "name": "HbA1c [percent]",
+              "label": "HbA1c",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_concentration__plot3_curve0",
+                "name": "0.0 mM",
+                "x": "task_concentration_0.0__time",
+                "y": "task_concentration_0.0__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_concentration__plot3_curve1",
+                "name": "5e-06 mM",
+                "x": "task_concentration_5e-06__time",
+                "y": "task_concentration_5e-06__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_concentration__plot3_curve2",
+                "name": "1e-05 mM",
+                "x": "task_concentration_1e-05__time",
+                "y": "task_concentration_1e-05__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_concentration__plot3_curve3",
+                "name": "2e-05 mM",
+                "x": "task_concentration_2e-05__time",
+                "y": "task_concentration_2e-05__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_concentration__plot3_curve4",
+                "name": "4e-05 mM",
+                "x": "task_concentration_4e-05__time",
+                "y": "task_concentration_4e-05__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_fpg": {
+      "sid": "Fig_fpg",
+      "name": "Fpg",
+      "num_rows": 2,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 10.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_fpg__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_fpg__plot0_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_fpg__plot0_yaxis",
+              "name": "initial FPG [mM]",
+              "label": "initial FPG",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_fpg__plot0_curve0",
+                "name": "5 mM",
+                "x": "task_fpg_5__time",
+                "y": "task_fpg_5__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_fpg__plot0_curve1",
+                "name": "6 mM",
+                "x": "task_fpg_6__time",
+                "y": "task_fpg_6__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_fpg__plot0_curve2",
+                "name": "7 mM",
+                "x": "task_fpg_7__time",
+                "y": "task_fpg_7__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_fpg__plot0_curve3",
+                "name": "8 mM",
+                "x": "task_fpg_8__time",
+                "y": "task_fpg_8__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_fpg__plot0_curve4",
+                "name": "9 mM",
+                "x": "task_fpg_9__time",
+                "y": "task_fpg_9__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_fpg__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_fpg__plot1_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_fpg__plot1_yaxis",
+              "name": "FPG [mM]",
+              "label": "FPG",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_fpg__plot1_curve0",
+                "name": "5 mM",
+                "x": "task_fpg_5__time",
+                "y": "task_fpg_5__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_fpg__plot1_curve1",
+                "name": "6 mM",
+                "x": "task_fpg_6__time",
+                "y": "task_fpg_6__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_fpg__plot1_curve2",
+                "name": "7 mM",
+                "x": "task_fpg_7__time",
+                "y": "task_fpg_7__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_fpg__plot1_curve3",
+                "name": "8 mM",
+                "x": "task_fpg_8__time",
+                "y": "task_fpg_8__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_fpg__plot1_curve4",
+                "name": "9 mM",
+                "x": "task_fpg_9__time",
+                "y": "task_fpg_9__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_fpg__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_fpg__plot2_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_fpg__plot2_yaxis",
+              "name": "initial HbA1c [percent]",
+              "label": "initial HbA1c",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_fpg__plot2_curve0",
+                "name": "5 mM",
+                "x": "task_fpg_5__time",
+                "y": "task_fpg_5__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_fpg__plot2_curve1",
+                "name": "6 mM",
+                "x": "task_fpg_6__time",
+                "y": "task_fpg_6__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_fpg__plot2_curve2",
+                "name": "7 mM",
+                "x": "task_fpg_7__time",
+                "y": "task_fpg_7__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_fpg__plot2_curve3",
+                "name": "8 mM",
+                "x": "task_fpg_8__time",
+                "y": "task_fpg_8__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_fpg__plot2_curve4",
+                "name": "9 mM",
+                "x": "task_fpg_9__time",
+                "y": "task_fpg_9__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_fpg__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_fpg__plot3_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_fpg__plot3_yaxis",
+              "name": "HbA1c [percent]",
+              "label": "HbA1c",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_fpg__plot3_curve0",
+                "name": "5 mM",
+                "x": "task_fpg_5__time",
+                "y": "task_fpg_5__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_fpg__plot3_curve1",
+                "name": "6 mM",
+                "x": "task_fpg_6__time",
+                "y": "task_fpg_6__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_fpg__plot3_curve2",
+                "name": "7 mM",
+                "x": "task_fpg_7__time",
+                "y": "task_fpg_7__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_fpg__plot3_curve3",
+                "name": "8 mM",
+                "x": "task_fpg_8__time",
+                "y": "task_fpg_8__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_fpg__plot3_curve4",
+                "name": "9 mM",
+                "x": "task_fpg_9__time",
+                "y": "task_fpg_9__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_hba1c": {
+      "sid": "Fig_hba1c",
+      "name": "Hba1C",
+      "num_rows": 2,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 10.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_hba1c__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_hba1c__plot0_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_hba1c__plot0_yaxis",
+              "name": "initial FPG [mM]",
+              "label": "initial FPG",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_hba1c__plot0_curve0",
+                "name": "5 percent",
+                "x": "task_hba1c_5__time",
+                "y": "task_hba1c_5__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_hba1c__plot0_curve1",
+                "name": "6 percent",
+                "x": "task_hba1c_6__time",
+                "y": "task_hba1c_6__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_hba1c__plot0_curve2",
+                "name": "7 percent",
+                "x": "task_hba1c_7__time",
+                "y": "task_hba1c_7__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_hba1c__plot0_curve3",
+                "name": "8 percent",
+                "x": "task_hba1c_8__time",
+                "y": "task_hba1c_8__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_hba1c__plot0_curve4",
+                "name": "9 percent",
+                "x": "task_hba1c_9__time",
+                "y": "task_hba1c_9__fpg0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_hba1c__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_hba1c__plot1_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_hba1c__plot1_yaxis",
+              "name": "FPG [mM]",
+              "label": "FPG",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_hba1c__plot1_curve0",
+                "name": "5 percent",
+                "x": "task_hba1c_5__time",
+                "y": "task_hba1c_5__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_hba1c__plot1_curve1",
+                "name": "6 percent",
+                "x": "task_hba1c_6__time",
+                "y": "task_hba1c_6__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_hba1c__plot1_curve2",
+                "name": "7 percent",
+                "x": "task_hba1c_7__time",
+                "y": "task_hba1c_7__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_hba1c__plot1_curve3",
+                "name": "8 percent",
+                "x": "task_hba1c_8__time",
+                "y": "task_hba1c_8__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_hba1c__plot1_curve4",
+                "name": "9 percent",
+                "x": "task_hba1c_9__time",
+                "y": "task_hba1c_9__fpg",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_hba1c__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_hba1c__plot2_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_hba1c__plot2_yaxis",
+              "name": "initial HbA1c [percent]",
+              "label": "initial HbA1c",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_hba1c__plot2_curve0",
+                "name": "5 percent",
+                "x": "task_hba1c_5__time",
+                "y": "task_hba1c_5__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_hba1c__plot2_curve1",
+                "name": "6 percent",
+                "x": "task_hba1c_6__time",
+                "y": "task_hba1c_6__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_hba1c__plot2_curve2",
+                "name": "7 percent",
+                "x": "task_hba1c_7__time",
+                "y": "task_hba1c_7__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_hba1c__plot2_curve3",
+                "name": "8 percent",
+                "x": "task_hba1c_8__time",
+                "y": "task_hba1c_8__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_hba1c__plot2_curve4",
+                "name": "9 percent",
+                "x": "task_hba1c_9__time",
+                "y": "task_hba1c_9__hba1c0",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_hba1c__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_hba1c__plot3_xaxis",
+              "name": "time [month]",
+              "label": "time",
+              "unit": "month",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_hba1c__plot3_yaxis",
+              "name": "HbA1c [percent]",
+              "label": "HbA1c",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_hba1c__plot3_curve0",
+                "name": "5 percent",
+                "x": "task_hba1c_5__time",
+                "y": "task_hba1c_5__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#0000ffff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#0000ffff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#0000ffff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_hba1c__plot3_curve1",
+                "name": "6 percent",
+                "x": "task_hba1c_6__time",
+                "y": "task_hba1c_6__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_hba1c__plot3_curve2",
+                "name": "7 percent",
+                "x": "task_hba1c_7__time",
+                "y": "task_hba1c_7__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_hba1c__plot3_curve3",
+                "name": "8 percent",
+                "x": "task_hba1c_8__time",
+                "y": "task_hba1c_8__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_hba1c__plot3_curve4",
+                "name": "9 percent",
+                "x": "task_hba1c_9__time",
+                "y": "task_hba1c_9__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}
