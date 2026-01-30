@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14761114.svg)](https://doi.org/10.5281/zenodo.14761114)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18432433.svg)](https://doi.org/10.5281/zenodo.18432433)
 [![GitHub Action](https://github.com/matthiaskoenig/dulaglutide-model/actions/workflows/python.yml/badge.svg)](https://github.com/matthiaskoenig/sorafenib-model/actions/workflows/python.yml)
 [![GitHub Action](https://github.com/matthiaskoenig/dulaglutide-model/actions/workflows/docker.yml/badge.svg)](https://github.com/matthiaskoenig/sorafenib-model/actions/workflows/docker.yml)
 
@@ -20,11 +20,11 @@ The COMBINE archive is available from [`dulaglutide_model.omex`](./dulaglutide_m
 * **whole-body** submodel [`dulaglutide_body.xml`](./models/dulaglutide_body.xml) with [SBML4humans report](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/dulaglutide-model/main/models/dulaglutide_body.xml) and [equations](./models/dulaglutide_body.md).
 
 ## How to cite
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14761114.svg)](https://doi.org/10.5281/zenodo.14761114)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18432433.svg)](https://doi.org/10.5281/zenodo.18432433)
 
 > Minjun K. & König, M. (2026).
 > *Physiologically based pharmacokinetic/pharmacodynamic (PBPK/PD) model of dulaglutide.*   
-> Zenodo. [https://doi.org/10.5281/zenodo.14761114](https://doi.org/10.5281/zenodo.14761114)
+> Zenodo. [https://doi.org/10.5281/zenodo.18432433](https://doi.org/10.5281/zenodo.18432433)
 
 ## License
 

@@ -108,9 +108,9 @@ IVDOSE_dul = 0.0  # [mg] IV bolus dose dul [mg]
 LI__dm = 0.0  # [mmol/l] dulaglutide metabolites (liver) in Vli_tissue  
 LI__dm_bi = 0.0  # [mmol] dulaglutide metabolites (bile) in LI__Vbi  
 SCDOSE_dul = 0.0  # [mg] subcutaneous dose dul [mg]  
-fpg = <libsbml.ASTNode; proxy of <Swig Object of type 'ASTNode *' at 0x7c26a5999650> >  # [mmol/l] fasting plasma glucose (FPG) in Vext  
-hb = <libsbml.ASTNode; proxy of <Swig Object of type 'ASTNode *' at 0x7c26a5999920> >  # [-] Hb total in Vext  
-hba1c = <libsbml.ASTNode; proxy of <Swig Object of type 'ASTNode *' at 0x7c26a5998750> >  # [-] HbA1c in Vext  
+fpg = <libsbml.ASTNode; proxy of <Swig Object of type 'ASTNode *' at 0x794904466040> >  # [mmol/l] fasting plasma glucose (FPG) in Vext  
+hb = <libsbml.ASTNode; proxy of <Swig Object of type 'ASTNode *' at 0x79490444dfb0> >  # [-] Hb total in Vext  
+hba1c = <libsbml.ASTNode; proxy of <Swig Object of type 'ASTNode *' at 0x7949044641e0> >  # [-] HbA1c in Vext  
 ```
 
 ## ODE system
