@@ -2,7 +2,7 @@
 # Dockerfile
 # -----------------------
 # Build and push image
-#   docker build -f Dockerfile -t matthiaskoenig/dulaglutide:0.7.0 -t matthiaskoenig/dulaglutide:latest .
+#   docker build -f Dockerfile -t matthiaskoenig/dulaglutide:0.7.2 -t matthiaskoenig/dulaglutide:latest .
 #   docker login
 #   docker push --all-tags matthiaskoenig/dulaglutide
 
