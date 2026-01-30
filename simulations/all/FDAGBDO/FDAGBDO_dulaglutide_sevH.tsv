@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	0.0	day	0.0				0.0					mole/meter^3	ng/ml
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	0.5	day	7.06814763340195e-06				2.4271367802416793e-06					mole/meter^3	ng/ml
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	1.0	day	1.288897253053551e-05				2.7905431223193112e-06					mole/meter^3	ng/ml
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	2.0	day	1.746248063908568e-05				3.114400748857298e-06					mole/meter^3	ng/ml
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	3.0	day	1.8761774247357842e-05				3.5083765407320645e-06					mole/meter^3	ng/ml
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	4.0	day	1.65789639196519e-05				3.12349228920811e-06					mole/meter^3	ng/ml
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	7.0	day	1.018644753510707e-05				1.0144458823324384e-06					mole/meter^3	ng/ml
+FDAGBDO	sevH	3.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH	14.0	day	3.378160209408888e-06				3.923773875114886e-07					mole/meter^3	ng/ml

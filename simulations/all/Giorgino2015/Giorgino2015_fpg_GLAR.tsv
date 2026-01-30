@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	0.0	week	9.070153265502109				2.488947825496064	0.1537677101826493			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	2.0	week	7.840010929256881				1.7943601378327094	0.1108559395304185			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	4.0	week	7.500291558130383				1.91012342761734	0.11800781945777086			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	8.0	week	7.49313967820304				1.9680024228572819	0.12158359572537741			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	14.0	week	7.550355372406027				2.0837710119465975	0.12873580304486676			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	20.0	week	7.4144676894338355				1.968007722161073	0.12158392311745891			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	26.0	week	7.400163602187054				2.1995396010340693	0.1358880103642423			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	35.0	week	7.396587825919459				2.0837710119456756	0.1287358030448096			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	44.0	week	7.389435618600021				2.1995396010340693	0.1358880103642423			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	52.0	week	7.224940088526309				2.3152975915158023	0.14303956289956815			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	65.0	week	7.346523684251776				2.3153028908186775	0.14303989029159303			mole/meter^3	mg/dl
+Giorgino2015	GLAR	262.0	GLAR	concentration	glucose	serum	NR	fpg_GLAR	78.0	week	7.400163602187054				2.4889504751479348	0.15376787387868837			mole/meter^3	mg/dl

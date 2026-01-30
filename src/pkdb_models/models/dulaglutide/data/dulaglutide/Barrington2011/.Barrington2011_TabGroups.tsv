@@ -1,0 +1,14 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Barrington2011	all	20.0	NA	species	20.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	all	20.0	NA	healthy	20.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	all	20.0	NA	age	20.0	NA	NA	NA	NA	NA	NA	19.0	52.0	yr	NA
+Barrington2011	all	20.0	NA	ethnicity	19.0	NA	african	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	all	20.0	NA	bmi	20.0	NA	NA	NA	NA	NA	NA	21.0	30.0	kg/m^2	NA
+Barrington2011	all	20.0	NA	sex	19.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	all	20.0	NA	sex	1.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	DUL01	6.0	all	species	6.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	DUL03	6.0	all	species	6.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	DUL1	6.0	all	species	6.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	DUL3	4.0	all	species	4.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	DUL6	6.0	all	species	6.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Barrington2011	DUL12	6.0	all	species	6.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA

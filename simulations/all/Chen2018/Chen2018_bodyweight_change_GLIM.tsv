@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	0.0	week	0.0								kg	kg
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	2.0	week	0.25				8.485283152069204	0.545454659737827			kg	kg
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	4.0	week	0.28				8.52947665026665	0.548295525397806			kg	kg
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	8.0	week	0.27				8.883028681943381	0.571022710770615			kg	kg
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	16.0	week	0.74				9.015611199584328	0.579545437797042			kg	kg
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	26.0	week	0.89				9.324969733063645	0.599431757509874			kg	kg

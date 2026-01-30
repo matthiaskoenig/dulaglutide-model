@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Chen2018	GLIM	S0T24R182	NA	hr	oral	multiple dose	dosing	tablet	glimepiride	2.0	mg	NA
+Chen2018	DUL075	S0T168R26	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Chen2018	DUL15	S0T168R26	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

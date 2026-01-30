@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	0.0	week	8.54073410922112				0.239033124440461				percent	percent
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	13.0	week	7.01521933751119				0.2094897045658				percent	percent
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	26.0	week	7.05550581915846				0.25246195165623				percent	percent
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	52.0	week	7.30796777081468				0.303491495076091				percent	percent

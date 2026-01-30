@@ -1,0 +1,27 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Liu2025	all	440.0	NA	species	440.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	all	440.0	NA	healthy	440.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	all	440.0	NA	disease	440.0	NA	diabetes	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	all	440.0	NA	medication	440.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	metformin
+Liu2025	all	440.0	NA	ethnicity	440.0	NA	chinese	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	all	440.0	NA	age	440.0	NA	NA	52.4	NA	11.34	NA	18.0	75.0	yr	NA
+Liu2025	all	440.0	NA	sex	260.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	all	440.0	NA	sex	180.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	all	440.0	NA	height	440.0	NA	NA	1.6555	NA	0.08491	NA	NA	NA	m	NA
+Liu2025	all	440.0	NA	weight	440.0	NA	NA	73.66	NA	12.545	NA	NA	NA	kg	NA
+Liu2025	all	440.0	NA	bmi	440.0	NA	NA	26.759	NA	3.2585	NA	NA	NA	kg/m^2	NA
+Liu2025	all	440.0	NA	clearance measurement	440.0	NA	NA	124.94	NA	43.052	NA	NA	NA	NA	Creatinine clearance in ml/min
+Liu2025	DUL15	218.0	all	age	218.0	NA	NA	52.0	NA	11.31	NA	18.0	75.0	yr	NA
+Liu2025	DUL15	218.0	all	sex	128.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	DUL15	218.0	all	sex	90.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	DUL15	218.0	all	height	218.0	NA	NA	1.6553	NA	0.08743	NA	NA	NA	m	NA
+Liu2025	DUL15	218.0	all	weight	218.0	NA	NA	73.94	NA	13.38	NA	NA	NA	kg	NA
+Liu2025	DUL15	218.0	all	bmi	218.0	NA	NA	26.832	NA	3.36834	NA	NA	NA	kg/m^2	NA
+Liu2025	DUL15	218.0	all	clearance measurement	218.0	NA	NA	123.26	NA	42.803	NA	NA	NA	NA	Creatinine clearance in ml/min
+Liu2025	LY05008	222.0	all	age	222.0	NA	NA	52.9	NA	11.39	NA	18.0	75.0	yr	NA
+Liu2025	LY05008	222.0	all	sex	132.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	LY05008	222.0	all	sex	90.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2025	LY05008	222.0	all	height	222.0	NA	NA	165.57	NA	0.08256	NA	NA	NA	m	NA
+Liu2025	LY05008	222.0	all	weight	222.0	NA	NA	73.4	NA	11.691	NA	NA	NA	kg	NA
+Liu2025	LY05008	222.0	all	bmi	222.0	NA	NA	26.687	NA	3.1529	NA	NA	NA	kg/m^2	NA
+Liu2025	LY05008	222.0	all	clearance measurement	222.0	NA	NA	126.59	NA	43.329	NA	NA	NA	NA	Creatinine clearance in ml/min

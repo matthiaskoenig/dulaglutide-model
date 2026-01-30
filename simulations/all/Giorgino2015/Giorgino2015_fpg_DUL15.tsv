@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	0.0	week	9.152401030538963				2.6588306896151304	0.16091975380598578			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	2.0	week	7.078324094575043				1.8907276522188161	0.11443204319010711			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	4.0	week	7.128388236242726				2.008890692550688	0.12158359572537741			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	8.0	week	7.196331914032749				1.8907276522188272	0.11443204319010822			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	14.0	week	7.3715557550855895				2.008896101955645	0.12158392311745891			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	20.0	week	7.439499760267706				2.008890692550688	0.12158359572537741			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	26.0	week	7.3715557550855895				2.4224883807374384	0.1466156665592562			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	35.0	week	7.4645315037094795				2.1270645516924844	0.12873580304481128			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	44.0	week	7.629027361175177				2.245233001430206	0.13588768297221746			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	52.0	week	7.489563574543349				2.2452330014292956	0.13588768297216194			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	65.0	week	7.8650430000907505				2.4224883807365227	0.1466156665592007			mole/meter^3	mg/dl
+Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	78.0	week	7.890075070924567				2.54065683047425	0.1537675464866069			mole/meter^3	mg/dl

@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	0.0	hr	0.0				0.0				mole/meter^3	ng/ml
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	12.0	hr	1.1719098906092832e-05				5.359492033977433e-06				mole/meter^3	ng/ml
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	24.0	hr	1.9013695822958154e-05				6.3287294429525435e-06				mole/meter^3	ng/ml
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	48.0	hr	2.429598352454927e-05				4.994716740417396e-06				mole/meter^3	ng/ml
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	72.0	hr	2.3792915816132174e-05				3.3859142756074334e-06				mole/meter^3	ng/ml
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	96.0	hr	2.1780606600857962e-05				3.2863575208580525e-06				mole/meter^3	ng/ml
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	168.0	hr	1.3605631598861281e-05				4.299342773793006e-06				mole/meter^3	ng/ml
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	336.0	hr	4.676045438837507e-06				1.1086385892507996e-06				mole/meter^3	ng/ml

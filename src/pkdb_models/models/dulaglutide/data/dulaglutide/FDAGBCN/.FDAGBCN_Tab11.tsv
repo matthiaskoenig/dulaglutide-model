@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	cv	se	min	max	sd	ci	unit	comments
+FDAGBCN	all	43.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	14959.0	NA	NA	NA	NA	NA	2999.67932494666	1505.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	all	40.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	14557.0	NA	NA	NA	NA	NA	2854.70050173255	1485.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	all	39.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	14800.0	NA	NA	NA	NA	NA	1841.23041290166	970.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	all	43.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	9317.0	NA	NA	NA	NA	NA	1831.69787350563	919.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	all	40.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	9129.0	NA	NA	NA	NA	NA	1782.02516168759	927.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	all	39.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	8580.0	NA	NA	NA	NA	NA	1596.36574974257	841.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	all	43.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	76.0	NA	NA	NA	NA	NA	17.3403389548412	8.7	ng/ml	geometric mean/abdomen
+FDAGBCN	all	40.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	74.8	NA	NA	NA	NA	NA	17.1089794379931	8.9	ng/ml	geometric mean/arm
+FDAGBCN	all	39.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	67.7	NA	NA	NA	NA	NA	14.615952762209	7.7	ng/ml	geometric mean/thigh

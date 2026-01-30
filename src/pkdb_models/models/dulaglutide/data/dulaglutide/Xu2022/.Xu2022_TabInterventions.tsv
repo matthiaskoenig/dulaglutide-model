@@ -1,0 +1,9 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Xu2022	DULPLAS	0	NA	hr	subcutaneous	single dose	dosing	solution	placebo	0.0	mg	NA
+Xu2022	DUL05S	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	0.5	mg	NA
+Xu2022	DUL075S	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	0.75	mg	NA
+Xu2022	DUL15S	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	1.5	mg	NA
+Xu2022	DULPLAM	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	placebo	0.0	mg	NA
+Xu2022	DUL05M	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.5	mg	NA
+Xu2022	DUL075M	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Xu2022	DUL15M	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

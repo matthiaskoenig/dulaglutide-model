@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	mean_se	min	max	mean_sd	cv	comments	mean_unit	median_unit
+Dungan2016	PLAC	60.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	0.0	week	0.0								kg	kg
+Dungan2016	PLAC	60.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	2.0	week	-0.298507483874609		0.169746943122986			1.3148541675698848			kg	kg
+Dungan2016	PLAC	60.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	4.0	week	-0.345771106887943		0.204976918359941			1.5877443823299378			kg	kg
+Dungan2016	PLAC	60.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	8.0	week	-0.460198957613617		0.241185714252416			1.868216509285496			kg	kg
+Dungan2016	PLAC	60.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	12.0	week	-0.320895559778722		0.303446777388708			2.350488630573551			kg	kg
+Dungan2016	PLAC	60.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	18.0	week	-0.253731415572197		0.353611146574634			2.739060163433735			kg	kg
+Dungan2016	PLAC	60.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	24.0	week	-0.241293558511772		0.404350181340913			3.13208303673861			kg	kg

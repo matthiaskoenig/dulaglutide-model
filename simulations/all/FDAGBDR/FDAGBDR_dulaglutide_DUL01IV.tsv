@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	0.0	hr	0.0								mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	0.5	hr	5.481116436681349e-06								mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	1.0	hr	1.0681143655673474e-05				2.38919937684345e-06				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	2.0	hr	1.0681143655673474e-05				2.38919937684345e-06				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	4.0	hr	8.994651239367194e-06				1.6864977775349364e-06				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	8.0	hr	8.573022774061968e-06				2.529743985688077e-06				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	12.0	hr	6.886530357755687e-06				2.6702885945327037e-06				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	24.0	hr	4.497325619683582e-06				9.837908169977372e-07				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	36.0	hr	3.5135348026858444e-06				8.432462081531528e-07				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	48.0	hr	3.2324509462252156e-06				9.837908169977372e-07				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	72.0	hr	2.670288594532692e-06				5.62167712921188e-07				mole/meter^3	ng/ml
+FDAGBDR	DUL01IV	16.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	120.0	hr	1.8270370251508991e-06				5.621623516925421e-07				mole/meter^3	ng/ml

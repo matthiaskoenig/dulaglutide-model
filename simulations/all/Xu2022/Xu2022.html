@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Xu2022</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>Xu2022</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../models/results/models/dulaglutide_body_flat.xml">../../../models/results/models/dulaglutide_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>dulaglutide_DUL05M</strong>: <a href="Xu2022_dulaglutide_DUL05M.tsv">Xu2022_dulaglutide_DUL05M.tsv</a></li>
+                <li><strong>dulaglutide_DUL05S</strong>: <a href="Xu2022_dulaglutide_DUL05S.tsv">Xu2022_dulaglutide_DUL05S.tsv</a></li>
+                <li><strong>dulaglutide_DUL075M</strong>: <a href="Xu2022_dulaglutide_DUL075M.tsv">Xu2022_dulaglutide_DUL075M.tsv</a></li>
+                <li><strong>dulaglutide_DUL075S</strong>: <a href="Xu2022_dulaglutide_DUL075S.tsv">Xu2022_dulaglutide_DUL075S.tsv</a></li>
+                <li><strong>dulaglutide_DUL15M</strong>: <a href="Xu2022_dulaglutide_DUL15M.tsv">Xu2022_dulaglutide_DUL15M.tsv</a></li>
+                <li><strong>dulaglutide_DUL15S</strong>: <a href="Xu2022_dulaglutide_DUL15S.tsv">Xu2022_dulaglutide_DUL15S.tsv</a></li>
+                <li><strong>fpg_change_DUL05M</strong>: <a href="Xu2022_fpg_change_DUL05M.tsv">Xu2022_fpg_change_DUL05M.tsv</a></li>
+                <li><strong>fpg_change_DUL075M</strong>: <a href="Xu2022_fpg_change_DUL075M.tsv">Xu2022_fpg_change_DUL075M.tsv</a></li>
+                <li><strong>fpg_change_DUL15M</strong>: <a href="Xu2022_fpg_change_DUL15M.tsv">Xu2022_fpg_change_DUL15M.tsv</a></li>
+                <li><strong>fpg_change_DULPLAM</strong>: <a href="Xu2022_fpg_change_DULPLAM.tsv">Xu2022_fpg_change_DULPLAM.tsv</a></li>
+                <li><strong>hba1c_change_DUL05M</strong>: <a href="Xu2022_hba1c_change_DUL05M.tsv">Xu2022_hba1c_change_DUL05M.tsv</a></li>
+                <li><strong>hba1c_change_DUL075M</strong>: <a href="Xu2022_hba1c_change_DUL075M.tsv">Xu2022_hba1c_change_DUL075M.tsv</a></li>
+                <li><strong>hba1c_change_DUL15M</strong>: <a href="Xu2022_hba1c_change_DUL15M.tsv">Xu2022_hba1c_change_DUL15M.tsv</a></li>
+                <li><strong>hba1c_change_DULPLAM</strong>: <a href="Xu2022_hba1c_change_DULPLAM.tsv">Xu2022_hba1c_change_DULPLAM.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig1_pk</strong>: <a href="Xu2022_Fig1_pk.svg">Xu2022_Fig1_pk.svg</a></li>
+                <li><strong>Fig2_Fig3_pd</strong>: <a href="Xu2022_Fig2_Fig3_pd.svg">Xu2022_Fig2_Fig3_pd.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig1_pk</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Xu2022_Fig1_pk.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Xu2022_Fig1_pk.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+            <h3>Fig2_Fig3_pd</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Xu2022_Fig2_Fig3_pd.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Xu2022_Fig2_Fig3_pd.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../experiments/studies/xu2022.py">../../../experiments/studies/xu2022.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.dulaglutide.experiments.base_experiment import (
+    DulaglutideSimulationExperiment,
+)
+from pkdb_models.models.dulaglutide.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health,
+    Fasting, DulaglutideMappingMetaData, Coadministration
+)
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.dulaglutide.helpers import run_experiments
+
+
+class Xu2022(DulaglutideSimulationExperiment):
+    """Simulation experiment of Xu2022."""
+
+    interventions = ["DULPLAM", "DUL05M", "DUL075M", "DUL15M", "DUL05S", "DUL075S", "DUL15S"]
+    bodyweights = {
+        "DULPLAM" : 71.9, #kg
+        "DUL05M"  : 70.7, #kg
+        "DUL075M" : 67.9, #kg
+        "DUL15M"  : 73.4, #kg
+        "DUL05S"  : 65.8, #kg
+        "DUL075S" : 65.8, #kg
+        "DUL15S"  : 65.8  #kg
+    }
+    doses = {
+        "DULPLAM" : 0,    #mg
+        "DUL05M"  : 0.5,  #mg
+        "DUL075M" : 0.75, #mg
+        "DUL15M"  : 1.5,  #mg
+        "DUL05S"  : 0.5,  #mg
+        "DUL075S" : 0.75, #mg
+        "DUL15S"  : 1.5   #mg
+    }
+    colors = {
+        # diabetic patients
+        "DULPLAM" : "black",
+        "DUL05M"  : "tab:blue",
+        "DUL075M" : "tab:green",
+        "DUL15M"  : "tab:red",
+
+        # healthy subjects
+        "DUL05S"  : "tab:blue",
+        "DUL075S" : "tab:green",
+        "DUL15S"  : "tab:red",
+    }
+    hba1cs = { # [percent]
+        "DULPLAM" : 7.29,
+        "DUL05M"  : 6.92,
+        "DUL075M" : 7.87,
+        "DUL15M"  : 7.79,
+    }
+    # average glucose
+    fpgs = {k: DulaglutideSimulationExperiment.apg_from_hba1c(v) for k, v in hba1cs.items()}  # [mM]
+
+    info_pk = {
+        "[Cve_dul]": "dulaglutide", # Fig1
+    }
+    info_pd = {
+        "fpg_change": "fpg_change", # Fig2
+        "hba1c_change": "hba1c_change", # Fig3
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig1", "Fig2", "Fig3"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                # unit conversion
+                if label.startswith("dulaglutide_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.dul)
+
+                dsets[label] = dset
+
+        # console.print(dsets)
+        # console.print(dsets.keys())
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        for intervention in self.interventions:
+            if intervention.endswith("M"):
+                tc0 = Timecourse(
+                    start = 0,
+                    end = 168*60,
+                    steps = 1000,
+                    changes = {
+                        **self.default_changes(),
+                        #physiological changes
+                        "BW0": Q_(self.bodyweights[intervention], "kg"),
+                        "hba1c0": Q_(self.hba1cs[intervention], "percent"),
+                        "hba1c": Q_(self.hba1cs[intervention], "percent"),
+                        "fpg0": Q_(self.fpgs[intervention], "mM"),
+                        "[fpg]": Q_(self.fpgs[intervention], "mM"),
+
+                        #dose (SCDOSE)
+                        "SCDOSE_dul": Q_(self.doses[intervention], "mg")
+                    },
+                )
+                tc1 = Timecourse(
+                    start = 0,
+                    end = 168*60, #[min]
+                    steps = 1000,
+                    changes = {
+                        "SCDOSE_dul": Q_(self.doses[intervention], "mg")
+                    },
+                )
+                tcsims[f"dul_{intervention}"] = TimecourseSim(
+                    [tc0] + [tc1 for _ in range(6)]
+                )
+            else:
+                # healthy subjects
+                tc0 = Timecourse(
+                    start=0,
+                    end=200 * 60,
+                    steps=1000,
+                    changes={
+                        **self.default_changes(),
+                        # physiological changes
+                        "BW0": Q_(self.bodyweights[intervention], "kg"),
+                        # dose (SCDOSE)
+                        "SCDOSE_dul": Q_(self.doses[intervention], "mg")
+                    },
+                )
+                tcsims[f"dul_{intervention}"] = TimecourseSim([tc0])
+
+
+        # console.print(tcsims.keys())
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+
+        mappings = {}
+        # pharmacokinetics
+        for intervention in self.interventions:
+            if intervention in {"DULPLAM",}:
+                continue  # no PK data for DULPLAM
+            for sid, name in self.info_pk.items():
+                mappings[f"fm_dul_{intervention}"] = FitMapping(
+                    self,
+                    reference = FitData(
+                        self,
+                        dataset=f"dulaglutide_{intervention}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable = FitData(
+                        self, task = f"task_dul_{intervention}", xid = "time", yid = f"[Cve_dul]",
+                    ),
+                    metadata = DulaglutideMappingMetaData(
+                        tissue = Tissue.PLASMA,
+                        route = Route.SC,
+                        application_form = ApplicationForm.SOLUTION,
+                        dosing = Dosing.SINGLE if intervention.endswith("S") else Dosing.MULTIPLE,
+                        health = Health.HEALTHY if intervention.endswith("S") else Health.T2DM,
+                        fasting = Fasting.NR,
+                        coadministration = Coadministration.ANTIHYPERGLYCEMIC_MEDICATION
+                    )
+                )
+        #pharmacodynamics
+        for intervention in self.interventions:
+            if intervention in {"DUL05S", "DUL075S", "DUL15S"}:
+                continue
+            for sid, name in self.info_pd.items():
+                mappings[f"fm_dul{name}_{intervention}"] = FitMapping(
+                    self,
+                    reference = FitData(
+                        self,
+                        dataset = f"{name}_{intervention}",
+                        xid = "time",
+                        yid = "mean",
+                        yid_sd = "mean_sd",
+                        count = "count",
+                    ),
+                    observable=FitData(
+                        self, task=f"task_dul_{intervention}", xid="time", yid=sid,
+                    ),
+                    metadata=DulaglutideMappingMetaData(
+                        tissue=Tissue.PLASMA,
+                        route=Route.SC,
+                        application_form=ApplicationForm.SOLUTION,
+                        dosing=Dosing.MULTIPLE,
+                        health=Health.T2DM,
+                        fasting=Fasting.NR,
+                        coadministration=Coadministration.NONE
+                    )
+                )
+            
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+
+        fig_pk = Figure(
+            experiment=self,
+            sid="Fig1_pk",
+            num_rows=1,
+            num_cols=2,
+            name=f"{self.__class__.__name__}",
+        )
+        plots = fig_pk.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        plots[0].name = "(healthy)"
+        plots[0].set_yaxis(self.label_dul, unit=self.unit_dul)
+        plots[1].name = "(T2DM)"
+        plots[1].set_yaxis(self.label_dul, unit=self.unit_dul)
+
+
+        for intervention in self.interventions:
+            for sid, name in self.info_pk.items():
+                k = 0 if intervention.endswith("S") else 1
+                if intervention in {"DULPLAM"}:
+                    continue
+
+                # simulation
+                plots[k].add_data(
+                    task=f"task_dul_{intervention}",
+                    xid="time",
+                    yid=f"[Cve_dul]",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+                # data
+                plots[k].add_data(
+                    dataset=f"dulaglutide_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+            
+        #pharmacodynamics
+        fig_pd = Figure(
+            experiment = self,
+            sid = "Fig2_Fig3_pd",
+            num_cols = 2,
+            name = f"{self.__class__.__name__} (T2DM)",
+        )
+        plots = fig_pd.create_plots(xaxis = Axis(self.label_time, unit = self.unit_time), legend = True)
+        plots[0].set_yaxis(self.label_fpg_change, unit = self.unit_fpg)
+        plots[1].set_yaxis(self.label_hba1c_change, unit = self.unit_hba1c)
+
+        for intervention in self.interventions:
+            for kp, sid in enumerate(self.info_pd):
+                if intervention.endswith("S"):
+                    continue
+                name = self.info_pd[sid]
+
+                # simulation
+                plots[kp].add_data(
+                    task=f"task_dul_{intervention}",
+                    xid="time",
+                    yid=sid,
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+                # data
+                plots[kp].add_data(
+                    dataset=f"{name}_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+        return {
+            fig_pk.sid: fig_pk,
+            fig_pd.sid: fig_pd,
+        }
+
+
+if __name__ == "__main__":
+    run_experiments(Xu2022, output_dir=Xu2022.__name__)
+</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

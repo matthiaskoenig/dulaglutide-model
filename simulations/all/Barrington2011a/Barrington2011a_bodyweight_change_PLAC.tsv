@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Barrington2011a	PLAC	11.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	0.0	week	0.0								kg	kg
+Barrington2011a	PLAC	11.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	5.0	week	0.717314580226646				1.18553341803477	0.357451774913534			kg	kg

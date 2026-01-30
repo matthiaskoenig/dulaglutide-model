@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	se	min	max	sd	cv	unit	comments
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	1.0	day	33.195875774898	NA	NA	NA	NA	46.0206227866731	NA	ng/ml	NA
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	29.0	day	43.3402003971841	NA	NA	NA	NA	19.1752629552037	NA	ng/ml	NA
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	57.0	day	48.2886558892248	NA	NA	NA	NA	21.649490701224	NA	ng/ml	NA
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	85.0	day	49.0309300271018	NA	NA	NA	NA	20.288657550388	NA	ng/ml	NA
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	113.0	day	49.0309300271018	NA	NA	NA	NA	20.6597946193265	NA	ng/ml	NA
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	141.0	day	47.7938120011838	NA	NA	NA	NA	21.8969126452445	NA	ng/ml	NA
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	169.0	day	50.5154616912246	NA	NA	NA	NA	23.8762923503161	NA	ng/ml	NA
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	1.0	day	48.1355980421336	NA	NA	NA	NA	46.271183153090654	NA	ng/ml	NA
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	29.0	day	39.6610221362346	NA	NA	NA	NA	19.152540254214	NA	ng/ml	NA
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	57.0	day	40.6779686587072	NA	NA	NA	NA	19.49152458356765	NA	ng/ml	NA
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	85.0	day	46.4406828609538	NA	NA	NA	NA	18.813555924860353	NA	ng/ml	NA
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	113.0	day	43.7288211573015	NA	NA	NA	NA	18.813562390448702	NA	ng/ml	NA
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	141.0	day	46.4406828609538	NA	NA	NA	NA	21.3559286966301	NA	ng/ml	NA
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	169.0	day	47.1186515196611	NA	NA	NA	NA	22.033897355337352	NA	ng/ml	NA

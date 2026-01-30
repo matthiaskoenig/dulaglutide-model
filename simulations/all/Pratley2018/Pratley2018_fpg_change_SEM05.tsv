@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	0.0	hr	0.0									mmol/l	mmol/l
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	672.0	hr	-1.51934703748489				1.64832326223766					mmol/l	mmol/l
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	1344.0	hr	-2.12877871825877				1.72324704688483					mmol/l	mmol/l
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	2016.0	hr	-2.26420798065297				1.64832326223764					mmol/l	mmol/l
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	2688.0	hr	-2.44195888754535				1.42355190829623					mmol/l	mmol/l
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	4704.0	hr	-2.26420798065297				1.9480184008264					mmol/l	mmol/l
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	6720.0	hr	-2.19649334945587				2.17278975476778					mmol/l	mmol/l

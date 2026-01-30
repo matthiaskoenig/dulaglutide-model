@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+FDAGBDR	DUL075IM	0	NA	hr	intramuscular	single dose	dosing	solution	dulaglutide	0.75	mg	NA
+FDAGBDR	DUL075SC	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	0.75	mg	NA
+FDAGBDR	DUL01IV	0	NA	hr	iv	single dose	dosing	solution	dulaglutide	0.1	mg	NA
+FDAGBDR	DUL15SC	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	1.5	mg	NA

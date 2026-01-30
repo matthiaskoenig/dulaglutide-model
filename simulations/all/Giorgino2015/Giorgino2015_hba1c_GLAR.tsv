@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	0.0	week	8.09985567564493				0.934281404692104	0.0577200979442392			percent	percent
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	14.0	week	7.47936518421485				0.887563806099632	0.0548338750643502			percent	percent
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	26.0	week	7.46782108535957				1.02771018668113	0.0634921473718899			percent	percent
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	35.0	week	7.47359300267649				0.934283543091087	0.0577202300549695			percent	percent
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	44.0	week	7.49668120038705				1.02770590988351	0.0634918831504505			percent	percent
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	52.0	week	7.54862924890366				1.07442137007733	0.0663779739196295			percent	percent
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	65.0	week	7.59769120665108				1.12113683027117	0.0692640646888094			percent	percent
+Giorgino2015	GLAR	262.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	78.0	week	7.60923530550636				1.21456347386123	0.0750359820057307			percent	percent

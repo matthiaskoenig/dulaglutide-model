@@ -1,0 +1,57 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Pratley2018	SEM05	301.0	SEM05	concentration	glucose	plasma	NR	fpg_SEM05	0.0	hr	9.72067714631197	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration	glucose	plasma	NR	fpg_SEM05	672.0	hr	8.20133010882708	NA	NA	NA	1.64832326223766	0.186215235792023	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration	glucose	plasma	NR	fpg_SEM05	1344.0	hr	7.5918984280532	NA	NA	NA	1.72324704688483	0.194679564691661	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration	glucose	plasma	NR	fpg_SEM05	2016.0	hr	7.456469165659	NA	NA	NA	1.64832326223764	0.186215235792021	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration	glucose	plasma	NR	fpg_SEM05	2688.0	hr	7.27871825876662	NA	NA	NA	1.42355190829623	0.160822249093119	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration	glucose	plasma	NR	fpg_SEM05	4704.0	hr	7.456469165659	NA	NA	NA	1.9480184008264	0.220072551390581	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration	glucose	plasma	NR	fpg_SEM05	6720.0	hr	7.5241837968561	NA	NA	NA	2.17278975476778	0.24546553808948	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	0.0	hr	9.72067714631197	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	672.0	hr	8.20133010882708	NA	NA	NA	1.64558290579185	0.186215235792023	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	1344.0	hr	7.58343409915356	NA	NA	NA	1.86998057476352	0.211608222490941	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	2016.0	hr	7.13905683192261	NA	NA	NA	1.64558290579181	0.186215235792019	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	2688.0	hr	6.89782345828295	NA	NA	NA	1.42118523682014	0.1608222490931	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	4704.0	hr	6.92744860943168	NA	NA	NA	1.94477979775389	0.22007255139056	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	6720.0	hr	6.88935912938331	NA	NA	NA	1.86998057476333	0.21160822249092	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	0.0	hr	9.72067714631197	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	672.0	hr	7.8881499395405	NA	NA	NA	1.41881461759392	0.160822249093121	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	1344.0	hr	7.84582829504232	NA	NA	NA	1.56816352470892	0.17775090689238	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	2016.0	hr	7.68500604594921	NA	NA	NA	1.49348907115133	0.16928657799274	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	2688.0	hr	7.6384522370012	NA	NA	NA	1.41881461759392	0.160822249093121	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	4704.0	hr	7.85852478839177	NA	NA	NA	1.8668613389393	0.211608222490941	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	6720.0	hr	7.85006045949213	NA	NA	NA	1.8668613389393	0.211608222490941	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	0.0	hr	9.72067714631197	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	672.0	hr	7.49455864570737	NA	NA	NA	2.46425696739986	0.27932285368804	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	1344.0	hr	7.54111245465538	NA	NA	NA	0.821418989133161	0.0931076178959991	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	2016.0	hr	7.46493349455864	NA	NA	NA	1.41881461759374	0.160822249093101	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	2688.0	hr	7.29987908101571	NA	NA	NA	1.64283797826651	0.186215235792019	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	4704.0	hr	7.46916565900846	NA	NA	NA	2.0162102460543	0.2285368802902	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	6720.0	hr	7.47339782345828	NA	NA	NA	2.0162102460543	0.2285368802902	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	0.0	hr	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	672.0	hr	-1.51934703748489	NA	NA	NA	1.64832326223766	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	1344.0	hr	-2.12877871825877	NA	NA	NA	1.72324704688483	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	2016.0	hr	-2.26420798065297	NA	NA	NA	1.64832326223764	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	2688.0	hr	-2.44195888754535	NA	NA	NA	1.42355190829623	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	4704.0	hr	-2.26420798065297	NA	NA	NA	1.9480184008264	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM05	301.0	SEM05	concentration change absolute	glucose	plasma	NR	fpg_change_SEM05	6720.0	hr	-2.19649334945587	NA	NA	NA	2.17278975476778	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration change absolute	glucose	plasma	NR	fpg_change_SEM10	0.0	hr	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration change absolute	glucose	plasma	NR	fpg_change_SEM10	672.0	hr	-1.51934703748489	NA	NA	NA	1.64558290579185	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration change absolute	glucose	plasma	NR	fpg_change_SEM10	1344.0	hr	-2.13724304715841	NA	NA	NA	1.86998057476352	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration change absolute	glucose	plasma	NR	fpg_change_SEM10	2016.0	hr	-2.58162031438936	NA	NA	NA	1.64558290579181	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration change absolute	glucose	plasma	NR	fpg_change_SEM10	2688.0	hr	-2.82285368802902	NA	NA	NA	1.42118523682014	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration change absolute	glucose	plasma	NR	fpg_change_SEM10	4704.0	hr	-2.79322853688029	NA	NA	NA	1.94477979775389	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	SEM10	concentration change absolute	glucose	plasma	NR	fpg_change_SEM10	6720.0	hr	-2.83131801692866	NA	NA	NA	1.86998057476333	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	0.0	hr	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	672.0	hr	-1.83252720677147	NA	NA	NA	1.41881461759392	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	1344.0	hr	-1.87484885126965	NA	NA	NA	1.56816352470892	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	2016.0	hr	-2.03567110036276	NA	NA	NA	1.49348907115133	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	2688.0	hr	-2.08222490931077	NA	NA	NA	1.41881461759392	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	4704.0	hr	-1.8621523579202	NA	NA	NA	1.8668613389393	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	6720.0	hr	-1.87061668681984	NA	NA	NA	1.8668613389393	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	hr	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	672.0	hr	-2.2261185006046	NA	NA	NA	2.46425696739986	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	1344.0	hr	-2.17956469165659	NA	NA	NA	0.821418989133161	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	2016.0	hr	-2.25574365175333	NA	NA	NA	1.41881461759374	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	2688.0	hr	-2.42079806529626	NA	NA	NA	1.64283797826651	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	4704.0	hr	-2.25151148730351	NA	NA	NA	2.0162102460543	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	6720.0	hr	-2.24727932285369	NA	NA	NA	2.0162102460543	NA	NA	NA	mmol/l	NA

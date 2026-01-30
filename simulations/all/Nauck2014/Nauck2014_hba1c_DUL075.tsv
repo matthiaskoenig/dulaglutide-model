@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Nauck2014	DUL075	302.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	0.0	week	8.19764713789467				0.899574022206563		0.0517646681208195			percent	percent
+Nauck2014	DUL075	302.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	4.0	week	7.46588231467276				0.572459088707458		0.0329413189000292			percent	percent
+Nauck2014	DUL075	302.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	8.0	week	7.13647063359983				0.654237354136069		0.0376471292779508			percent	percent
+Nauck2014	DUL075	302.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	12.0	week	6.93647056897437				0.77690662406353		0.0447059525539304			percent	percent
+Nauck2014	DUL075	302.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	26.0	week	6.94117659477048				0.940463154920675		0.0541175733097692			percent	percent
+Nauck2014	DUL075	302.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	39.0	week	6.98588233190622				0.940466898489704		0.05411778872796			percent	percent
+Nauck2014	DUL075	302.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	52.0	week	7.08235306029005				1.10402342934705		0.0635294094838104			percent	percent

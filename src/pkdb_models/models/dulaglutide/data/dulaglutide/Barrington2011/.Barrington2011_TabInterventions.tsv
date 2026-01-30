@@ -1,0 +1,8 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Barrington2011	PLAC	0	NA	hr	subcutaneous	single dose	dosing	solution	placebo	0.0	mg	NA
+Barrington2011	DUL01	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	0.1	mg	NA
+Barrington2011	DUL03	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	0.3	mg	NA
+Barrington2011	DUL1	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	1.0	mg	NA
+Barrington2011	DUL3	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	3.0	mg	NA
+Barrington2011	DUL6	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	6.0	mg	NA
+Barrington2011	DUL12	0	NA	hr	subcutaneous	single dose	dosing	solution	dulaglutide	12.0	mg	NA

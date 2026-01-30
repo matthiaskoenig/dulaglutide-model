@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	0.0	hr	0.0								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	12.0	hr	4.561796708271405e-06								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	24.0	hr	8.468229597767001e-06								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	48.0	hr	1.0407465751442317e-05								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	72.0	hr	1.0697572843115881e-05								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	168.0	hr	5.8024782434850965e-06								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	336.0	hr	7.691334641042388e-06								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	504.0	hr	8.29540374061582e-06								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	672.0	hr	7.905729843206934e-06								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	696.0	hr	1.4776913527859621e-05								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	720.0	hr	1.593747632558472e-05								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	744.0	hr	1.4776913527859621e-05								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	816.0	hr	9.196310177223315e-06								mole/meter^3	ng/ml
+Barrington2011a	DUL1	5.0	DUL1	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL1	840.0	hr	6.843137922560339e-06								mole/meter^3	ng/ml

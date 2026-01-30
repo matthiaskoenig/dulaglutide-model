@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	week	0.0								kg	kg
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	2.0	week	-0.25				8.388601665115901	0.542613533984858			kg	kg
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	4.0	week	-0.82				8.520359827504919	0.55113626101129			kg	kg
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	8.0	week	-1.14				8.827796880059061	0.571022710770612			kg	kg
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	16.0	week	-1.29				9.003475770224389	0.582386433503515			kg	kg
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	26.0	week	-1.46				9.179154660389592	0.59375015623641			kg	kg

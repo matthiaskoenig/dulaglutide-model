@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	0.0	hr	0.0									mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	2.0	hr	5.042264892185723e-07				1.008452978437172e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	4.0	hr	2.7228238111689073e-06				2.319441081016907e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	8.0	hr	7.160018455069572e-06				4.134655672815242e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	12.0	hr	1.0992139003742232e-05				5.546491381404423e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	24.0	hr	1.4622568187338924e-05				5.344803863271253e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	36.0	hr	1.55301774067095e-05				6.252409235698998e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	48.0	hr	1.6841165509289234e-05				6.151565476632414e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	72.0	hr	1.502595091749092e-05				4.538038402967266e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	120.0	hr	9.983686025305074e-06				3.327894059454082e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075IM	16.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	168.0	hr	7.0591708490601585e-06				3.6304330305394924e-06					mole/meter^3	ng/ml

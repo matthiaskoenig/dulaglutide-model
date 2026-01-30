@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	DUL15	299.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	0.0	hr	0.0									percent	percent
+Pratley2018	DUL15	299.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	672.0	hr	-0.702846975088971				0.470938788196142					percent	percent
+Pratley2018	DUL15	299.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	1344.0	hr	-1.09134045077105				0.784897980326673					percent	percent
+Pratley2018	DUL15	299.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	2016.0	hr	-1.32562277580071				0.837224512348491					percent	percent
+Pratley2018	DUL15	299.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	2688.0	hr	-1.42348754448398				0.627918384261407					percent	percent
+Pratley2018	DUL15	299.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	4704.0	hr	-1.39976275207592				0.941877576392126					percent	percent
+Pratley2018	DUL15	299.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	6720.0	hr	-1.36417556346382				0.941877576392126					percent	percent

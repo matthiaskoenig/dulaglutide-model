@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Nauck2014	PLAC	177.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	0.0	week	0.0				0.0	0.0			kg	kg
+Nauck2014	PLAC	177.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	2.0	week	-0.360175620392077				1.28561092427684	0.096632434478973			kg	kg
+Nauck2014	PLAC	177.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	4.0	week	-0.672035124078415				1.63623232862771	0.122986753070284			kg	kg
+Nauck2014	PLAC	177.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	8.0	week	-1.05417274365241				2.04529241705634	0.15373359213847			kg	kg
+Nauck2014	PLAC	177.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	12.0	week	-1.22547581449593				2.45434983045604	0.18448023013917			kg	kg
+Nauck2014	PLAC	177.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	26.0	week	-1.58125911547862				3.50621404350863	0.2635431859131			kg	kg

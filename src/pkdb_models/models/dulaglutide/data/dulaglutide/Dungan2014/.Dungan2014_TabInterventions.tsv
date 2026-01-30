@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Dungan2014	DUL15	S0T7R26	NA	day	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA
+Dungan2014	LIR06D7	S0T1R7	NA	day	subcutaneous	multiple dose	dosing	solution	liraglutide	0.6	mg	NA
+Dungan2014	LIR12D7	S0T1R7	NA	day	subcutaneous	multiple dose	dosing	solution	liraglutide	1.2	mg	NA
+Dungan2014	LIR18D168	S0T1R168	NA	day	subcutaneous	multiple dose	dosing	solution	liraglutide	1.8	mg	NA

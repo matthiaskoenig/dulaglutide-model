@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Barrington2011a	DUL005	3.0	DUL005	weight (change)			NR	bodyweight_change_DUL005	0.0	week	0.0								kg	kg
+Barrington2011a	DUL005	3.0	DUL005	weight (change)			NR	bodyweight_change_DUL005	5.0	week	0.674911751085248				1.21056499306165	0.698920024615682			kg	kg

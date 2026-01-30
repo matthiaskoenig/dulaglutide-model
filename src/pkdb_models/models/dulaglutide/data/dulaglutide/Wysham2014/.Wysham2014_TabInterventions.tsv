@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Wysham2014	PLAC	S0T168R26	NA	hr	subcutaneous	multiple dose	dosing	solution	placebo	0.0	mg	NA
+Wysham2014	EXEN	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	exenatide	0.01	mg	NA
+Wysham2014	DUL075	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Wysham2014	DUL15	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

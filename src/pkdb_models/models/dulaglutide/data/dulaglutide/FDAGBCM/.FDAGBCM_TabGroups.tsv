@@ -1,0 +1,54 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+FDAGBCM	all	48.0	NA	species	48.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	ethnicity	48.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	sex	30.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	sex	18.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	healthy	16.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	healthy	32.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	disease	32.0	NA	renal disease	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	disease	2.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	all	48.0	NA	weight	48.0	NA	NA	78.22	NA	11.95	NA	60.2	114.2	kg	NA
+FDAGBCM	all	48.0	NA	height	48.0	NA	NA	171.73	NA	9.17	NA	152.0	186.0	cm	NA
+FDAGBCM	all	48.0	NA	bmi	48.0	NA	NA	26.45	NA	2.78	NA	21.5	36.9	kg/m^2	NA
+FDAGBCM	all	48.0	NA	clearance	48.0	creatinine	NA	51.8	NA	31.3	NA	8.39	125.0	ml/min	Probably estimated Glomerular Filtration Rates (eGFR) based on creatinine
+FDAGBCM	control	16.0	all	healthy	16.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	control	16.0	all	sex	10.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	control	16.0	all	sex	6.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	control	16.0	all	weight	16.0	NA	NA	79.59	NA	11.6	NA	62.6	103.1	kg	NA
+FDAGBCM	control	16.0	all	height	16.0	NA	NA	173.19	NA	10.07	NA	158.0	186.0	cm	NA
+FDAGBCM	control	16.0	all	bmi	16.0	NA	NA	26.47	NA	2.54	NA	22.0	31.8	kg/m^2	NA
+FDAGBCM	control	16.0	all	clearance	16.0	creatinine	NA	89.9	NA	10.7	NA	80.6	125.0	ml/min	NA
+FDAGBCM	mildR	8.0	all	healthy	8.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	mildR	8.0	all	disease	8.0	NA	renal disease (mild)	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	mildR	8.0	all	disease	1.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	mildR	8.0	all	sex	5.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	mildR	8.0	all	sex	3.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	mildR	8.0	all	weight	8.0	NA	NA	75.59	NA	12.88	NA	60.2	100.9	kg	NA
+FDAGBCM	mildR	8.0	all	height	8.0	NA	NA	171.0	NA	8.64	NA	159.0	186.0	cm	NA
+FDAGBCM	mildR	8.0	all	bmi	8.0	NA	NA	25.68	NA	2.13	NA	23.1	29.2	kg/m^2	NA
+FDAGBCM	mildR	8.0	all	clearance	8.0	creatinine	NA	55.7	NA	4.19	NA	50.1	61.4	ml/min	NA
+FDAGBCM	modR	8.0	all	healthy	8.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	modR	8.0	all	disease	8.0	NA	renal disease (moderate)	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	modR	8.0	all	sex	5.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	modR	8.0	all	sex	3.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	modR	8.0	all	weight	8.0	NA	NA	78.25	NA	9.83	NA	67.9	95.4	kg	NA
+FDAGBCM	modR	8.0	all	height	8.0	NA	NA	172.63	NA	7.71	NA	160.0	184.0	cm	NA
+FDAGBCM	modR	8.0	all	bmi	8.0	NA	NA	26.24	NA	2.23	NA	22.4	29.1	kg/m^2	NA
+FDAGBCM	modR	8.0	all	clearance	8.0	creatinine	NA	39.3	NA	6.56	NA	30.4	48.7	ml/min	NA
+FDAGBCM	sevR	8.0	all	healthy	8.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	sevR	8.0	all	disease	8.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	renal disease (severe)
+FDAGBCM	sevR	8.0	all	disease	1.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	sevR	8.0	all	sex	5.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	sevR	8.0	all	sex	3.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	sevR	8.0	all	weight	8.0	NA	NA	80.7	NA	17.22	NA	61.4	114.2	kg	NA
+FDAGBCM	sevR	8.0	all	height	8.0	NA	NA	168.88	NA	10.01	NA	152.0	181.0	cm	NA
+FDAGBCM	sevR	8.0	all	bmi	8.0	NA	NA	28.08	NA	3.93	NA	24.1	36.9	kg/m^2	NA
+FDAGBCM	sevR	8.0	all	clearance	8.0	creatinine	NA	25.8	NA	2.45	NA	22.1	30.0	ml/min	NA
+FDAGBCM	ESR	8.0	all	healthy	8.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	ESR	8.0	all	disease	8.0	NA	renal disease (end-stage)	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	ESR	8.0	all	sex	5.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	ESR	8.0	all	sex	3.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBCM	ESR	8.0	all	weight	8.0	NA	NA	75.58	NA	9.18	NA	66.6	95.8	kg	NA
+FDAGBCM	ESR	8.0	all	height	8.0	NA	NA	171.5	NA	9.87	NA	156.0	180.0	cm	NA
+FDAGBCM	ESR	8.0	all	bmi	8.0	NA	NA	25.79	NA	2.98	NA	21.5	30.0	kg/m^2	NA
+FDAGBCM	ESR	8.0	all	clearance	8.0	creatinine	NA	10.3	NA	1.77	NA	8.39	13.6	ml/min	NA

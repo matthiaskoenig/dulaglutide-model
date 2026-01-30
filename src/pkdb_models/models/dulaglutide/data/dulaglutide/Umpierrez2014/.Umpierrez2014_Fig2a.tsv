@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Umpierrez2014	MET	268.0	MET	hba1c (change)	NA	plasma	NR	hba1c_change_MET	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Umpierrez2014	MET	268.0	MET	hba1c (change)	NA	plasma	NR	hba1c_change_MET	26.0	week	-0.56	NA	NA	NA	0.9683083366068567	NA	0.05914884572441892	NA	percent	NA
+Umpierrez2014	MET	268.0	MET	hba1c (change)	NA	plasma	NR	hba1c_change_MET	52.0	week	-0.51	NA	NA	NA	1.194712810159253	NA	0.07297870009125795	NA	percent	NA
+Umpierrez2014	DUL075	270.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Umpierrez2014	DUL075	270.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	26.0	week	-0.71	NA	NA	NA	1.0243563465756875	NA	0.062340341993675996	NA	percent	NA
+Umpierrez2014	DUL075	270.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	52.0	week	-0.55	NA	NA	NA	1.1711932912360075	NA	0.07127655386763099	NA	percent	NA
+Umpierrez2014	DUL15	269.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Umpierrez2014	DUL15	269.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	26.0	week	-0.78	NA	NA	NA	0.9910525696550446	NA	0.060425541628642	NA	percent	NA
+Umpierrez2014	DUL15	269.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	52.0	week	-0.7	NA	NA	NA	1.1515741483122706	NA	0.0702127150142311	NA	percent	NA

@@ -1,0 +1,50 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Umpierrez2014	all	807.0	NA	species	807.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	all	268.0	NA	sex	353.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	all	268.0	NA	sex	454.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	all	807.0	NA	healthy	807.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	all	807.0	NA	disease	807.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	all	807.0	NA	medication	807.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	age	268.0	NA	NA	55.0	NA	10.0	NA	NA	NA	yr	NA
+Umpierrez2014	MET	268.0	all	sex	121.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	sex	147.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	ethnicity	28.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	ethnicity	20.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	ethnicity	14.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	ethnicity	4.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	ethnicity	1.0	NA	pacific islander	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	ethnicity	201.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	MET	268.0	all	weight	268.0	NA	NA	92.0	NA	19.0	NA	NA	NA	kg	NA
+Umpierrez2014	MET	268.0	all	bmi	268.0	NA	NA	33.0	NA	5.0	NA	NA	NA	kg/m^2	NA
+Umpierrez2014	MET	268.0	all	hba1c	268.0	NA	NA	7.6	NA	0.8	NA	NA	NA	percent	NA
+Umpierrez2014	MET	268.0	all	concentration	268.0	glucose	NA	8.935508935508935	NA	2.386502386502386	NA	NA	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	all	blood pressure systolic	268.0	NA	NA	129.0	NA	16.0	NA	NA	NA	mmHg	NA
+Umpierrez2014	MET	268.0	all	blood pressure diastolic	268.0	NA	NA	80.0	NA	10.0	NA	NA	NA	mmHg	NA
+Umpierrez2014	DUL075	270.0	all	age	270.0	NA	NA	56.0	NA	11.0	NA	NA	NA	yr	NA
+Umpierrez2014	DUL075	270.0	all	sex	118.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL075	270.0	all	sex	152.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL075	270.0	all	ethnicity	28.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL075	270.0	all	ethnicity	20.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL075	270.0	all	ethnicity	22.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL075	270.0	all	ethnicity	2.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL075	270.0	all	ethnicity	198.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL075	270.0	all	weight	270.0	NA	NA	92.0	NA	19.0	NA	NA	NA	kg	NA
+Umpierrez2014	DUL075	270.0	all	bmi	270.0	NA	NA	33.0	NA	6.0	NA	NA	NA	kg/m^2	NA
+Umpierrez2014	DUL075	270.0	all	hba1c	270.0	NA	NA	7.6	NA	0.9	NA	NA	NA	percent	NA
+Umpierrez2014	DUL075	270.0	all	concentration	270.0	glucose	NA	8.935508935508935	NA	2.6085026085026084	NA	NA	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	all	blood pressure systolic	270.0	NA	NA	130.0	NA	16.0	NA	NA	NA	mmHg	NA
+Umpierrez2014	DUL075	270.0	all	blood pressure diastolic	270.0	NA	NA	80.0	NA	10.0	NA	NA	NA	mmHg	NA
+Umpierrez2014	DUL15	269.0	all	age	269.0	NA	NA	56.0	NA	10.0	NA	NA	NA	yr	NA
+Umpierrez2014	DUL15	269.0	all	sex	114.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL15	269.0	all	sex	155.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL15	269.0	all	ethnicity	29.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL15	269.0	all	ethnicity	21.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL15	269.0	all	ethnicity	17.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL15	269.0	all	ethnicity	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL15	269.0	all	ethnicity	201.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Umpierrez2014	DUL15	269.0	all	weight	269.0	NA	NA	93.0	NA	19.0	NA	NA	NA	kg	NA
+Umpierrez2014	DUL15	269.0	all	bmi	269.0	NA	NA	34.0	NA	6.0	NA	NA	NA	kg/m^2	NA
+Umpierrez2014	DUL15	269.0	all	hba1c	269.0	NA	NA	7.6	NA	0.9	NA	NA	NA	percent	NA
+Umpierrez2014	DUL15	269.0	all	concentration	269.0	glucose	NA	9.102009102009102	NA	2.775002775002775	NA	NA	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	all	blood pressure systolic	269.0	NA	NA	130.0	NA	16.0	NA	NA	NA	mmHg	NA
+Umpierrez2014	DUL15	269.0	all	blood pressure diastolic	269.0	NA	NA	79.0	NA	9.0	NA	NA	NA	mmHg	NA

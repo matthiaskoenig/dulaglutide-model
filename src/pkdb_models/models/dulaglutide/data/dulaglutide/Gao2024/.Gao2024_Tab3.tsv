@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	se	min	max	sd	cv	unit	comments
+Gao2024	all	33.0	DUL075	cmax	dulaglutide	plasma	ELISA	NA	NA	53.0998	NA	NA	NA	NA	13.9581	26.29	ng/ml	NA
+Gao2024	all	32.0	DUL075	auc_inf	dulaglutide	plasma	ELISA	800.0	hr	6920.1139	NA	NA	NA	NA	2765.2912	39.96	ng/ml*hr	NA
+Gao2024	all	32.0	DUL075	auc_end	dulaglutide	plasma	ELISA	400.0	hr	6595.0138	NA	NA	NA	NA	2300.6079	34.88	ng/ml*hr	NA
+Gao2024	all	33.0	DUL075	tmax	dulaglutide	plasma	ELISA	NA	NA	NA	36.0	NA	24.0	72.0	NA	NA	hr	NA
+Gao2024	all	32.0	DUL075	thalf	dulaglutide	plasma	ELISA	NA	NA	63.4817	NA	NA	NA	NA	20.6433	32.52	hr	NA
+Gao2024	all	32.0	DUL075	kel	dulaglutide	plasma	ELISA	NA	NA	0.0116	NA	NA	NA	NA	0.0023	19.52	1/hr	NA
+Gao2024	all	32.0	DUL075	vd	dulaglutide	plasma	ELISA	NA	NA	10242.7295	NA	NA	NA	NA	2204.8142	21.53	ml	NA
+Gao2024	all	32.0	DUL075	clearance	dulaglutide	plasma	ELISA	NA	NA	117.0642	NA	NA	NA	NA	26.0232	22.23	ml/hr	NA
+Gao2024	all	35.0	HEC14028	cmax	HEC14028	plasma	ELISA	NA	NA	58.2291	NA	NA	NA	NA	9.9509	17.09	ng/ml	NA
+Gao2024	all	35.0	HEC14028	auc_inf	HEC14028	plasma	ELISA	800.0	hr	7143.6189	NA	NA	NA	NA	1322.2393	18.51	ng/ml*hr	NA
+Gao2024	all	35.0	HEC14028	auc_end	HEC14028	plasma	ELISA	400.0	hr	6920.6363	NA	NA	NA	NA	1271.121	18.37	ng/ml*hr	NA
+Gao2024	all	35.0	HEC14028	tmax	HEC14028	plasma	ELISA	NA	NA	NA	48.0	NA	24.0	72.0	NA	NA	hr	NA
+Gao2024	all	35.0	HEC14028	thalf	HEC14028	plasma	ELISA	NA	NA	54.5431	NA	NA	NA	NA	7.5065	13.76	hr	NA
+Gao2024	all	35.0	HEC14028	kel	HEC14028	plasma	ELISA	NA	NA	0.0129	NA	NA	NA	NA	0.0016	12.6	1/hr	NA
+Gao2024	all	35.0	HEC14028	vd	HEC14028	plasma	ELISA	NA	NA	8363.0529	NA	NA	NA	NA	931.7142	11.14	ml	NA
+Gao2024	all	35.0	HEC14028	clearance	HEC14028	plasma	ELISA	NA	NA	108.0931	NA	NA	NA	NA	18.4193	17.04	ml/hr	NA

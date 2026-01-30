@@ -1,0 +1,51 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Gerstein2019	all	9901.0	NA	species	9901.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	age	9901.0	NA	NA	66.2	NA	6.5	NA	NA	NA	yr	NA
+Gerstein2019	all	9901.0	NA	sex	4589.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	sex	5312.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	ethnicity	7498.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	ethnicity	2403.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	healthy	9901.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	disease	9901.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	symptom	3467.0	NA	macroalbuminuria	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	medication	9901.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	all	9901.0	NA	bmi	9901.0	NA	NA	32.3	NA	5.75	NA	NA	NA	kg/m^2	NA
+Gerstein2019	all	9901.0	NA	blood pressure systolic	9901.0	NA	NA	137.2	NA	16.8	NA	NA	NA	mmHg	NA
+Gerstein2019	all	9901.0	NA	blood pressure diastolic	9901.0	NA	NA	78.45	NA	9.85	NA	NA	NA	mmHg	NA
+Gerstein2019	all	9901.0	NA	heart rate	9901.0	NA	NA	1.184	NA	0.18	NA	NA	NA	1/s	NA
+Gerstein2019	all	9901.0	NA	concentration	9901.0	cholesterol	NA	4.52	NA	1.16	NA	NA	NA	mmol/l	NA
+Gerstein2019	all	9901.0	NA	concentration	9901.0	hdl-c	NA	1.18	NA	0.35	NA	NA	NA	mmol/l	NA
+Gerstein2019	all	9901.0	NA	concentration	9901.0	ldl-c	NA	2.56	NA	0.98	NA	NA	NA	mmol/l	NA
+Gerstein2019	all	9901.0	NA	concentration	9901.0	triglyceride	NA	NA	1.6	NA	NA	1.15	2.25	mmol/l	NA
+Gerstein2019	plac	4952.0	all	sex	2669.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	plac	4952.0	all	sex	2283.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	plac	4952.0	all	ethnicity	3744.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	plac	4952.0	all	ethnicity	1208.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	plac	4952.0	all	healthy	4952.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	plac	4952.0	all	disease	4952.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	plac	4952.0	all	symptom	1760.0	NA	macroalbuminuria	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	plac	4952.0	all	bmi	4952.0	NA	NA	32.3	NA	5.8	NA	NA	NA	kg/m^2	NA
+Gerstein2019	plac	4952.0	all	blood pressure systolic	4952.0	NA	NA	137.3	NA	17.0	NA	NA	NA	mmHg	NA
+Gerstein2019	plac	4952.0	all	blood pressure diastolic	4952.0	NA	NA	78.5	NA	9.9	NA	NA	NA	mmHg	NA
+Gerstein2019	plac	4952.0	all	heart rate	4952.0	NA	NA	1.177	NA	0.183333333333333	NA	NA	NA	1/s	NA
+Gerstein2019	plac	4952.0	all	gfr	4952.0	NA	NA	NA	NA	NA	NA	NA	NA	ml/min/(1.73*m^2)	NA
+Gerstein2019	plac	4952.0	all	concentration	4952.0	cholesterol	NA	4.52	NA	1.16	NA	NA	NA	mmol/l	NA
+Gerstein2019	plac	4952.0	all	concentration	4952.0	hdl-c	NA	1.18	NA	0.36	NA	NA	NA	mmol/l	NA
+Gerstein2019	plac	4952.0	all	concentration	4952.0	ldl-c	NA	2.56	NA	0.98	NA	NA	NA	mmol/l	NA
+Gerstein2019	plac	4952.0	all	concentration	4952.0	triglyceride	NA	NA	1.6	NA	NA	1.2	2.25	mmol/l	NA
+Gerstein2019	dul15	4949.0	all	sex	2643.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	dul15	4949.0	all	sex	2306.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	dul15	4949.0	all	ethnicity	3754.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	dul15	4949.0	all	ethnicity	1195.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	dul15	4949.0	all	healthy	4949.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	dul15	4949.0	all	disease	4949.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	dul15	4949.0	all	symptom	1707.0	NA	macroalbuminuria	NA	NA	NA	NA	NA	NA	NA	NA
+Gerstein2019	dul15	4949.0	all	bmi	4949.0	NA	NA	32.3	NA	5.7	NA	NA	NA	kg/m^2	NA
+Gerstein2019	dul15	4949.0	all	blood pressure systolic	4949.0	NA	NA	137.1	NA	16.6	NA	NA	NA	mmHg	NA
+Gerstein2019	dul15	4949.0	all	blood pressure diastolic	4949.0	NA	NA	78.4	NA	9.8	NA	NA	NA	mmHg	NA
+Gerstein2019	dul15	4949.0	all	heart rate	4949.0	NA	NA	1.19	NA	0.178	NA	NA	NA	1/s	NA
+Gerstein2019	dul15	4949.0	all	gfr	4949.0	NA	NA	NA	NA	NA	NA	NA	NA	ml/min/(1.73*m^2)	NA
+Gerstein2019	dul15	4949.0	all	concentration	4949.0	cholesterol	NA	4.52	NA	1.16	NA	NA	NA	mmol/l	NA
+Gerstein2019	dul15	4949.0	all	concentration	4949.0	hdl-c	NA	1.18	NA	0.33	NA	NA	NA	mmol/l	NA
+Gerstein2019	dul15	4949.0	all	concentration	4949.0	ldl-c	NA	2.56	NA	0.98	NA	NA	NA	mmol/l	NA
+Gerstein2019	dul15	4949.0	all	concentration	4949.0	triglyceride	NA	NA	1.6	NA	NA	1.15	2.2	mmol/l	NA

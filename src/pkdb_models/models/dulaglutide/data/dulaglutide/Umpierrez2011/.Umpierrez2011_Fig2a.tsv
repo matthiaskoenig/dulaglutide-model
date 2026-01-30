@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Umpierrez2011	PLAC	66.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Umpierrez2011	PLAC	66.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	4.0	week	-0.297087358145183	NA	NA	NA	0.47324497605808247	NA	0.05825242970146799	NA	percent	NA
+Umpierrez2011	PLAC	66.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	8.0	week	-0.436893167207169	NA	NA	NA	0.6625436885958511	NA	0.08155349046821003	NA	percent	NA
+Umpierrez2011	PLAC	66.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	16.0	week	-0.244660193635399	NA	NA	NA	0.9464899521161814	NA	0.116504859402938	NA	percent	NA
+Umpierrez2011	DUL0510	66.0	DUL0510	hba1c (change)	NA	plasma	NR	hba1c_change_DUL0510	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Umpierrez2011	DUL0510	66.0	DUL0510	hba1c (change)	NA	plasma	NR	hba1c_change_DUL0510	4.0	week	-0.623300986694946	NA	NA	NA	0.5678943323269665	NA	0.06990296008483898	NA	percent	NA
+Umpierrez2011	DUL0510	66.0	DUL0510	hba1c (change)	NA	plasma	NR	hba1c_change_DUL0510	8.0	week	-1.08349515911501	NA	NA	NA	0.7098674640871077	NA	0.08737864455220001	NA	percent	NA
+Umpierrez2011	DUL0510	66.0	DUL0510	hba1c (change)	NA	plasma	NR	hba1c_change_DUL0510	16.0	week	-1.38058268392173	NA	NA	NA	0.9938137276074549	NA	0.12233001348693007	NA	percent	NA
+Umpierrez2011	DUL1010	65.0	DUL1010	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1010	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Umpierrez2011	DUL1010	65.0	DUL1010	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1010	4.0	week	-0.780582591331988	NA	NA	NA	0.5635747857941542	NA	0.06990284897714794	NA	percent	NA
+Umpierrez2011	DUL1010	65.0	DUL1010	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1010	8.0	week	-1.16504853847552	NA	NA	NA	0.704470049855714	NA	0.08737875565989994	NA	percent	NA
+Umpierrez2011	DUL1010	65.0	DUL1010	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1010	16.0	week	-1.32233025422026	NA	NA	NA	0.986256099084468	NA	0.12233001348693007	NA	percent	NA
+Umpierrez2011	DUL1020	65.0	DUL1020	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1020	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Umpierrez2011	DUL1020	65.0	DUL1020	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1020	4.0	week	-0.710679631247149	NA	NA	NA	0.5635756815729982	NA	0.0699029600848391	NA	percent	NA
+Umpierrez2011	DUL1020	65.0	DUL1020	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1020	8.0	week	-1.22912623336868	NA	NA	NA	0.7514348392832293	NA	0.09320402085157986	NA	percent	NA
+Umpierrez2011	DUL1020	65.0	DUL1020	hba1c (change)	NA	plasma	NR	hba1c_change_DUL1020	16.0	week	-1.59029134196086	NA	NA	NA	0.986256099084468	NA	0.12233001348693007	NA	percent	NA

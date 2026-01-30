@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Wang2019	GLAR	S0T24R365	NA	hr	oral	multiple dose	dosing	tablet	insulin glargine	1.5	IU	NA
+Wang2019	DUL075	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Wang2019	DUL15	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	0.0	week	8.45210384959713				0.24440465532677				percent	percent
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	13.0	week	6.89435989256938				0.1933751119069				percent	percent
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	26.0	week	6.8272157564906				0.20680393912265				percent	percent
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	52.0	week	7.05013428827215				0.260519247985671				percent	percent

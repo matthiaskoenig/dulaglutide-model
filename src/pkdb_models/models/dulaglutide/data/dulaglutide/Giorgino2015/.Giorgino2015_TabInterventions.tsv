@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Giorgino2015	GLAR	S0T24R546	NA	hr	subcutaneous	multiple dose	dosing	solution	insulin glargine	0.18	mg	Dosage depends on individual patients
+Giorgino2015	DUL075	S0T168R78	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Giorgino2015	DUL15	S0T168R78	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

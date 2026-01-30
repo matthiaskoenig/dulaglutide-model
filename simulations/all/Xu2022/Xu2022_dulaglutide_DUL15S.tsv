@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Xu2022	A	16.0	DUL15S	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15S	0.0	hr	0.0				0.0				mole/meter^3	ng/ml
+Xu2022	A	16.0	DUL15S	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15S	12.0	hr	1.9576522083869186e-05				5.801836417098443e-06				mole/meter^3	ng/ml
+Xu2022	A	16.0	DUL15S	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15S	24.0	hr	2.3806248186561938e-05				6.400736108049478e-06				mole/meter^3	ng/ml
+Xu2022	A	16.0	DUL15S	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15S	48.0	hr	2.4180560375605807e-05				4.117432194671423e-06				mole/meter^3	ng/ml
+Xu2022	A	16.0	DUL15S	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15S	72.0	hr	1.9988265366163365e-05				2.9944962558101734e-06				mole/meter^3	ng/ml
+Xu2022	A	16.0	DUL15S	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15S	96.0	hr	1.5608813633928586e-05				1.6469731291767333e-06				mole/meter^3	ng/ml
+Xu2022	A	16.0	DUL15S	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15S	168.0	hr	8.534316904967659e-06				1.010640774299131e-06				mole/meter^3	ng/ml

@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)	NA	plasma	NR	hba1c_change_GLAR	0.0	week	0.0	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)	NA	plasma	NR	hba1c_change_GLAR	26.0	week	-1.23	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)	NA	plasma	NR	hba1c_change_GLAR	52.0	week	-1.41	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	DUL075	293.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	DUL075	293.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	26.0	week	-1.42	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	DUL075	293.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	52.0	week	-1.59	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	DUL15	295.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	DUL15	295.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	26.0	week	-1.48	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.
+Blonde2015	DUL15	295.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	52.0	week	-1.64	NA	NA	NA	NA	NA	NA	percent	the error bars are not specified whether they are SD or SE or 95% CI.

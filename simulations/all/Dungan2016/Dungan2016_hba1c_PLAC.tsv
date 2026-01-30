@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Dungan2016	PLAC	60.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	0.0	week	8.39490434556148				0.6770958171276645	0.0874126941174049			percent	percent
+Dungan2016	PLAC	60.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	4.0	week	8.16560502744667				0.7583472159991449	0.0979022046069149			percent	percent
+Dungan2016	PLAC	60.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	8.0	week	8.14012739670639				0.8395973750727003	0.108391555039201			percent	percent
+Dungan2016	PLAC	60.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	12.0	week	8.2101910950596				1.1104349580449828	0.143356536651825			percent	percent
+Dungan2016	PLAC	60.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	24.0	week	8.26751576422522				1.110434958044944	0.14335653665182			percent	percent

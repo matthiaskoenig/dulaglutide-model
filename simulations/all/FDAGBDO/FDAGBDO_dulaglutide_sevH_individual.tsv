@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_sd	mean_se	comments	mean_unit
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	0.0	day	0.0			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	0.0	day	0.0			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	0.0	day	0.0			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	0.5	day	4.521537236546431e-06			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	0.5	day	7.328005958544047e-06			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	0.5	day	9.354899705115369e-06			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	1.0	day	9.666730884822875e-06			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	1.0	day	1.4500093353391813e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	1.0	day	1.4500093353391813e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	2.0	day	1.4811924533099317e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	2.0	day	1.6682905663659418e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	2.0	day	2.089261172049834e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	3.0	day	1.6215161867940655e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	3.0	day	1.730656802307446e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	3.0	day	2.276359285105844e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	4.0	day	1.4188268121369337e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	4.0	day	1.543558689251436e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	4.0	day	2.0113036745072048e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	7.0	day	1.1225880835675437e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	7.0	day	1.0134474680541635e-05			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	7.0	day	9.198987089104116e-06			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	14.0	day	2.962387285693888e-06			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	14.0	day	3.430131081412629e-06			individual data	mole/meter^3
+FDAGBDO	sevH	1.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevH_individual	14.0	day	3.7419622611201653e-06			individual data	mole/meter^3

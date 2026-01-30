@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	SEM05	301.0	SEM05	hba1c (change)		plasma	NR	hba1c_change_SEM05	0.0	hr	0.0									percent	percent
+Pratley2018	SEM05	301.0	SEM05	hba1c (change)		plasma	NR	hba1c_change_SEM05	672.0	hr	-0.486358244365361				0.315007472817532					percent	percent
+Pratley2018	SEM05	301.0	SEM05	hba1c (change)		plasma	NR	hba1c_change_SEM05	1344.0	hr	-0.98457888493476				0.735017436574257					percent	percent
+Pratley2018	SEM05	301.0	SEM05	hba1c (change)		plasma	NR	hba1c_change_SEM05	2016.0	hr	-1.28410438908659				0.682516191104479					percent	percent
+Pratley2018	SEM05	301.0	SEM05	hba1c (change)		plasma	NR	hba1c_change_SEM05	2688.0	hr	-1.48279952550415				0.735017436574273					percent	percent
+Pratley2018	SEM05	301.0	SEM05	hba1c (change)		plasma	NR	hba1c_change_SEM05	4704.0	hr	-1.5361803084223				0.840019927513324					percent	percent
+Pratley2018	SEM05	301.0	SEM05	hba1c (change)		plasma	NR	hba1c_change_SEM05	6720.0	hr	-1.50355871886121				0.892521172982948					percent	percent

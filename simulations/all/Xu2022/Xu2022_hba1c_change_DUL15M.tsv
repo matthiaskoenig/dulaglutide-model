@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Xu2022	B15	10.0	DUL15M	hba1c (change)		plasma	NR	hba1c_change_DUL15M	0.0	day	0.0								percent	percent
+Xu2022	B15	10.0	DUL15M	hba1c (change)		plasma	NR	hba1c_change_DUL15M	29.0	day	-1.04				0.479864996924648		0.59484681299126		percent	percent
+Xu2022	B15	10.0	DUL15M	hba1c (change)		plasma	NR	hba1c_change_DUL15M	43.0	day	-1.09				0.478379964515478		0.5930059477449		percent	percent

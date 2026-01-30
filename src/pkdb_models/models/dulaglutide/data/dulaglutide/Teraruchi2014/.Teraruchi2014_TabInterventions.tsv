@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Teraruchi2014	PLAC	S0T168R12	NA	hr	subcutaneous	multiple dose	dosing	solution	placebo	0.0	mg	NA
+Teraruchi2014	DUL025	S0T168R12	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.25	mg	NA
+Teraruchi2014	DUL05	S0T168R12	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.5	mg	NA
+Teraruchi2014	DUL075	S0T168R12	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA

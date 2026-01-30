@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Gerstein2019	plac	4952.0	PLAC	weight			NR	bodyweight_PLAC	0.0	month	88.93536121673								kg	kg
+Gerstein2019	plac	4952.0	PLAC	weight			NR	bodyweight_PLAC	12.0	month	87.5665399239543								kg	kg
+Gerstein2019	plac	4952.0	PLAC	weight			NR	bodyweight_PLAC	24.0	month	87.8973384030418								kg	kg
+Gerstein2019	plac	4952.0	PLAC	weight			NR	bodyweight_PLAC	36.0	month	87.6349809885931								kg	kg
+Gerstein2019	plac	4952.0	PLAC	weight			NR	bodyweight_PLAC	48.0	month	87.3269961977186								kg	kg
+Gerstein2019	plac	4952.0	PLAC	weight			NR	bodyweight_PLAC	60.0	month	86.7338403041825								kg	kg

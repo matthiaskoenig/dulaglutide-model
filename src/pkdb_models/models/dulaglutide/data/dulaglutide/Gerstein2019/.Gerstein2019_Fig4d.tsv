@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Gerstein2019	plac	4952.0	PLAC	heart rate	NA	plasma	NR	dulaglutide_PLAC_hr	0.0	month	72.9429695181906	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	plac	4952.0	PLAC	heart rate	NA	plasma	NR	dulaglutide_PLAC_hr	12.0	month	72.097345132743	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	plac	4952.0	PLAC	heart rate	NA	plasma	NR	dulaglutide_PLAC_hr	24.0	month	71.497541789577	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	plac	4952.0	PLAC	heart rate	NA	plasma	NR	dulaglutide_PLAC_hr	36.0	month	72.087512291052	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	plac	4952.0	PLAC	heart rate	NA	plasma	NR	dulaglutide_PLAC_hr	48.0	month	72.0580137659778	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	plac	4952.0	PLAC	heart rate	NA	plasma	NR	dulaglutide_PLAC_hr	60.0	month	71.497541789577	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	dul15	4949.0	DUL15	heart rate	NA	plasma	NR	dulaglutide_DUL15_hr	0.0	month	71.3598820058994	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	dul15	4949.0	DUL15	heart rate	NA	plasma	NR	dulaglutide_DUL15_hr	12.0	month	74.457227138643	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	dul15	4949.0	DUL15	heart rate	NA	plasma	NR	dulaglutide_DUL15_hr	24.0	month	73.641101278269	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	dul15	4949.0	DUL15	heart rate	NA	plasma	NR	dulaglutide_DUL15_hr	36.0	month	73.641101278269	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	dul15	4949.0	DUL15	heart rate	NA	plasma	NR	dulaglutide_DUL15_hr	48.0	month	73.6804326450342	NA	NA	NA	NA	NA	NA	1/min	NA
+Gerstein2019	dul15	4949.0	DUL15	heart rate	NA	plasma	NR	dulaglutide_DUL15_hr	60.0	month	72.9429695181906	NA	NA	NA	NA	NA	NA	1/min	NA

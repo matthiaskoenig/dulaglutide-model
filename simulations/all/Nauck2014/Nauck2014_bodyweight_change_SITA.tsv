@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	0.0	week	0.0				0.0	0.0			kg	kg
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	2.0	week	-0.232796547912406				1.16935688561563	0.065885796478276			kg	kg
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	4.0	week	-0.540263531121863				1.40322826273876	0.079062955773931			kg	kg
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	8.0	week	-0.838945875512546				1.87097101698502	0.105417274365242			kg	kg
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	12.0	week	-1.07613474283434				2.10484239410814	0.118594433660897			kg	kg
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	26.0	week	-1.48462668099965				3.43011472067051	0.19326507002544			kg	kg
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	39.0	week	-1.50658847911408				3.74194203397015	0.21083454873049			kg	kg
+Nauck2014	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	52.0	week	-1.62957543325185				4.20968478821622	0.23718886732179			kg	kg

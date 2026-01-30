@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Wang2019	GLAR	250.0	GLAR	concentration change absolute	glucose	plasma	NR	fpg_change_GLAR	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Wang2019	GLAR	250.0	GLAR	concentration change absolute	glucose	plasma	NR	fpg_change_GLAR	26.0	week	-2.59	NA	NA	NA	2.53729331668105	NA	0.16047251945270036	NA	mmol/l	NA
+Wang2019	GLAR	250.0	GLAR	concentration change absolute	glucose	plasma	NR	fpg_change_GLAR	52.0	week	-2.35	NA	NA	NA	2.7453224012056685	NA	0.17362943398584996	NA	mmol/l	NA
+Wang2019	DUL075	252.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Wang2019	DUL075	252.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	26.0	week	-1.71	NA	NA	NA	2.563027609180535	NA	0.16145556326867005	NA	mmol/l	NA
+Wang2019	DUL075	252.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	52.0	week	-1.53	NA	NA	NA	2.629644647482505	NA	0.16565204223121	NA	mmol/l	NA
+Wang2019	DUL15	253.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Wang2019	DUL15	253.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-2.35	NA	NA	NA	2.851947841598724	NA	0.17930042458874995	NA	mmol/l	NA
+Wang2019	DUL15	253.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	52.0	week	-2.23	NA	NA	NA	2.6859767275046806	NA	0.16886591004662987	NA	mmol/l	NA

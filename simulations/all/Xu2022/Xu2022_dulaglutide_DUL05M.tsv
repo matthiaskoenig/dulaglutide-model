@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	0.0	hr	0.0				0.0				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	12.0	hr	1.4143456270584956e-06				2.1551932288087887e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	24.0	hr	5.320632365136155e-06				1.2122968977322755e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	48.0	hr	6.297204614877451e-06				1.0439218261833405e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	72.0	hr	5.691056166011313e-06				9.092226732991914e-07				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	96.0	hr	5.017558140703101e-06				4.7144929598198873e-07				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	504.0	hr	1.8715622017601371e-06				1.9089895253881163e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	528.0	hr	6.2135815842037955e-06				2.8447706262682073e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	540.0	hr	7.598535804087583e-06				2.3581651574733905e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	552.0	hr	7.97284673659069e-06				1.6844054789678091e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	576.0	hr	6.812479076208743e-06				1.1603676603819464e-06				mole/meter^3	ng/ml
+Xu2022	B05	11.0	DUL05M	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL05M	600.0	hr	5.689543765617903e-06				8.983487510890002e-07				mole/meter^3	ng/ml

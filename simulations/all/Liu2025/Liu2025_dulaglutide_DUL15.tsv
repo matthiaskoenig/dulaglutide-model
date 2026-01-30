@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	mean_se	min	max	mean_sd	cv	comments	mean_unit	median_unit
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	1.0	day	1.0015047298285764e-05					1.3884216130656218e-05			mole/meter^3	ng/ml
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	29.0	day	1.3075544680258281e-05					5.7850910985348755e-06			mole/meter^3	ng/ml
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	57.0	day	1.456847157703035e-05					6.531554546920895e-06			mole/meter^3	ng/ml
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	85.0	day	1.4792412365625357e-05					6.120997269772522e-06			mole/meter^3	ng/ml
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	113.0	day	1.4792412365625357e-05					6.232967664070024e-06			mole/meter^3	ng/ml
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	141.0	day	1.4419179388518616e-05					6.606200641176764e-06			mole/meter^3	ng/ml
+Liu2025	all	218.0	DUL15	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL15	169.0	day	1.5240288931160503e-05					7.203370648137361e-06			mole/meter^3	ng/ml

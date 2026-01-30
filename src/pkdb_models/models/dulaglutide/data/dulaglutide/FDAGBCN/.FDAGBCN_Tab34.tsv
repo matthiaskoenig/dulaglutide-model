@@ -1,0 +1,49 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	se	min	max	sd	cv	unit	comments
+FDAGBCN	lowBMI	23.0	DUL15	auc_end	dulaglutide	plasma	NR	336.0	hr	15000.0	NA	NA	NA	NA	NA	22.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	lowBMI	23.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	10900.0	NA	NA	NA	NA	NA	23.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	lowBMI	23.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	17000.0	NA	NA	NA	NA	NA	22.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	lowBMI	23.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	90.3	NA	NA	NA	NA	NA	27.0	ng/ml	geometric mean/abdomen
+FDAGBCN	lowBMI	23.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	24.0	72.0	NA	NA	hr	abdomen
+FDAGBCN	lowBMI	23.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	100.0	NA	NA	80.7	146.0	NA	NA	hr	geometric mean/abdomen
+FDAGBCN	lowBMI	23.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0881	NA	NA	NA	NA	NA	22.0	l/hr	geometric mean/abdomen
+FDAGBCN	lowBMI	23.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	12.7	NA	NA	NA	NA	NA	26.0	l	geometric mean/abdomen
+FDAGBCN	lowBMI	22.0	DUL15	auc_end	dulaglutide	plasma	NR	336.0	hr	14800.0	NA	NA	NA	NA	NA	21.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	lowBMI	22.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	10600.0	NA	NA	NA	NA	NA	20.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	lowBMI	22.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	16800.0	NA	NA	NA	NA	NA	23.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	lowBMI	22.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	86.9	NA	NA	NA	NA	NA	20.0	ng/ml	geometric mean/arm
+FDAGBCN	lowBMI	22.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	12.0	72.0	NA	NA	hr	arm
+FDAGBCN	lowBMI	22.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	102.0	NA	NA	75.0	146.0	NA	NA	hr	geometric mean/arm
+FDAGBCN	lowBMI	22.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0891	NA	NA	NA	NA	NA	23.0	l/hr	geometric mean/arm
+FDAGBCN	lowBMI	22.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	13.1	NA	NA	NA	NA	NA	25.0	l	geometric mean/arm
+FDAGBCN	lowBMI	20.0	DUL15	auc_end	dulaglutide	plasma	NR	336.0	hr	14100.0	NA	NA	NA	NA	NA	16.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	lowBMI	20.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	9690.0	NA	NA	NA	NA	NA	18.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	lowBMI	20.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	15800.0	NA	NA	NA	NA	NA	16.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	lowBMI	20.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	77.1	NA	NA	NA	NA	NA	22.0	ng/ml	geometric mean/thigh
+FDAGBCN	lowBMI	20.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.1	NA	12.0	120.0	NA	NA	hr	thigh
+FDAGBCN	lowBMI	20.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	103.0	NA	NA	75.6	194.0	NA	NA	hr	geometric mean/thigh
+FDAGBCN	lowBMI	20.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0927	NA	NA	NA	NA	NA	19.0	l/hr	geometric mean/thigh
+FDAGBCN	lowBMI	20.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	13.8	NA	NA	NA	NA	NA	21.0	l	geometric mean/thigh
+FDAGBCN	highBMI	20.0	DUL15	auc_end	dulaglutide	plasma	NR	336.0	hr	11400.0	NA	NA	NA	NA	NA	16.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	highBMI	20.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	7950.0	NA	NA	NA	NA	NA	17.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	highBMI	20.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	13100.0	NA	NA	NA	NA	NA	18.0	ng/ml*hr	geometric mean/abdomen
+FDAGBCN	highBMI	20.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	64.0	NA	NA	NA	NA	NA	20.0	ng/ml	geometric mean/abdomen
+FDAGBCN	highBMI	20.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	36.0	72.0	NA	NA	hr	abdomen
+FDAGBCN	highBMI	20.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	103.0	NA	NA	81.7	155.0	NA	NA	hr	geometric mean/abdomen
+FDAGBCN	highBMI	20.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.115	NA	NA	NA	NA	NA	18.0	l/hr	geometric mean/abdomen
+FDAGBCN	highBMI	20.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	17.1	NA	NA	NA	NA	NA	19.0	l	geometric mean/abdomen
+FDAGBCN	highBMI	18.0	DUL15	auc_end	dulaglutide	plasma	NR	336.0	hr	11100.0	NA	NA	NA	NA	NA	17.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	highBMI	18.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	7870.0	NA	NA	NA	NA	NA	16.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	highBMI	18.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	12700.0	NA	NA	NA	NA	NA	18.0	ng/ml*hr	geometric mean/arm
+FDAGBCN	highBMI	18.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	64.7	NA	NA	NA	NA	NA	20.0	ng/ml	geometric mean/arm
+FDAGBCN	highBMI	18.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	24.0	72.0	NA	NA	hr	arm
+FDAGBCN	highBMI	18.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	104.0	NA	NA	83.2	133.0	NA	NA	hr	geometric mean/arm
+FDAGBCN	highBMI	18.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.118	NA	NA	NA	NA	NA	18.0	l/hr	geometric mean/arm
+FDAGBCN	highBMI	18.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	17.7	NA	NA	NA	NA	NA	17.0	l	geometric mean/arm
+FDAGBCN	highBMI	20.0	DUL15	auc_end	dulaglutide	plasma	NR	336.0	hr	11100.0	NA	NA	NA	NA	NA	19.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	highBMI	20.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	7580.0	NA	NA	NA	NA	NA	22.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	highBMI	20.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	13300.0	NA	NA	NA	NA	NA	17.0	ng/ml*hr	geometric mean/thigh
+FDAGBCN	highBMI	20.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	59.5	NA	NA	NA	NA	NA	26.0	ng/ml	geometric mean/thigh
+FDAGBCN	highBMI	20.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	36.0	120.0	NA	NA	hr	thigh
+FDAGBCN	highBMI	20.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	111.0	NA	NA	87.1	186.0	NA	NA	hr	geometric mean/thigh
+FDAGBCN	highBMI	20.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.112	NA	NA	NA	NA	NA	17.0	l/hr	geometric mean/thigh
+FDAGBCN	highBMI	20.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	17.9	NA	NA	NA	NA	NA	21.0	l	geometric mean/thigh

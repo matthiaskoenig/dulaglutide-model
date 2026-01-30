@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	8.0	week	-1.07	NA	NA	NA	0.58118331736129	0.0416194018106	NA	NA	percent	NA
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	16.0	week	-1.36	NA	NA	NA	0.714297643917578	0.05115191673007	NA	NA	percent	NA
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	26.0	week	-1.25	NA	NA	NA	0.856738552565545	0.0613523220655201	NA	NA	percent	NA
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	38.0	week	-1.14	NA	NA	NA	0.905926979865908	0.0648747785075599	NA	NA	percent	NA
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	52.0	week	-1.19	NA	NA	NA	0.904761379430617	0.06479130812667	NA	NA	percent	NA
+Morioka2024	DUL15	391.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Morioka2024	DUL15	391.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	8.0	week	-1.35	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Morioka2024	DUL15	391.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	16.0	week	-1.64	NA	NA	NA	0.73813152978968	0.03732891596928	NA	NA	percent	NA
+Morioka2024	DUL15	391.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	26.0	week	-1.53	NA	NA	NA	0.873807542525415	0.04419034685803	NA	NA	percent	NA
+Morioka2024	DUL15	391.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	38.0	week	-1.47	NA	NA	NA	0.941811608309035	0.0476294602880301	NA	NA	percent	NA
+Morioka2024	DUL15	391.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	52.0	week	-1.5	NA	NA	NA	0.940820288925862	0.04757932711195	NA	NA	percent	NA

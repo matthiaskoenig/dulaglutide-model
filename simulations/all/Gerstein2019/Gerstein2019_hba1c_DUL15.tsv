@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Gerstein2019	dul15	4952.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	0.0	month	7.35198816263044								percent	percent
+Gerstein2019	dul15	4952.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	3.0	month	6.59204705284194								percent	percent
+Gerstein2019	dul15	4952.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	12.0	month	6.68041223148051								percent	percent
+Gerstein2019	dul15	4952.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	24.0	month	6.81590579543734								percent	percent
+Gerstein2019	dul15	4952.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	36.0	month	6.87187038220743								percent	percent
+Gerstein2019	dul15	4952.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	48.0	month	6.93372606658169								percent	percent
+Gerstein2019	dul15	4952.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	60.0	month	6.99263615271448								percent	percent

@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	0.0	hr	9.72067714631197									mmol/l	mmol/l
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	672.0	hr	8.20133010882708				1.64558290579185	0.186215235792023				mmol/l	mmol/l
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	1344.0	hr	7.58343409915356				1.86998057476352	0.211608222490941				mmol/l	mmol/l
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	2016.0	hr	7.13905683192261				1.64558290579181	0.186215235792019				mmol/l	mmol/l
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	2688.0	hr	6.89782345828295				1.42118523682014	0.1608222490931				mmol/l	mmol/l
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	4704.0	hr	6.92744860943168				1.94477979775389	0.22007255139056				mmol/l	mmol/l
+Pratley2018	SEM10	300.0	SEM10	concentration	glucose	plasma	NR	fpg_SEM10	6720.0	hr	6.88935912938331				1.86998057476333	0.21160822249092				mmol/l	mmol/l

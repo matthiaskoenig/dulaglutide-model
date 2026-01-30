@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	week	0.0								kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	2.0	week	-0.626323445961658				1.29981381519562	0.0786683108299671			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	4.0	week	-0.86838110811491				1.69976145664326	0.102874243252973			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	8.0	week	-1.20726139190898				2.29967834181207	0.13918286487468			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	14.0	week	-1.37065018920666				2.59963678439641	0.15733717568553			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	20.0	week	-1.54614222972865				2.79961518212296	0.16944041890984			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	26.0	week	-1.70347940541418				3.09957362470731	0.18759472972069			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	35.0	week	-1.68532509460333				3.39953206729165	0.20574904053154			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	44.0	week	-1.70347940541418				3.29954286842846	0.19969741891939			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	52.0	week	-1.76399395945889				3.699490509876	0.22390335134239			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	65.0	week	-1.66717078379247				3.99944895246051	0.24205766215325			kg	kg
+Giorgino2015	DUL15	273.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	78.0	week	-1.75189071623459				4.29939824103962	0.2602114189385			kg	kg

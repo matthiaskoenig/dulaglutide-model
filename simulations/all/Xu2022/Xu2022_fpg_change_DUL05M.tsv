@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	0.0	day	0.0									mmol/l	mmol/l
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	3.0	day	-1.43046350388363				0.932926746338885		1.10264895091029			mmol/l	mmol/l
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	24.0	day	-1.58443715761514				0.93292713107761		1.1026494056424			mmol/l	mmol/l
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	29.0	day	-1.00827794317394				0.90771250995135		1.07284762791271			mmol/l	mmol/l

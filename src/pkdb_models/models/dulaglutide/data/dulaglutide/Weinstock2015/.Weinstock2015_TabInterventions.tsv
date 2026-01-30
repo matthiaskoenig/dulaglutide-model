@@ -1,0 +1,6 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Weinstock2015	PLAC	S0T24R182	NA	hr	oral	multiple dose	dosing	solution	placebo	0.0	mg	NA
+Weinstock2015	PLAC	S4368T24R546	NA	hr	oral	multiple dose	dosing	tablet	sitagliptin	100.0	mg	NA
+Weinstock2015	SITA	S0T24R728	NA	hr	oral	multiple dose	dosing	tablet	sitagliptin	100.0	mg	NA
+Weinstock2015	DUL075	S0T168R104	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Weinstock2015	DUL15	S0T168R104	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

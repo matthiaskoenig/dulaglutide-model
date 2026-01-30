@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	se	min	max	sd	cv	unit	comments
+FDAGBDR	DUL075IM	7.0	DUL075IM	auc_inf	dulaglutide	plasma	NR	672.0	hr	9730.0	NA	NA	NA	NA	NA	44.0	ng/ml*hr	geometric mean
+FDAGBDR	DUL075IM	7.0	DUL075IM	auc_end	dulaglutide	plasma	NR	168.0	hr	6370.0	NA	NA	NA	NA	NA	30.0	ng/ml*hr	geometric mean
+FDAGBDR	DUL075IM	7.0	DUL075IM	cmax	dulaglutide	plasma	NR	NA	NA	57.2	NA	NA	NA	NA	NA	30.0	ng/ml	geometric mean
+FDAGBDR	DUL075IM	7.0	DUL075IM	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	12.0	72.0	NA	NA	hr	geometric mean
+FDAGBDR	DUL075IM	7.0	DUL075IM	thalf	dulaglutide	plasma	NR	NA	NA	95.5	NA	NA	54.8	138.0	NA	NA	hr	geometric mean
+FDAGBDR	DUL075IM	7.0	DUL075IM	clearance	dulaglutide	plasma	NR	NA	NA	0.0771	NA	NA	NA	NA	NA	44.0	l/hr	geometric mean
+FDAGBDR	DUL075IM	7.0	DUL075IM	vd	dulaglutide	plasma	NR	NA	NA	10.6	NA	NA	NA	NA	NA	19.0	l	geometric mean
+FDAGBDR	DUL075IM	7.0	DUL075IM	bioavailability	dulaglutide	plasma	NR	NA	NA	0.958	NA	NA	NA	NA	NA	14.0	dimensionless	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	auc_inf	dulaglutide	plasma	NR	672.0	hr	10200.0	NA	NA	NA	NA	NA	36.0	ng/ml*hr	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	auc_end	dulaglutide	plasma	NR	168.0	hr	6220.0	NA	NA	NA	NA	NA	25.0	ng/ml*hr	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	cmax	dulaglutide	plasma	NR	NA	NA	54.2	NA	NA	NA	NA	NA	18.0	ng/ml	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	12.0	48.0	NA	NA	hr	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	thalf	dulaglutide	plasma	NR	NA	NA	107.0	NA	NA	49.1	150.0	NA	NA	hr	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	clearance	dulaglutide	plasma	NR	NA	NA	0.0734	NA	NA	NA	NA	NA	36.0	l/hr	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	vd	dulaglutide	plasma	NR	NA	NA	11.3	NA	NA	NA	NA	NA	24.0	l	geometric mean
+FDAGBDR	DUL075SC	8.0	DUL075SC	bioavailability	dulaglutide	plasma	NR	NA	NA	0.958	NA	NA	NA	NA	NA	14.0	dimensionless	geometric mean

@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Gerstein2019	dul15	4949.0	DUL15	weight			NR	bodyweight_DUL15	0.0	month	88.4790874524714								kg	kg
+Gerstein2019	dul15	4949.0	DUL15	weight			NR	bodyweight_DUL15	12.0	month	85.9695817490494								kg	kg
+Gerstein2019	dul15	4949.0	DUL15	weight			NR	bodyweight_DUL15	24.0	month	86.1178707224334								kg	kg
+Gerstein2019	dul15	4949.0	DUL15	weight			NR	bodyweight_DUL15	36.0	month	85.9923954372623								kg	kg
+Gerstein2019	dul15	4949.0	DUL15	weight			NR	bodyweight_DUL15	48.0	month	85.9467680608365								kg	kg
+Gerstein2019	dul15	4949.0	DUL15	weight			NR	bodyweight_DUL15	60.0	month	85.1711026615969								kg	kg

@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Nauck2014	PLAC	177.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	0.0	week	0.0				0.0	0.0			mole/meter^3	mg/dl
+Nauck2014	PLAC	177.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	2.0	week	0.23863714125426227				1.7891485545384267	0.134480640452581			mole/meter^3	mg/dl
+Nauck2014	PLAC	177.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	4.0	week	0.05273741375483059				1.736526148562494	0.13052529820900477			mole/meter^3	mg/dl
+Nauck2014	PLAC	177.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	8.0	week	0.27423494985671787				1.8943921620681892	0.14239123440982457			mole/meter^3	mg/dl
+Nauck2014	PLAC	177.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	12.0	week	-0.1212961964839648				1.9470133636220135	0.14634648612349133			mole/meter^3	mg/dl
+Nauck2014	PLAC	177.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	26.0	week	-0.4891402187093438				2.157500578681527	0.16216767403797736			mole/meter^3	mg/dl

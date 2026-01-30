@@ -1,0 +1,19 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Chen2018	GLIM	242.0	GLIM	weight (change)	NA	NA	NR	bodyweight_change_GLIM	0.0	week	0.0	NA	NA	NA	NA	NA	NA	kg	NA
+Chen2018	GLIM	242.0	GLIM	weight (change)	NA	NA	NR	bodyweight_change_GLIM	2.0	week	0.25	NA	NA	NA	8.485283152069204	0.545454659737827	NA	kg	NA
+Chen2018	GLIM	242.0	GLIM	weight (change)	NA	NA	NR	bodyweight_change_GLIM	4.0	week	0.28	NA	NA	NA	8.52947665026665	0.548295525397806	NA	kg	NA
+Chen2018	GLIM	242.0	GLIM	weight (change)	NA	NA	NR	bodyweight_change_GLIM	8.0	week	0.27	NA	NA	NA	8.883028681943381	0.571022710770615	NA	kg	NA
+Chen2018	GLIM	242.0	GLIM	weight (change)	NA	NA	NR	bodyweight_change_GLIM	16.0	week	0.74	NA	NA	NA	9.015611199584328	0.579545437797042	NA	kg	NA
+Chen2018	GLIM	242.0	GLIM	weight (change)	NA	NA	NR	bodyweight_change_GLIM	26.0	week	0.89	NA	NA	NA	9.324969733063645	0.599431757509874	NA	kg	NA
+Chen2018	DUL075	239.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	kg	NA
+Chen2018	DUL075	239.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	2.0	week	-0.06	NA	NA	NA	8.43252440336225	0.545454659737825	NA	kg	NA
+Chen2018	DUL075	239.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	4.0	week	-0.33	NA	NA	NA	8.608201283057536	0.556818252424232	NA	kg	NA
+Chen2018	DUL075	239.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	8.0	week	-0.54	NA	NA	NA	8.827796880059124	0.571022710770616	NA	kg	NA
+Chen2018	DUL075	239.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	16.0	week	-0.66	NA	NA	NA	9.003473759754304	0.582386303457016	NA	kg	NA
+Chen2018	DUL075	239.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	26.0	week	-0.77	NA	NA	NA	9.223071367225915	0.596590891849895	NA	kg	NA
+Chen2018	DUL15	239.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	kg	NA
+Chen2018	DUL15	239.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	2.0	week	-0.25	NA	NA	NA	8.388601665115901	0.542613533984858	NA	kg	NA
+Chen2018	DUL15	239.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	4.0	week	-0.82	NA	NA	NA	8.520359827504919	0.55113626101129	NA	kg	NA
+Chen2018	DUL15	239.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	8.0	week	-1.14	NA	NA	NA	8.827796880059061	0.571022710770612	NA	kg	NA
+Chen2018	DUL15	239.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	16.0	week	-1.29	NA	NA	NA	9.003475770224389	0.582386433503515	NA	kg	NA
+Chen2018	DUL15	239.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	26.0	week	-1.46	NA	NA	NA	9.179154660389592	0.59375015623641	NA	kg	NA

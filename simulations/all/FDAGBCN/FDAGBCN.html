@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>FDAGBCN</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>FDAGBCN</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../models/results/models/dulaglutide_body_flat.xml">../../../models/results/models/dulaglutide_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>dulaglutide_abdomen</strong>: <a href="FDAGBCN_dulaglutide_abdomen.tsv">FDAGBCN_dulaglutide_abdomen.tsv</a></li>
+                <li><strong>dulaglutide_arm</strong>: <a href="FDAGBCN_dulaglutide_arm.tsv">FDAGBCN_dulaglutide_arm.tsv</a></li>
+                <li><strong>dulaglutide_thigh</strong>: <a href="FDAGBCN_dulaglutide_thigh.tsv">FDAGBCN_dulaglutide_thigh.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig42</strong>: <a href="FDAGBCN_Fig42.svg">FDAGBCN_Fig42.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig42</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="FDAGBCN_Fig42.svg" max-width="600" width="600"></v-img>-->
+                        <img src="FDAGBCN_Fig42.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../experiments/studies/fdagbcn.py">../../../experiments/studies/fdagbcn.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.dulaglutide.experiments.base_experiment import (
+    DulaglutideSimulationExperiment,
+)
+from pkdb_models.models.dulaglutide.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health,
+    Fasting, DulaglutideMappingMetaData, Coadministration, InjectionSite
+)
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.dulaglutide.helpers import run_experiments
+
+
+class FDAGBCN(DulaglutideSimulationExperiment):
+    """Simulation experiment of FDA_GBCN."""
+
+    groups = ["abdomen", "arm", "thigh"]
+    colors = {
+        "abdomen": "tab:blue",
+        "arm":     "tab:red",
+        "thigh":   "tab:orange",
+    }
+    bodyweights = {  # [kg]
+        "abdomen": 84.53,
+        "arm":     84.53,
+        "thigh":   84.53,
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig34"]:
+            # full_sid = f"{self.sid}_{fig_id}"
+            # console.print(f"[debug] Using sid={self.sid}, full_sid={full_sid}")
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                # unit conversion
+                dset.unit_conversion("mean", 1 / self.Mr.dul)
+
+                dsets[label] = dset
+
+        # console.print(dsets)
+        # console.print(dsets.keys())
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        for group in self.groups:
+            tcsims[f"dul_{group}"] = TimecourseSim(
+                [Timecourse(
+                    start=0,
+                    end=16 * 24 * 60,  # [min]
+                    steps=1000,
+                    changes={
+                        **self.default_changes(),
+
+                        # physiological changes
+                        "BW0": Q_(self.bodyweights[group], "kg"),
+                        "hba1c0": Q_(self.hba1c_healthy, "percent"),
+                        "hba1c": Q_(self.hba1c_healthy, "percent"),
+                        "fpg0": Q_(self.fpg_healthy, "mM"),
+                        "[fpg]": Q_(self.fpg_healthy, "mM"),
+
+                        # dose
+                        "SCDOSE_dul": Q_(1.5, "mg"),
+                    },
+                )]
+            )
+
+        # console.print(tcsims.keys())
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+
+        mappings = {}
+        for group in self.groups:
+            if group == "DUL15SC":
+                mappings[f"fm_dul_{group}"] = FitMapping(
+                    self,
+                    reference = FitData(
+                        self,
+                        dataset=f"dulaglutide_{group}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable = FitData(
+                        self, task = f"task_dul_{group}", xid="time", yid=f"[Cve_dul]",
+                    ),
+                    metadata = DulaglutideMappingMetaData(
+                        tissue = Tissue.PLASMA,
+                        route = Route.SC,
+                        application_form = ApplicationForm.SOLUTION,
+                        dosing = Dosing.SINGLE,
+                        health = Health.HEALTHY,
+                        fasting = Fasting.NR,
+                        coadministration = Coadministration.NONE
+                    )
+                )
+            else:
+                mappings[f"fm_dul_{group}"] = FitMapping(
+                    self,
+                    reference = FitData(
+                        self,
+                        dataset=f"dulaglutide_{group}",
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd",
+                        count="count",
+                    ),
+                    observable = FitData(
+                        self, task = f"task_dul_{group}", xid="time", yid=f"[Cve_dul]",
+                    ),
+                    metadata = DulaglutideMappingMetaData(
+                        tissue = Tissue.PLASMA,
+                        route = Route.IV,
+                        application_form = ApplicationForm.SOLUTION,
+                        dosing = Dosing.SINGLE,
+                        health = Health.HEALTHY,
+                        fasting = Fasting.NR,
+                        coadministration = Coadministration.NONE,
+                        injection_site = InjectionSite.ABDOMEN  # FIXME
+                    )
+                )
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig42",
+            name=f"{self.__class__.__name__}",
+        )
+        plots = fig.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        plots[0].set_yaxis(self.label_dul, unit=self.unit_dul)
+
+        for group in self.groups:
+            # simulation
+            plots[0].add_data(
+                task=f"task_dul_{group}",
+                xid="time",
+                yid=f"[Cve_dul]",
+                label=group,
+                color=self.colors[group],
+            )
+            # data
+            plots[0].add_data(
+                dataset=f"dulaglutide_{group}",
+                xid="time",
+                yid="mean",
+                yid_sd="mean_sd",
+                count="count",
+                label=group,
+                color=self.colors[group],
+            )
+
+        return {
+            fig.sid: fig,
+        }
+
+
+if __name__ == "__main__":
+    run_experiments(FDAGBCN, output_dir=FDAGBCN.__name__)
+</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

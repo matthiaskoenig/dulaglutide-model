@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>FDAGBCM</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>FDAGBCM</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../models/results/models/dulaglutide_body_flat.xml">../../../models/results/models/dulaglutide_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>dulaglutide_ESR</strong>: <a href="FDAGBCM_dulaglutide_ESR.tsv">FDAGBCM_dulaglutide_ESR.tsv</a></li>
+                <li><strong>dulaglutide_control</strong>: <a href="FDAGBCM_dulaglutide_control.tsv">FDAGBCM_dulaglutide_control.tsv</a></li>
+                <li><strong>dulaglutide_mildR</strong>: <a href="FDAGBCM_dulaglutide_mildR.tsv">FDAGBCM_dulaglutide_mildR.tsv</a></li>
+                <li><strong>dulaglutide_modR</strong>: <a href="FDAGBCM_dulaglutide_modR.tsv">FDAGBCM_dulaglutide_modR.tsv</a></li>
+                <li><strong>dulaglutide_sevR</strong>: <a href="FDAGBCM_dulaglutide_sevR.tsv">FDAGBCM_dulaglutide_sevR.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig42</strong>: <a href="FDAGBCM_Fig42.svg">FDAGBCM_Fig42.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig42</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="FDAGBCM_Fig42.svg" max-width="600" width="600"></v-img>-->
+                        <img src="FDAGBCM_Fig42.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../experiments/studies/fdagbcm.py">../../../experiments/studies/fdagbcm.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.dulaglutide.experiments.base_experiment import (
+    DulaglutideSimulationExperiment,
+)
+from pkdb_models.models.dulaglutide.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health,
+    Fasting, DulaglutideMappingMetaData, Coadministration
+)
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.dulaglutide.helpers import run_experiments
+
+
+class FDAGBCM(DulaglutideSimulationExperiment):
+    """Simulation experiment of FDA_GBCM.
+
+    Renal impairment.
+    """
+    groups = ["control", "mildR", "modR", "sevR", "ESR"]
+    colors = {
+        "control":  "black",
+        "mildR":  "#9dd8f0",
+        "modR":   "#5bc0de",
+        "sevR":   "#2ca0c2",
+        "ESR":     "#1f77b4"
+    }
+    bodyweights = {  # [kg]
+        "control":  80,
+        "mildR":    75.59,
+        "modR":     78.25,
+        "sevR":     80.7,
+        "ESR":     75.58,
+    }
+    renal_function_values = {  # [kg]
+        "control":  89.9/101,
+        "mildR":    55.70/101,
+        "modR":     39.30/101,
+        "sevR":     25.80/101,
+        "ESR":     10.30/101,
+    }
+    renal_functions = {
+        "control": "Normal renal function",
+        "mildR":    "Mild renal impairment",
+        "modR":   "Moderate renal impairment",
+        "sevR":  "Severe renal impairment",
+        "ESR":    "End stage renal disease",
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig42"]:
+            full_sid = f"{self.sid}_{fig_id}"
+            console.print(f"[debug] Using sid={self.sid}, full_sid={full_sid}")
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                # unit conversion
+                if label.startswith("dulaglutide_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.dul)
+
+                dsets[label] = dset
+
+        # console.print(dsets)
+        # console.print(dsets.keys())
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        for group in self.groups:
+            # rf_value = DulaglutideSimulationExperiment.renal_map[self.renal_functions[group]]
+            rf_value = self.renal_function_values[group]
+            tcsims[f"dul_{group}"] = TimecourseSim(
+                [Timecourse(
+                    start=0,
+                    end=18 * 24 * 60,  # [min]
+                    steps=1000,
+                    changes={
+                        **self.default_changes(),
+
+                        # physiological changes
+                        "BW0": Q_(self.bodyweights[group], "kg"),
+
+                        # healthy (2/48 T2DM)
+                        "hba1c0": Q_(self.hba1c_healthy, "dimensionless"),
+                        "hba1c": Q_(self.hba1c_healthy, "dimensionless"),
+                        "fpg0": Q_(self.fpg_healthy, "mM"),
+                        "[fpg]": Q_(self.fpg_healthy, "mM"),
+
+                        # renal function
+                        "KI__f_renal_function": Q_(rf_value, "dimensionless"),
+
+                        # dose
+                        "SCDOSE_dul": Q_(1.5, "mg"),
+                    },
+                )]
+            )
+
+        # console.print(tcsims.keys())
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+
+        mappings = {}
+        for group in self.groups:
+            mappings[f"fm_dul_{group}"] = FitMapping(
+                self,
+                reference = FitData(
+                    self,
+                    dataset=f"dulaglutide_{group}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                ),
+                observable = FitData(
+                    self, task = f"task_dul_{group}", xid="time", yid="[Cve_dul]",
+                ),
+                metadata = DulaglutideMappingMetaData(
+                    tissue = Tissue.PLASMA,
+                    route = Route.SC,
+                    application_form = ApplicationForm.SOLUTION,
+                    dosing = Dosing.SINGLE,
+                    health = Health.HEALTHY if group == "control" else Health.RENAL_IMPAIRMENT,
+                    fasting = Fasting.NR,
+                    coadministration = Coadministration.NONE
+                )
+            )
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig42",
+            num_cols=4,
+            name=f"{self.__class__.__name__}",
+        )
+        plots = fig.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        plots[0].set_yaxis(self.label_dul, unit=self.unit_dul)
+        plots[1].set_yaxis(self.label_dm, unit=self.unit_dm)
+        plots[2].set_yaxis(self.label_dm_urine, unit=self.unit_dm_urine)
+        plots[3].set_yaxis(self.label_dm_feces, unit=self.unit_dm_feces)
+
+        for group in self.groups:
+            # simulation
+            for k, sid in enumerate(["[Cve_dul]", "[Cve_dm]", "Aurine_dm", "Afeces_dm"]):
+                # simulation
+                plots[k].add_data(
+                    task=f"task_dul_{group}",
+                    xid="time",
+                    yid=sid,
+                    label=group,
+                    color=self.colors[group],
+                )
+
+            plots[0].add_data(
+                task=f"task_dul_{group}",
+                xid="time",
+                yid=f"[Cve_dul]",
+                label=group,
+                color=self.colors[group],
+            )
+            # data
+            plots[0].add_data(
+                dataset=f"dulaglutide_{group}",
+                xid="time",
+                yid="mean",
+                yid_sd="mean_sd",
+                count="count",
+                label=group,
+                color=self.colors[group],
+            )
+
+        return {
+            fig.sid: fig,
+        }
+
+
+if __name__ == "__main__":
+    run_experiments(FDAGBCM, output_dir=FDAGBCM.__name__)
+</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

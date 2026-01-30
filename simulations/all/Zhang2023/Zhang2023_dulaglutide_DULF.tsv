@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	0.0	hr	0.0				0.0				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	4.0	hr	4.905142439696012e-06				1.7518364275905844e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	12.0	hr	1.203330258647155e-05				3.419101090532779e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	24.0	hr	1.5367831912355942e-05				3.5399171861051105e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	36.0	hr	1.5730280752125988e-05				3.382856206555768e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	48.0	hr	1.691427992667278e-05				3.45534597450979e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	60.0	hr	1.391803655327578e-05				2.198856478955952e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	72.0	hr	1.5077872840539915e-05				2.102203270666265e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	96.0	hr	1.2492404081478247e-05				1.8605710795215858e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	120.0	hr	9.544487588752579e-06				1.3168978198665302e-06				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	168.0	hr	6.403263573341489e-06				8.094683380823782e-07				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	216.0	hr	3.6969781656544382e-06				7.007347922574412e-07				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	288.0	hr	2.0297135027122487e-06				4.5910149500669606e-07				mole/meter^3	ng/ml
+Zhang2023	DULF	41.0	DULF	concentration	dulaglutide	plasma	NR	dulaglutide_DULF	360.0	hr	1.5222851270341852e-06				3.262039557930399e-07				mole/meter^3	ng/ml

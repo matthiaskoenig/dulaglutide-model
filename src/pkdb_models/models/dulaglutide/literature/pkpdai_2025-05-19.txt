@@ -1,0 +1,1281 @@
+PMID- 21251178
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20120109
+LR  - 20141120
+IS  - 1463-1326 (Electronic)
+IS  - 1462-8902 (Linking)
+VI  - 13
+IP  - 5
+DP  - 2011 May
+TI  - A 5-week study of the pharmacokinetics and pharmacodynamics of LY2189265, a 
+      novel, long-acting glucagon-like peptide-1 analogue, in patients with type 2 
+      diabetes.
+PG  - 426-33
+LID - 10.1111/j.1463-1326.2011.01364.x [doi]
+AB  - AIM: To investigate the safety, tolerability, pharmacokinetics and 
+      pharmacodynamics of LY2189265 (LY), a novel, long-acting glucagen-like peptide-1 
+      analogue, administered once weekly to subjects with type 2 diabetes. METHODS: 
+      This was a placebo-controlled, parallel-group, subject- and investigator-blind 
+      study of LY in subjects (N = 43) with type 2 diabetes mellitus controlled with 
+      diet and exercise alone or with a single oral antidiabetic medication. Subjects 
+      taking metformin or thiazolidinediones continued on their therapy. Subjects 
+      receiving sulfonylurea, acarbose, repaglinide or nateglinide were switched to 
+      metformin prior to enrollment. Subjects received five once-weekly doses of 0.05, 
+      0.3, 1, 3, 5 or 8 mg. Effects on glucose, insulin and C-peptide concentrations 
+      were determined during fasting and following standard test meals. The 
+      pharmacokinetics of LY and its effects on HBA1c, glucagon, body weight, gastric 
+      emptying and safety parameters were assessed. RESULTS: Once-weekly administration 
+      of LY significantly reduced (p < 0.01) fasting plasma glucose, 2-h post-test meal 
+      postprandial glucose and area under the curve (AUC) of glucose after test meals 
+      at doses ≥1 mg. These effects were seen after the first dose and were sustained 
+      through the weekly dosing cycle. Most doses produced statistically significant 
+      increases in insulin and C-peptide AUC when normalized for glucose AUC. 
+      Statistically significant reductions in HBA1c were observed for all dose groups 
+      except 0.3 mg. The most commonly reported adverse effects (AEs) were nausea (35 
+      events), headache (20 events), vomiting (18 events) and diarrhoea (8 events). 
+      CONCLUSIONS: LY showed improvement in fasting and postprandial glycaemic 
+      parameters when administered once weekly in subjects with type 2 diabetes. The 
+      pharmacokinetics and safety profiles also support further investigation of this 
+      novel agent.
+CI  - © 2011 Blackwell Publishing Ltd.
+FAU - Barrington, P
+AU  - Barrington P
+AD  - Eli Lilly and Company, Erl Wood, Surrey, UK. barringtonph@lilly.com
+FAU - Chien, J Y
+AU  - Chien JY
+FAU - Showalter, H D H
+AU  - Showalter HD
+FAU - Schneck, K
+AU  - Schneck K
+FAU - Cui, S
+AU  - Cui S
+FAU - Tibaldi, F
+AU  - Tibaldi F
+FAU - Ellis, B
+AU  - Ellis B
+FAU - Hardy, T A
+AU  - Hardy TA
+LA  - eng
+PT  - Clinical Trial, Phase I
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20110119
+PL  - England
+TA  - Diabetes Obes Metab
+JT  - Diabetes, obesity & metabolism
+JID - 100883645
+RN  - 0 (Blood Glucose)
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 0 (Thiazolidinediones)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - 89750-14-1 (Glucagon-Like Peptide 1)
+RN  - 9100L32L2N (Metformin)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Area Under Curve
+MH  - Blood Glucose/drug effects/metabolism
+MH  - Cohort Studies
+MH  - Diabetes Mellitus, Type 2/blood/*drug therapy
+MH  - Dose-Response Relationship, Drug
+MH  - Double-Blind Method
+MH  - Drug Administration Schedule
+MH  - Fasting/blood
+MH  - Female
+MH  - Glucagon-Like Peptide 1/*analogs & derivatives
+MH  - Glucagon-Like Peptides/analogs & derivatives
+MH  - Humans
+MH  - Hypoglycemic Agents/administration & dosage/adverse 
+      effects/pharmacokinetics/*pharmacology
+MH  - Immunoglobulin Fc Fragments/administration & dosage/adverse effects/*pharmacology
+MH  - Male
+MH  - Metformin/therapeutic use
+MH  - Middle Aged
+MH  - Postprandial Period
+MH  - Recombinant Fusion Proteins/administration & dosage/adverse 
+      effects/pharmacokinetics/*pharmacology
+MH  - Thiazolidinediones/therapeutic use
+MH  - Treatment Outcome
+EDAT- 2011/01/22 06:00
+MHDA- 2012/01/10 06:00
+CRDT- 2011/01/22 06:00
+PHST- 2011/01/22 06:00 [entrez]
+PHST- 2011/01/22 06:00 [pubmed]
+PHST- 2012/01/10 06:00 [medline]
+AID - 10.1111/j.1463-1326.2011.01364.x [doi]
+PST - ppublish
+SO  - Diabetes Obes Metab. 2011 May;13(5):426-33. doi: 
+      10.1111/j.1463-1326.2011.01364.x. Epub 2011 Jan 19.
+
+PMID- 26507721
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20161221
+LR  - 20181113
+IS  - 1179-1926 (Electronic)
+IS  - 0312-5963 (Linking)
+VI  - 55
+IP  - 5
+DP  - 2016 May
+TI  - Clinical Pharmacokinetics of Dulaglutide in Patients with Type 2 Diabetes: 
+      Analyses of Data from Clinical Trials.
+PG  - 625-34
+LID - 10.1007/s40262-015-0338-3 [doi]
+AB  - BACKGROUND AND OBJECTIVE: Dulaglutide is a long-acting glucagon-like peptide-1 
+      receptor agonist administered as once-weekly subcutaneous injections for the 
+      treatment of type 2 diabetes (T2D). The clinical pharmacokinetics of dulaglutide 
+      were characterized in patients with T2D and healthy subjects. METHODS: The 
+      pharmacokinetics of dulaglutide were assessed throughout clinical development, 
+      including conventional pharmacokinetic analysis in clinical pharmacology studies 
+      and population pharmacokinetic analyses of data from combined phase 2 and phase 3 
+      studies in patients with T2D. The effects of potential covariates on dulaglutide 
+      population pharmacokinetics were evaluated using nonlinear mixed-effects models. 
+      RESULTS: Dulaglutide gradually reached the maximum concentration in 48 h and had 
+      a terminal elimination half-life of 5 days. Steady state was achieved between the 
+      second and fourth doses. The accumulation ratio was 1.56 for the 1.5 mg dose. 
+      Intra-individual variability estimates for the area under the plasma 
+      concentration-time curve and the maximum concentration were both <17% 
+      [coefficient of variation (CV)]. There was no difference in pharmacokinetics 
+      between injection sites (arm, thigh or abdomen). Dulaglutide pharmacokinetics 
+      were well described by a two-compartment model with first-order absorption and 
+      elimination. The population clearance was estimated at 0.126 L/h 
+      [inter-individual variability (CV) 33.8%]. Age, body weight, sex, race and 
+      ethnicity did not influence dulaglutide pharmacokinetics to any clinically 
+      relevant degree. CONCLUSION: The pharmacokinetics of dulaglutide support 
+      once-weekly administration in patients with T2D. The pharmacokinetic findings 
+      suggest that dose adjustment is not necessary on the basis of body weight, sex, 
+      age, race or ethnicity or site of injection.
+FAU - Geiser, Jeanne S
+AU  - Geiser JS
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - Heathman, Michael A
+AU  - Heathman MA
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - Cui, Xuewei
+AU  - Cui X
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - Martin, Jennifer
+AU  - Martin J
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - Loghin, Corina
+AU  - Loghin C
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - Chien, Jenny Y
+AU  - Chien JY
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - de la Peña, Amparo
+AU  - de la Peña A
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA. 
+      de_la_pena_amparo@lilly.com.
+LA  - eng
+PT  - Clinical Trial, Phase I
+PT  - Clinical Trial, Phase II
+PT  - Clinical Trial, Phase III
+PT  - Journal Article
+PL  - Switzerland
+TA  - Clin Pharmacokinet
+JT  - Clinical pharmacokinetics
+JID - 7606849
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Diabetes Mellitus, Type 2/*metabolism
+MH  - Drug Administration Routes
+MH  - Female
+MH  - Glucagon-Like Peptides/administration & dosage/*analogs & 
+      derivatives/blood/pharmacokinetics
+MH  - Humans
+MH  - Hypoglycemic Agents/administration & dosage/blood/*pharmacokinetics
+MH  - Immunoglobulin Fc Fragments/administration & dosage/blood
+MH  - Male
+MH  - Middle Aged
+MH  - Recombinant Fusion Proteins/administration & dosage/blood/*pharmacokinetics
+MH  - Young Adult
+EDAT- 2015/10/29 06:00
+MHDA- 2016/12/22 06:00
+CRDT- 2015/10/29 06:00
+PHST- 2015/10/29 06:00 [entrez]
+PHST- 2015/10/29 06:00 [pubmed]
+PHST- 2016/12/22 06:00 [medline]
+AID - 10.1007/s40262-015-0338-3 [pii]
+AID - 10.1007/s40262-015-0338-3 [doi]
+PST - ppublish
+SO  - Clin Pharmacokinet. 2016 May;55(5):625-34. doi: 10.1007/s40262-015-0338-3.
+
+PMID- 21251179
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20120109
+LR  - 20141120
+IS  - 1463-1326 (Electronic)
+IS  - 1462-8902 (Linking)
+VI  - 13
+IP  - 5
+DP  - 2011 May
+TI  - LY2189265, a long-acting glucagon-like peptide-1 analogue, showed a 
+      dose-dependent effect on insulin secretion in healthy subjects.
+PG  - 434-8
+LID - 10.1111/j.1463-1326.2011.01365.x [doi]
+AB  - AIM: To assess the safety, tolerability, pharmacokinetics, pharmacodynamics and 
+      potential immunogenicity of single, escalating subcutaneous injections of a 
+      once-weekly glucagon-like peptide-1 analogue in healthy subjects. METHODS: This 
+      phase 1, three-period, crossover, double-blind, placebo-controlled study 
+      investigated single, escalating subcutaneous doses of LY2189265 (LY) ranging from 
+      0.1 to 12 mg; approximately six subjects were randomized to each dose. Parameters 
+      of safety, including adverse events, were assessed. The pharmacokinetic profile 
+      was assessed over 14 days. Pharmacodynamic parameters (glucose and insulin 
+      concentrations) were measured following a step-glucose infusion (day 3) and as 
+      part of an oral glucose tolerance test (OGTT) (day 5). RESULTS: LY was generally 
+      well tolerated with some increase in gastrointestinal symptoms with escalating 
+      doses. There were small dose-dependent increases in pulse rate with doses ≥1.0 mg 
+      and diastolic blood pressure with doses ≥3.0 mg. The half-life of LY was 
+      approximately 90 h, with C(max) occurring between 24 and 48 h in most subjects. 
+      Evidence of increase in glucose-dependent insulin secretion and suppression of 
+      serum glucose excursions were observed during an OGTT at all doses compared to 
+      placebo; no episodes of hypoglycaemia occurred. No subjects developed antibodies 
+      to LY2189265. CONCLUSIONS: LY showed an acceptable safety profile and exhibited 
+      the expected glucagon-like peptide-1 pharmacological effects on glucose 
+      suppression and insulin secretion with a half-life that supports once-weekly 
+      dosing.
+CI  - © 2011 Blackwell Publishing Ltd.
+FAU - Barrington, P
+AU  - Barrington P
+AD  - Eli Lilly and Company, Erl Wood Manor, Surrey, UK Eli Lilly and Company, 
+      Indianapolis, IN, USA GSK Biologicals, Rixensart, Belgium.
+FAU - Chien, J Y
+AU  - Chien JY
+FAU - Tibaldi, F
+AU  - Tibaldi F
+FAU - Showalter, H D H
+AU  - Showalter HD
+FAU - Schneck, K
+AU  - Schneck K
+FAU - Ellis, B
+AU  - Ellis B
+LA  - eng
+PT  - Clinical Trial, Phase I
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20110119
+PL  - England
+TA  - Diabetes Obes Metab
+JT  - Diabetes, obesity & metabolism
+JID - 100883645
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Insulin)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - 89750-14-1 (Glucagon-Like Peptide 1)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Area Under Curve
+MH  - Cross-Over Studies
+MH  - Diabetes Mellitus, Type 2/drug therapy
+MH  - Dose-Response Relationship, Drug
+MH  - Double-Blind Method
+MH  - Female
+MH  - Glucagon-Like Peptide 1/*analogs & derivatives
+MH  - Glucagon-Like Peptides/analogs & derivatives
+MH  - Glucose Tolerance Test
+MH  - Half-Life
+MH  - Humans
+MH  - Hypoglycemic Agents/administration & dosage/adverse 
+      effects/immunology/pharmacokinetics/*pharmacology
+MH  - Immunoglobulin Fc Fragments/administration & dosage/adverse 
+      effects/immunology/*pharmacology
+MH  - Injections, Subcutaneous
+MH  - Insulin/*metabolism
+MH  - Male
+MH  - Middle Aged
+MH  - Recombinant Fusion Proteins/administration & dosage/adverse 
+      effects/immunology/pharmacokinetics/*pharmacology
+MH  - Treatment Outcome
+MH  - Young Adult
+EDAT- 2011/01/22 06:00
+MHDA- 2012/01/10 06:00
+CRDT- 2011/01/22 06:00
+PHST- 2011/01/22 06:00 [entrez]
+PHST- 2011/01/22 06:00 [pubmed]
+PHST- 2012/01/10 06:00 [medline]
+AID - 10.1111/j.1463-1326.2011.01365.x [doi]
+PST - ppublish
+SO  - Diabetes Obes Metab. 2011 May;13(5):434-8. doi: 10.1111/j.1463-1326.2011.01365.x. 
+      Epub 2011 Jan 19.
+
+PMID- 31786794
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210204
+LR  - 20210204
+IS  - 1720-8386 (Electronic)
+IS  - 0391-4097 (Linking)
+VI  - 43
+IP  - 5
+DP  - 2020 May
+TI  - DR10601, a novel recombinant long-acting dual glucagon-like peptide-1 and 
+      glucagon receptor agonist for the treatment of obesity and type 2 diabetes 
+      mellitus.
+PG  - 653-662
+LID - 10.1007/s40618-019-01153-z [doi]
+AB  - PURPOSE: Both glucagon-like peptide-1 (GLP-1) and glucagon (GCG) belong to the 
+      incretin family. This study aimed to investigate the pharmacokinetics and 
+      pharmacodynamics of DR10601, a fully recombinant hybrid peptide with dual 
+      GLP-1/GCG receptor agonistic activity. METHODS: The agonistic ability of DR10601 
+      was indirectly assessed by inducing cAMP accumulation in Chinese hamster ovary 
+      cells transfected with GLP-1R or GCGR in vitro. Following s.c. administration, 
+      the plasma pharmacokinetics of DR10601 were analysed in male Sprague-Dawley rats. 
+      The antiobesity effects and improved glycaemic control of DR10601 in vivo were 
+      evaluated by administering DR10601 to high-fat DIO mice and ICR mice as a single 
+      dose or repeated s.c. doses once every 4 days for 24 days. RESULTS: DR10601 
+      exhibits dual agonistic activity on GLP-1 and glucagon receptors. The plasma 
+      half-life of DR10601 in Sprague-Dawley rats following s.c. administration was 
+      51.9 ± 12.2 h. In an IPGTT, a single s.c. dose of DR10601 (30 nmol/kg) produced 
+      similar glycaemic control effects and a longer duration of action compared to 
+      dulaglutide (10 nmol/kg). Compared with that achieved with liraglutide 
+      (40 nmol/kg) s.c. administered daily, DR10601 administered s.c. once every 4 days 
+      at 90 nmol/kg exerted a nearly equivalent effect on food intake and significantly 
+      reduced the body weights of high-fat DIO mice at 24 days. CONCLUSIONS: Repeated 
+      administration of DR1060 provides potent and sustained glycemic control and body 
+      weight loss effect in high-fat DIO mice. DR10601 is a promising long-acting agent 
+      deserving further investigation for the treatment of type 2 diabetes and obesity.
+FAU - Wang, W
+AU  - Wang W
+AD  - Department of Pharmacy, College of Life Sciences, China Jiliang University, 
+      Hangzhou, Zhejiang, China.
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Wen, X
+AU  - Wen X
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Duan, W
+AU  - Duan W
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Wang, X
+AU  - Wang X
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Chen, Y
+AU  - Chen Y
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Dong, J
+AU  - Dong J
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Yang, Z
+AU  - Yang Z
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Fang, J
+AU  - Fang J
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Zhou, Z
+AU  - Zhou Z
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Yao, G
+AU  - Yao G
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Fang, Y
+AU  - Fang Y
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China.
+FAU - Huang, Y
+AU  - Huang Y
+AUID- ORCID: 0000-0002-8891-9518
+AD  - Zhejiang Doer Biologics Corporation, No. 452 Avenue 6, Hangzhou Economic and 
+      Technological Development Zone, Hangzhou, 310018, Zhejiang, China. 
+      yanshanhuang@doerbio.com.
+LA  - eng
+PT  - Journal Article
+DEP - 20191130
+PL  - Italy
+TA  - J Endocrinol Invest
+JT  - Journal of endocrinological investigation
+JID - 7806594
+RN  - 0 (Anti-Obesity Agents)
+RN  - 0 (Blood Glucose)
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Receptors, Glucagon)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - 839I73S42A (Liraglutide)
+RN  - 89750-14-1 (Glucagon-Like Peptide 1)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Animals
+MH  - Anti-Obesity Agents/*therapeutic use
+MH  - Blood Glucose
+MH  - Diabetes Mellitus, Type 2/*drug therapy
+MH  - Glucagon-Like Peptide 1/*agonists
+MH  - Glucagon-Like Peptides/analogs & derivatives/therapeutic use
+MH  - Humans
+MH  - Hypoglycemic Agents/*therapeutic use
+MH  - Immunoglobulin Fc Fragments/therapeutic use
+MH  - Liraglutide/therapeutic use
+MH  - Male
+MH  - Mice
+MH  - Obesity/*drug therapy
+MH  - Rats
+MH  - Rats, Sprague-Dawley
+MH  - Receptors, Glucagon/*agonists
+MH  - Recombinant Fusion Proteins/therapeutic use
+OTO - NOTNLM
+OT  - Body weight
+OT  - Glucagon-like peptide-1
+OT  - Obesity
+OT  - Type 2 diabetes
+EDAT- 2019/12/02 06:00
+MHDA- 2021/02/05 06:00
+CRDT- 2019/12/02 06:00
+PHST- 2019/07/18 00:00 [received]
+PHST- 2019/11/21 00:00 [accepted]
+PHST- 2019/12/02 06:00 [pubmed]
+PHST- 2021/02/05 06:00 [medline]
+PHST- 2019/12/02 06:00 [entrez]
+AID - 10.1007/s40618-019-01153-z [pii]
+AID - 10.1007/s40618-019-01153-z [doi]
+PST - ppublish
+SO  - J Endocrinol Invest. 2020 May;43(5):653-662. doi: 10.1007/s40618-019-01153-z. 
+      Epub 2019 Nov 30.
+
+PMID- 32314505
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210624
+LR  - 20221207
+IS  - 1463-1326 (Electronic)
+IS  - 1462-8902 (Print)
+IS  - 1462-8902 (Linking)
+VI  - 22
+IP  - 8
+DP  - 2020 Aug
+TI  - A glycosylated Fc-fused glucagon-like peptide-1 receptor agonist exhibits 
+      equivalent glucose lowering to but fewer gastrointestinal side effects than 
+      dulaglutide.
+PG  - 1455-1468
+LID - 10.1111/dom.14058 [doi]
+AB  - AIM: To evaluate the pharmacokinetic and pharmacodynamic properties of a novel 
+      glycosylated Fc-fused glucagon-like peptide-1(GLP-1-gFc) receptor agonist with 
+      distinctive receptor binding affinity, designed to improve in vivo stability and 
+      safety relative to the commercial GLP-1 analogue dulaglutide, and assess its 
+      safety profile and pharmacokinetics in healthy humans. MATERIALS AND METHODS: We 
+      constructed GLP-1-gFc and determined its binding affinity and potency using in 
+      vitro instrumental and cell-based analyses followed by in vivo comparison of the 
+      glucose-lowering and gastrointestinal side effects between GLP-1-gFc and 
+      dulaglutide. A phase 1 clinical trial was conducted to confirm the efficacy and 
+      safety profile of GLP-1-gFc. RESULTS: GLP-1-gFc showed 10-fold less binding 
+      affinity and 4-fold less potency than dulaglutide in in vitro. A potency-adjusted 
+      dose delayed HbA1c increase comparable with that of dulaglutide (Change for 
+      6 weeks: 2.4 mg/kg GLP-1-gFc, 4.34 ± 0.40 vs. 0.6 mg/kg dulaglutide, 4.26 ± 0.22; 
+      n.s.). However, the equivalent efficacy dose and higher dose did not induce 
+      malaise-related responses (blueberry bar consumption, g/mouse: 2.4 mg/kg 
+      GLP-1-gFc, 0.15% ± 0.03% vs. 0.6 mg/kg dulaglutide, 0.04% ± 0.01%; P < .01) or QT 
+      interval changes (mean at 14-20 hours, mSc: 0.28 mg/kg GLP-1-gFc, 0.0-8.0 vs. 
+      0.07 mg/kg dulaglutide, 8.0-27.7; n.s.), observed as safety variables in rats and 
+      monkeys, compared with those of dulaglutide. Glucose reductions in an oral 
+      glucose tolerance test were significant at day 3 postdose without severe 
+      gastrointestinal adverse events and pulse rate changes in healthy subjects. 
+      CONCLUSIONS: These results suggest that GLP-1-gFc could be used as a novel GLP-1 
+      receptor agonist with better safety than dulaglutide to maximize therapeutic 
+      benefits in subjects with type 2 diabetes.
+CI  - © 2020 The Authors. Diabetes, Obesity and Metabolism published by John Wiley & 
+      Sons Ltd.
+FAU - An, In Bok
+AU  - An IB
+AUID- ORCID: 0000-0001-8156-469X
+AD  - Seoul National University Bundang Hospital and Seoul National University College 
+      of Medicine, Seongnam, Republic of Korea.
+AD  - Research Institute, Genexine Co. Ltd., Seongnam, Republic of Korea.
+FAU - Byun, Mi Sun
+AU  - Byun MS
+AD  - Research Institute, Genexine Co. Ltd., Seongnam, Republic of Korea.
+FAU - Yang, Sang In
+AU  - Yang SI
+AD  - Research Institute, Genexine Co. Ltd., Seongnam, Republic of Korea.
+FAU - Choi, Yuri
+AU  - Choi Y
+AD  - Research Institute, Genexine Co. Ltd., Seongnam, Republic of Korea.
+FAU - Woo, Jung Won
+AU  - Woo JW
+AD  - Research Institute, Genexine Co. Ltd., Seongnam, Republic of Korea.
+FAU - Jang, Hak Chul
+AU  - Jang HC
+AD  - Seoul National University Bundang Hospital and Seoul National University College 
+      of Medicine, Seongnam, Republic of Korea.
+FAU - Sung, Young Chul
+AU  - Sung YC
+AD  - Research Institute, Genexine Co. Ltd., Seongnam, Republic of Korea.
+AD  - Department of Life Science, Pohang University of Science and Technology, Pohang, 
+      Republic of Korea.
+LA  - eng
+GR  - HI14C1024/Korea Ministry of Health and Welfare/International
+GR  - HI17C0643/Korea Ministry of Health and Welfare/International
+PT  - Clinical Trial, Phase I
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20200603
+PL  - England
+TA  - Diabetes Obes Metab
+JT  - Diabetes, obesity & metabolism
+JID - 100883645
+RN  - 0 (Blood Glucose)
+RN  - 0 (Glucagon-Like Peptide-1 Receptor)
+RN  - 0 (Glycated Hemoglobin A)
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - IY9XDZ35W2 (Glucose)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Animals
+MH  - Blood Glucose
+MH  - *Diabetes Mellitus, Type 2
+MH  - *Glucagon-Like Peptide-1 Receptor
+MH  - Glucagon-Like Peptides/adverse effects/analogs & derivatives
+MH  - Glucose
+MH  - Glycated Hemoglobin/analysis
+MH  - Hypoglycemic Agents/adverse effects
+MH  - Immunoglobulin Fc Fragments/adverse effects
+MH  - Mice
+MH  - Rats
+MH  - Recombinant Fusion Proteins
+PMC - PMC7383507
+OTO - NOTNLM
+OT  - drug development, dulaglutide, GLP-1 analogue, glycaemic control, type 2 diabetes
+EDAT- 2020/04/22 06:00
+MHDA- 2021/06/25 06:00
+PMCR- 2020/07/27
+CRDT- 2020/04/22 06:00
+PHST- 2020/02/10 00:00 [received]
+PHST- 2020/04/06 00:00 [revised]
+PHST- 2020/04/15 00:00 [accepted]
+PHST- 2020/04/22 06:00 [pubmed]
+PHST- 2021/06/25 06:00 [medline]
+PHST- 2020/04/22 06:00 [entrez]
+PHST- 2020/07/27 00:00 [pmc-release]
+AID - DOM14058 [pii]
+AID - 10.1111/dom.14058 [doi]
+PST - ppublish
+SO  - Diabetes Obes Metab. 2020 Aug;22(8):1455-1468. doi: 10.1111/dom.14058. Epub 2020 
+      Jun 3.
+
+PMID- 31250974
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200819
+LR  - 20200819
+IS  - 2163-8306 (Electronic)
+IS  - 2163-8306 (Linking)
+VI  - 8
+IP  - 9
+DP  - 2019 Sep
+TI  - Physiologically-Based Pharmacokinetic Modeling of Atorvastatin Incorporating 
+      Delayed Gastric Emptying and Acid-to-Lactone Conversion.
+PG  - 664-675
+LID - 10.1002/psp4.12447 [doi]
+AB  - The drug-drug interaction profile of atorvastatin confirms that disposition is 
+      determined by cytochrome P450 (CYP) 3A4 and organic anion transporting 
+      polypeptides (OATPs). Drugs that affect gastric emptying, including dulaglutide, 
+      also affect atorvastatin pharmacokinetics (PK). Atorvastatin is a carboxylic acid 
+      that exists in equilibrium with a lactone form in vivo. The purpose of this work 
+      was to assess gastric acid-mediated lactone equilibration of atorvastatin and 
+      incorporate this into a physiologically-based PK (PBPK) model to describe 
+      atorvastatin acid, lactone, and their major metabolites. In vitro acid-to-lactone 
+      conversion was assessed in simulated gastric fluid and included in the model. The 
+      PBPK model was verified with in vivo data including CYP3A4 and OATP inhibition 
+      studies. Altering the gastric acid-lactone equilibrium reproduced the change in 
+      atorvastatin PK observed with dulaglutide. The model emphasizes the need to 
+      include gastric acid-lactone conversion and all major atorvastatin-related 
+      species for the prediction of atorvastatin PK.
+CI  - © 2019 Eli Lilly and Company CPT: Pharmacometrics & Systems Pharmacology 
+      published by Wiley Periodicals, Inc. on behalf of the American Society for 
+      Clinical Pharmacology and Therapeutics.
+FAU - Morse, Bridget L
+AU  - Morse BL
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Alberts, Jeffrey J
+AU  - Alberts JJ
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Posada, Maria M
+AU  - Posada MM
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Rehmel, Jessica
+AU  - Rehmel J
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Kolur, Anil
+AU  - Kolur A
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Tham, Lai San
+AU  - Tham LS
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Loghin, Corina
+AU  - Loghin C
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Hillgren, Kathleen M
+AU  - Hillgren KM
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Hall, Stephen D
+AU  - Hall SD
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+FAU - Dickinson, Gemma L
+AU  - Dickinson GL
+AD  - Eli Lilly and Company, Indianapolis, Indiana, USA.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20190801
+PL  - United States
+TA  - CPT Pharmacometrics Syst Pharmacol
+JT  - CPT: pharmacometrics & systems pharmacology
+JID - 101580011
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Lactones)
+RN  - 0 (Organic Anion Transporters)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - A0JWA85V8F (Atorvastatin)
+RN  - EC 1.14.14.1 (Cytochrome P-450 CYP3A)
+RN  - EC 1.14.14.55 (CYP3A4 protein, human)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Atorvastatin/administration & dosage/*pharmacokinetics
+MH  - Cells, Cultured
+MH  - Cytochrome P-450 CYP3A
+MH  - Dose-Response Relationship, Drug
+MH  - Drug Interactions
+MH  - Gastric Acid/metabolism
+MH  - Gastroparesis/*complications
+MH  - Glucagon-Like Peptides/administration & dosage/*analogs & 
+      derivatives/pharmacokinetics
+MH  - Hepatocytes/cytology/drug effects/metabolism
+MH  - Humans
+MH  - Immunoglobulin Fc Fragments/administration & dosage
+MH  - Lactones/*chemistry
+MH  - Models, Biological
+MH  - Organic Anion Transporters
+MH  - Recombinant Fusion Proteins/administration & dosage/*pharmacokinetics
+PMC - PMC6765700
+COIS- All authors are paid employees of and hold stock ownership in Eli Lilly and 
+      Company.
+EDAT- 2019/06/30 06:00
+MHDA- 2020/08/20 06:00
+PMCR- 2019/09/01
+CRDT- 2019/06/29 06:00
+PHST- 2019/03/08 00:00 [received]
+PHST- 2019/05/21 00:00 [accepted]
+PHST- 2019/06/30 06:00 [pubmed]
+PHST- 2020/08/20 06:00 [medline]
+PHST- 2019/06/29 06:00 [entrez]
+PHST- 2019/09/01 00:00 [pmc-release]
+AID - PSP412447 [pii]
+AID - 10.1002/psp4.12447 [doi]
+PST - ppublish
+SO  - CPT Pharmacometrics Syst Pharmacol. 2019 Sep;8(9):664-675. doi: 
+      10.1002/psp4.12447. Epub 2019 Aug 1.
+
+PMID- 28357715
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180531
+LR  - 20181202
+IS  - 1179-1926 (Electronic)
+IS  - 0312-5963 (Linking)
+VI  - 56
+IP  - 11
+DP  - 2017 Nov
+TI  - No Dose Adjustment is Recommended for Digoxin, Warfarin, Atorvastatin or a 
+      Combination Oral Contraceptive When Coadministered with Dulaglutide.
+PG  - 1415-1427
+LID - 10.1007/s40262-017-0531-7 [doi]
+AB  - BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) for the 
+      treatment of type 2 diabetes mellitus are known to delay gastric emptying (GE). 
+      The potential effect of the GLP-1 RA dulaglutide on the pharmacokinetics (PK) of 
+      four orally administered drugs and on the pharmacodynamic (PD) effect of warfarin 
+      was investigated. METHODS: In four separate clinical pharmacology studies, 
+      digoxin, warfarin, atorvastatin and Ortho-Cyclen(®) were orally administered to 
+      healthy subjects with and without a subcutaneous dose of dulaglutide 1.5 mg. The 
+      effect of dulaglutide coadministration was assessed based on the PK parameters of 
+      key analytes. For warfarin PD, the effect of dulaglutide on the international 
+      normalized ratio (INR) was evaluated. RESULTS: Areas under the concentration-time 
+      curves (AUCs) with and without dulaglutide were similar for all analytes except 
+      atorvastatin, where it was reduced by 21%. Maximum concentrations (C (max)) were 
+      generally lower following coadministration with dulaglutide, with statistically 
+      significant reductions (90% confidence intervals of geometric least squares means 
+      ratios outside 0.80-1.25) for all analytes except R-warfarin. For all analytes, 
+      there was a general trend for the time to C (max) (t (max)) to increase following 
+      coadministration with dulaglutide. For warfarin, dulaglutide coadministration had 
+      no statistically significant effect on the maximum INR (INR(max)); however, a 2% 
+      increase in area under the INR curve (AUC(INR)) was observed. CONCLUSIONS: 
+      Dulaglutide did not affect the absorption of the tested medications to a 
+      clinically relevant degree. Based on the PK and PD evaluations, no dose 
+      adjustments for digoxin, warfarin, atorvastatin and Ortho-Cyclen(®) are 
+      recommended when coadministered with dulaglutide. CLINICAL TRIAL REGISTRATION 
+      NUMBERS: NCT01458210, NCT01436201, NCT01432938, and NCT01250834.
+FAU - de la Peña, Amparo
+AU  - de la Peña A
+AUID- ORCID: 0000-0001-9190-1450
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA. 
+      de_la_pena_amparo@lilly.com.
+FAU - Cui, Xuewei
+AU  - Cui X
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - Geiser, Jeanne
+AU  - Geiser J
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+FAU - Loghin, Corina
+AU  - Loghin C
+AD  - Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN, 46285, USA.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT01458210
+SI  - ClinicalTrials.gov/NCT01436201
+SI  - ClinicalTrials.gov/NCT01432938
+SI  - ClinicalTrials.gov/NCT01250834
+PT  - Controlled Clinical Trial
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PL  - Switzerland
+TA  - Clin Pharmacokinet
+JT  - Clinical pharmacokinetics
+JID - 7606849
+RN  - 0 (Contraceptives, Oral)
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 5Q7ZVV76EI (Warfarin)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - 73K4184T59 (Digoxin)
+RN  - A0JWA85V8F (Atorvastatin)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Administration, Oral
+MH  - Adolescent
+MH  - Adult
+MH  - Aged
+MH  - Atorvastatin/administration & dosage/blood/*pharmacokinetics
+MH  - Contraceptives, Oral/*administration & dosage/blood/*pharmacokinetics
+MH  - Digoxin/administration & dosage/blood/*pharmacokinetics
+MH  - *Drug Interactions
+MH  - Female
+MH  - Glucagon-Like Peptides/administration & dosage/*analogs & 
+      derivatives/pharmacology
+MH  - Healthy Volunteers
+MH  - Humans
+MH  - Hypoglycemic Agents/administration & dosage/pharmacology
+MH  - Immunoglobulin Fc Fragments/*administration & dosage/*pharmacology
+MH  - Injections, Subcutaneous
+MH  - Male
+MH  - Middle Aged
+MH  - Recombinant Fusion Proteins/*administration & dosage/*pharmacology
+MH  - Warfarin/administration & dosage/blood/pharmacokinetics
+MH  - Young Adult
+EDAT- 2017/03/31 06:00
+MHDA- 2018/06/01 06:00
+CRDT- 2017/03/31 06:00
+PHST- 2017/03/31 06:00 [pubmed]
+PHST- 2018/06/01 06:00 [medline]
+PHST- 2017/03/31 06:00 [entrez]
+AID - 10.1007/s40262-017-0531-7 [pii]
+AID - 10.1007/s40262-017-0531-7 [doi]
+PST - ppublish
+SO  - Clin Pharmacokinet. 2017 Nov;56(11):1415-1427. doi: 10.1007/s40262-017-0531-7.
+
+PMID- 21154170
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20110519
+LR  - 20221207
+IS  - 2040-3445 (Electronic)
+IS  - 1464-8431 (Linking)
+VI  - 12
+IP  - 6
+DP  - 2010 Dec
+TI  - Dulaglutide, a long-acting GLP-1 analog fused with an Fc antibody fragment for 
+      the potential treatment of type 2 diabetes.
+PG  - 790-7
+AB  - Dulaglutide (LY-2189265) is a novel, long-acting glucagon-like peptide 1 (GLP-1) 
+      analog being developed by Eli Lilly for the treatment of type 2 diabetes mellitus 
+      (T2DM). Dulaglutide consists of GLP-1(7-37) covalently linked to an Fc fragment 
+      of human IgG4, thereby protecting the GLP-1 moiety from inactivation by 
+      dipeptidyl peptidase 4. In vitro and in vivo studies on T2DM models demonstrated 
+      glucose-dependent insulin secretion stimulation. Pharmacokinetic studies 
+      demonstrated a t1/2 in humans of up to 90 h, making dulaglutide an ideal 
+      candidate for once-weekly dosing. Clinical trials suggest that dulaglutide 
+      reduces plasma glucose, and has an insulinotropic effect increasing insulin and 
+      C-peptide levels. Two phase II clinical trials demonstrated a dose-dependent 
+      reduction in glycated hemoglobin (HbA1c) of up to 1.52% compared with placebo. 
+      Side effects associated with dulaglutide administration were mainly 
+      gastrointestinal. To date, there have been no reports on the formation of 
+      antibodies against dulaglutide, but, clearly, long-term data will be needed to 
+      asses this and other possible side effects. The results of several phase III 
+      clinical trials are awaited for clarification of the expected effects on HbA1c 
+      and body weight. If dulaglutide possesses similar efficacy to other GLP-1 
+      analogs, the once-weekly treatment will most likely be welcomed by patients with 
+      T2DM.
+FAU - Jimenez-Solem, Espen
+AU  - Jimenez-Solem E
+AD  - University of Copenhagen, Gentofte Hospital, Department of Internal Medicine F, 
+      Niels Andersens Vej 65, 2900 Hellerup, Denmark.
+FAU - Rasmussen, Mette H
+AU  - Rasmussen MH
+FAU - Christensen, Mikkel
+AU  - Christensen M
+FAU - Knop, Filip K
+AU  - Knop FK
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - Curr Opin Mol Ther
+JT  - Current opinion in molecular therapeutics
+JID - 100891485
+RN  - 0 (Blood Glucose)
+RN  - 0 (C-Peptide)
+RN  - 0 (Glycated Hemoglobin A)
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Insulin)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - 89750-14-1 (Glucagon-Like Peptide 1)
+RN  - WTT295HSY5 (dulaglutide)
+SB  - IM
+MH  - Blood Glucose/metabolism
+MH  - C-Peptide/blood
+MH  - Clinical Trials as Topic
+MH  - Diabetes Mellitus, Type 2/*blood/*drug therapy
+MH  - Gastrointestinal Diseases/chemically induced
+MH  - Glucagon-Like Peptide 1/genetics/metabolism
+MH  - Glucagon-Like Peptides/analogs & derivatives
+MH  - Glycated Hemoglobin/metabolism
+MH  - Humans
+MH  - Hypoglycemic Agents/adverse effects/pharmacokinetics/*therapeutic use
+MH  - Immunoglobulin Fc Fragments/adverse effects/genetics/metabolism/*therapeutic use
+MH  - Insulin/blood
+MH  - Recombinant Fusion Proteins/adverse 
+      effects/metabolism/pharmacokinetics/*therapeutic use
+MH  - Treatment Outcome
+EDAT- 2010/12/15 06:00
+MHDA- 2011/05/20 06:00
+CRDT- 2010/12/15 06:00
+PHST- 2010/12/15 06:00 [entrez]
+PHST- 2010/12/15 06:00 [pubmed]
+PHST- 2011/05/20 06:00 [medline]
+PST - ppublish
+SO  - Curr Opin Mol Ther. 2010 Dec;12(6):790-7.
+
+PMID- 34787823
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220308
+LR  - 20220531
+IS  - 1865-8652 (Electronic)
+IS  - 0741-238X (Linking)
+VI  - 39
+IP  - 1
+DP  - 2022 Jan
+TI  - Pharmacokinetics, Pharmacodynamics, and Safety of Dulaglutide After Single or 
+      Multiple Doses in Chinese Healthy Subjects and Patients with T2DM: A Randomized, 
+      Placebo-Controlled, Phase I Study.
+PG  - 488-503
+LID - 10.1007/s12325-021-01921-5 [doi]
+AB  - INTRODUCTION: This study evaluated the pharmacokinetics, pharmacodynamics, and 
+      safety of a single dulaglutide dose in Chinese healthy subjects and of multiple 
+      dulaglutide doses in Chinese patients with type 2 diabetes mellitus (T2DM). 
+      METHODS: This two-part, double-blind, placebo-controlled study included 16 
+      healthy subjects randomized to receive a single dose of placebo and two of three 
+      dulaglutide doses (0.5 mg, 0.75 mg, or 1.5 mg) in three treatment periods, and 42 
+      patients with T2DM randomized to receive placebo or one of the three dulaglutide 
+      doses once weekly for 4 weeks. Pharmacokinetics and safety parameters were 
+      assessed in all participants, and pharmacodynamics effects were investigated in 
+      patients with T2DM. RESULTS: Following a single-dose administration of 0.5 mg, 
+      0.75 mg, or 1.5 mg dulaglutide in healthy subjects, geometric mean maximum 
+      concentrations (C(max)) were 29.4, 44.2, and 81.5 ng/mL, respectively. Following 
+      weekly administration in patients with T2DM for 4 weeks, C(max) were 26.3, 41.4, 
+      and 70.2 ng/mL, respectively, with accumulation ratios of 1.33-1.39. Geometric 
+      mean for half-life of 4-5 days and median time to C(max) (t(max)) of 
+      approximately 48 h were observed in both study populations. Dose-proportional 
+      increases in drug exposure were observed after both single and multiple dosing. 
+      Significant reductions in baseline-corrected fasting glucose and hemoglobin 
+      A1c (HbA1c) were observed in patients with T2DM who received dulaglutide 0.75 mg 
+      and 1.5 mg. Dulaglutide was well tolerated, with the majority of adverse events 
+      being gastrointestinal disorders of mild severity. CONCLUSIONS: Pharmacokinetics, 
+      pharmacodynamics, and safety profiles of dulaglutide demonstrated in the present 
+      study support a once-weekly dosing regimen in Chinese patients with T2DM. TRIAL 
+      REGISTRATION: NCT01667900 (ClinicalTrials.gov).
+CI  - © 2021. The Author(s), under exclusive licence to Springer Healthcare Ltd., part 
+      of Springer Nature.
+FAU - Xu, Junyu
+AU  - Xu J
+AD  - Department of Pharmacy, Peking University First Hospital, Beijing, China.
+FAU - Zhang, Yifei
+AU  - Zhang Y
+AD  - Department of Endocrine and Metabolic Diseases, Shanghai Institute of Endocrine 
+      and Metabolic Diseases, Ruijin Hospital, Shanghai Jiao Tong University School of 
+      Medicine, Shanghai, China.
+AD  - Shanghai National Clinical Research Center for Metabolic Diseases, Ruijin 
+      Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.
+FAU - Li, Yiming
+AU  - Li Y
+AD  - Department of Endocrinology, Huashan Hospital, Shanghai Medical College, Fudan 
+      University, Shanghai, China.
+FAU - Zhao, Xia
+AU  - Zhao X
+AD  - Department of Pharmacy, Peking University First Hospital, Beijing, China.
+FAU - Zhou, Weiwei
+AU  - Zhou W
+AD  - Department of Endocrine and Metabolic Diseases, Shanghai Institute of Endocrine 
+      and Metabolic Diseases, Ruijin Hospital, Shanghai Jiao Tong University School of 
+      Medicine, Shanghai, China.
+AD  - Shanghai National Clinical Research Center for Metabolic Diseases, Ruijin 
+      Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.
+FAU - Loghin, Corina
+AU  - Loghin C
+AD  - Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, IN, USA.
+FAU - Tham, Lai San
+AU  - Tham LS
+AD  - Lilly Centre for Clinical Pharmacology, Singapore, Singapore.
+FAU - Cui, Xuewei
+AU  - Cui X
+AD  - Lilly Research Laboratories, Eli Lilly and Company, Indianapolis, IN, USA.
+FAU - Cui, Yimin
+AU  - Cui Y
+AUID- ORCID: 0000-0002-4186-1005
+AD  - Department of Pharmacy, Peking University First Hospital, Beijing, China. 
+      cui.pharm@pkufh.com.
+FAU - Wang, Weiqing
+AU  - Wang W
+AD  - Department of Endocrine and Metabolic Diseases, Shanghai Institute of Endocrine 
+      and Metabolic Diseases, Ruijin Hospital, Shanghai Jiao Tong University School of 
+      Medicine, Shanghai, China. wqingw61@163.com.
+AD  - Shanghai National Clinical Research Center for Metabolic Diseases, Ruijin 
+      Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. 
+      wqingw61@163.com.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT01667900
+PT  - Clinical Trial, Phase I
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20211117
+PL  - United States
+TA  - Adv Ther
+JT  - Advances in therapy
+JID - 8611864
+RN  - 0 (Blood Glucose)
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - WTT295HSY5 (dulaglutide)
+MH  - Blood Glucose
+MH  - China
+MH  - *Diabetes Mellitus, Type 2/drug therapy
+MH  - Dose-Response Relationship, Drug
+MH  - Double-Blind Method
+MH  - *Glucagon-Like Peptides/adverse effects/analogs & derivatives
+MH  - Healthy Volunteers
+MH  - Humans
+MH  - Hypoglycemic Agents/adverse effects
+MH  - *Immunoglobulin Fc Fragments/adverse effects
+MH  - *Recombinant Fusion Proteins/adverse effects
+OTO - NOTNLM
+OT  - Chinese participants
+OT  - Dulaglutide
+OT  - Phase I study
+EDAT- 2021/11/18 06:00
+MHDA- 2022/03/09 06:00
+CRDT- 2021/11/17 12:33
+PHST- 2021/06/24 00:00 [received]
+PHST- 2021/09/14 00:00 [accepted]
+PHST- 2021/11/18 06:00 [pubmed]
+PHST- 2022/03/09 06:00 [medline]
+PHST- 2021/11/17 12:33 [entrez]
+AID - 10.1007/s12325-021-01921-5 [pii]
+AID - 10.1007/s12325-021-01921-5 [doi]
+PST - ppublish
+SO  - Adv Ther. 2022 Jan;39(1):488-503. doi: 10.1007/s12325-021-01921-5. Epub 2021 Nov 
+      17.
+
+PMID- 38095516
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20241121
+LR  - 20241124
+IS  - 2168-8370 (Electronic)
+IS  - 2168-8362 (Print)
+IS  - 2168-8362 (Linking)
+VI  - 12
+IP  - 4
+DP  - 2024 Oct
+TI  - Brain uptake pharmacokinetics of albiglutide, dulaglutide, tirzepatide, and 
+      DA5-CH in the search for new treatments of Alzheimer's and Parkinson's diseases.
+PG  - 2292461
+LID - 10.1080/21688370.2023.2292461 [doi]
+LID - 2292461
+AB  - BACKGROUND: A number of peptide incretin receptor agonists (IRAs) show promise as 
+      therapeutics for Alzheimer's disease (AD) and Parkinson's disease (PD). Transport 
+      across the blood-brain barrier (BBB) is one way for IRAs to act directly within 
+      the brain. To determine which IRAs are high priority candidates for treating 
+      these disorders, we have studied their brain uptake pharmacokinetics. METHODS: We 
+      quantitatively measure the ability of four IRAs to cross the BBB. We injected 
+      adult male CD-1 mice intravenously with (125)I- or (14)C-labeled albiglutide, 
+      dulaglutide, DA5-CH, or tirzepatide and used multiple-time regression analyses to 
+      measure brain kinetics up to 1 hour. For those IRAs failing to enter the brain 
+      1 h after intravenous injection, we also investigated their ability to enter over 
+      a longer time frame (i.e., 6 h). RESULTS: Albiglutide and dulaglutide had the 
+      fastest brain uptake rates within 1 hour. DA5-CH appears to enter the brain 
+      rapidly, reaching equilibrium quickly. Tirzepatide does not appear to cross the 
+      BBB within 1 h after iv injection but like albumin, did so slowly over 6 h, 
+      presumably via the extracellular pathways. CONCLUSIONS: We find that IRAs can 
+      cross the BBB by two separate processes; one that is fast and one that is slow. 
+      Three of the four IRAs investigated here have fast rates of transport and should 
+      be taken into consideration for testing as AD and PD therapeutics as they would 
+      have the ability to act quickly and directly on the brain as a whole.
+FAU - Rhea, Elizabeth M
+AU  - Rhea EM
+AD  - Veterans Affairs Puget Sound Health Care System, Geriatrics Research Education 
+      and Clinical Center, Seattle, WA, USA.
+AD  - Division of Gerontology and Geriatric Medicine, Department of Medicine, 
+      University of Washington School of Medicine, Seattle, WA, USA.
+FAU - Babin, Alice
+AU  - Babin A
+AD  - Veterans Affairs Puget Sound Health Care System, Geriatrics Research Education 
+      and Clinical Center, Seattle, WA, USA.
+FAU - Thomas, Peter
+AU  - Thomas P
+AD  - Veterans Affairs Puget Sound Health Care System, Geriatrics Research Education 
+      and Clinical Center, Seattle, WA, USA.
+FAU - Omer, Mohamed
+AU  - Omer M
+AD  - Veterans Affairs Puget Sound Health Care System, Geriatrics Research Education 
+      and Clinical Center, Seattle, WA, USA.
+FAU - Weaver, Riley
+AU  - Weaver R
+AD  - Veterans Affairs Puget Sound Health Care System, Geriatrics Research Education 
+      and Clinical Center, Seattle, WA, USA.
+FAU - Hansen, Kim
+AU  - Hansen K
+AD  - Veterans Affairs Puget Sound Health Care System, Geriatrics Research Education 
+      and Clinical Center, Seattle, WA, USA.
+FAU - Banks, William A
+AU  - Banks WA
+AD  - Veterans Affairs Puget Sound Health Care System, Geriatrics Research Education 
+      and Clinical Center, Seattle, WA, USA.
+AD  - Division of Gerontology and Geriatric Medicine, Department of Medicine, 
+      University of Washington School of Medicine, Seattle, WA, USA.
+FAU - Talbot, Konrad
+AU  - Talbot K
+AD  - Departments of Neurosurgery, Pathology and Human Anatomy, and Basic Sciences, 
+      Loma Linda University School of Medicine, Loma Linda, CA, USA.
+LA  - eng
+GR  - R01 AG057658/AG/NIA NIH HHS/United States
+PT  - Journal Article
+DEP - 20231214
+PL  - United States
+TA  - Tissue Barriers
+JT  - Tissue barriers
+JID - 101601065
+RN  - WTT295HSY5 (dulaglutide)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Recombinant Fusion Proteins)
+RN  - 5E7U48495E (rGLP-1 protein)
+RN  - 89750-14-1 (Glucagon-Like Peptide 1)
+SB  - IM
+MH  - Animals
+MH  - Mice
+MH  - *Glucagon-Like Peptides/analogs & derivatives/pharmacokinetics/pharmacology
+MH  - Male
+MH  - *Immunoglobulin Fc Fragments/pharmacology
+MH  - *Brain/metabolism/drug effects
+MH  - *Alzheimer Disease/drug therapy/metabolism
+MH  - *Recombinant Fusion Proteins/pharmacokinetics/pharmacology
+MH  - *Parkinson Disease/drug therapy/metabolism
+MH  - *Blood-Brain Barrier/metabolism/drug effects
+MH  - Glucagon-Like Peptide 1/analogs & derivatives
+PMC - PMC11583597
+OTO - NOTNLM
+OT  - Alzheimer’s disease
+OT  - Parkinson’s disease
+OT  - glucagon-like peptide -1 receptor
+OT  - incretin receptor agonists
+OT  - pharmacokinetics
+COIS- No potential conflict of interest was reported by the author(s).
+EDAT- 2023/12/14 12:42
+MHDA- 2024/11/21 12:24
+PMCR- 2023/12/14
+CRDT- 2023/12/14 09:43
+PHST- 2024/11/21 12:24 [medline]
+PHST- 2023/12/14 12:42 [pubmed]
+PHST- 2023/12/14 09:43 [entrez]
+PHST- 2023/12/14 00:00 [pmc-release]
+AID - 2292461 [pii]
+AID - 10.1080/21688370.2023.2292461 [doi]
+PST - ppublish
+SO  - Tissue Barriers. 2024 Oct;12(4):2292461. doi: 10.1080/21688370.2023.2292461. Epub 
+      2023 Dec 14.
+
+PMID- 38651744
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20240429
+LR  - 20240630
+IS  - 1752-8062 (Electronic)
+IS  - 1752-8054 (Print)
+IS  - 1752-8054 (Linking)
+VI  - 17
+IP  - 4
+DP  - 2024 Apr
+TI  - A pharmacokinetic study comparing the biosimilar HEC14028 and Dulaglutide 
+      (Trulicity®) in healthy Chinese subjects.
+PG  - e13775
+LID - 10.1111/cts.13775 [doi]
+LID - e13775
+AB  - This study aimed to evaluate the pharmacokinetics (PKs), safety, and 
+      immunogenicity of the biosimilar HEC14028 compared to reference Trulicity® 
+      (dulaglutide) in healthy male Chinese subjects. This study was a single-center, 
+      randomized, open, single-dose, parallel-controlled comparative Phase I clinical 
+      trial, including a screening period of up to 14 days, a 17-day observation period 
+      after administration, and a 7-day safety follow-up period. A total of 68 healthy 
+      male subjects were randomly assigned (1:1) to the test group (HEC14028) and the 
+      reference group (dulaglutide) (single 0.75 mg abdominal subcutaneous dose). The 
+      primary objective was to evaluate the pharmacokinetic characteristics of HEC14028 
+      and compare the pharmacokinetic similarities between HEC14028 and dulaglutide. 
+      The primary PK endpoints were maximum plasma concentration (C(max)) and area 
+      under the blood concentration-time curve from zero time to the estimated infinite 
+      time (AUC(0-∞)). The study results showed that HEC14028 and dulaglutide were 
+      pharmacokinetically equivalent: 90% confidence interval (CI) of C(max) and 
+      AUC(0-∞) geometric mean ratios were 102.9%-122.0% and 97.1%-116.9%, respectively, 
+      which were both within the range of 80.00%-125.00%. No grade 3 or above treatment 
+      emergent adverse events (TEAEs), serious adverse events (SAEs), TEAEs leading to 
+      withdrawal from the trial, or TEAEs leading to death were reported in this study. 
+      Both HEC14028 and dulaglutide showed good and similar safety profiles, and no 
+      incremental immunogenicity was observed in subjects receiving HEC14028 and 
+      dulaglutide.
+CI  - © 2024 The Authors. Clinical and Translational Science published by Wiley 
+      Periodicals LLC on behalf of American Society for Clinical Pharmacology and 
+      Therapeutics.
+FAU - Gao, Xianglei
+AU  - Gao X
+AUID- ORCID: 0009-0008-6978-433X
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Di, Yujing
+AU  - Di Y
+AUID- ORCID: 0000-0002-2300-2928
+AD  - Peking University (PKU) Care, Luzhong Hospital, Zibo City, Shandong, China.
+FAU - Lv, Yuan
+AU  - Lv Y
+AUID- ORCID: 0000-0002-9862-6401
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Luan, Yingcai
+AU  - Luan Y
+AUID- ORCID: 0000-0001-7140-1555
+AD  - Peking University (PKU) Care, Luzhong Hospital, Zibo City, Shandong, China.
+FAU - Xiong, Yang
+AU  - Xiong Y
+AUID- ORCID: 0009-0007-8520-3622
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Xu, Yuli
+AU  - Xu Y
+AUID- ORCID: 0009-0004-9552-8058
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Li, Yusheng
+AU  - Li Y
+AUID- ORCID: 0009-0001-1083-5322
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Guo, Linfeng
+AU  - Guo L
+AUID- ORCID: 0009-0005-4487-1224
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Li, Xiaoping
+AU  - Li X
+AUID- ORCID: 0009-0005-9369-7146
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Deng, Li
+AU  - Deng L
+AUID- ORCID: 0009-0004-5690-2078
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Zhuang, Yulei
+AU  - Zhuang Y
+AUID- ORCID: 0009-0005-7322-881X
+AD  - Sunshine Lake Pharma Co., Ltd., Dongguan, Guangdong, China.
+FAU - Hou, Jie
+AU  - Hou J
+AUID- ORCID: 0000-0001-5182-9386
+AD  - Peking University (PKU) Care, Luzhong Hospital, Zibo City, Shandong, China.
+LA  - eng
+PT  - Clinical Trial, Phase I
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - Clin Transl Sci
+JT  - Clinical and translational science
+JID - 101474067
+RN  - 0 (Biosimilar Pharmaceuticals)
+RN  - WTT295HSY5 (dulaglutide)
+RN  - 62340-29-8 (Glucagon-Like Peptides)
+RN  - 0 (Hypoglycemic Agents)
+RN  - 0 (Immunoglobulin Fc Fragments)
+RN  - 0 (Recombinant Fusion Proteins)
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Young Adult
+MH  - Area Under Curve
+MH  - Asian People
+MH  - *Biosimilar Pharmaceuticals/pharmacokinetics/administration & dosage/adverse 
+      effects
+MH  - China
+MH  - East Asian People
+MH  - *Glucagon-Like Peptides/pharmacokinetics/analogs & derivatives/administration & 
+      dosage/adverse effects
+MH  - *Healthy Volunteers
+MH  - Hypoglycemic Agents/pharmacokinetics/administration & dosage/adverse effects
+MH  - *Immunoglobulin Fc Fragments/administration & dosage/adverse effects/immunology
+MH  - Injections, Subcutaneous
+MH  - *Recombinant Fusion Proteins/pharmacokinetics/administration & dosage/adverse 
+      effects
+MH  - Therapeutic Equivalency
+PMC - PMC11036873
+COIS- The authors declared no competing interests for this work.
+EDAT- 2024/04/23 16:23
+MHDA- 2024/04/30 15:56
+PMCR- 2024/04/23
+CRDT- 2024/04/23 08:04
+PHST- 2024/03/06 00:00 [revised]
+PHST- 2023/08/14 00:00 [received]
+PHST- 2024/03/08 00:00 [accepted]
+PHST- 2024/04/30 15:56 [medline]
+PHST- 2024/04/23 16:23 [pubmed]
+PHST- 2024/04/23 08:04 [entrez]
+PHST- 2024/04/23 00:00 [pmc-release]
+AID - CTS13775 [pii]
+AID - 10.1111/cts.13775 [doi]
+PST - ppublish
+SO  - Clin Transl Sci. 2024 Apr;17(4):e13775. doi: 10.1111/cts.13775.

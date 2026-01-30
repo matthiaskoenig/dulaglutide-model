@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	day	0.0								kg	kg
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	7.0	day	-0.523809814453125				2.799597559691116	0.1619049072265619			kg	kg
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	14.0	day	-0.885714285714286				2.634910472414437	0.1523808070591489			kg	kg
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	28.0	day	-1.28571428571428				3.787682390618216	0.2190473284040099			kg	kg
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	56.0	day	-1.89523838588169				4.775782298638676	0.27619062151228			kg	kg
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	84.0	day	-2.32380981445312				5.269820944829085	0.30476161411831			kg	kg
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	140.0	day	-2.52380981445312				6.587287488856135	0.3809526715959901			kg	kg
+Dungan2014	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	182.0	day	-2.73333347865513				7.081333673592861	0.4095241001674101			kg	kg

@@ -1,0 +1,3 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Gerstein2019	PLAC	S0T168R261	NA	hr	subcutaneous	multiple dose	dosing	solution	placebo	0.0	mg	NA
+Gerstein2019	DUL15	S0T168R261	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

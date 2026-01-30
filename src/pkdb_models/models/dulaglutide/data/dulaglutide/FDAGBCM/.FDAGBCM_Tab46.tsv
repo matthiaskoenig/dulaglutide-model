@@ -1,0 +1,36 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	se	min	max	sd	cv	unit	comments
+FDAGBCM	control	16.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	9460.0	NA	NA	NA	NA	NA	25.0	ng/ml*hr	geometric mean
+FDAGBCM	control	16.0	DUL15	auc_inf	dulaglutide	plasma	NR	504.0	hr	15900.0	NA	NA	NA	NA	NA	24.0	ng/ml*hr	geometric mean
+FDAGBCM	control	16.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	74.7	NA	NA	NA	NA	NA	29.0	ng/ml	geometric mean
+FDAGBCM	control	16.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	48.1	NA	NA	12.02	96.05	NA	NA	hr	geometric mean
+FDAGBCM	control	16.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	NA	108.0	NA	84.4	169.0	NA	NA	hr	NA
+FDAGBCM	control	16.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0941	NA	NA	NA	NA	NA	24.0	l/hr	geometric mean
+FDAGBCM	control	16.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	14.6	NA	NA	NA	NA	NA	23.0	l	geometric mean
+FDAGBCM	mildR	8.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	10900.0	NA	NA	NA	NA	NA	11.0	ng/ml*hr	geometric mean
+FDAGBCM	mildR	8.0	DUL15	auc_inf	dulaglutide	plasma	NR	504.0	hr	19700.0	NA	NA	NA	NA	NA	18.0	ng/ml*hr	geometric mean
+FDAGBCM	mildR	8.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	86.1	NA	NA	NA	NA	NA	15.0	ng/ml	geometric mean
+FDAGBCM	mildR	8.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	71.38	NA	NA	47.37	94.47	NA	NA	hr	geometric mean
+FDAGBCM	mildR	8.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	NA	119.0	NA	96.9	187.0	NA	NA	hr	NA
+FDAGBCM	mildR	8.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0763	NA	NA	NA	NA	NA	18.0	l/hr	geometric mean
+FDAGBCM	mildR	8.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	13.1	NA	NA	NA	NA	NA	13.0	l	geometric mean
+FDAGBCM	modR	8.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	11400.0	NA	NA	NA	NA	NA	23.0	ng/ml*hr	geometric mean
+FDAGBCM	modR	8.0	DUL15	auc_inf	dulaglutide	plasma	NR	504.0	hr	20500.0	NA	NA	NA	NA	NA	12.0	ng/ml*hr	geometric mean
+FDAGBCM	modR	8.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	92.3	NA	NA	NA	NA	NA	36.0	ng/ml	geometric mean
+FDAGBCM	modR	8.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	71.73	NA	NA	47.88	97.02	NA	NA	hr	geometric mean
+FDAGBCM	modR	8.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	NA	137.0	NA	83.3	168.0	NA	NA	hr	NA
+FDAGBCM	modR	8.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.073	NA	NA	NA	NA	NA	12.0	l/hr	geometric mean
+FDAGBCM	modR	8.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	14.4	NA	NA	NA	NA	NA	36.0	l	geometric mean
+FDAGBCM	sevR	8.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	10200.0	NA	NA	NA	NA	NA	19.0	ng/ml*hr	geometric mean
+FDAGBCM	sevR	8.0	DUL15	auc_inf	dulaglutide	plasma	NR	504.0	hr	17000.0	NA	NA	NA	NA	NA	15.0	ng/ml*hr	geometric mean
+FDAGBCM	sevR	8.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	85.0	NA	NA	NA	NA	NA	20.0	ng/ml	geometric mean
+FDAGBCM	sevR	8.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	59.95	NA	NA	47.6	97.47	NA	NA	hr	geometric mean
+FDAGBCM	sevR	8.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	NA	103.0	NA	88.8	121.0	NA	NA	hr	NA
+FDAGBCM	sevR	8.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0881	NA	NA	NA	NA	NA	15.0	l/hr	geometric mean
+FDAGBCM	sevR	8.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	13.1	NA	NA	NA	NA	NA	22.0	l	geometric mean
+FDAGBCM	ESR	8.0	DUL15	auc_end	dulaglutide	plasma	NR	168.0	hr	10400.0	NA	NA	NA	NA	NA	11.0	ng/ml*hr	geometric mean
+FDAGBCM	ESR	8.0	DUL15	auc_inf	dulaglutide	plasma	NR	504.0	hr	18300.0	NA	NA	NA	NA	NA	14.0	ng/ml*hr	geometric mean
+FDAGBCM	ESR	8.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	84.6	NA	NA	NA	NA	NA	13.0	ng/ml	geometric mean
+FDAGBCM	ESR	8.0	DUL15	tmax	dulaglutide	plasma	NR	NA	NA	60.68	NA	NA	46.7	72.33	NA	NA	hr	geometric mean
+FDAGBCM	ESR	8.0	DUL15	thalf	dulaglutide	plasma	NR	NA	NA	NA	123.0	NA	90.6	203.0	NA	NA	hr	NA
+FDAGBCM	ESR	8.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0819	NA	NA	NA	NA	NA	14.0	l/hr	geometric mean
+FDAGBCM	ESR	8.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	14.6	NA	NA	NA	NA	NA	20.0	l	geometric mean

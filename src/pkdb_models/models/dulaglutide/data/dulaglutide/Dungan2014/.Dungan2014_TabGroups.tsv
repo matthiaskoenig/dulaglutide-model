@@ -1,0 +1,37 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Dungan2014	all	599.0	NA	species	599.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	sex	287.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	sex	312.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	ethnicity	515.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	ethnicity	43.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	ethnicity	1.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	ethnicity	37.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	ethnicity	3.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	healthy	599.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	disease	599.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	all	599.0	NA	medication	599.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	metformin
+Dungan2014	DUL15	299.0	all	sex	138.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	DUL15	299.0	all	sex	161.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	DUL15	299.0	all	ethnicity	256.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	DUL15	299.0	all	ethnicity	20.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	DUL15	299.0	all	ethnicity	1.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	DUL15	299.0	all	ethnicity	21.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	DUL15	299.0	all	ethnicity	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	DUL15	299.0	all	weight	299.0	NA	NA	93.8	NA	18.2	NA	NA	NA	kg	NA
+Dungan2014	DUL15	299.0	all	bmi	299.0	NA	NA	33.5	NA	5.1	NA	NA	NA	kg/m^2	NA
+Dungan2014	DUL15	299.0	all	hba1c	299.0	NA	NA	8.1	NA	0.8	NA	NA	NA	percent	NA
+Dungan2014	DUL15	299.0	all	concentration	299.0	glucose	NA	9.3	NA	2.2	NA	NA	NA	mmol/l	fasting serum glucose
+Dungan2014	DUL15	299.0	all	blood pressure systolic	299.0	NA	NA	132.2	NA	15.0	NA	NA	NA	mmHg	NA
+Dungan2014	DUL15	299.0	all	blood pressure diastolic	299.0	NA	NA	79.9	NA	9.5	NA	NA	NA	mmHg	NA
+Dungan2014	LIR	300.0	all	sex	149.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	LIR	300.0	all	sex	151.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	LIR	300.0	all	ethnicity	259.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	LIR	300.0	all	ethnicity	23.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	LIR	300.0	all	ethnicity	16.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	LIR	300.0	all	ethnicity	2.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Dungan2014	LIR	300.0	all	weight	300.0	NA	NA	94.4	NA	19.0	NA	NA	NA	kg	NA
+Dungan2014	LIR	300.0	all	bmi	300.0	NA	NA	33.6	NA	5.2	NA	NA	NA	kg/m^2	NA
+Dungan2014	LIR	300.0	all	hba1c	300.0	NA	NA	8.1	NA	0.8	NA	NA	NA	percent	NA
+Dungan2014	LIR	300.0	all	concentration	300.0	glucose	NA	9.2	NA	2.3	NA	NA	NA	mmol/l	fasting serum glucose
+Dungan2014	LIR	300.0	all	blood pressure systolic	300.0	NA	NA	130.9	NA	15.1	NA	NA	NA	mmHg	NA
+Dungan2014	LIR	300.0	all	blood pressure diastolic	300.0	NA	NA	79.1	NA	9.2	NA	NA	NA	mmHg	NA

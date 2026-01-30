@@ -1,0 +1,8 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Barrington2011a	PLAC	S1T168R5	NA	hr	subcutaneous	multiple dose	dosing	solution	placebo	0.0	mg	NA
+Barrington2011a	DUL005	S1T168R5	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.05	mg	NA
+Barrington2011a	DUL03	S1T168R5	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.3	mg	NA
+Barrington2011a	DUL1	S1T168R5	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.0	mg	NA
+Barrington2011a	DUL3	S1T168R5	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	3.0	mg	NA
+Barrington2011a	DUL5	S1T168R5	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	5.0	mg	NA
+Barrington2011a	DUL8	S1T168R5	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	8.0	mg	NA

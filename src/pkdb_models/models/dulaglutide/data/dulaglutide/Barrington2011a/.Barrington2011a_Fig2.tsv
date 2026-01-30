@@ -1,0 +1,22 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	3.0	day	2.34309608471627	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	31.0	day	-0.669456024204649	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	36.0	day	1.56206575899223	NA	NA	NA	19.6281056647703	5.91809653049931	NA	mg/dl	NA
+Barrington2011a	DUL005	11.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	3.0	day	0.334728012102331	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL005	11.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	31.0	day	-35.7043229934294	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL005	11.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	36.0	day	-21.4225927745488	NA	NA	NA	42.7612253275357	12.892994544298	NA	mg/dl	NA
+Barrington2011a	DUL03	11.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	3.0	day	-7.58716997683409	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL03	11.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	31.0	day	-17.5174309308403	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL03	11.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	36.0	day	-12.7196644598883	NA	NA	NA	26.6381416831124	8.0317019159282	NA	mg/dl	NA
+Barrington2011a	DUL1	11.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	3.0	day	-24.6582985940527	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL1	11.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	31.0	day	-52.3291441894822	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL1	11.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	36.0	day	-36.0390510055317	NA	NA	NA	28.3906567044625	8.5601050764082	NA	mg/dl	NA
+Barrington2011a	DUL3	11.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	3.0	day	-30.9065514149333	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL3	11.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	31.0	day	-54.783819683262	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL3	11.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	36.0	day	-52.5523030076092	NA	NA	NA	43.8127311314045	13.2100354730538	NA	mg/dl	NA
+Barrington2011a	DUL5	11.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	3.0	day	-19.3026504004154	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL5	11.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	31.0	day	-49.3165920805612	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL5	11.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	36.0	day	-41.8410066203348	NA	NA	NA	23.4836403162108	7.0805839673213	NA	mg/dl	NA
+Barrington2011a	DUL8	11.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	3.0	day	-48.5355668623813	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL8	11.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	31.0	day	-74.5327723972992	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL8	11.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	36.0	day	-72.4128249156217	NA	NA	NA	29.4421625083316	8.87714600516409	NA	mg/dl	NA

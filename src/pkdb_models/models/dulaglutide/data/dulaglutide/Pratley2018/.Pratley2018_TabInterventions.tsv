@@ -1,0 +1,8 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Pratley2018	SEM05	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	semaglutide	0.25	mg	NA
+Pratley2018	SEM05	S672T168R36	NA	hr	subcutaneous	multiple dose	dosing	solution	semaglutide	0.5	mg	NA
+Pratley2018	SEM10	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	semaglutide	0.25	mg	NA
+Pratley2018	SEM10	S672T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	semaglutide	0.5	mg	NA
+Pratley2018	SEM10	S1344T168R32	NA	hr	subcutaneous	multiple dose	dosing	solution	semaglutide	1.0	mg	NA
+Pratley2018	DUL075	S0T168R40	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Pratley2018	DUL15	S0T168R40	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

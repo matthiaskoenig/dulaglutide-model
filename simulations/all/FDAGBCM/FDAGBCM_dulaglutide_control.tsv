@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	0.0	hr	0.0				0.0				mole/meter^3	ng/ml
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	12.0	hr	1.362496153512828e-05				2.0763236839685635e-06				mole/meter^3	ng/ml
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	24.0	hr	1.928455961343369e-05				3.9459954792499546e-06				mole/meter^3	ng/ml
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	48.0	hr	2.2848008656096092e-05				2.218955465619924e-06				mole/meter^3	ng/ml
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	72.0	hr	2.148551442166355e-05				4.958755421025886e-06				mole/meter^3	ng/ml
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	96.0	hr	1.917974904314605e-05				4.785370501791257e-06				mole/meter^3	ng/ml
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	168.0	hr	1.2576884618456434e-05				2.9407584367761116e-06				mole/meter^3	ng/ml
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	336.0	hr	3.877875955824534e-06				1.2640626003405237e-06				mole/meter^3	ng/ml

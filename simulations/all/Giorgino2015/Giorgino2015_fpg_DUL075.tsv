@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	0.0	week	8.955721386008047				2.6539565687627604	0.1609197538060396			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	2.0	week	7.478835590956261				1.8872562046236954	0.11443171579802618			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	4.0	week	7.4573796237821375				2.064186642541646	0.1251596993851221			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	8.0	week	7.636179241102575				1.9462348170928117	0.11800781945776974			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	14.0	week	7.832859049329484				2.182143867478991	0.13231190670455428			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	20.0	week	7.96517095603408				1.9462348170928336	0.11800781945777086			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	26.0	week	7.90437883077925				2.2411224799472187	0.13588801036424342			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	35.0	week	8.02238665023701				2.1231679547541127	0.12873596674085033			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	44.0	week	8.176154524115729				2.3000956929268868	0.13946378663185			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	52.0	week	8.111786622593304				2.4180502181199652	0.14661583025524144			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	65.0	week	8.412170163031192				2.359074305396025	0.14303989029159467			mole/meter^3	mg/dl
+Giorgino2015	DUL075	272.0	DUL075	concentration	glucose	serum	NR	fpg_DUL075	78.0	week	8.40859422306755				2.5949806560379103	0.15734381384233734			mole/meter^3	mg/dl

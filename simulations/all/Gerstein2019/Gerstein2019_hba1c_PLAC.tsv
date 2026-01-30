@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Gerstein2019	plac	4949.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	0.0	month	7.35346096175117								percent	percent
+Gerstein2019	plac	4949.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	3.0	month	7.42415314421353								percent	percent
+Gerstein2019	plac	4949.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	12.0	month	7.39469805170775								percent	percent
+Gerstein2019	plac	4949.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	24.0	month	7.45949923544471								percent	percent
+Gerstein2019	plac	4949.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	36.0	month	7.48895432795048								percent	percent
+Gerstein2019	plac	4949.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	48.0	month	7.49926362515932								percent	percent
+Gerstein2019	plac	4949.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	60.0	month	7.54491896415996								percent	percent

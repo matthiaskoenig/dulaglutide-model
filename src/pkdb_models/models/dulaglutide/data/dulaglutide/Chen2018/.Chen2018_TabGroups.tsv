@@ -1,0 +1,69 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Chen2018	all	720.0	NA	species	720.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	sex	391.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	sex	329.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	ethnicity	556.0	NA	chinese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	ethnicity	78.0	NA	korean	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	ethnicity	86.0	NA	taiwanese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	healthy	720.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	disease	720.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	age	720.0	NA	NA	52.8	NA	10.32	NA	NA	NA	yr	NA
+Chen2018	all	720.0	NA	bmi	720.0	NA	NA	25.9	NA	3.36	NA	NA	NA	kg/m^2	NA
+Chen2018	all	720.0	NA	hba1c	720.0	NA	NA	8.0	NA	1.0	NA	NA	NA	percent	NA
+Chen2018	all	720.0	NA	alcohol	139.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	alcohol	580.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	alcohol	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	smoking	176.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	smoking	541.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	smoking	3.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	all	720.0	NA	blood pressure systolic	720.0	NA	NA	127.0	NA	13.9	NA	NA	NA	mmHg	NA
+Chen2018	all	720.0	NA	blood pressure diastolic	720.0	NA	NA	78.0	NA	8.8	NA	NA	NA	mmHg	NA
+Chen2018	all	720.0	NA	heart rate	720.0	NA	NA	1.2666	NA	0.15833	NA	NA	NA	1/s	NA
+Chen2018	GLIM	242.0	all	sex	130.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	sex	112.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	ethnicity	186.0	NA	chinese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	ethnicity	27.0	NA	korean	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	ethnicity	29.0	NA	taiwanese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	age	242.0	NA	NA	52.0	NA	10.05	NA	NA	NA	yr	NA
+Chen2018	GLIM	242.0	all	bmi	242.0	NA	NA	25.7	NA	3.14	NA	NA	NA	kg/m^2	NA
+Chen2018	GLIM	242.0	all	hba1c	242.0	NA	NA	7.9	NA	1.01	NA	NA	NA	percent	NA
+Chen2018	GLIM	242.0	all	alcohol	40.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	alcohol	201.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	alcohol	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	smoking	60.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	smoking	181.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	smoking	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	GLIM	242.0	all	blood pressure systolic	242.0	NA	NA	126.0	NA	14.7	NA	NA	NA	mmHg	NA
+Chen2018	GLIM	242.0	all	blood pressure diastolic	242.0	NA	NA	78.0	NA	8.6	NA	NA	NA	mmHg	NA
+Chen2018	GLIM	242.0	all	heart rate	242.0	NA	NA	1.2833	NA	0.16167	NA	NA	NA	1/s	NA
+Chen2018	DUL075	239.0	all	sex	127.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	sex	112.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	ethnicity	186.0	NA	chinese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	ethnicity	25.0	NA	korean	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	ethnicity	28.0	NA	taiwanese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	age	239.0	NA	NA	53.8	NA	10.09	NA	NA	NA	yr	NA
+Chen2018	DUL075	239.0	all	bmi	239.0	NA	NA	26.2	NA	3.49	NA	NA	NA	kg/m^2	NA
+Chen2018	DUL075	239.0	all	hba1c	239.0	NA	NA	8.0	NA	1.03	NA	NA	NA	percent	NA
+Chen2018	DUL075	239.0	all	alcohol	43.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	alcohol	196.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	smoking	46.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	smoking	193.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL075	239.0	all	blood pressure systolic	239.0	NA	NA	128.0	NA	13.7	NA	NA	NA	mmHg	NA
+Chen2018	DUL075	239.0	all	blood pressure diastolic	239.0	NA	NA	79.0	NA	9.3	NA	NA	NA	mmHg	NA
+Chen2018	DUL075	239.0	all	heart rate	239.0	NA	NA	1.25	NA	0.155	NA	NA	NA	1/s	NA
+Chen2018	DUL15	239.0	all	sex	134.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	sex	105.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	ethnicity	184.0	NA	chinese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	ethnicity	26.0	NA	korean	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	ethnicity	29.0	NA	taiwanese	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	age	239.0	NA	NA	52.7	NA	10.75	NA	NA	NA	yr	NA
+Chen2018	DUL15	239.0	all	bmi	239.0	NA	NA	25.8	NA	3.43	NA	NA	NA	kg/m^2	NA
+Chen2018	DUL15	239.0	all	hba1c	239.0	NA	NA	8.0	NA	0.95	NA	NA	NA	percent	NA
+Chen2018	DUL15	239.0	all	alcohol	56.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	alcohol	183.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	smoking	70.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	smoking	167.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	smoking	2.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Chen2018	DUL15	239.0	all	blood pressure systolic	239.0	NA	NA	128.0	NA	13.3	NA	NA	NA	mmHg	NA
+Chen2018	DUL15	239.0	all	blood pressure diastolic	239.0	NA	NA	79.0	NA	8.7	NA	NA	NA	mmHg	NA
+Chen2018	DUL15	239.0	all	heart rate	239.0	NA	NA	1.2667	NA	0.16	NA	NA	NA	1/s	NA

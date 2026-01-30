@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	min	max	sd	ci	unit	comments
+Gao2024	all	33.0	DUL075	auc_inf	dulaglutide	plasma	ELISA	400.0	hr	6475.0	NA	NA	NA	1951.40523214921	1117.6	ng/ml*hr	mean is geometric mean
+Gao2024	all	33.0	DUL075	cmax	dulaglutide	plasma	ELISA	NA	NA	48.9	NA	NA	NA	13.6193278550142	7.8	ng/ml	mean is geometric mean
+Gao2024	all	35.0	HEC14028	auc_inf	HEC14028	plasma	ELISA	400.0	hr	6898.7	NA	NA	NA	2051.74681839412	1141.0	ng/ml*hr	mean is geometric mean
+Gao2024	all	35.0	HEC14028	cmax	HEC14028	plasma	ELISA	NA	NA	54.8	NA	NA	NA	15.1048845525948	8.4	ng/ml	mean is geometric mean

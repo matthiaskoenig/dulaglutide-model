@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Umpierrez2011	PLAC	66.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Umpierrez2011	PLAC	66.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	16.0	week	-0.5	NA	NA	NA	NA	2.538761946422554	0.31249999322674504	NA	mmol/l	NA
+Umpierrez2011	DUL0510	66.0	DUL0510	concentration change absolute	glucose	plasma	NR	fpg_change_DUL0510	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Umpierrez2011	DUL0510	66.0	DUL0510	concentration change absolute	glucose	plasma	NR	fpg_change_DUL0510	16.0	week	-2.10227262752115	NA	NA	NA	NA	2.769558487006462	0.3409090835200903	NA	mmol/l	NA
+Umpierrez2011	DUL1010	65.0	DUL1010	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1010	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Umpierrez2011	DUL1010	65.0	DUL1010	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1010	16.0	week	-2.04545444693447	NA	NA	NA	NA	2.702689317386148	0.33522735215907984	NA	mmol/l	NA
+Umpierrez2011	DUL1020	65.0	DUL1020	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1020	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Umpierrez2011	DUL1020	65.0	DUL1020	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1020	16.0	week	-2.64772729119978	NA	NA	NA	NA	2.611072404560839	0.32386367269291005	NA	mmol/l	NA

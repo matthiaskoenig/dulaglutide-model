@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	0.0	week	0.0									kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	2.0	week	0.316666349229367				1.75557653727508		0.399999989100866			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	4.0	week	0.708333513850252				1.97502360443446		0.449999987738474			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	6.0	week	1.27499991076333				2.41391773875319		0.54999998501368			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	8.0	week	1.633333488646				2.77966061835452		0.63333280745008			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	13.0	week	2.03333347774686				3.36485391361175		0.76666639146352			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	19.0	week	2.39166667415982				3.80374804793045		0.866666388738721			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	26.0	week	2.79999986921038				4.24264553074578		0.966667148953381			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	39.0	week	3.55833343619391				4.75468422278901		1.08333279518856			kg	kg
+Blonde2015	GLAR	296.0	GLAR	weight (change)			NR	bodyweight_change_GLAR	52.0	week	3.64166664010002				5.33987751804624		1.216666379202			kg	kg

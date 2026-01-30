@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	cv	se	min	max	sd	ci	unit	comments
+FDAGBDO	control	11.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	16084.0	NA	NA	NA	NA	NA	3366.02132978623	3339.0	ng/ml*hr	geometric mean
+FDAGBDO	mildH	6.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	12446.0	NA	NA	NA	NA	NA	2611.79635795848	3508.0	ng/ml*hr	geometric mean
+FDAGBDO	modH	5.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	10763.0	NA	NA	NA	NA	NA	2281.60492415404	3357.0	ng/ml*hr	geometric mean
+FDAGBDO	sevH	3.0	DUL15	auc_inf	dulaglutide	plasma	NR	672.0	hr	12722.0	NA	NA	NA	NA	NA	2664.93653128075	5062.0	ng/ml*hr	geometric mean
+FDAGBDO	control	11.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	82.5	NA	NA	NA	NA	NA	18.7505231308846	18.6	ng/ml	geometric mean
+FDAGBDO	mildH	6.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	65.2	NA	NA	NA	NA	NA	14.8905151536971	20.0	ng/ml	geometric mean
+FDAGBDO	modH	5.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	57.9	NA	NA	NA	NA	NA	12.0299097877648	17.7	ng/ml	geometric mean
+FDAGBDO	sevH	3.0	DUL15	cmax	dulaglutide	plasma	NR	NA	NA	62.8	NA	NA	NA	NA	NA	14.3196905671348	27.2	ng/ml	geometric mean
+FDAGBDO	control	11.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.0933	NA	NA	NA	NA	NA	0.0190529509233183	0.0189	l/hr	geometric mean
+FDAGBDO	mildH	6.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.121	NA	NA	NA	NA	NA	0.0253138757612851	0.034	l/hr	geometric mean
+FDAGBDO	modH	6.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.139	NA	NA	NA	NA	NA	0.0327591333381337	0.044	l/hr	geometric mean
+FDAGBDO	sevH	3.0	DUL15	clearance	dulaglutide	plasma	NR	NA	NA	0.118	NA	NA	NA	NA	NA	0.0248488748076751	0.0472	l/hr	geometric mean
+FDAGBDO	control	11.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	14.1	NA	NA	NA	NA	NA	3.02427792433623	3.0	l	geometric mean
+FDAGBDO	mildH	6.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	17.3	NA	NA	NA	NA	NA	3.72262878842428	5.0	l	geometric mean
+FDAGBDO	modH	5.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	18.1	NA	NA	NA	NA	NA	3.94200433723367	5.8	l	geometric mean
+FDAGBDO	sevH	3.0	DUL15	vd	dulaglutide	plasma	NR	NA	NA	16.7	NA	NA	NA	NA	NA	3.5799226417837	6.8	l	geometric mean

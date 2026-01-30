@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Weinstock2015	SITA	315.0	SITA	hba1c (change)	NA	plasma	NR	hba1c_change_SITA	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Weinstock2015	SITA	315.0	SITA	hba1c (change)	NA	plasma	NR	hba1c_change_SITA	104.0	week	-0.32	NA	NA	NA	1.03954010573211	NA	0.058571449554695	NA	percent	NA
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	104.0	week	-0.71	NA	NA	NA	1.19164385602775	NA	0.068571398465001	NA	percent	NA
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	104.0	week	-0.99	NA	NA	NA	1.04613533817594	NA	0.0599999765838901	NA	percent	NA

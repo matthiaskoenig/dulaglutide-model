@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Blonde2015	GLAR	S0T24R364	NA	hr	subcutaneous	multiple dose	dosing	solution	insulin glargine	0.18	ml	dosage depends on patients' weight: mean dose calculated from mean weight
+Blonde2015	DUL075	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Blonde2015	DUL15	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Umpierrez2014	MET	S0T168R52	NA	hr	oral	multiple dose	dosing	tablet	metformin	1500.0	mg	minimum 1500mg; depending on individual tolerance
+Umpierrez2014	DUL075	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.75	mg	NA
+Umpierrez2014	DUL15	S0T168R52	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.5	mg	NA

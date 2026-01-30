@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	0.0	hr	0.0				0.0				mole/meter^3	ng/ml
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	12.0	hr	1.549216429162976e-05				9.391157666221987e-06				mole/meter^3	ng/ml
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	24.0	hr	2.228368390467652e-05				9.30252449417794e-06				mole/meter^3	ng/ml
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	48.0	hr	2.7943281982981927e-05				9.060330319435558e-06				mole/meter^3	ng/ml
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	72.0	hr	2.643405966692774e-05				7.080376741289235e-06				mole/meter^3	ng/ml
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	96.0	hr	2.429598352454927e-05				5.453820048476348e-06				mole/meter^3	ng/ml
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	168.0	hr	1.4737553133602668e-05				3.3510591997124236e-06				mole/meter^3	ng/ml
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	336.0	hr	5.430656596864599e-06				2.5577165847811504e-06				mole/meter^3	ng/ml

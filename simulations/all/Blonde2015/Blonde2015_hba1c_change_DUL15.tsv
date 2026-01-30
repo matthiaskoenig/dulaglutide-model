@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Blonde2015	DUL15	295.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	0.0	week	0.0							the error bars are not specified whether they are SD or SE or 95% CI.	percent	percent
+Blonde2015	DUL15	295.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	26.0	week	-1.48							the error bars are not specified whether they are SD or SE or 95% CI.	percent	percent
+Blonde2015	DUL15	295.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	52.0	week	-1.64							the error bars are not specified whether they are SD or SE or 95% CI.	percent	percent

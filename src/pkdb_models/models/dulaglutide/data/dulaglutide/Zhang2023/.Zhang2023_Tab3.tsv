@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	cv	se	min	max	sd	unit	comments
+Zhang2023	DULP	12	DULP	cmax	dulaglutide	plasma	NR	NA	NA	55.85	NA	21.5	NA	NA	NA	12.0066	ng/ml	NA
+Zhang2023	DULP	12	DULP	auc_end	dulaglutide	plasma	NR	360.0	hr	7290.0	NA	16.9	NA	NA	NA	1230.0	ng/ml*hr	NA
+Zhang2023	DULP	12	DULP	auc_inf	dulaglutide	plasma	NR	672.0	hr	7860.0	NA	15.3	NA	NA	NA	1200.0	ng/ml*hr	NA
+Zhang2023	DULP	12	DULP	thalf	dulaglutide	plasma	NR	NA	NA	71.058	NA	9.2	NA	NA	NA	6.5309	hr	NA
+Zhang2023	DULP	12	DULP	clearance	dulaglutide	plasma	NR	NA	NA	0.09770000000000001	NA	17.4	NA	NA	NA	0.0174	l/hr	NA
+Zhang2023	DULP	12	DULP	tmax	dulaglutide	plasma	NR	NA	NA	NA	36.0	NA	NA	23.98	72.0	NA	hr	NA

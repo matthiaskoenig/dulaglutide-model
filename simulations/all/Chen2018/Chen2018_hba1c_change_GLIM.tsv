@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Chen2018	GLIM	242.0	GLIM	hba1c (change)		plasma	NR	hba1c_change_GLIM	0.0	week	0.0									percent	percent
+Chen2018	GLIM	242.0	GLIM	hba1c (change)		plasma	NR	hba1c_change_GLIM	4.0	week	-0.357615894039735				0.2848880363151792	0.07178812258554				percent	percent
+Chen2018	GLIM	242.0	GLIM	hba1c (change)		plasma	NR	hba1c_change_GLIM	8.0	week	-0.66887417218543				0.404146109636464	0.101839623861754				percent	percent
+Chen2018	GLIM	242.0	GLIM	hba1c (change)		plasma	NR	hba1c_change_GLIM	16.0	week	-0.905077262693156				0.5363693882560403	0.135158190190397				percent	percent
+Chen2018	GLIM	242.0	GLIM	hba1c (change)		plasma	NR	hba1c_change_GLIM	26.0	week	-0.900662251655629				0.5550581478101431	0.139867517332367				percent	percent

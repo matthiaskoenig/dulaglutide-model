@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	0.0	hr	0.0									mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	2.0	hr	1.9160621978077443e-06									mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	4.0	hr	4.1346595197580706e-06				2.924515176244907e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	8.0	hr	7.66424494428815e-06				4.437194643900682e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	12.0	hr	1.0588756273590237e-05				4.3363470378912385e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	24.0	hr	1.3311580084759157e-05				3.428737818520666e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	36.0	hr	1.4118341698120317e-05				3.02535893531147e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	48.0	hr	1.593356013686149e-05				3.2270503003874978e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	72.0	hr	1.3714962814911152e-05				3.832120548672661e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	120.0	hr	1.0487912514523653e-05				2.9245151762449163e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	168.0	hr	7.66424494428815e-06				3.428741665463495e-06					mole/meter^3	ng/ml
+FDAGBDR	DUL075SC	16.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	336.0	hr	3.3278979063968804e-06				1.3109919495225488e-06					mole/meter^3	ng/ml

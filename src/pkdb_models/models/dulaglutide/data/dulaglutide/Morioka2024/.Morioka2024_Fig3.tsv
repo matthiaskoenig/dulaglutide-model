@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Morioka2024	DUL075	195.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Morioka2024	DUL075	195.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	8.0	week	0.0	NA	NA	NA	1.32292901936284	0.094736914806413	NA	NA	kg	NA
+Morioka2024	DUL075	195.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	16.0	week	0.2	NA	NA	NA	2.05788873835028	0.147368473465088	NA	NA	kg	NA
+Morioka2024	DUL075	195.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	26.0	week	0.0	NA	NA	NA	2.20488095129814	0.157894804471081	NA	NA	kg	NA
+Morioka2024	DUL075	195.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	38.0	week	-0.1	NA	NA	NA	2.30777500691931	0.165263200839137	NA	NA	kg	NA
+Morioka2024	DUL075	195.0	DUL075	weight (change)	NA	NA	NR	bodyweight_change_DUL075	52.0	week	-0.2	NA	NA	NA	2.58706124326333	0.185263303635182	NA	NA	kg	NA
+Morioka2024	DUL15	391.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Morioka2024	DUL15	391.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	8.0	week	-0.4	NA	NA	NA	1.29049689054915	0.065263232962901	NA	NA	kg	NA
+Morioka2024	DUL15	391.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	16.0	week	-0.2	NA	NA	NA	2.08144594196308	0.105263245812406	NA	NA	kg	NA
+Morioka2024	DUL15	391.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	26.0	week	-0.3	NA	NA	NA	2.31040621517514	0.116842264529398	NA	NA	kg	NA
+Morioka2024	DUL15	391.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	38.0	week	-0.3	NA	NA	NA	2.31040621517514	0.116842264529398	NA	NA	kg	NA
+Morioka2024	DUL15	391.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	52.0	week	-0.5	NA	NA	NA	2.685063918495	0.135789518995625	NA	NA	kg	NA

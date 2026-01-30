@@ -1,0 +1,7 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Umpierrez2011	PLAC	S0T168R16	NA	hr	subcutaneous	multiple dose	dosing	solution	placebo	0.0	mg	NA
+Umpierrez2011	DUL0510	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	0.5	mg	NA
+Umpierrez2011	DUL0510	S672T168R12	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.0	mg	NA
+Umpierrez2011	DUL1010	S0T168R16	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.0	mg	NA
+Umpierrez2011	DUL1020	S0T168R4	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	1.0	mg	NA
+Umpierrez2011	DUL1020	S672T168R12	NA	hr	subcutaneous	multiple dose	dosing	solution	dulaglutide	2.0	mg	NA

@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	ci	cv	unit	comments
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	0.0	day	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	3.0	day	-0.859271328186069	NA	NA	NA	0.905537727326049	NA	1.12251619642062	NA	mmol/l	NA
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	24.0	day	-0.99337728167516	NA	NA	NA	0.889510751140755	NA	1.10264895091031	NA	mmol/l	NA
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	29.0	day	-0.571191948331519	NA	NA	NA	0.905538094160019	NA	1.12251665115272	NA	mmol/l	NA
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	0.0	day	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	3.0	day	-1.43046350388363	NA	NA	NA	0.932926746338885	NA	1.10264895091029	NA	mmol/l	NA
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	24.0	day	-1.58443715761514	NA	NA	NA	0.93292713107761	NA	1.1026494056424	NA	mmol/l	NA
+Xu2022	B05	11.0	DUL05M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL05M	29.0	day	-1.00827794317394	NA	NA	NA	0.90771250995135	NA	1.07284762791271	NA	mmol/l	NA
+Xu2022	B075	11.0	DUL075M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075M	0.0	day	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Xu2022	B075	11.0	DUL075M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075M	3.0	day	-0.958609147300005	NA	NA	NA	0.924522129122628	NA	1.09271532815515	NA	mmol/l	NA
+Xu2022	B075	11.0	DUL075M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075M	24.0	day	-2.18543020157819	NA	NA	NA	0.899308277473792	NA	1.06291445988966	NA	mmol/l	NA
+Xu2022	B075	11.0	DUL075M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075M	29.0	day	-1.90231763310122	NA	NA	NA	0.907712509951356	NA	1.07284762791272	NA	mmol/l	NA
+Xu2022	B15	10.0	DUL15M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15M	0.0	day	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Xu2022	B15	10.0	DUL15M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15M	3.0	day	-1.40562899226364	NA	NA	NA	0.865470286862805	NA	1.07284808264482	NA	mmol/l	NA
+Xu2022	B15	10.0	DUL15M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15M	24.0	day	-2.42384078555879	NA	NA	NA	0.87348377495547	NA	1.0827817054	NA	mmol/l	NA
+Xu2022	B15	10.0	DUL15M	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15M	29.0	day	-2.06125832557636	NA	NA	NA	0.897523872399429	NA	1.11258211893336	NA	mmol/l	NA

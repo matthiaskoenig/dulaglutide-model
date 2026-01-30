@@ -1,0 +1,43 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Giorgino2015	all	807.0	NA	species	807.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	all	807.0	NA	sex	414.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	all	807.0	NA	sex	393.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	all	807.0	NA	healthy	807.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	all	807.0	NA	disease	807.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	all	807.0	NA	medication	807.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	Metformin/Glimepiride
+Giorgino2015	GLAR	262.0	all	sex	134.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	GLAR	262.0	all	sex	128.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	GLAR	262.0	all	age	262.0	NA	NA	57.0	NA	9.0	NA	NA	NA	yr	NA
+Giorgino2015	GLAR	262.0	all	ethnicity	184.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	GLAR	262.0	all	ethnicity	2.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	GLAR	262.0	all	ethnicity	43.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	GLAR	262.0	all	ethnicity	29.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	GLAR	262.0	all	ethnicity	4.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	GLAR	262.0	all	weight	262.0	NA	NA	88.0	NA	20.0	NA	NA	NA	kg	NA
+Giorgino2015	GLAR	262.0	all	bmi	262.0	NA	NA	32.0	NA	6.0	NA	NA	NA	kg/m^2	NA
+Giorgino2015	GLAR	262.0	all	hba1c	262.0	NA	NA	8.1	NA	1.0	NA	NA	NA	percent	NA
+Giorgino2015	GLAR	262.0	all	concentration	262.0	glucose	NA	163.0	NA	48.0	NA	NA	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	all	sex	136.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL075	272.0	all	sex	136.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL075	272.0	all	age	272.0	NA	NA	57.0	NA	9.0	NA	NA	NA	yr	NA
+Giorgino2015	DUL075	272.0	all	ethnicity	193.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL075	272.0	all	ethnicity	1.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL075	272.0	all	ethnicity	46.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL075	272.0	all	ethnicity	31.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL075	272.0	all	ethnicity	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL075	272.0	all	weight	272.0	NA	NA	86.0	NA	18.0	NA	NA	NA	kg	NA
+Giorgino2015	DUL075	272.0	all	bmi	272.0	NA	NA	32.0	NA	5.0	NA	NA	NA	kg/m^2	NA
+Giorgino2015	DUL075	272.0	all	hba1c	272.0	NA	NA	8.1	NA	1.0	NA	NA	NA	percent	NA
+Giorgino2015	DUL075	272.0	all	concentration	272.0	glucose	NA	161.0	NA	49.0	NA	NA	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	all	sex	144.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL15	273.0	all	sex	129.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL15	273.0	all	age	273.0	NA	NA	56.0	NA	10.0	NA	NA	NA	yr	NA
+Giorgino2015	DUL15	273.0	all	ethnicity	193.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL15	273.0	all	ethnicity	1.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL15	273.0	all	ethnicity	48.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL15	273.0	all	ethnicity	29.0	NA	american indian	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL15	273.0	all	ethnicity	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Giorgino2015	DUL15	273.0	all	weight	273.0	NA	NA	85.0	NA	18.0	NA	NA	NA	kg	NA
+Giorgino2015	DUL15	273.0	all	bmi	273.0	NA	NA	31.0	NA	5.0	NA	NA	NA	kg/m^2	NA
+Giorgino2015	DUL15	273.0	all	hba1c	273.0	NA	NA	8.2	NA	1.0	NA	NA	NA	percent	NA
+Giorgino2015	DUL15	273.0	all	concentration	273.0	glucose	NA	165.0	NA	49.0	NA	NA	NA	mg/dl	NA

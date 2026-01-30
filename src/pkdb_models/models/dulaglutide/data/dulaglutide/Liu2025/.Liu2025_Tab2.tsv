@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Liu2025	LY05008	222.0	LY05008	hba1c (change)	NA	plasma	NR	hba1c_change_LY05008	0.0	week	0.0	NA	NA	NA	NA	NA	NA	percent	NA
+Liu2025	LY05008	222.0	LY05008	hba1c (change)	NA	plasma	NR	hba1c_change_LY05008	12.0	week	-1.48520665181959	NA	NA	NA	0.7810649477147241	NA	NA	percent	NA
+Liu2025	LY05008	222.0	LY05008	hba1c (change)	NA	plasma	NR	hba1c_change_LY05008	24.0	week	-1.43786956283848	NA	NA	NA	0.8402367152401681	NA	NA	percent	NA
+Liu2025	DUL15	218.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	percent	NA
+Liu2025	DUL15	218.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	12.0	week	-1.40236661066962	NA	NA	NA	0.8994079410335399	NA	NA	percent	NA
+Liu2025	DUL15	218.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	24.0	week	-1.41420074748189	NA	NA	NA	0.91124207784581	NA	NA	percent	NA

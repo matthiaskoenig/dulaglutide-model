@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	hr	0.0									kg	kg
+Pratley2018	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	672.0	hr	-1.65667574931881				1.92310698613072					kg	kg
+Pratley2018	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	1344.0	hr	-2.24523160762941				2.11541768474367					kg	kg
+Pratley2018	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	2016.0	hr	-2.64850136239781				3.07697117780814					kg	kg
+Pratley2018	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	2688.0	hr	-2.85558583106261				3.07697117780814					kg	kg
+Pratley2018	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	4704.0	hr	-3.18256130790191				4.03852467087413					kg	kg
+Pratley2018	DUL15	299.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	6720.0	hr	-3.00817438692091				4.61545676671122					kg	kg

@@ -1,0 +1,3684 @@
+{
+  "experiment_id": "Barrington2011a",
+  "base_path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/dulaglutide",
+  "data_path": "[PosixPath('/home/mkoenig/git/pkdb_data/studies/dulaglutide')]",
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pkdb_models/pkdb_models/models/dulaglutide/models/results/models/dulaglutide_body_flat.xml",
+        "path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/dulaglutide/models/results/models/dulaglutide_body_flat.xml",
+        "content": "None"
+      },
+      "changes": {}
+    }
+  },
+  "tasks": {
+    "task_dul_PLAC": {
+      "model": "model",
+      "simulation": "dul_PLAC"
+    },
+    "task_dul_DUL005": {
+      "model": "model",
+      "simulation": "dul_DUL005"
+    },
+    "task_dul_DUL03": {
+      "model": "model",
+      "simulation": "dul_DUL03"
+    },
+    "task_dul_DUL1": {
+      "model": "model",
+      "simulation": "dul_DUL1"
+    },
+    "task_dul_DUL3": {
+      "model": "model",
+      "simulation": "dul_DUL3"
+    },
+    "task_dul_DUL5": {
+      "model": "model",
+      "simulation": "dul_DUL5"
+    },
+    "task_dul_DUL8": {
+      "model": "model",
+      "simulation": "dul_DUL8"
+    }
+  },
+  "simulations": {
+    "dul_PLAC": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "EC50_FAT": {
+              "_magnitude": 121.39836298612472,
+              "_units": "millimolar"
+            },
+            "Ksc_dul": {
+              "_magnitude": 0.00036025565931605973,
+              "_units": "per_min"
+            },
+            "DUL2DM_k": {
+              "_magnitude": 0.0021305886683688447,
+              "_units": "l_per_min"
+            },
+            "KI__DMEX_k": {
+              "_magnitude": 0.049281819602663014,
+              "_units": "KI__per_min"
+            },
+            "Emax_FAT": {
+              "_magnitude": 9.058086828747667e-05,
+              "_units": "per_min"
+            },
+            "k_fpg": {
+              "_magnitude": 1.0382112207761474,
+              "_units": "l2_per_min_mmole"
+            },
+            "BW0": {
+              "_magnitude": 83.2,
+              "_units": "kilogram"
+            },
+            "hba1c0": {
+              "_magnitude": 0.07400000000000001,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.07400000000000001,
+              "_units": "dimensionless"
+            },
+            "fpg0": {
+              "_magnitude": 8.792184724689166,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.792184724689166,
+              "_units": "millimole / liter"
+            },
+            "SCDOSE_dul": {
+              "_magnitude": 0,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 24000,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "dul_DUL005": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "EC50_FAT": {
+              "_magnitude": 121.39836298612472,
+              "_units": "millimolar"
+            },
+            "Ksc_dul": {
+              "_magnitude": 0.00036025565931605973,
+              "_units": "per_min"
+            },
+            "DUL2DM_k": {
+              "_magnitude": 0.0021305886683688447,
+              "_units": "l_per_min"
+            },
+            "KI__DMEX_k": {
+              "_magnitude": 0.049281819602663014,
+              "_units": "KI__per_min"
+            },
+            "Emax_FAT": {
+              "_magnitude": 9.058086828747667e-05,
+              "_units": "per_min"
+            },
+            "k_fpg": {
+              "_magnitude": 1.0382112207761474,
+              "_units": "l2_per_min_mmole"
+            },
+            "BW0": {
+              "_magnitude": 81.4,
+              "_units": "kilogram"
+            },
+            "hba1c0": {
+              "_magnitude": 0.081,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.081,
+              "_units": "dimensionless"
+            },
+            "fpg0": {
+              "_magnitude": 9.474911190053286,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 9.474911190053286,
+              "_units": "millimole / liter"
+            },
+            "SCDOSE_dul": {
+              "_magnitude": 0.05,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.05,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.05,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.05,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 24000,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.05,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "dul_DUL03": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "EC50_FAT": {
+              "_magnitude": 121.39836298612472,
+              "_units": "millimolar"
+            },
+            "Ksc_dul": {
+              "_magnitude": 0.00036025565931605973,
+              "_units": "per_min"
+            },
+            "DUL2DM_k": {
+              "_magnitude": 0.0021305886683688447,
+              "_units": "l_per_min"
+            },
+            "KI__DMEX_k": {
+              "_magnitude": 0.049281819602663014,
+              "_units": "KI__per_min"
+            },
+            "Emax_FAT": {
+              "_magnitude": 9.058086828747667e-05,
+              "_units": "per_min"
+            },
+            "k_fpg": {
+              "_magnitude": 1.0382112207761474,
+              "_units": "l2_per_min_mmole"
+            },
+            "BW0": {
+              "_magnitude": 85.7,
+              "_units": "kilogram"
+            },
+            "hba1c0": {
+              "_magnitude": 0.08199999999999999,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.08199999999999999,
+              "_units": "dimensionless"
+            },
+            "fpg0": {
+              "_magnitude": 10.296403197158082,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 10.296403197158082,
+              "_units": "millimole / liter"
+            },
+            "SCDOSE_dul": {
+              "_magnitude": 0.3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 24000,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 0.3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "dul_DUL1": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "EC50_FAT": {
+              "_magnitude": 121.39836298612472,
+              "_units": "millimolar"
+            },
+            "Ksc_dul": {
+              "_magnitude": 0.00036025565931605973,
+              "_units": "per_min"
+            },
+            "DUL2DM_k": {
+              "_magnitude": 0.0021305886683688447,
+              "_units": "l_per_min"
+            },
+            "KI__DMEX_k": {
+              "_magnitude": 0.049281819602663014,
+              "_units": "KI__per_min"
+            },
+            "Emax_FAT": {
+              "_magnitude": 9.058086828747667e-05,
+              "_units": "per_min"
+            },
+            "k_fpg": {
+              "_magnitude": 1.0382112207761474,
+              "_units": "l2_per_min_mmole"
+            },
+            "BW0": {
+              "_magnitude": 89.5,
+              "_units": "kilogram"
+            },
+            "hba1c0": {
+              "_magnitude": 0.084,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.084,
+              "_units": "dimensionless"
+            },
+            "fpg0": {
+              "_magnitude": 11.123445825932505,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 11.123445825932505,
+              "_units": "millimole / liter"
+            },
+            "SCDOSE_dul": {
+              "_magnitude": 1,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 1,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 1,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 1,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 24000,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 1,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "dul_DUL3": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "EC50_FAT": {
+              "_magnitude": 121.39836298612472,
+              "_units": "millimolar"
+            },
+            "Ksc_dul": {
+              "_magnitude": 0.00036025565931605973,
+              "_units": "per_min"
+            },
+            "DUL2DM_k": {
+              "_magnitude": 0.0021305886683688447,
+              "_units": "l_per_min"
+            },
+            "KI__DMEX_k": {
+              "_magnitude": 0.049281819602663014,
+              "_units": "KI__per_min"
+            },
+            "Emax_FAT": {
+              "_magnitude": 9.058086828747667e-05,
+              "_units": "per_min"
+            },
+            "k_fpg": {
+              "_magnitude": 1.0382112207761474,
+              "_units": "l2_per_min_mmole"
+            },
+            "BW0": {
+              "_magnitude": 67,
+              "_units": "kilogram"
+            },
+            "hba1c0": {
+              "_magnitude": 0.07,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.07,
+              "_units": "dimensionless"
+            },
+            "fpg0": {
+              "_magnitude": 8.059502664298401,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 8.059502664298401,
+              "_units": "millimole / liter"
+            },
+            "SCDOSE_dul": {
+              "_magnitude": 3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 24000,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 3,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "dul_DUL5": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "EC50_FAT": {
+              "_magnitude": 121.39836298612472,
+              "_units": "millimolar"
+            },
+            "Ksc_dul": {
+              "_magnitude": 0.00036025565931605973,
+              "_units": "per_min"
+            },
+            "DUL2DM_k": {
+              "_magnitude": 0.0021305886683688447,
+              "_units": "l_per_min"
+            },
+            "KI__DMEX_k": {
+              "_magnitude": 0.049281819602663014,
+              "_units": "KI__per_min"
+            },
+            "Emax_FAT": {
+              "_magnitude": 9.058086828747667e-05,
+              "_units": "per_min"
+            },
+            "k_fpg": {
+              "_magnitude": 1.0382112207761474,
+              "_units": "l2_per_min_mmole"
+            },
+            "BW0": {
+              "_magnitude": 88.6,
+              "_units": "kilogram"
+            },
+            "hba1c0": {
+              "_magnitude": 0.07400000000000001,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.07400000000000001,
+              "_units": "dimensionless"
+            },
+            "fpg0": {
+              "_magnitude": 7.909635879218473,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 7.909635879218473,
+              "_units": "millimole / liter"
+            },
+            "SCDOSE_dul": {
+              "_magnitude": 5,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 5,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 5,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 5,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 24000,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 5,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "dul_DUL8": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "EC50_FAT": {
+              "_magnitude": 121.39836298612472,
+              "_units": "millimolar"
+            },
+            "Ksc_dul": {
+              "_magnitude": 0.00036025565931605973,
+              "_units": "per_min"
+            },
+            "DUL2DM_k": {
+              "_magnitude": 0.0021305886683688447,
+              "_units": "l_per_min"
+            },
+            "KI__DMEX_k": {
+              "_magnitude": 0.049281819602663014,
+              "_units": "KI__per_min"
+            },
+            "Emax_FAT": {
+              "_magnitude": 9.058086828747667e-05,
+              "_units": "per_min"
+            },
+            "k_fpg": {
+              "_magnitude": 1.0382112207761474,
+              "_units": "l2_per_min_mmole"
+            },
+            "BW0": {
+              "_magnitude": 76.8,
+              "_units": "kilogram"
+            },
+            "hba1c0": {
+              "_magnitude": 0.073,
+              "_units": "dimensionless"
+            },
+            "hba1c": {
+              "_magnitude": 0.073,
+              "_units": "dimensionless"
+            },
+            "fpg0": {
+              "_magnitude": 9.841252220248668,
+              "_units": "millimolar"
+            },
+            "[fpg]": {
+              "_magnitude": 9.841252220248668,
+              "_units": "millimole / liter"
+            },
+            "SCDOSE_dul": {
+              "_magnitude": 8,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 8,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 8,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 10080,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 8,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 0,
+          "end": 24000,
+          "steps": 1000,
+          "changes": {
+            "SCDOSE_dul": {
+              "_magnitude": 8,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_dul_PLAC__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__IVDOSE_dul": {
+      "type": "TASK",
+      "index": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__SCDOSE_dul": {
+      "type": "TASK",
+      "index": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__Cve_dul": {
+      "type": "TASK",
+      "index": "Cve_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__Cve_dm": {
+      "type": "TASK",
+      "index": "Cve_dm",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__Cve_dmtot": {
+      "type": "TASK",
+      "index": "Cve_dmtot",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__Aurine_dm": {
+      "type": "TASK",
+      "index": "Aurine_dm",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__Afeces_dm": {
+      "type": "TASK",
+      "index": "Afeces_dm",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__BW0": {
+      "type": "TASK",
+      "index": "BW0",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__BW_change": {
+      "type": "TASK",
+      "index": "BW_change",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__BW_ratio": {
+      "type": "TASK",
+      "index": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__hba1c_change": {
+      "type": "TASK",
+      "index": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__hba1c_ratio": {
+      "type": "TASK",
+      "index": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__fpg_change": {
+      "type": "TASK",
+      "index": "fpg_change",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_PLAC__fpg_ratio": {
+      "type": "TASK",
+      "index": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__IVDOSE_dul": {
+      "type": "TASK",
+      "index": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__SCDOSE_dul": {
+      "type": "TASK",
+      "index": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__Cve_dul": {
+      "type": "TASK",
+      "index": "Cve_dul",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__Cve_dm": {
+      "type": "TASK",
+      "index": "Cve_dm",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__Cve_dmtot": {
+      "type": "TASK",
+      "index": "Cve_dmtot",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__Aurine_dm": {
+      "type": "TASK",
+      "index": "Aurine_dm",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__Afeces_dm": {
+      "type": "TASK",
+      "index": "Afeces_dm",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__BW0": {
+      "type": "TASK",
+      "index": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__BW_change": {
+      "type": "TASK",
+      "index": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__BW_ratio": {
+      "type": "TASK",
+      "index": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__hba1c_change": {
+      "type": "TASK",
+      "index": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__hba1c_ratio": {
+      "type": "TASK",
+      "index": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__fpg_change": {
+      "type": "TASK",
+      "index": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL005__fpg_ratio": {
+      "type": "TASK",
+      "index": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL005",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__IVDOSE_dul": {
+      "type": "TASK",
+      "index": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__SCDOSE_dul": {
+      "type": "TASK",
+      "index": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__Cve_dul": {
+      "type": "TASK",
+      "index": "Cve_dul",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__Cve_dm": {
+      "type": "TASK",
+      "index": "Cve_dm",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__Cve_dmtot": {
+      "type": "TASK",
+      "index": "Cve_dmtot",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__Aurine_dm": {
+      "type": "TASK",
+      "index": "Aurine_dm",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__Afeces_dm": {
+      "type": "TASK",
+      "index": "Afeces_dm",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__BW0": {
+      "type": "TASK",
+      "index": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__BW_change": {
+      "type": "TASK",
+      "index": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__BW_ratio": {
+      "type": "TASK",
+      "index": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__hba1c_change": {
+      "type": "TASK",
+      "index": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__hba1c_ratio": {
+      "type": "TASK",
+      "index": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__fpg_change": {
+      "type": "TASK",
+      "index": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL03__fpg_ratio": {
+      "type": "TASK",
+      "index": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL03",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__IVDOSE_dul": {
+      "type": "TASK",
+      "index": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__SCDOSE_dul": {
+      "type": "TASK",
+      "index": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__Cve_dul": {
+      "type": "TASK",
+      "index": "Cve_dul",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__Cve_dm": {
+      "type": "TASK",
+      "index": "Cve_dm",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__Cve_dmtot": {
+      "type": "TASK",
+      "index": "Cve_dmtot",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__Aurine_dm": {
+      "type": "TASK",
+      "index": "Aurine_dm",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__Afeces_dm": {
+      "type": "TASK",
+      "index": "Afeces_dm",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__BW0": {
+      "type": "TASK",
+      "index": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__BW_change": {
+      "type": "TASK",
+      "index": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__BW_ratio": {
+      "type": "TASK",
+      "index": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__hba1c_change": {
+      "type": "TASK",
+      "index": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__hba1c_ratio": {
+      "type": "TASK",
+      "index": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__fpg_change": {
+      "type": "TASK",
+      "index": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL1__fpg_ratio": {
+      "type": "TASK",
+      "index": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__IVDOSE_dul": {
+      "type": "TASK",
+      "index": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__SCDOSE_dul": {
+      "type": "TASK",
+      "index": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__Cve_dul": {
+      "type": "TASK",
+      "index": "Cve_dul",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__Cve_dm": {
+      "type": "TASK",
+      "index": "Cve_dm",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__Cve_dmtot": {
+      "type": "TASK",
+      "index": "Cve_dmtot",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__Aurine_dm": {
+      "type": "TASK",
+      "index": "Aurine_dm",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__Afeces_dm": {
+      "type": "TASK",
+      "index": "Afeces_dm",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__BW0": {
+      "type": "TASK",
+      "index": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__BW_change": {
+      "type": "TASK",
+      "index": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__BW_ratio": {
+      "type": "TASK",
+      "index": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__hba1c_change": {
+      "type": "TASK",
+      "index": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__hba1c_ratio": {
+      "type": "TASK",
+      "index": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__fpg_change": {
+      "type": "TASK",
+      "index": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL3__fpg_ratio": {
+      "type": "TASK",
+      "index": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__IVDOSE_dul": {
+      "type": "TASK",
+      "index": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__SCDOSE_dul": {
+      "type": "TASK",
+      "index": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__Cve_dul": {
+      "type": "TASK",
+      "index": "Cve_dul",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__Cve_dm": {
+      "type": "TASK",
+      "index": "Cve_dm",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__Cve_dmtot": {
+      "type": "TASK",
+      "index": "Cve_dmtot",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__Aurine_dm": {
+      "type": "TASK",
+      "index": "Aurine_dm",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__Afeces_dm": {
+      "type": "TASK",
+      "index": "Afeces_dm",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__BW0": {
+      "type": "TASK",
+      "index": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__BW_change": {
+      "type": "TASK",
+      "index": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__BW_ratio": {
+      "type": "TASK",
+      "index": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__hba1c_change": {
+      "type": "TASK",
+      "index": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__hba1c_ratio": {
+      "type": "TASK",
+      "index": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__fpg_change": {
+      "type": "TASK",
+      "index": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL5__fpg_ratio": {
+      "type": "TASK",
+      "index": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL5",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__IVDOSE_dul": {
+      "type": "TASK",
+      "index": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__SCDOSE_dul": {
+      "type": "TASK",
+      "index": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__Cve_dul": {
+      "type": "TASK",
+      "index": "Cve_dul",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__Cve_dm": {
+      "type": "TASK",
+      "index": "Cve_dm",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__Cve_dmtot": {
+      "type": "TASK",
+      "index": "Cve_dmtot",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__Aurine_dm": {
+      "type": "TASK",
+      "index": "Aurine_dm",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__Afeces_dm": {
+      "type": "TASK",
+      "index": "Afeces_dm",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__BW": {
+      "type": "TASK",
+      "index": "BW",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__BW0": {
+      "type": "TASK",
+      "index": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__BW_change": {
+      "type": "TASK",
+      "index": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__BW_ratio": {
+      "type": "TASK",
+      "index": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__hba1c0": {
+      "type": "TASK",
+      "index": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__hba1c": {
+      "type": "TASK",
+      "index": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__hba1c_change": {
+      "type": "TASK",
+      "index": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__hba1c_ratio": {
+      "type": "TASK",
+      "index": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__fpg0": {
+      "type": "TASK",
+      "index": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__fpg": {
+      "type": "TASK",
+      "index": "fpg",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__fpg_change": {
+      "type": "TASK",
+      "index": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_dul_DUL8__fpg_ratio": {
+      "type": "TASK",
+      "index": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL8",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    }
+  },
+  "figures": {
+    "Fig1_pk": {
+      "sid": "Fig1_pk",
+      "name": "Barrington2011a (T2DM)",
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": 7.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_pk__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_pk__plot0_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_pk__plot0_yaxis",
+              "name": "dulaglutide plasma [nM]",
+              "label": "dulaglutide plasma",
+              "unit": "nM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_pk__plot0_curve0",
+                "name": "PLAC",
+                "x": "task_dul_PLAC__time",
+                "y": "task_dul_PLAC__Cve_dul",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve1",
+                "name": "DUL005",
+                "x": "task_dul_DUL005__time",
+                "y": "task_dul_DUL005__Cve_dul",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve2",
+                "name": "DUL03",
+                "x": "task_dul_DUL03__time",
+                "y": "task_dul_DUL03__Cve_dul",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve3",
+                "name": "DUL03 (n=6)",
+                "x": "dulaglutide_DUL03__time",
+                "y": "dulaglutide_DUL03__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve4",
+                "name": "DUL1",
+                "x": "task_dul_DUL1__time",
+                "y": "task_dul_DUL1__Cve_dul",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve5",
+                "name": "DUL1 (n=5)",
+                "x": "dulaglutide_DUL1__time",
+                "y": "dulaglutide_DUL1__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve6",
+                "name": "DUL3",
+                "x": "task_dul_DUL3__time",
+                "y": "task_dul_DUL3__Cve_dul",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e377c2ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e377c2ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e377c2ff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve7",
+                "name": "DUL3 (n=3)",
+                "x": "dulaglutide_DUL3__time",
+                "y": "dulaglutide_DUL3__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#e377c2ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#e377c2ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e377c2ff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve8",
+                "name": "DUL5",
+                "x": "task_dul_DUL5__time",
+                "y": "task_dul_DUL5__Cve_dul",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#17becfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#17becfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#17becfff",
+                    "second_color": null
+                  }
+                },
+                "order": 8
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve9",
+                "name": "DUL5 (n=9)",
+                "x": "dulaglutide_DUL5__time",
+                "y": "dulaglutide_DUL5__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#17becfff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#17becfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#17becfff",
+                    "second_color": null
+                  }
+                },
+                "order": 9
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve10",
+                "name": "DUL8",
+                "x": "task_dul_DUL8__time",
+                "y": "task_dul_DUL8__Cve_dul",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8c564bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8c564bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8c564bff",
+                    "second_color": null
+                  }
+                },
+                "order": 10
+              },
+              {
+                "sid": "Fig1_pk__plot0_curve11",
+                "name": "DUL8 (n=6)",
+                "x": "dulaglutide_DUL8__time",
+                "y": "dulaglutide_DUL8__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#8c564bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#8c564bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8c564bff",
+                    "second_color": null
+                  }
+                },
+                "order": 11
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig3_pd": {
+      "sid": "Fig3_pd",
+      "name": "Barrington2011a (T2DM)",
+      "num_rows": 1,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 5.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig3_pd__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig3_pd__plot0_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig3_pd__plot0_yaxis",
+              "name": "HbA1c change [percent]",
+              "label": "HbA1c change",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig3_pd__plot0_curve0",
+                "name": "PLAC",
+                "x": "task_dul_PLAC__time",
+                "y": "task_dul_PLAC__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve1",
+                "name": "PLAC\u00b1SD (n=11)",
+                "x": "hba1c_change_PLAC__time",
+                "y": "hba1c_change_PLAC__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_PLAC__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve2",
+                "name": "DUL005",
+                "x": "task_dul_DUL005__time",
+                "y": "task_dul_DUL005__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve3",
+                "name": "DUL005\u00b1SD (n=3)",
+                "x": "hba1c_change_DUL005__time",
+                "y": "hba1c_change_DUL005__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL005__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#ff7f0eff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve4",
+                "name": "DUL03",
+                "x": "task_dul_DUL03__time",
+                "y": "task_dul_DUL03__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve5",
+                "name": "DUL03\u00b1SD (n=6)",
+                "x": "hba1c_change_DUL03__time",
+                "y": "hba1c_change_DUL03__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL03__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve6",
+                "name": "DUL1",
+                "x": "task_dul_DUL1__time",
+                "y": "task_dul_DUL1__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve7",
+                "name": "DUL1\u00b1SD (n=5)",
+                "x": "hba1c_change_DUL1__time",
+                "y": "hba1c_change_DUL1__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL1__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve8",
+                "name": "DUL3",
+                "x": "task_dul_DUL3__time",
+                "y": "task_dul_DUL3__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e377c2ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e377c2ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e377c2ff",
+                    "second_color": null
+                  }
+                },
+                "order": 8
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve9",
+                "name": "DUL3\u00b1SD (n=3)",
+                "x": "hba1c_change_DUL3__time",
+                "y": "hba1c_change_DUL3__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL3__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#e377c2ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#e377c2ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e377c2ff",
+                    "second_color": null
+                  }
+                },
+                "order": 9
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve10",
+                "name": "DUL5",
+                "x": "task_dul_DUL5__time",
+                "y": "task_dul_DUL5__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#17becfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#17becfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#17becfff",
+                    "second_color": null
+                  }
+                },
+                "order": 10
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve11",
+                "name": "DUL5\u00b1SD (n=9)",
+                "x": "hba1c_change_DUL5__time",
+                "y": "hba1c_change_DUL5__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL5__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#17becfff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#17becfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#17becfff",
+                    "second_color": null
+                  }
+                },
+                "order": 11
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve12",
+                "name": "DUL8",
+                "x": "task_dul_DUL8__time",
+                "y": "task_dul_DUL8__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8c564bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8c564bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8c564bff",
+                    "second_color": null
+                  }
+                },
+                "order": 12
+              },
+              {
+                "sid": "Fig3_pd__plot0_curve13",
+                "name": "DUL8\u00b1SD (n=6)",
+                "x": "hba1c_change_DUL8__time",
+                "y": "hba1c_change_DUL8__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL8__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#8c564bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#8c564bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8c564bff",
+                    "second_color": null
+                  }
+                },
+                "order": 13
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig3_pd__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig3_pd__plot1_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig3_pd__plot1_yaxis",
+              "name": "bodyweight change [kg]",
+              "label": "bodyweight change",
+              "unit": "kg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig3_pd__plot1_curve0",
+                "name": "PLAC",
+                "x": "task_dul_PLAC__time",
+                "y": "task_dul_PLAC__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve1",
+                "name": "PLAC\u00b1SD (n=11)",
+                "x": "bodyweight_change_PLAC__time",
+                "y": "bodyweight_change_PLAC__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_PLAC__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve2",
+                "name": "DUL005",
+                "x": "task_dul_DUL005__time",
+                "y": "task_dul_DUL005__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve3",
+                "name": "DUL005\u00b1SD (n=3)",
+                "x": "bodyweight_change_DUL005__time",
+                "y": "bodyweight_change_DUL005__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL005__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#ff7f0eff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve4",
+                "name": "DUL03",
+                "x": "task_dul_DUL03__time",
+                "y": "task_dul_DUL03__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve5",
+                "name": "DUL03\u00b1SD (n=6)",
+                "x": "bodyweight_change_DUL03__time",
+                "y": "bodyweight_change_DUL03__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL03__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve6",
+                "name": "DUL1",
+                "x": "task_dul_DUL1__time",
+                "y": "task_dul_DUL1__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve7",
+                "name": "DUL1\u00b1SD (n=5)",
+                "x": "bodyweight_change_DUL1__time",
+                "y": "bodyweight_change_DUL1__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL1__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve8",
+                "name": "DUL3",
+                "x": "task_dul_DUL3__time",
+                "y": "task_dul_DUL3__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e377c2ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e377c2ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e377c2ff",
+                    "second_color": null
+                  }
+                },
+                "order": 8
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve9",
+                "name": "DUL3\u00b1SD (n=3)",
+                "x": "bodyweight_change_DUL3__time",
+                "y": "bodyweight_change_DUL3__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL3__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#e377c2ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#e377c2ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e377c2ff",
+                    "second_color": null
+                  }
+                },
+                "order": 9
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve10",
+                "name": "DUL5",
+                "x": "task_dul_DUL5__time",
+                "y": "task_dul_DUL5__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#17becfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#17becfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#17becfff",
+                    "second_color": null
+                  }
+                },
+                "order": 10
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve11",
+                "name": "DUL5\u00b1SD (n=9)",
+                "x": "bodyweight_change_DUL5__time",
+                "y": "bodyweight_change_DUL5__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL5__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#17becfff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#17becfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#17becfff",
+                    "second_color": null
+                  }
+                },
+                "order": 11
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve12",
+                "name": "DUL8",
+                "x": "task_dul_DUL8__time",
+                "y": "task_dul_DUL8__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8c564bff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8c564bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8c564bff",
+                    "second_color": null
+                  }
+                },
+                "order": 12
+              },
+              {
+                "sid": "Fig3_pd__plot1_curve13",
+                "name": "DUL8\u00b1SD (n=6)",
+                "x": "bodyweight_change_DUL8__time",
+                "y": "bodyweight_change_DUL8__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL8__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#8c564bff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#8c564bff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8c564bff",
+                    "second_color": null
+                  }
+                },
+                "order": 13
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

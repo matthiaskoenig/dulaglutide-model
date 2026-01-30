@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	0.0	week	8.11717169181713				0.856749164314756	0.0519480485166088			percent	percent
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	14.0	week	7.15324670349076				0.809154893620603	0.0490622219688701			percent	percent
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	26.0	week	7.23405486703485				0.761556265274647	0.0461761311996805			percent	percent
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	35.0	week	7.33506487329888				0.904347792660405	0.0548341392857799			percent	percent
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	44.0	week	7.42164495415989				0.9519464210062	0.0577202300549597			percent	percent
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	52.0	week	7.42164495415989				1.14233221908614	0.0692640646887996			percent	percent
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	65.0	week	7.48225101076259				1.14233221908632	0.0692640646888103			percent	percent
+Giorgino2015	DUL075	272.0	DUL075	hba1c		plasma	NR	hba1c_DUL075	78.0	week	7.5948051158819				1.04713932004634	0.0634921473718899			percent	percent

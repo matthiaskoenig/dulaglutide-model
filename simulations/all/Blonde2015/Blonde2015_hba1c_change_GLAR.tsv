@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	0.0	week	0.0							the error bars are not specified whether they are SD or SE or 95% CI.	percent	percent
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	26.0	week	-1.23							the error bars are not specified whether they are SD or SE or 95% CI.	percent	percent
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	52.0	week	-1.41							the error bars are not specified whether they are SD or SE or 95% CI.	percent	percent

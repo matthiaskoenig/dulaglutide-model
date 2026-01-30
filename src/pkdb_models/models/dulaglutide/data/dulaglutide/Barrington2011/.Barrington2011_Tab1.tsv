@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	cv	se	min	max	sd	unit	comments
+Barrington2011	DUL01	6.0	DUL01	auc_end	glucose	plasma	NR	2.0	hr	284.0	NA	NA	NA	NA	NA	NA	mg*hr/dl	NA
+Barrington2011	DUL03	6.0	DUL03	auc_end	glucose	plasma	NR	2.0	hr	250.0	NA	NA	NA	NA	NA	NA	mg*hr/dl	NA
+Barrington2011	DUL1	6.0	DUL1	auc_end	glucose	plasma	NR	2.0	hr	284.0	NA	NA	NA	NA	NA	NA	mg*hr/dl	NA
+Barrington2011	DUL3	4.0	DUL3	auc_end	glucose	plasma	NR	2.0	hr	218.0	NA	NA	NA	NA	NA	NA	mg*hr/dl	NA
+Barrington2011	DUL6	6.0	DUL6	auc_end	glucose	plasma	NR	2.0	hr	240.0	NA	NA	NA	NA	NA	NA	mg*hr/dl	NA
+Barrington2011	DUL12	6.0	DUL12	auc_end	glucose	plasma	NR	2.0	hr	213.0	NA	NA	NA	NA	NA	NA	mg*hr/dl	NA
+Barrington2011	DUL01	6.0	DUL01	concentration	glucose	plasma	NR	2.0	hr	117.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011	DUL03	6.0	DUL03	concentration	glucose	plasma	NR	2.0	hr	100.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011	DUL1	6.0	DUL1	concentration	glucose	plasma	NR	2.0	hr	93.4	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011	DUL3	4.0	DUL3	concentration	glucose	plasma	NR	2.0	hr	103.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011	DUL6	6.0	DUL6	concentration	glucose	plasma	NR	2.0	hr	88.3	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011	DUL12	6.0	DUL12	concentration	glucose	plasma	NR	2.0	hr	85.8	NA	NA	NA	NA	NA	NA	mg/dl	NA

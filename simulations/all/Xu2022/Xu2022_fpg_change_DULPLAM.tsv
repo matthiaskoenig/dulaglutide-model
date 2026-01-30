@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	0.0	day	0.0									mmol/l	mmol/l
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	3.0	day	-0.859271328186069				0.905537727326049		1.12251619642062			mmol/l	mmol/l
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	24.0	day	-0.99337728167516				0.889510751140755		1.10264895091031			mmol/l	mmol/l
+Xu2022	Bplac	10.0	DULPLAM	concentration change absolute	glucose	plasma	NR	fpg_change_DULPLAM	29.0	day	-0.571191948331519				0.905538094160019		1.12251665115272			mmol/l	mmol/l

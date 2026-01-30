@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	DUL075	299.0	DUL075	weight			NR	bodyweight_DUL075	0.0	hr	95.2806539509536									kg	kg
+Pratley2018	DUL075	299.0	DUL075	weight			NR	bodyweight_DUL075	672.0	hr	94.0599455040872				2.30772838335485	0.261580381471219				kg	kg
+Pratley2018	DUL075	299.0	DUL075	weight			NR	bodyweight_DUL075	1344.0	hr	93.5803814713896				2.30772838335636	0.26158038147139				kg	kg
+Pratley2018	DUL075	299.0	DUL075	weight			NR	bodyweight_DUL075	2016.0	hr	93.1989100817438				2.69234978058226	0.305177111716603				kg	kg
+Pratley2018	DUL075	299.0	DUL075	weight			NR	bodyweight_DUL075	2688.0	hr	92.991825613079				2.8846604791952	0.326975476839209				kg	kg
+Pratley2018	DUL075	299.0	DUL075	weight			NR	bodyweight_DUL075	4704.0	hr	92.7520435967302				3.84621397226119	0.435967302452383				kg	kg
+Pratley2018	DUL075	299.0	DUL075	weight			NR	bodyweight_DUL075	6720.0	hr	92.9700272479564				4.23083536948533	0.479564032697397				kg	kg

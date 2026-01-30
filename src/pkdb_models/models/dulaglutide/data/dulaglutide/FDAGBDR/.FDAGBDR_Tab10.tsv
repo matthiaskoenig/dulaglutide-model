@@ -1,0 +1,19 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	cv	se	min	max	sd	unit	comments
+FDAGBDR	DUL15SC	16.0	DUL15SC	auc_inf	dulaglutide	plasma	NR	672.0	hr	15400.0	NA	21.0	NA	NA	NA	NA	ng/ml*hr	geometric mean
+FDAGBDR	DUL15SC	16.0	DUL15SC	auc_end	dulaglutide	plasma	NR	168.0	hr	9430.0	NA	22.0	NA	NA	NA	NA	ng/ml*hr	geometric mean
+FDAGBDR	DUL15SC	16.0	DUL15SC	cmax	dulaglutide	plasma	NR	NA	NA	80.7	NA	32.0	NA	NA	NA	NA	ng/ml	geometric mean
+FDAGBDR	DUL15SC	16.0	DUL15SC	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	NA	24.0	72.0	NA	hr	geometric mean
+FDAGBDR	DUL15SC	16.0	DUL15SC	thalf	dulaglutide	plasma	NR	NA	NA	107.0	NA	NA	NA	87.3	153.0	NA	hr	geometric mean
+FDAGBDR	DUL15SC	16.0	DUL15SC	clearance	dulaglutide	plasma	NR	NA	NA	0.0975	NA	21.0	NA	NA	NA	NA	l/hr	geometric mean
+FDAGBDR	DUL15SC	16.0	DUL15SC	vd	dulaglutide	plasma	NR	NA	NA	15.1	NA	17.0	NA	NA	NA	NA	l	geometric mean
+FDAGBDR	DUL15SC	16.0	DUL15SC	bioavailability	dulaglutide	plasma	NR	NA	NA	0.443	NA	33.0	NA	NA	NA	NA	dimensionless	geometric mean/F based on auc_inf
+FDAGBDR	DUL15SC	16.0	DUL15SC	bioavailability	dulaglutide	plasma	NR	NA	NA	0.371	NA	25.0	NA	NA	NA	NA	dimensionless	geometric mean/F based on auc_end
+FDAGBDR	DUL01IV	22.0	DUL01IV	auc_inf	dulaglutide	plasma	NR	672.0	hr	2350.0	NA	41.0	NA	NA	NA	NA	ng/ml*hr	geometric mean
+FDAGBDR	DUL01IV	22.0	DUL01IV	auc_end	dulaglutide	plasma	NR	168.0	hr	1741.0	NA	27.0	NA	NA	NA	NA	ng/ml*hr	geometric mean
+FDAGBDR	DUL01IV	22.0	DUL01IV	cmax	dulaglutide	plasma	NR	NA	NA	NA	NA	NA	NA	NA	NA	NA	ng/ml	geometric mean
+FDAGBDR	DUL01IV	22.0	DUL01IV	tmax	dulaglutide	plasma	NR	NA	NA	NA	NA	NA	NA	NA	NA	NA	hr	geometric mean
+FDAGBDR	DUL01IV	22.0	DUL01IV	thalf	dulaglutide	plasma	NR	NA	NA	86.6	NA	NA	NA	37.9	229.0	NA	hr	geometric mean
+FDAGBDR	DUL01IV	22.0	DUL01IV	clearance	dulaglutide	plasma	NR	NA	NA	0.0426	NA	41.0	NA	NA	NA	NA	l/hr	geometric mean
+FDAGBDR	DUL01IV	22.0	DUL01IV	vd	dulaglutide	plasma	NR	NA	NA	5.32	NA	17.0	NA	NA	NA	NA	l	geometric mean
+FDAGBDR	DUL01IV	22.0	DUL01IV	bioavailability	dulaglutide	plasma	NR	NA	NA	NA	NA	NA	NA	NA	NA	NA	dimensionless	geometric mean/F based on auc_inf
+FDAGBDR	DUL01IV	22.0	DUL01IV	bioavailability	dulaglutide	plasma	NR	NA	NA	NA	NA	NA	NA	NA	NA	NA	dimensionless	geometric mean/F based on auc_end

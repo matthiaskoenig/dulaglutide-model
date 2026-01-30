@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	week	0.0				0.0	0.0			kg	kg
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	2.0	week	-0.96193262858283				0.0	0.0			kg	kg
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	4.0	week	-1.58125911547862				1.60826136051562	0.09224011506959			kg	kg
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	8.0	week	-2.15226928460118				1.99117839491259	0.11420191318402			kg	kg
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	12.0	week	-2.78038081245074				2.29751622930791	0.13177159295655			kg	kg
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	26.0	week	-3.28989750450441				3.29310893249569	0.18887275061605			kg	kg
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	39.0	week	-3.26793570638998				3.90577758982353	0.22401170802614			kg	kg
+Nauck2014	DUL15	304.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	52.0	week	-3.22401170802613				4.13552921275424	0.23718886732179			kg	kg

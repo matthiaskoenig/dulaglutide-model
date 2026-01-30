@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	week	0.0									kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	2.0	week	-1.12500002384185				0.876304263740823		0.199999994550426			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	4.0	week	-1.27500001975468				1.02235608864283		0.23333358128865			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	6.0	week	-1.19166643437885				1.20491836264364		0.274999992506838			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	8.0	week	-0.96666644050962				1.38748063664452		0.316666403725041			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	13.0	week	-1.07500002520424				1.67958428644842		0.383333577201465			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	19.0	week	-0.575000038828167				1.97168459341692		0.449999987738473			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	26.0	week	-0.508333628291167				2.15425021025325		0.491667161896102			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	39.0	week	-0.0083336419150858				2.40983672528734		0.54999998501369			kg	kg
+Blonde2015	DUL15	295.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	52.0	week	0.316666349229367				2.77496461612452		0.633333570389514			kg	kg

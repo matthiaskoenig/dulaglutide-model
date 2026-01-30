@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Xu2022	Bplac	10.0	DULPLAM	hba1c (change)		plasma	NR	hba1c_change_DULPLAM	0.0	day	0.0								percent	percent
+Xu2022	Bplac	10.0	DULPLAM	hba1c (change)		plasma	NR	hba1c_change_DULPLAM	29.0	day	-0.26				0.486199695340774		0.602699386503066		percent	percent
+Xu2022	Bplac	10.0	DULPLAM	hba1c (change)		plasma	NR	hba1c_change_DULPLAM	43.0	day	-0.35				0.479567824304789		0.594478433995158		percent	percent

@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Chen2018	DUL15	239.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	0.0	week	0.0									percent	percent
+Chen2018	DUL15	239.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	4.0	week	-0.79690949227373				0.2722576405593175	0.069034660444235				percent	percent
+Chen2018	DUL15	239.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	8.0	week	-1.28476821192053				0.3925579076198248	0.0995384438121199				percent	percent
+Chen2018	DUL15	239.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	16.0	week	-1.50772626931567				0.5065264026902861	0.12843671951291				percent	percent
+Chen2018	DUL15	239.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	26.0	week	-1.47902869757174				0.5381840404958301	0.13646394795683				percent	percent

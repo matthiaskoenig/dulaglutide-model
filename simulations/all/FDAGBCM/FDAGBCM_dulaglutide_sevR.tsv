@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	0.0	hr	0.0				0.0				mole/meter^3	ng/ml
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	12.0	hr	1.0587186966752912e-05				5.848658501394105e-06				mole/meter^3	ng/ml
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	24.0	hr	1.888792889585389e-05				5.260828609744193e-06				mole/meter^3	ng/ml
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	48.0	hr	2.4547526974159263e-05				3.733147694359048e-06				mole/meter^3	ng/ml
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	72.0	hr	2.3541372366522176e-05				3.637457725217432e-06				mole/meter^3	ng/ml
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	96.0	hr	2.1906383123363723e-05				2.426016546098654e-06				mole/meter^3	ng/ml
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	168.0	hr	1.3228330817548483e-05				3.207514650598534e-06				mole/meter^3	ng/ml
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	336.0	hr	4.047201207914681e-06				1.094737348250377e-06				mole/meter^3	ng/ml

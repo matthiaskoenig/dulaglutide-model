@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	0.0	day	0.0				0.0					mole/meter^3	ng/ml
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	0.5	day	1.6101768170984732e-05				6.8952828374074095e-06					mole/meter^3	ng/ml
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	1.0	day	2.0750869193779464e-05				8.142721772361914e-06					mole/meter^3	ng/ml
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	2.0	day	2.511648975907482e-05				8.685306070867343e-06					mole/meter^3	ng/ml
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	3.0	day	2.3174638446552616e-05				4.858583421454022e-06					mole/meter^3	ng/ml
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	4.0	day	2.046738738453352e-05				5.441450889037984e-06					mole/meter^3	ng/ml
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	7.0	day	1.1736148957435919e-05				3.1885219753447477e-06					mole/meter^3	ng/ml
+FDAGBDO	control	11.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	14.0	day	4.36562137634336e-06				9.68682744251038e-07					mole/meter^3	ng/ml

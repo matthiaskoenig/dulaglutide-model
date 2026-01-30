@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	0.0	hr	0.0								mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	8.0	hr	8.210074207754842e-06				5.1436621769177886e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	12.0	hr	1.1375405068424816e-05				7.0230784367002056e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	24.0	hr	1.6420152188877208e-05				5.934993948743408e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	36.0	hr	1.8200649618826737e-05				5.638245005979726e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	48.0	hr	1.9981147048776263e-05				5.638245005979726e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	72.0	hr	2.017898093507452e-05				4.64907934785585e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	120.0	hr	1.582665052998238e-05				3.758828746197309e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	168.0	hr	1.177107284102139e-05				2.4729141453097507e-06				mole/meter^3	ng/ml
+FDAGBCN	all	39.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_thigh	336.0	hr	3.758828746197309e-06				1.384833430720449e-06				mole/meter^3	ng/ml

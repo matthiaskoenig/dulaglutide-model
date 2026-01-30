@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	0.0	day	0.0								kg	kg
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	7.0	day	-0.504762050083705								kg	kg
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	14.0	day	-1.03809552873883								kg	kg
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	28.0	day	-1.69523838588169								kg	kg
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	56.0	day	-2.42857142857142				4.783761890332771	0.2761906215122698			kg	kg
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	84.0	day	-2.80952410016741				5.773505208943608	0.3333334786551298			kg	kg
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	140.0	day	-3.04761919294084				6.433331570970093	0.3714285714285701			kg	kg
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	182.0	day	-3.46666695731026				7.093165484138806	0.4095241001674101			kg	kg

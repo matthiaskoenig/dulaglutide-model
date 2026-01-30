@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Nauck2014	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	0.0	week	8.08470596547902				1.3363386108314		0.0752941508468101			percent	percent
+Nauck2014	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	4.0	week	7.67764712066122				0.334085130619431		0.0188235646389696			percent	percent
+Nauck2014	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	8.0	week	7.4870587845007				0.626408425132299		0.0352941163798901			percent	percent
+Nauck2014	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	12.0	week	7.36941180170712				0.87697179518529		0.0494117629318502			percent	percent
+Nauck2014	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	26.0	week	7.3764706249831				0.876971795185274		0.0494117629318493			percent	percent
+Nauck2014	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	39.0	week	7.52470591377865				1.08577524077841		0.06117650429485			percent	percent
+Nauck2014	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	52.0	week	7.5741176767105				1.04401531631836		0.0588235991058799			percent	percent

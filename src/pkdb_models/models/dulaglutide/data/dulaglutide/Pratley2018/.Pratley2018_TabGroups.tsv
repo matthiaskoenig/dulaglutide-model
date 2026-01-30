@@ -1,0 +1,75 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Pratley2018	all	1199.0	NA	species	1199.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	sex	662.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	sex	537.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	ethnicity	138.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	ethnicity	1061.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	ethnicity	138.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	ethnicity	1061.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	healthy	1199.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	disease	1199.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	all	1199.0	NA	medication	1199.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	metformin
+Pratley2018	SEM05	301.0	all	age	301.0	NA	NA	56.0	NA	10.9	NA	NA	NA	yr	NA
+Pratley2018	SEM05	301.0	all	sex	169.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM05	301.0	all	sex	132.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM05	301.0	all	ethnicity	233.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM05	301.0	all	ethnicity	17.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM05	301.0	all	ethnicity	50.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM05	301.0	all	ethnicity	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM05	301.0	all	weight	301.0	NA	NA	96.4	NA	24.4	NA	NA	NA	kg	NA
+Pratley2018	SEM05	301.0	all	bmi	301.0	NA	NA	33.7	NA	7.1	NA	NA	NA	kg/m^2	NA
+Pratley2018	SEM05	301.0	all	waist circumference	301.0	NA	NA	111.0	NA	16.9	NA	NA	NA	cm	NA
+Pratley2018	SEM05	301.0	all	hba1c	301.0	NA	NA	8.3	NA	0.9	NA	NA	NA	percent	NA
+Pratley2018	SEM05	301.0	all	blood pressure systolic	301.0	NA	NA	134.0	NA	14.8	NA	NA	NA	mmHg	NA
+Pratley2018	SEM05	301.0	all	blood pressure diastolic	301.0	NA	NA	81.0	NA	9.0	NA	NA	NA	mmHg	NA
+Pratley2018	SEM05	301.0	all	heart rate	301.0	NA	NA	1.25	NA	0.168	NA	NA	NA	1/s	NA
+Pratley2018	SEM05	301.0	all	gfr	301.0	NA	NA	96.0	NA	16.7	NA	NA	NA	ml/min/(1.73*m^2)	NA
+Pratley2018	SEM05	301.0	all	concentration	301.0	glucose	NA	9.8	NA	2.5	NA	NA	NA	mmol/l	NA
+Pratley2018	SEM10	300.0	all	age	300.0	NA	NA	55.0	NA	10.6	NA	NA	NA	yr	NA
+Pratley2018	SEM10	300.0	all	sex	162.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM10	300.0	all	sex	138.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM10	300.0	all	ethnicity	243.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM10	300.0	all	ethnicity	18.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM10	300.0	all	ethnicity	38.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM10	300.0	all	ethnicity	1.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	SEM10	300.0	all	weight	300.0	NA	NA	95.5	NA	20.9	NA	NA	NA	kg	NA
+Pratley2018	SEM10	300.0	all	bmi	300.0	NA	NA	33.6	NA	6.5	NA	NA	NA	kg/m^2	NA
+Pratley2018	SEM10	300.0	all	waist circumference	300.0	NA	NA	111.0	NA	14.4	NA	NA	NA	cm	NA
+Pratley2018	SEM10	300.0	all	hba1c	300.0	NA	NA	8.2	NA	0.9	NA	NA	NA	percent	NA
+Pratley2018	SEM10	300.0	all	blood pressure systolic	300.0	NA	NA	133.0	NA	14.5	NA	NA	NA	mmHg	NA
+Pratley2018	SEM10	300.0	all	blood pressure diastolic	300.0	NA	NA	82.0	NA	9.1	NA	NA	NA	mmHg	NA
+Pratley2018	SEM10	300.0	all	heart rate	300.0	NA	NA	1.2767	NA	0.177	NA	NA	NA	1/s	NA
+Pratley2018	SEM10	300.0	all	gfr	300.0	NA	NA	97.0	NA	17.2	NA	NA	NA	ml/min/(1.73*m^2)	NA
+Pratley2018	SEM10	300.0	all	concentration	300.0	glucose	NA	9.8	NA	2.6	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL075	299.0	all	age	299.0	NA	NA	55.0	NA	10.4	NA	NA	NA	yr	NA
+Pratley2018	DUL075	299.0	all	sex	160.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL075	299.0	all	sex	139.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL075	299.0	all	ethnicity	232.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL075	299.0	all	ethnicity	17.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL075	299.0	all	ethnicity	48.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL075	299.0	all	ethnicity	2.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL075	299.0	all	weight	299.0	NA	NA	95.6	NA	23.0	NA	NA	NA	kg	NA
+Pratley2018	DUL075	299.0	all	bmi	299.0	NA	NA	33.6	NA	6.9	NA	NA	NA	kg/m^2	NA
+Pratley2018	DUL075	299.0	all	waist circumference	299.0	NA	NA	111.0	NA	14.8	NA	NA	NA	cm	NA
+Pratley2018	DUL075	299.0	all	hba1c	299.0	NA	NA	8.2	NA	0.9	NA	NA	NA	percent	NA
+Pratley2018	DUL075	299.0	all	blood pressure systolic	299.0	NA	NA	133.0	NA	14.0	NA	NA	NA	mmHg	NA
+Pratley2018	DUL075	299.0	all	blood pressure diastolic	299.0	NA	NA	81.0	NA	8.9	NA	NA	NA	mmHg	NA
+Pratley2018	DUL075	299.0	all	heart rate	299.0	NA	NA	1.25	NA	0.17	NA	NA	NA	1/s	NA
+Pratley2018	DUL075	299.0	all	gfr	299.0	NA	NA	96.0	NA	17.5	NA	NA	NA	ml/min/(1.73*m^2)	NA
+Pratley2018	DUL075	299.0	all	concentration	299.0	glucose	NA	9.7	NA	2.6	NA	NA	NA	mmol/l	NA
+Pratley2018	DUL15	299.0	all	age	299.0	NA	NA	56.0	NA	10.6	NA	NA	NA	yr	NA
+Pratley2018	DUL15	299.0	all	sex	171.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL15	299.0	all	sex	128.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL15	299.0	all	ethnicity	220.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL15	299.0	all	ethnicity	18.0	NA	black	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL15	299.0	all	ethnicity	55.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL15	299.0	all	ethnicity	6.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Pratley2018	DUL15	299.0	all	weight	299.0	NA	NA	93.4	NA	21.8	NA	NA	NA	kg	NA
+Pratley2018	DUL15	299.0	all	bmi	299.0	NA	NA	33.1	NA	6.6	NA	NA	NA	kg/m^2	NA
+Pratley2018	DUL15	299.0	all	waist circumference	299.0	NA	NA	109.0	NA	14.9	NA	NA	NA	cm	NA
+Pratley2018	DUL15	299.0	all	hba1c	299.0	NA	NA	8.2	NA	0.9	NA	NA	NA	percent	NA
+Pratley2018	DUL15	299.0	all	blood pressure systolic	299.0	NA	NA	132.0	NA	13.6	NA	NA	NA	mmHg	NA
+Pratley2018	DUL15	299.0	all	blood pressure diastolic	299.0	NA	NA	80.0	NA	8.7	NA	NA	NA	mmHg	NA
+Pratley2018	DUL15	299.0	all	heart rate	299.0	NA	NA	1.25	NA	0.175	NA	NA	NA	1/s	NA
+Pratley2018	DUL15	299.0	all	gfr	299.0	NA	NA	95.0	NA	18.0	NA	NA	NA	ml/min/(1.73*m^2)	NA
+Pratley2018	DUL15	299.0	all	concentration	299.0	glucose	NA	9.6	NA	2.3	NA	NA	NA	mmol/l	NA

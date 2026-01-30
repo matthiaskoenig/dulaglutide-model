@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	0.0	day	8.0684073260117				1.831542013156474	0.1057441274327999			percent	percent
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	56.0	day	6.99921672211921				1.4245314348056035	0.0822453607354098			percent	percent
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	84.0	day	6.81827662730954				1.5873364114024446	0.0916449104417695			percent	percent
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	182.0	day	6.67493473132528				1.831542013156474	0.1057441274327999			percent	percent

@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Gerstein2019	dul15	4952.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	0.0	month	7.35198816263044	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	dul15	4952.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	3.0	month	6.59204705284194	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	dul15	4952.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	12.0	month	6.68041223148051	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	dul15	4952.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	24.0	month	6.81590579543734	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	dul15	4952.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	36.0	month	6.87187038220743	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	dul15	4952.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	48.0	month	6.93372606658169	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	dul15	4952.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	60.0	month	6.99263615271448	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	plac	4949.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	0.0	month	7.35346096175117	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	plac	4949.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	3.0	month	7.42415314421353	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	plac	4949.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	12.0	month	7.39469805170775	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	plac	4949.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	24.0	month	7.45949923544471	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	plac	4949.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	36.0	month	7.48895432795048	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	plac	4949.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	48.0	month	7.49926362515932	NA	NA	NA	NA	NA	NA	percent	NA
+Gerstein2019	plac	4949.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	60.0	month	7.54491896415996	NA	NA	NA	NA	NA	NA	percent	NA

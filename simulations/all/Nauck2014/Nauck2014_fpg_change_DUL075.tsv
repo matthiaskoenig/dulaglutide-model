@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	0.0	week	0.0				0.0	0.0			mole/meter^3	mg/dl
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	2.0	week	-1.6480468957357233				1.7871400733534468	0.10283835515351906			mole/meter^3	mg/dl
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	4.0	week	-1.9209634283545514				1.580932087425566	0.09097241895269759			mole/meter^3	mg/dl
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	8.0	week	-1.8418569456026694				1.7871337803850742	0.10283799303388098			mole/meter^3	mg/dl
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	12.0	week	-2.106862974794166				1.855871873350555	0.10679342580737121			mole/meter^3	mg/dl
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	26.0	week	-1.9684271731578258				1.9933480592812332	0.11470429135433502			mole/meter^3	mg/dl
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	39.0	week	-1.7667062577439108				2.1995560452091136	0.1265702275551565			mole/meter^3	mg/dl
+Nauck2014	DUL075	302.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	52.0	week	-1.6243150233340862				2.337025938171608	0.1344807309824933			mole/meter^3	mg/dl

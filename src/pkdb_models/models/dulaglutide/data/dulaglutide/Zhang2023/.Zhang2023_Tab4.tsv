@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	se	min	max	sd	cv	unit	comments
+Zhang2023	DULF	41	DULF	cmax	dulaglutide	plasma	NR	NA	NA	58.105	NA	NA	NA	NA	10.5442	18.1	ng/ml	NA
+Zhang2023	DULF	41	DULF	auc_end	dulaglutide	plasma	NR	360.0	hr	8140.0	NA	NA	NA	NA	1230.0	15.1	ng/ml*hr	NA
+Zhang2023	DULF	41	DULF	auc_inf	dulaglutide	plasma	NR	672.0	hr	8740.0	NA	NA	NA	NA	1270.0	14.6	ng/ml*hr	NA
+Zhang2023	DULF	41	DULF	thalf	dulaglutide	plasma	NR	NA	NA	74.714	NA	NA	NA	NA	11.4442	15.3	hr	NA
+Zhang2023	DULF	41	DULF	clearance	dulaglutide	plasma	NR	NA	NA	0.0877	NA	NA	NA	NA	0.0135	15.4	l/hr	NA
+Zhang2023	DULF	41	DULF	tmax	dulaglutide	plasma	NR	NA	NA	NA	48.0	NA	12.0	72.03	NA	NA	hr	NA

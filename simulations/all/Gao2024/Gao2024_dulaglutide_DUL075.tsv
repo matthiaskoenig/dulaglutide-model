@@ -1,0 +1,19 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	0.0	hr	0.0								mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	2.63350402340892	hr	1.6242830068895462e-06				1.189895639197137e-06	2.071342437033443e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	4.68178493050475	hr	4.331421351705455e-06				2.017649127334339e-06	3.5122763062742106e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	8.77834674469641	hr	8.247748157205787e-06				2.9488718014885838e-06	5.133326909169885e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	12.5822970007315	hr	1.0864648557194504e-05				3.6731561036084894e-06	6.394144044755326e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	24.8719824433065	hr	1.5196069908899958e-05				4.242236626702829e-06	7.384786079858354e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	37.7468910021945	hr	1.5502878921312434e-05				4.345705812720027e-06	7.564902813513545e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	50.0365764447695	hr	1.5141927142003651e-05				3.7766252896257165e-06	6.574260778410518e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	62.618873445501	hr	1.3481548957183222e-05				3.4144831385657093e-06	5.943852210617723e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	75.2011704462326	hr	1.2741597809600222e-05				3.052340987505702e-06	5.313443642824927e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	99.7805413313825	hr	9.63741250754462e-06				2.58672965042858e-06	4.502918341377089e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	124.945135332845	hr	7.2731783530720755e-06				2.3280566853856966e-06	4.052626507239335e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	150.109729334308	hr	5.540609812389881e-06				2.2763220923771344e-06	3.9625681404118143e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	174.689100219458	hr	4.3675165296363354e-06				2.3797912783942557e-06	4.142684874066856e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	249.597659107534	hr	1.894996841371137e-06				1.6555069762742745e-06	2.88186773848131e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	299.049012435991	hr	1.1369981048226816e-06				1.3450994182228504e-06	2.3415175375160653e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	349.378200438917	hr	5.233800799977402e-07				1.2933648252142733e-06	2.2514591706885146e-07			mole/meter^3	ng/ml
+Gao2024	DUL075	33.0	DUL075	concentration	dulaglutide	plasma	ELISA	dulaglutide_DUL075	398.829553767373	hr	2.707138344815908e-07				7.760188951285585e-07	1.3508755024131027e-07			mole/meter^3	ng/ml

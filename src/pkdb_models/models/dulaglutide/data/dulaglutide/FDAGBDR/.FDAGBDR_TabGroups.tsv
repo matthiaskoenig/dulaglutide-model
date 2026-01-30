@@ -1,0 +1,8 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+FDAGBDR	all	53.0	NA	species	53.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDR	all	53.0	NA	healthy	53.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDR	all	53.0	NA	sex	53.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDR	DUL075IM	7.0	all	healthy	7.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDR	DUL075SC	8.0	all	healthy	8.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDR	DUL15SC	16.0	all	healthy	16.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDR	DUL01IV	22.0	all	healthy	22.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA

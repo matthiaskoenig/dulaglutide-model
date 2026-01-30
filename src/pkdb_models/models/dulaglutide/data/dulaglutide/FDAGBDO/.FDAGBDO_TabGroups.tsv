@@ -1,0 +1,12 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+FDAGBDO	all	26.0	NA	species	26.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	all	26.0	NA	sex	26.0	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	all	26.0	NA	healthy	11.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	all	26.0	NA	healthy	15.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	control	11.0	all	healthy	11.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	mildH	6.0	all	healthy	6.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	mildH	6.0	all	disease	6.0	NA	liver disease (mild)	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	modH	6.0	all	healthy	6.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	modH	6.0	all	disease	6.0	NA	liver disease (moderate)	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	sevH	3.0	all	healthy	3.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+FDAGBDO	sevH	3.0	all	disease	3.0	NA	liver disease (severe)	NA	NA	NA	NA	NA	NA	NA	NA

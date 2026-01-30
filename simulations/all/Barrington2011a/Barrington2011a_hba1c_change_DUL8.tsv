@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Barrington2011a	DUL8	6.0	DUL8	hba1c (change)		plasma	NR	hba1c_change_DUL8	0.0	week	0.0								percent	percent
+Barrington2011a	DUL8	6.0	DUL8	hba1c (change)		plasma	NR	hba1c_change_DUL8	5.0	week	-0.959506497791623				0.494873879970126	0.202031415493023			percent	percent

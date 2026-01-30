@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	0.0	hr	9.72067714631197									mmol/l	mmol/l
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	672.0	hr	7.49455864570737				2.46425696739986	0.27932285368804				mmol/l	mmol/l
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	1344.0	hr	7.54111245465538				0.821418989133161	0.0931076178959991				mmol/l	mmol/l
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	2016.0	hr	7.46493349455864				1.41881461759374	0.160822249093101				mmol/l	mmol/l
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	2688.0	hr	7.29987908101571				1.64283797826651	0.186215235792019				mmol/l	mmol/l
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	4704.0	hr	7.46916565900846				2.0162102460543	0.2285368802902				mmol/l	mmol/l
+Pratley2018	DUL15	299.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	6720.0	hr	7.47339782345828				2.0162102460543	0.2285368802902				mmol/l	mmol/l

@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit
+Pratley2018	SEM10	300.0	SEM10	weight			NR	bodyweight_SEM10	0.0	hr	95.2806539509536									kg	kg
+Pratley2018	SEM10	300.0	SEM10	weight			NR	bodyweight_SEM10	672.0	hr	93.9727520435967				1.73368817973913	0.196185286103599				kg	kg
+Pratley2018	SEM10	300.0	SEM10	weight			NR	bodyweight_SEM10	1344.0	hr	92.7738419618528				2.69684827959326	0.305177111716603				kg	kg
+Pratley2018	SEM10	300.0	SEM10	weight			NR	bodyweight_SEM10	2016.0	hr	91.4550408719346				3.27474433950563	0.370572207084393				kg	kg
+Pratley2018	SEM10	300.0	SEM10	weight			NR	bodyweight_SEM10	2688.0	hr	90.3542234332425				3.66000837944739	0.414168937329606				kg	kg
+Pratley2018	SEM10	300.0	SEM10	weight			NR	bodyweight_SEM10	4704.0	hr	89.1117166212534				4.23790443936001	0.479564032697425				kg	kg
+Pratley2018	SEM10	300.0	SEM10	weight			NR	bodyweight_SEM10	6720.0	hr	88.7302452316076				4.23790443936152	0.479564032697596				kg	kg

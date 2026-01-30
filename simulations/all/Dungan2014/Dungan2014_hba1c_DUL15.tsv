@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	0.0	day	8.07310704708063				2.031651795636312	0.1174934569972503			percent	percent
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	56.0	day	6.97101828813713				1.503420078130986	0.0869450280201			percent	percent
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	84.0	day	6.74073093385882				1.8691211772126557	0.1080940686436395			percent	percent
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	182.0	day	6.61618792215029				1.7878526129428352	0.10339418622197			percent	percent

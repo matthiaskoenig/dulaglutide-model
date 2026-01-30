@@ -1,0 +1,26 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Grunberger2012	PLAC	32.0	PLAC	concentration change	glucose	plasma	NR	fpg_change_PLAC	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Grunberger2012	PLAC	32.0	PLAC	concentration change	glucose	plasma	NR	fpg_change_PLAC	2.0	week	0.464705938533925	NA	NA	NA	1.09809493659229	NA	0.194117594012755	NA	percent	NA
+Grunberger2012	PLAC	32.0	PLAC	concentration change	glucose	plasma	NR	fpg_change_PLAC	4.0	week	-0.558823407727546	NA	NA	NA	1.46412615900176	NA	0.25882338388569	NA	percent	NA
+Grunberger2012	PLAC	32.0	PLAC	concentration change	glucose	plasma	NR	fpg_change_PLAC	8.0	week	-0.0999999424990509	NA	NA	NA	1.36430021205963	NA	0.241176482880403	NA	percent	NA
+Grunberger2012	PLAC	32.0	PLAC	concentration change	glucose	plasma	NR	fpg_change_PLAC	12.0	week	-0.199999983170453	NA	NA	NA	1.33102447329097	NA	0.235294107747325	NA	percent	NA
+Grunberger2012	PLAC	35.0	DUL01	concentration change	glucose	plasma	NR	fpg_change_DUL01	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Grunberger2012	PLAC	35.0	DUL01	concentration change	glucose	plasma	NR	fpg_change_DUL01	2.0	week	-0.770588239336508	NA	NA	NA	1.11361523664763	NA	0.18823533107665	NA	percent	NA
+Grunberger2012	PLAC	35.0	DUL01	concentration change	glucose	plasma	NR	fpg_change_DUL01	4.0	week	-0.88235280588012	NA	NA	NA	1.35721744955876	NA	0.229411620417275	NA	percent	NA
+Grunberger2012	PLAC	35.0	DUL01	concentration change	glucose	plasma	NR	fpg_change_DUL01	8.0	week	-0.647058698132794	NA	NA	NA	1.25281631152078	NA	0.211764607215015	NA	percent	NA
+Grunberger2012	PLAC	35.0	DUL01	concentration change	glucose	plasma	NR	fpg_change_DUL01	12.0	week	-0.641176435196689	NA	NA	NA	1.35721877709125	NA	0.229411844811221	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL05	concentration change	glucose	plasma	NR	fpg_change_DUL05	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL05	concentration change	glucose	plasma	NR	fpg_change_DUL05	2.0	week	-1.69999992005965	NA	NA	NA	1.06329065977467	NA	0.1823528437466	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL05	concentration change	glucose	plasma	NR	fpg_change_DUL05	4.0	week	-1.52352933924916	NA	NA	NA	1.40628781562846	NA	0.24117637068343	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL05	concentration change	glucose	plasma	NR	fpg_change_DUL05	8.0	week	-1.58235286618599	NA	NA	NA	1.26908973834515	NA	0.21764709454507	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL05	concentration change	glucose	plasma	NR	fpg_change_DUL05	12.0	week	-1.67058815659124	NA	NA	NA	1.30338893055838	NA	0.22352935748117	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL10	concentration change	glucose	plasma	NR	fpg_change_DUL10	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL10	concentration change	glucose	plasma	NR	fpg_change_DUL10	2.0	week	-1.794117473401	NA	NA	NA	1.1661921617054	NA	0.20000030573676	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL10	concentration change	glucose	plasma	NR	fpg_change_DUL10	4.0	week	-2.082353069543	NA	NA	NA	1.47488620005498	NA	0.25294089655564	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL10	concentration change	glucose	plasma	NR	fpg_change_DUL10	8.0	week	-2.00000004207386	NA	NA	NA	1.30338762212805	NA	0.22352913308722	NA	percent	NA
+Grunberger2012	PLAC	34.0	DUL10	concentration change	glucose	plasma	NR	fpg_change_DUL10	12.0	week	-1.87647050087015	NA	NA	NA	1.30338893055838	NA	0.22352935748117	NA	percent	NA
+Grunberger2012	PLAC	29.0	DUL15	concentration change	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Grunberger2012	PLAC	29.0	DUL15	concentration change	glucose	plasma	NR	fpg_change_DUL15	2.0	week	-2.29411767675802	NA	NA	NA	1.23542059301719	NA	0.22941184481122	NA	percent	NA
+Grunberger2012	PLAC	29.0	DUL15	concentration change	glucose	plasma	NR	fpg_change_DUL15	4.0	week	-2.17647062288435	NA	NA	NA	1.58387193545878	NA	0.29411763468416	NA	percent	NA
+Grunberger2012	PLAC	29.0	DUL15	concentration change	glucose	plasma	NR	fpg_change_DUL15	8.0	week	-2.2588236503535	NA	NA	NA	1.36212841441648	NA	0.25294089655564	NA	percent	NA
+Grunberger2012	PLAC	29.0	DUL15	concentration change	glucose	plasma	NR	fpg_change_DUL15	12.0	week	-2.076470357819	NA	NA	NA	1.48884106940934	NA	0.27647084587585	NA	percent	NA

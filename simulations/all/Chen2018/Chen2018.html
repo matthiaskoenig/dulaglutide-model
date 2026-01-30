@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Chen2018</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>Chen2018</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../models/results/models/dulaglutide_body_flat.xml">../../../models/results/models/dulaglutide_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>hba1c_change_DUL075</strong>: <a href="Chen2018_hba1c_change_DUL075.tsv">Chen2018_hba1c_change_DUL075.tsv</a></li>
+                <li><strong>hba1c_change_DUL15</strong>: <a href="Chen2018_hba1c_change_DUL15.tsv">Chen2018_hba1c_change_DUL15.tsv</a></li>
+                <li><strong>hba1c_change_GLIM</strong>: <a href="Chen2018_hba1c_change_GLIM.tsv">Chen2018_hba1c_change_GLIM.tsv</a></li>
+                <li><strong>bodyweight_change_DUL075</strong>: <a href="Chen2018_bodyweight_change_DUL075.tsv">Chen2018_bodyweight_change_DUL075.tsv</a></li>
+                <li><strong>bodyweight_change_DUL15</strong>: <a href="Chen2018_bodyweight_change_DUL15.tsv">Chen2018_bodyweight_change_DUL15.tsv</a></li>
+                <li><strong>bodyweight_change_GLIM</strong>: <a href="Chen2018_bodyweight_change_GLIM.tsv">Chen2018_bodyweight_change_GLIM.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig2</strong>: <a href="Chen2018_Fig2.svg">Chen2018_Fig2.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig2</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Chen2018_Fig2.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Chen2018_Fig2.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../experiments/studies/chen2018.py">../../../experiments/studies/chen2018.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.dulaglutide.experiments.base_experiment import (
+    DulaglutideSimulationExperiment,
+)
+from pkdb_models.models.dulaglutide.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health,
+    Fasting, DulaglutideMappingMetaData, Coadministration
+)
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.dulaglutide.helpers import run_experiments
+
+
+class Chen2018(DulaglutideSimulationExperiment):
+    """Simulation experiment of Chen2018."""
+
+    interventions = ["DUL075", "DUL15"]
+    doses = {
+        "DUL075": 0.75, # mg
+        "DUL15" : 1.5   # mg
+    }
+    hba1cs = {
+        "DUL075": 8.0, #percent
+        "DUL15" : 8.0, #percent
+    }
+    fpgs = {k: DulaglutideSimulationExperiment.apg_from_hba1c(v) for k, v in hba1cs.items()}  # [mM]
+
+    colors = {
+        "DUL075": "tab:green",
+        "DUL15": "tab:blue",
+    }
+    info = {
+        # sid: label_prefix
+        "hba1c_change": "hba1c_change",  # Fig2b
+        "BW_change": "bodyweight_change",  # Fig2f
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig2b", "Fig2f"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+
+                dsets[label] = dset
+
+        # console.print(dsets)
+        # console.print(dsets.keys())
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        for intervention in self.interventions:
+            tc0 = Timecourse(
+                start = 0,
+                end = 168*60,
+                steps = 1000,
+                changes = {
+                    **self.default_changes(),
+                    # physiological changes
+                    "BW0": Q_(72, "kg"),
+                    "hba1c0": Q_(self.hba1cs[intervention], "percent"),
+                    "hba1c": Q_(self.hba1cs[intervention], "percent"),
+                    "fpg0" : Q_(self.fpgs[intervention], "mM"),
+                    "[fpg]": Q_(self.fpgs[intervention], "mM"),
+
+                    # dose (SCDOSE)
+                    "SCDOSE_dul": Q_(self.doses[intervention], "mg")
+                },
+            )
+            tc1 = Timecourse(
+                start = 0,
+                end = 168*60, #[min]
+                steps = 1000,
+                changes = {
+                    "SCDOSE_dul": Q_(self.doses[intervention], "mg")
+                },
+            )
+            tcsims[f"dul_{intervention}"] = TimecourseSim(
+                [tc0] + [tc1 for _ in range(30)]
+            )
+
+        # console.print(tcsims.keys())
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for sid, name in self.info.items():
+            for intervention in self.interventions:
+                mappings[f"fm_dul_{name}_{intervention}"] = FitMapping(
+                    self,
+                    reference = FitData(
+                        self,
+                        dataset = f"{name}_{intervention}",
+                        xid = "time",
+                        yid = "mean",
+                        yid_sd = "mean_sd",
+                        count = "count",
+                    ),
+                    observable = FitData(
+                        self, task = f"task_dul_{intervention}", xid = "time", yid = sid,
+                    ),
+                    metadata = DulaglutideMappingMetaData(
+                        tissue = Tissue.PLASMA,
+                        route = Route.SC,
+                        application_form = ApplicationForm.SOLUTION,
+                        dosing = Dosing.MULTIPLE,
+                        health = Health.T2DM,
+                        fasting = Fasting.NR,
+                        coadministration = Coadministration.NONE
+                    )
+                )
+
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+
+        fig = Figure(
+            experiment=self,
+            sid="Fig2",
+            num_cols=2,
+            name=f"{self.__class__.__name__} (T2DM)",
+        )
+        plots = fig.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        plots[0].set_yaxis(self.label_hba1c_change, unit=self.unit_hba1c)
+        plots[1].set_yaxis(self.label_bodyweight_change, unit=self.unit_bodyweight)
+
+        for intervention in self.interventions:
+            for kp, sid in enumerate(self.info):
+                name = self.info[sid]
+
+                # simulation
+                plots[kp].add_data(
+                    task=f"task_dul_{intervention}",
+                    xid="time",
+                    yid=sid,
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+                # data
+                plots[kp].add_data(
+                    dataset=f"{name}_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+        return {
+            fig.sid: fig,
+        }
+
+if __name__ == "__main__":
+    run_experiments(Chen2018, output_dir=Chen2018.__name__)
+</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>
