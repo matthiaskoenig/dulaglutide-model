@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	0.0	week	8.083860208232				1.06312201591339		0.0599001396696508			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	4.0	week	7.67121463941138				0.531562134481727		0.0299501333073202			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	8.0	week	7.48153075800333				0.767810219656764		0.0432612049311301			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	12.0	week	7.36838607794845				0.885935388769494		0.04991680421554			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	26.0	week	7.37171381411815				1.06312201591339		0.0599001396696508			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	39.0	week	7.52479196293447				1.06312201591339		0.0599001396696508			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	52.0	week	7.5680532948106				1.12218572699478		0.0632280027843502			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	65.0	week	7.53144756221887				1.18124718502593		0.0665557389540501			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	78.0	week	7.60133116428763				1.29937235413866		0.07321133823846			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	91.0	week	7.63128117064995				1.29937235413866		0.07321133823846			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c		plasma	NR	hba1c_SITA	104.0	week	7.68785357414989				1.29937235413849		0.0732113382384503			percent	percent	dimensionless

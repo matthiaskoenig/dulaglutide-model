@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Barrington2011a	DUL3	3.0	DUL3	hba1c		plasma	NR	hba1c_DUL3	0.0	week	7.0								percent	percent	dimensionless
+Barrington2011a	DUL3	3.0	DUL3	hba1c		plasma	NR	hba1c_DUL3	5.0	week	5.80719869390271				0.555482930024155	0.320708219179688			percent	percent	dimensionless

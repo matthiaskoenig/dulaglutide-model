@@ -35,3 +35,39 @@ Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	44.0	wee
 Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	52.0	week	134.931977358973	NA	NA	NA	40.4501177537502	2.44815249642647	NA	mg/dl	NA
 Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	65.0	week	141.696614689635	NA	NA	NA	43.6435506673492	2.64142784873056	NA	mg/dl	NA
 Giorgino2015	DUL15	273.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	78.0	week	142.147592477777	NA	NA	NA	45.7724734578241	2.77027611750271	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	0.0	week	0.0	NA	NA	NA	44.8408840241371	2.77027906665061	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	2.0	week	-22.162244329794	NA	NA	NA	32.3271922431941	1.99718060658002	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	4.0	week	-28.282628520009	NA	NA	NA	34.4127836719539	2.1260288753512	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	8.0	week	-28.41147678878	NA	NA	NA	35.4555316501969	2.1904500605884	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	14.0	week	-27.380678842019	NA	NA	NA	37.54121855123	2.31930422765632	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	20.0	week	-29.828831338446	NA	NA	NA	35.455627122454	2.19045595888414	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	26.0	week	-30.086533774284	NA	NA	NA	39.6269054522299	2.44815839472219	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	35.0	week	-30.150954959521	NA	NA	NA	37.5412185512133	2.31930422765529	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	44.0	week	-30.279809126588	NA	NA	NA	39.6269054522299	2.44815839472219	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	52.0	week	-33.243360596396	NA	NA	NA	41.7124014087487	2.57700076519862	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	65.0	week	-31.052910535806	NA	NA	NA	41.7124968809893	2.57700666349334	NA	mg/dl	NA
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	78.0	week	-30.086533774284	NA	NA	NA	44.8409317602652	2.77028201579845	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	0.0	week	0.0	NA	NA	NA	47.81368154283	2.89913028456961	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	2.0	week	-26.607574483653	NA	NA	NA	34.0008077825004	2.06160179181724	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	4.0	week	-26.994125188262	NA	NA	NA	37.1883865520303	2.25487714412236	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	8.0	week	-23.772871282617	NA	NA	NA	35.0633664647442	2.12602887535118	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	14.0	week	-20.229487857601	NA	NA	NA	39.3135039165014	2.38373131118925	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	20.0	week	-17.845756546411	NA	NA	NA	35.0633664647445	2.1260288753512	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	26.0	week	-18.940987475002	NA	NA	NA	40.376062598729	2.44815839472221	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	35.0	week	-16.814958599651	NA	NA	NA	38.2509938728501	2.31930717680316	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	44.0	week	-14.044676583852	NA	NA	NA	41.4385240037708	2.51257957995941	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	52.0	week	-15.20432869768	NA	NA	NA	43.5635927296492	2.64143079787843	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	65.0	week	-9.79261883315101	NA	NA	NA	42.5010826860149	2.57700666349337	NA	mg/dl	NA
+Giorgino2015	DUL075	272.0	DUL075	concentration change absolute	glucose	serum	NR	fpg_change_DUL075	78.0	week	-9.85704296753599	NA	NA	NA	46.7511714991791	2.83470615018355	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	0.0	week	0.0	NA	NA	NA	47.9014937041063	2.89913028456864	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	2.0	week	-37.366570078326	NA	NA	NA	34.0633493823742	2.06160769011297	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	4.0	week	-36.464614502041	NA	NA	NA	36.1921747169932	2.1904500605884	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	8.0	week	-35.240541202976	NA	NA	NA	34.0633493823745	2.06160769011299	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	14.0	week	-32.083708482568	NA	NA	NA	36.1922721728329	2.19045595888414	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	20.0	week	-30.859629285207	NA	NA	NA	36.1921747169932	2.1904500605884	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	26.0	week	-32.083708482568	NA	NA	NA	43.6435506673657	2.64142784873156	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	35.0	week	-30.40865739536	NA	NA	NA	38.3211949632917	2.31930422765532	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	44.0	week	-27.445100027258	NA	NA	NA	40.4501177537666	2.44815249642747	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	52.0	week	-29.957679607217	NA	NA	NA	40.4501177537501	2.44815249642647	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	65.0	week	-23.193042276555	NA	NA	NA	43.6435506673492	2.64142784873056	NA	mg/dl	NA
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	78.0	week	-22.742064488413	NA	NA	NA	45.7724734578241	2.77027611750271	NA	mg/dl	NA

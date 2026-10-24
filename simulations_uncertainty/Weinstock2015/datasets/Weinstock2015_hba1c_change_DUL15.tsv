@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	0.0	week	0.0						0.0599002031421403			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	4.0	week	-0.75540772598998				0.58021948042684		0.0332778694770299			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	8.0	week	-1.14808656042989				0.754284881882398		0.0432612049311301			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	12.0	week	-1.34775377729204				0.812308157942228		0.0465890680458401			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	26.0	week	-1.39434284533788				0.928350283338126		0.05324454038524			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	39.0	week	-1.27787017522329				1.04439683545744		0.0599002666146404			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	52.0	week	-1.2911813737921				1.04439462209573		0.0599001396696401			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	65.0	week	-1.24459230574626				1.10241789815556		0.0632280027843502			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	78.0	week	-1.20798670009953				1.27648329961129		0.07321133823846			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	91.0	week	-1.13144762569137				1.21846002355163		0.0698834751237598			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	104.0	week	-1.12479202640697				1.27648329961112		0.0732113382384503			percent	percent	dimensionless

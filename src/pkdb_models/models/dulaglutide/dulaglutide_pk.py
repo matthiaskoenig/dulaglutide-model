@@ -1,149 +1,120 @@
+"""Pharmacokinetic parameters of the dulaglutide scans.
+
+The parameters are the non-compartmental analysis of `pkpdutils`, named like
+the variables of its `NCAResult` (e.g. `auc_inf_obs`, `cmax`, `tmax`, `thalf`,
+`lambda_z`, `cl_f`, `vz_f`), with the unit of every parameter in
+`<name>_unit`. Dulaglutide is analysed in venous plasma with its subcutaneous
+dose, an extravascular dose (`Route.ORAL` of pkpdutils, which has no
+subcutaneous route; the analysis of an extravascular dose is the same), so the
+clearance and the volume are the apparent ones. The concentrations below
+`LLOQ_FRACTION` of the maximum are below the limit of quantification, so that
+the noise of the integrator is not the terminal phase.
+
+A scan has one dimension, the scanned parameter; a run over the draws of the
+fitted parameters (`run_simulation pkdb_models.models.dulaglutide
+--uncertainty`) adds the dimension of the draws. The parameters are
+calculated for every point of every dimension, a row per point with its
+position along each dimension (the columns `point` and, with draws, `draw`),
+see `summarize`.
+"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+import numpy as np
 import pandas as pd
-from pkdb_analysis.pk.pharmacokinetics import TimecoursePK
+from pkpdsim.pk import nca_frame, scan_nca
+from pkpdsim.scan import scan_dimensions, start_values
+from pkpdutils import Route
+from sbmlsim import Q
+from sbmlsim.result import ScanResult
 
-
-def process_substance_pk(experiment, xres, scandim, dose_index, dose_value, substance, keys):
-    """Process PK calculations for a substance."""
-    Q_ = experiment.Q_
-
-    # Get time and concentration vectors
-    t_vec = Q_(xres.dim_mean("time").magnitude, xres.uinfo["time"])
-    conc_key = keys["conc_key"]
-    c_vec = Q_(
-        xres[conc_key].sel({scandim: dose_index}).values,
-        xres.uinfo[conc_key]
+if TYPE_CHECKING:
+    from pkdb_models.models.dulaglutide.experiments.base_experiment import (
+        DulaglutideSimulationExperiment,
     )
 
-    # Set up TimecoursePK parameters
-    tpkw = {
-        "time": t_vec,
-        "concentration": c_vec,
-        "substance": substance,
-        "ureg": experiment.ureg,
-        "dose": dose_value if keys.get("dose_used", False) else None
-    }
-
-    if keys.get("dose_used", False) and "min_threshold" in keys:
-        tpkw["min_treshold"] = keys["min_threshold"]
-
-    # Calculate basic PK parameters
-    tcpk = TimecoursePK(**tpkw)
-    pk_dict = tcpk.pk.to_dict()
-    pk_dict["substance"] = substance
-
-    # For metabolites: calculate additional clearance parameters
-    if substance in ["dul", "dm"]:
-        # Renal clearance
-        if "aurine_key" in keys:
-            aurine_key = keys["aurine_key"]
-            aurine_vec = Q_(
-                xres[aurine_key].sel({scandim: dose_index}).values,
-                xres.uinfo[aurine_key]
-            )
-            pk_dict[aurine_key] = aurine_vec.magnitude[-1]
-            pk_dict[f"{aurine_key}_unit"] = aurine_vec.units
-            cl_renal = aurine_vec[-1] / tcpk.pk.auc
-            pk_dict["cl_renal"] = cl_renal.magnitude
-            pk_dict["cl_renal_unit"] = cl_renal.units
-
-        # Fecal clearance
-        if "afeces_key" in keys:
-            afeces_key = keys["afeces_key"]
-            afeces_vec = Q_(
-                xres[afeces_key].sel({scandim: dose_index}).values,
-                xres.uinfo[afeces_key]
-            )
-            pk_dict[afeces_key] = afeces_vec.magnitude[-1]
-            pk_dict[f"{afeces_key}_unit"] = afeces_vec.units
-            cl_fecal = afeces_vec[-1] / tcpk.pk.auc
-            pk_dict["cl_fecal"] = cl_fecal.magnitude
-            pk_dict["cl_fecal_unit"] = cl_fecal.units
-
-        # Total clearance (sum of renal and fecal)
-        if ("afeces_key" in keys) and ("aurine_key" in keys):
-            pk_dict["cl_total"] = pk_dict["cl_renal"] + pk_dict["cl_fecal"]
-            pk_dict["cl_total_unit"] = pk_dict["cl_renal_unit"]
-
-        # Apparent clearance (dose/AUC)
-        if dose_value is not None:
-            dose_mmol = dose_value / experiment.Mr.dul
-            # Correction factor for metabolites
-            # no correction factors due to unknown molecular weights
-            correction_factor = 1.0
-            cl_apparent = dose_mmol / tcpk.pk.auc * correction_factor
-            pk_dict["cl"] = cl_apparent.magnitude
-            pk_dict["cl_unit"] = cl_apparent.units
-        else:
-            pk_dict["cl"] = float('nan')
-            pk_dict["cl_unit"] = tcpk.pk.auc.units.replace('*min', '')
-
-        # Add AUC and volume of distribution
-        pk_dict["auc"] = tcpk.pk.auc.magnitude
-        pk_dict["auc_unit"] = tcpk.pk.auc.units
-        pk_dict["vd"] = pk_dict['cl'] / tcpk.pk.kel.magnitude
-        pk_dict["vd_unit"] = f"{pk_dict['cl_unit']}/{tcpk.pk.kel.units}"
-
-    return pk_dict
+#: subcutaneous dose of the scans
+DOSE = "SCDOSE_dul"
+#: the concentration of dulaglutide in venous plasma
+CONCENTRATION = "[Cvep_dul]"
+#: the name of the analyte, the column `substance` of the parameters
+SUBSTANCE = "dulaglutide"
+#: the limit of quantification relative to the maximal concentration
+LLOQ_FRACTION = 1e-4
 
 
-def calculate_dulaglutide_pk(experiment, xres):
-    """Calculate PK parameters for dulaglutide, and metabolites."""
-    # Get scanned dimension and dose vector
-    scandim = xres._redop_dims()[0]
-    dose_vec = experiment.Q_(xres["SCDOSE_dul"].values[0], xres.uinfo["SCDOSE_dul"])
+def _point_dimension(res: ScanResult, across: str | None) -> str:
+    """Get the dimension of the scan besides the draws `across`.
 
-    # Define substance info dictionaries
-    substance_info = {
-        "dul": {
-            "conc_key": "[Cve_dul]",
-            # "aurine_key": "Aurine_dul",
-            # "afeces_key": "Afeces_dul",
-            "dose_used": True,
-        },
-        "dm": {
-            "conc_key": "[Cve_dm]",
-            "aurine_key": "Aurine_dm",
-            "afeces_key": "Afeces_dm",
-            "dose_used": False,
-        },
-    }
-
-    # Process each substance for each dose
-    pk_dicts = []
-    for substance, keys in substance_info.items():
-        for idx, dose in enumerate(dose_vec):
-            pk_dict = process_substance_pk(experiment, xres, scandim, idx, dose, substance, keys)
-            pk_dicts.append(pk_dict)
+    Raises:
+        ValueError: if the scan has not one dimension besides the draws.
+    """
+    dims = scan_dimensions(res, across)
+    if len(dims) != 1:
+        raise ValueError(
+            f"A scan of one dimension is required, not of {dims} (draws: {across})."
+        )
+    return dims[0]
 
 
-    return pd.DataFrame(pk_dicts)
+def calculate_dulaglutide_pk(
+    experiment: DulaglutideSimulationExperiment,
+    res: ScanResult,
+    across: str | None = None,
+) -> pd.DataFrame:
+    """Calculate the pharmacokinetic parameters of every simulation of a scan.
 
-# def calculate_rivaroxaban_pd(experiment, xres) -> pd.DataFrame:
-#     scandim = xres._redop_dims()[0]
-#     dose_vec = experiment.Q_(xres["PODOSE_riv"].values[0], xres.uinfo["PODOSE_riv"])
-#
-#     Q_ = experiment.Q_
-#
-#     dfs = {}
-#     for sid in [
-#         "PT",
-#         "aPTT",
-#         "Xa_inhibition",
-#     ]:
-#         pd_dicts = []
-#         for idx, dose in enumerate(dose_vec):
-#             # Get values
-#             values = Q_(
-#                 xres[sid].sel({scandim: idx}).values,
-#                 xres.uinfo[sid]
-#             )
-#             pd_dict = {
-#                 "sid": sid,
-#                 "min": values.magnitude.min(),
-#                 "max": values.magnitude.max(),
-#                 "unit": values.units
-#             }
-#             pd_dicts.append(pd_dict)
-#         dfs[sid] = pd.DataFrame(pd_dicts)
-#
-#     return dfs
+    The non-compartmental analysis of all simulations at once
+    (`pkpdsim.pk.scan_nca`), with the dose in the substance unit of the
+    concentration, which `cl_f` and `vz_f` require.
+
+    Args:
+        experiment: experiment of the scan, for the molecular weight.
+        res: result of the scan, a scan of a subcutaneous dose.
+        across: the dimension of the draws of the fitted parameters, `None`
+            for a scan without draws.
+
+    Returns:
+        One row per simulation of the scan, with its position (`point`, and
+        `draw` with draws), the parameters and their units (`<name>_unit`).
+    """
+    point = _point_dimension(res, across)
+    dose_mass = Q(start_values(res, DOSE).values, res.units[DOSE])
+    result = scan_nca(
+        res,
+        CONCENTRATION,
+        dose=(dose_mass / experiment.Mr.dul).to("mmole"),
+        route=Route.ORAL,
+        substance=SUBSTANCE,
+        lloq_fraction=LLOQ_FRACTION,
+    )
+    df = nca_frame(result).drop(columns="nca_flags")
+    df.insert(len(res.dims), "substance", SUBSTANCE)
+    names = {point: "point", **({across: "draw"} if across is not None else {})}
+    return df.rename(columns=names)
+
+
+def summarize(
+    df: pd.DataFrame, key: str, quantiles: tuple[float, float]
+) -> pd.DataFrame:
+    """Get the median and the quantiles of a parameter over the draws of every point.
+
+    Args:
+        df: the parameters with the columns `point` and `draw`.
+        key: the parameter.
+        quantiles: the lower and the upper quantile.
+
+    Returns:
+        One row per point (the index), the columns `lower`, `median`, `upper`.
+    """
+    low, high = quantiles
+    grouped = df.groupby("point")[key]
+    return pd.DataFrame(
+        {
+            "lower": grouped.quantile(low),
+            "median": grouped.median(),
+            "upper": grouped.quantile(high),
+        }
+    ).astype(np.float64)

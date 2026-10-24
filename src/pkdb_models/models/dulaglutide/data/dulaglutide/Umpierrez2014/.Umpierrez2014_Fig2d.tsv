@@ -1,22 +1,43 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
 Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
-Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	2.0	week	-0.5768509705517537	NA	NA	NA	1.545292371087308	NA	0.09439375517188692	NA	mmol/l	NA
-Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	4.0	week	-1.192158752492241	NA	NA	NA	1.6597600494544915	NA	0.10138598150332445	NA	mmol/l	NA
-Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	13.0	week	-1.2620800822560938	NA	NA	NA	1.6597600494544915	NA	0.10138598150332445	NA	mmol/l	NA
-Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	26.0	week	-1.506804736429565	NA	NA	NA	1.7742266361873222	NA	0.10837814115258082	NA	mmol/l	NA
-Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	39.0	week	-1.4998125767803085	NA	NA	NA	1.888691039651518	NA	0.11537016743747919	NA	mmol/l	NA
-Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	52.0	week	-1.3704580900443168	NA	NA	NA	2.117624213117179	NA	0.12935448673599192	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	2.0	week	-0.576850970551754	NA	NA	NA	1.54529237108731	NA	0.0943937551718869	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	4.0	week	-1.19215875249224	NA	NA	NA	1.65976004945448	NA	0.101385981503324	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	13.0	week	-1.26208008225609	NA	NA	NA	1.65976004945448	NA	0.101385981503324	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	26.0	week	-1.50680473642957	NA	NA	NA	1.77422663618733	NA	0.108378141152581	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	39.0	week	-1.49981257678031	NA	NA	NA	1.88869103965151	NA	0.115370167437479	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration change absolute	glucose	plasma	NR	fpg_change_MET	52.0	week	-1.37045809004432	NA	NA	NA	2.11762421311718	NA	0.129354486735992	NA	mmol/l	NA
 Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
-Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	2.0	week	-1.3669620769018649	NA	NA	NA	1.4936034077742562	NA	0.09089780871161635	NA	mmol/l	NA
-Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	4.0	week	-1.5207889223637252	NA	NA	NA	1.55104876555792	NA	0.0943938218540683	NA	mmol/l	NA
-Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	13.0	week	-1.6431512494504605	NA	NA	NA	1.4936012163743264	NA	0.09089767534726367	NA	mmol/l	NA
-Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	26.0	week	-1.5137967627144688	NA	NA	NA	1.49360121637433	NA	0.0908976753472639	NA	mmol/l	NA
-Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	39.0	week	-1.3564737707458043	NA	NA	NA	1.6659394811251562	NA	0.10138584813896667	NA	mmol/l	NA
-Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	52.0	week	-1.338993438304845	NA	NA	NA	2.01061820202691	NA	0.12236232708673533	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	2.0	week	-1.36696207690186	NA	NA	NA	1.49360340777426	NA	0.0908978087116164	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	4.0	week	-1.52078892236373	NA	NA	NA	1.55104876555792	NA	0.0943938218540683	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	13.0	week	-1.64315124945046	NA	NA	NA	1.49360121637433	NA	0.0908976753472637	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	26.0	week	-1.51379676271447	NA	NA	NA	1.49360121637433	NA	0.0908976753472639	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	39.0	week	-1.3564737707458	NA	NA	NA	1.66593948112516	NA	0.101385848138967	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	52.0	week	-1.33899343830485	NA	NA	NA	2.0106182020269	NA	0.122362327086735	NA	mmol/l	NA
 Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
-Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	2.0	week	-1.7200647388635641	NA	NA	NA	1.8348725572617337	NA	0.11187415429502723	NA	mmol/l	NA
-Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	4.0	week	-1.8564112518844598	NA	NA	NA	1.6055104800143074	NA	0.09788970163216781	NA	mmol/l	NA
-Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	13.0	week	-1.8074665344327285	NA	NA	NA	1.7775336784533673	NA	0.10837814115257549	NA	mmol/l	NA
-Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-1.7794978958357086	NA	NA	NA	1.834872557261821	NA	0.11187415429503256	NA	mmol/l	NA
-Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	39.0	week	-1.7445372309537794	NA	NA	NA	1.72019261230698	NA	0.10488199464577086	NA	mmol/l	NA
-Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	52.0	week	-1.5977024117768286	NA	NA	NA	2.0068913810248574	NA	0.12236232708673556	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	2.0	week	-1.72006473886356	NA	NA	NA	1.83487255726173	NA	0.111874154295027	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	4.0	week	-1.85641125188446	NA	NA	NA	1.60551048001431	NA	0.0978897016321678	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	13.0	week	-1.80746653443273	NA	NA	NA	1.77753367845336	NA	0.108378141152575	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-1.77949789583571	NA	NA	NA	1.83487255726183	NA	0.111874154295033	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	39.0	week	-1.74453723095378	NA	NA	NA	1.72019261230698	NA	0.104881994645771	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	52.0	week	-1.59770241177683	NA	NA	NA	2.00689138102486	NA	0.122362327086736	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	0.0	week	8.94	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	2.0	week	8.36314902944825	NA	NA	NA	1.54529237108731	NA	0.0943937551718869	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	4.0	week	7.74784124750776	NA	NA	NA	1.65976004945448	NA	0.101385981503324	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	13.0	week	7.67791991774391	NA	NA	NA	1.65976004945448	NA	0.101385981503324	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	26.0	week	7.43319526357043	NA	NA	NA	1.77422663618733	NA	0.108378141152581	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	39.0	week	7.44018742321969	NA	NA	NA	1.88869103965151	NA	0.115370167437479	NA	mmol/l	NA
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	52.0	week	7.56954190995568	NA	NA	NA	2.11762421311718	NA	0.129354486735992	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	0.0	week	8.94	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	2.0	week	7.57303792309814	NA	NA	NA	1.49360340777426	NA	0.0908978087116164	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	4.0	week	7.41921107763627	NA	NA	NA	1.55104876555792	NA	0.0943938218540683	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	13.0	week	7.29684875054954	NA	NA	NA	1.49360121637433	NA	0.0908976753472637	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	26.0	week	7.42620323728553	NA	NA	NA	1.49360121637433	NA	0.0908976753472639	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	39.0	week	7.5835262292542	NA	NA	NA	1.66593948112516	NA	0.101385848138967	NA	mmol/l	NA
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	52.0	week	7.60100656169515	NA	NA	NA	2.0106182020269	NA	0.122362327086735	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	0.0	week	9.1	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	2.0	week	7.37993526113644	NA	NA	NA	1.83487255726173	NA	0.111874154295027	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	4.0	week	7.24358874811554	NA	NA	NA	1.60551048001431	NA	0.0978897016321678	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	13.0	week	7.29253346556727	NA	NA	NA	1.77753367845336	NA	0.108378141152575	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	26.0	week	7.32050210416429	NA	NA	NA	1.83487255726183	NA	0.111874154295033	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	39.0	week	7.35546276904622	NA	NA	NA	1.72019261230698	NA	0.104881994645771	NA	mmol/l	NA
+Umpierrez2014	DUL15	269.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	52.0	week	7.50229758822317	NA	NA	NA	2.00689138102486	NA	0.122362327086736	NA	mmol/l	NA

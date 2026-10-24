@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	0.0	week	0.0								kg	kg	dimensionless
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	2.0	week	0.25				1.400071426749364	0.09		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	4.0	week	0.28				1.5556349186104046	0.1		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	8.0	week	0.27				2.3334523779156067	0.15		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	16.0	week	0.74				2.644579361637688	0.17		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	GLIM	242.0	GLIM	weight (change)			NR	bodyweight_change_GLIM	26.0	week	0.89				2.9557063453597685	0.19		SE of the text (LSM (SE)), sd = se x sqrt(n)	kg	kg	dimensionless

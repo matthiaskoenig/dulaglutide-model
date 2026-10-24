@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	0.0	hr	0.0								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	12.0	hr	2.333404759186107e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	24.0	hr	3.3359073983991622e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	48.0	hr	4.09983380673082e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	72.0	hr	4.3315843534811465e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	168.0	hr	2.770875531067924e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	336.0	hr	3.57326102015693e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	504.0	hr	4.071750766072918e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	672.0	hr	3.3130571006757666e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	696.0	hr	4.969907856637556e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	720.0	hr	5.624444896019106e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	744.0	hr	4.935864413515972e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	816.0	hr	3.8012849966341216e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL8	840.0	hr	3.114319974924602e-06								mole/meter^3	ng/ml	dimensionless

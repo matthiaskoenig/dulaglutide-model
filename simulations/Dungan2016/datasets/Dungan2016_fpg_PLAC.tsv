@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Dungan2016	PLAC	60.0	PLAC	concentration	glucose	serum	NR	fpg_PLAC	0.0	week	9.7				2.5	0.3227486121839514		Table 1 mean (SD)	mmol/l	mmol/l	dimensionless
+Dungan2016	PLAC	60.0	PLAC	concentration	glucose	serum	NR	fpg_PLAC	24.0	week	9.86				2.5	0.3227486121839514		baseline plus the change; LS mean of the text (ANCOVA, LOCF); sd: baseline sd of Table 1, consistent with the 95 % CI of the difference (-2.58, -1.14)	mmol/l	mmol/l	dimensionless

@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	0.0	day	8.792184724689164								mole/meter^3	mg/dl	dimensionless
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	2.0	day	8.922241123707591								mole/meter^3	mg/dl	dimensionless
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	30.0	day	8.755025753541018				1.0894818863660238	0.32849114845133814		SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm	mole/meter^3	mg/dl	dimensionless
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	35.0	day	8.878889085201598				1.0894818863660238	0.32849114845133814		SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm	mole/meter^3	mg/dl	dimensionless

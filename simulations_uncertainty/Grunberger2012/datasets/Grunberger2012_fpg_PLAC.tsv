@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Grunberger2012	PLAC	32.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_PLAC	0.0	week	8.796400000000002									mmol/l	mmol/l	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_PLAC	2.0	week	9.261105938533927				1.09809493659229		0.194117594012755			mmol/l	mmol/l	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_PLAC	4.0	week	8.237576592272456				1.46412615900176		0.25882338388569			mmol/l	mmol/l	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_PLAC	8.0	week	8.69640005750095				1.36430021205963		0.241176482880403			mmol/l	mmol/l	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_PLAC	12.0	week	8.596400016829548				1.33102447329097		0.235294107747325			mmol/l	mmol/l	dimensionless

@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2011	DUL0510	66.0	DUL05W4, DUL10W12	concentration change absolute	glucose	plasma	NR	fpg_change_DUL0510	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Umpierrez2011	DUL0510	47.0	DUL05W4, DUL10W12	concentration change absolute	glucose	plasma	NR	fpg_change_DUL0510	16.0	week	-2.1				2.3371549267530085		0.34090908352009			mmol/l	mmol/l	dimensionless

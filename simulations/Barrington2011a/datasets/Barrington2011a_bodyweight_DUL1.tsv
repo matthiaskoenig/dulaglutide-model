@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Barrington2011a	DUL1	5.0	DUL1	weight			NR	bodyweight_DUL1	0.0	week	89.5								kg	kg	dimensionless
+Barrington2011a	DUL1	5.0	DUL1	weight			NR	bodyweight_DUL1	5.0	week	89.1572435281838				1.38639619898398	0.620015228935099			kg	kg	dimensionless

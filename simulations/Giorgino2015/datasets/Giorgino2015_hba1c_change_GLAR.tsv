@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	0.0	week	0.0				0.934281404692105	0.0577200979442392			percent	percent	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	14.0	week	-0.62049049143008				0.887563806099632	0.0548338750643502			percent	percent	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	26.0	week	-0.63203459028536				1.02771018668113	0.0634921473718899			percent	percent	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	35.0	week	-0.62626267296844				0.934283543091087	0.0577202300549695			percent	percent	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	44.0	week	-0.60317447525788				1.02770590988351	0.0634918831504505			percent	percent	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	52.0	week	-0.55122642674127				1.07442137007733	0.0663779739196295			percent	percent	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	65.0	week	-0.50216446899385				1.12113683027117	0.0692640646888094			percent	percent	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	78.0	week	-0.49062037013857				1.21456347386123	0.0750359820057307			percent	percent	dimensionless

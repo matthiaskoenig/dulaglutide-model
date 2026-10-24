@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Barrington2011	DUL03	6.0	DUL03	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL03	8.0	hr	2.419036710903486e-07								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL03	6.0	DUL03	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL03	12.0	hr	3.2021886031778954e-07								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL03	6.0	DUL03	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL03	24.0	hr	4.195078492614396e-07								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL03	6.0	DUL03	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL03	48.0	hr	4.2388837588651416e-07								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL03	6.0	DUL03	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL03	72.0	hr	3.515996554011312e-07								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL03	6.0	DUL03	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL03	96.0	hr	2.9163884812753313e-07								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL03	6.0	DUL03	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL03	168.0	hr	1.8085342849718952e-07								mole/meter^3	ng/ml	dimensionless

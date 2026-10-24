@@ -1,0 +1,840 @@
+--------------------------------------------------------------------------------
+OptimizationProblem: PD_20261019_103700__c0378
+--------------------------------------------------------------------------------
+Experiments
+	*** FitMappingCollection ***
+experiment: Barrington2011
+mappings: ['fm_dul_DUL01', 'fm_dul_DUL03', 'fm_dul_DUL1', 'fm_dul_DUL3', 'fm_dul_DUL6', 'fm_dul_DUL12']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Barrington2011a
+mappings: ['fm_dul_fpg_PLAC', 'fm_dul_hba1c_PLAC', 'fm_dul_bodyweight_PLAC', 'fm_dul_fpg_DUL03', 'fm_dul_hba1c_DUL03', 'fm_dul_bodyweight_DUL03', 'fm_dul_fpg_DUL1', 'fm_dul_hba1c_DUL1', 'fm_dul_bodyweight_DUL1', 'fm_dul_fpg_DUL3', 'fm_dul_hba1c_DUL3', 'fm_dul_bodyweight_DUL3', 'fm_dul_fpg_DUL5', 'fm_dul_hba1c_DUL5', 'fm_dul_bodyweight_DUL5', 'fm_dul_fpg_DUL8', 'fm_dul_hba1c_DUL8', 'fm_dul_bodyweight_DUL8']
+weights: [11.0, 11.0, 11.0, 6.0, 6.0, 6.0, 5.0, 5.0, 5.0, 3.0, 3.0, 3.0, 9.0, 9.0, 9.0, 6.0, 6.0, 6.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Barrington2011a
+mappings: ['fm_dul_fpg_DUL005', 'fm_dul_hba1c_DUL005', 'fm_dul_bodyweight_DUL005']
+weights: [3.0, 3.0, 3.0]
+use_mapping_weights: True
+kind: outlier
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Barrington2011a
+mappings: ['fm_dul_dulaglutide_DUL03', 'fm_dul_dulaglutide_DUL1', 'fm_dul_dulaglutide_DUL3', 'fm_dul_dulaglutide_DUL5', 'fm_dul_dulaglutide_DUL8', 'fm_dul_fpg_change_PLAC', 'fm_dul_hba1c_change_PLAC', 'fm_dul_bodyweight_change_PLAC', 'fm_dul_fpg_change_DUL005', 'fm_dul_hba1c_change_DUL005', 'fm_dul_bodyweight_change_DUL005', 'fm_dul_fpg_change_DUL03', 'fm_dul_hba1c_change_DUL03', 'fm_dul_bodyweight_change_DUL03', 'fm_dul_fpg_change_DUL1', 'fm_dul_hba1c_change_DUL1', 'fm_dul_bodyweight_change_DUL1', 'fm_dul_fpg_change_DUL3', 'fm_dul_hba1c_change_DUL3', 'fm_dul_bodyweight_change_DUL3', 'fm_dul_fpg_change_DUL5', 'fm_dul_hba1c_change_DUL5', 'fm_dul_bodyweight_change_DUL5', 'fm_dul_fpg_change_DUL8', 'fm_dul_hba1c_change_DUL8', 'fm_dul_bodyweight_change_DUL8']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Blonde2015
+mappings: ['fm_dul_hba1c_DUL075', 'fm_dul_hba1c_DUL15', 'fm_dul_bodyweight_DUL075', 'fm_dul_bodyweight_DUL15']
+weights: [293.0, 295.0, 293.0, 295.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Blonde2015
+mappings: ['fm_dul_hba1c_change_DUL075', 'fm_dul_hba1c_change_DUL15', 'fm_dul_bodyweight_change_DUL075', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Chen2018
+mappings: ['fm_dul_hba1c_DUL075', 'fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL075', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL075', 'fm_dul_bodyweight_DUL15']
+weights: [239.0, 239.0, 239.0, 239.0, 239.0, 239.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Chen2018
+mappings: ['fm_dul_hba1c_change_DUL075', 'fm_dul_hba1c_change_DUL15', 'fm_dul_fpg_change_DUL075', 'fm_dul_fpg_change_DUL15', 'fm_dul_bodyweight_change_DUL075', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Dungan2014
+mappings: ['fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL15']
+weights: [299.0, 299.0, 299.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Dungan2014
+mappings: ['fm_dul_hba1c_change_DUL15', 'fm_dul_fpg_change_DUL15', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Dungan2016
+mappings: ['fm_dul_hba1c_PLAC', 'fm_dul_fpg_PLAC', 'fm_dul_bodyweight_PLAC', 'fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL15']
+weights: [60.0, 60.0, 60.0, 239.0, 239.0, 239.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Dungan2016
+mappings: ['fm_dul_hba1c_change_PLAC', 'fm_dul_fpg_change_PLAC', 'fm_dul_bodyweight_change_PLAC', 'fm_dul_hba1c_change_DUL15', 'fm_dul_fpg_change_DUL15', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBCM
+mappings: ['fm_dul_control', 'fm_dul_mildR', 'fm_dul_modR', 'fm_dul_sevR', 'fm_dul_ESR']
+weights: [None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBCN
+mappings: ['fm_dul_abdomen', 'fm_dul_arm', 'fm_dul_thigh']
+weights: [None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBDO
+mappings: ['fm_dul_control', 'fm_dul_mildH', 'fm_dul_modH', 'fm_dul_sevH']
+weights: [None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBDR
+mappings: ['fm_dul_DUL01IV', 'fm_dul_DUL15SC', 'fm_dul_DUL075SC', 'fm_dul_DUL075IM']
+weights: [None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Gao2024
+mappings: ['fm_dul_HEC14028', 'fm_dul_DUL075']
+weights: [None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Gerstein2019
+mappings: ['fm_dul_PLAC__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [4952.0, 4949.0, 4952.0, 4949.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Giorgino2015
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [272.0, 273.0, 272.0, 273.0, 272.0, 273.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Giorgino2015
+mappings: ['fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Grunberger2012
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL01__fpg', 'fm_dul_DUL05__fpg', 'fm_dul_DUL10__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL01__hba1c', 'fm_dul_DUL05__hba1c', 'fm_dul_DUL10__hba1c', 'fm_dul_DUL15__hba1c']
+weights: [32.0, 35.0, 34.0, 34.0, 29.0, 32.0, 35.0, 34.0, 34.0, 29.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Grunberger2012
+mappings: ['fm_dul_PLAC__fpg_change', 'fm_dul_DUL01__fpg_change', 'fm_dul_DUL05__fpg_change', 'fm_dul_DUL10__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL01__hba1c_change', 'fm_dul_DUL05__hba1c_change', 'fm_dul_DUL10__hba1c_change', 'fm_dul_DUL15__hba1c_change']
+weights: [None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Liu2025
+mappings: ['fm_dul_DUL15__fpg', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL15__bodyweight']
+weights: [218.0, 218.0, 218.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Liu2025
+mappings: ['fm_dul_LY05008__fpg', 'fm_dul_LY05008__hba1c', 'fm_dul_LY05008__bodyweight']
+weights: [222.0, 222.0, 222.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Liu2025
+mappings: ['fm_dul_LY05008__dulaglutide', 'fm_dul_DUL15__dulaglutide', 'fm_dul_LY05008__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_LY05008__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_LY05008__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Morioka2024
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [195.0, 391.0, 195.0, 391.0, 195.0, 391.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Morioka2024
+mappings: ['fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Nauck2014
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [177.0, 302.0, 304.0, 177.0, 302.0, 304.0, 177.0, 302.0, 304.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Nauck2014
+mappings: ['fm_dul_PLAC__fpg_change', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Pratley2018
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [299.0, 299.0, 299.0, 299.0, 299.0, 299.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Pratley2018
+mappings: ['fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Teraruchi2014
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL025__fpg', 'fm_dul_DUL05__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL025__hba1c', 'fm_dul_DUL05__hba1c', 'fm_dul_DUL075__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL025__bodyweight', 'fm_dul_DUL05__bodyweight', 'fm_dul_DUL075__bodyweight']
+weights: [37.0, 36.0, 37.0, 35.0, 37.0, 36.0, 37.0, 35.0, 37.0, 36.0, 37.0, 35.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Teraruchi2014
+mappings: ['fm_dul_PLAC__fpg_change', 'fm_dul_DUL025__fpg_change', 'fm_dul_DUL05__fpg_change', 'fm_dul_DUL075__fpg_change', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL025__hba1c_change', 'fm_dul_DUL05__hba1c_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL025__bodyweight_change', 'fm_dul_DUL05__bodyweight_change', 'fm_dul_DUL075__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Umpierrez2011
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL1010__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL1010__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL1010__bodyweight']
+weights: [53.0, 52.0, 59.0, 59.0, 59.0, 59.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Umpierrez2011
+mappings: ['fm_dul_DUL0510__fpg', 'fm_dul_DUL1020__fpg', 'fm_dul_DUL0510__hba1c', 'fm_dul_DUL1020__hba1c', 'fm_dul_DUL0510__bodyweight', 'fm_dul_DUL1020__bodyweight']
+weights: [47.0, 51.0, 58.0, 54.0, 59.0, 56.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Umpierrez2011
+mappings: ['fm_dul_PLAC__fpg_change', 'fm_dul_DUL0510__fpg_change', 'fm_dul_DUL1010__fpg_change', 'fm_dul_DUL1020__fpg_change', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL0510__hba1c_change', 'fm_dul_DUL1010__hba1c_change', 'fm_dul_DUL1020__hba1c_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL0510__bodyweight_change', 'fm_dul_DUL1010__bodyweight_change', 'fm_dul_DUL1020__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Umpierrez2014
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [270.0, 269.0, 270.0, 269.0, 270.0, 269.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Umpierrez2014
+mappings: ['fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Wang2019
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [252.0, 253.0, 252.0, 253.0, 252.0, 253.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Wang2019
+mappings: ['fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Weinstock2015
+mappings: ['fm_dul_DUL075__fpg_ext', 'fm_dul_DUL15__fpg_ext', 'fm_dul_DUL075__hba1c_ext', 'fm_dul_DUL15__hba1c_ext', 'fm_dul_DUL075__bodyweight_ext', 'fm_dul_DUL15__bodyweight_ext']
+weights: [302.0, 304.0, 302.0, 304.0, 302.0, 304.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Weinstock2015
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Wysham2014
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c']
+weights: [141.0, 280.0, 279.0, 280.0, 279.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Wysham2014
+mappings: ['fm_dul_PLAC__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [141.0, 141.0, 280.0, 279.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Wysham2014
+mappings: ['fm_dul_PLAC__fpg_change', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Xu2022
+mappings: ['fm_dul_DULPLAM__fpg', 'fm_dul_DUL05M__fpg', 'fm_dul_DUL075M__fpg', 'fm_dul_DUL15M__fpg']
+weights: [10.0, 11.0, 11.0, 10.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Xu2022
+mappings: ['fm_dul_DULPLAM__hba1c', 'fm_dul_DUL05M__hba1c', 'fm_dul_DUL075M__hba1c', 'fm_dul_DUL15M__hba1c']
+weights: [10.0, 11.0, 11.0, 10.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Xu2022
+mappings: ['fm_dul_DUL05M', 'fm_dul_DUL075M', 'fm_dul_DUL15M', 'fm_dul_DUL05S', 'fm_dul_DUL075S', 'fm_dul_DUL15S', 'fm_dul_DULPLAM__fpg_change', 'fm_dul_DULPLAM__hba1c_change', 'fm_dul_DUL05M__fpg_change', 'fm_dul_DUL05M__hba1c_change', 'fm_dul_DUL075M__fpg_change', 'fm_dul_DUL075M__hba1c_change', 'fm_dul_DUL15M__fpg_change', 'fm_dul_DUL15M__hba1c_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Zhang2023
+mappings: ['fm_dul_DULP', 'fm_dul_DULF']
+weights: [None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+Parameters
+	FitParameter<Emax_glp1_fpg = 0.7 [0.05 - 1.0]>
+	FitParameter<EC50_glp1_fpg = 5e-07 [1e-08 - 0.0001]>
+	FitParameter<k_fpg = 0.00037 [1e-05 - 0.01]>
+	FitParameter<f_trial_fpg = 0.1 [0.001 - 0.5]>
+	FitParameter<k_hb_deg = 2e-05 [5e-06 - 5e-05]>
+	FitParameter<Emax_SAT_glp1 = 0.3 [0.01 - 0.8]>
+	FitParameter<EC50_SAT_glp1 = 1e-06 [1e-08 - 0.0001]>
+	FitParameter<k_SAT_glp1 = 1e-05 [5e-07 - 0.0001]>
+FitSettings:
+	residual: NORMALIZED
+	parameter_scale: LOG10
+	loss_function: LINEAR
+	weighting_curves: ['MAPPING', 'POINTS']
+	weighting_points: ERROR_WEIGHTING
+	variable_step_size: True
+	relative_tolerance: 1e-06
+	absolute_tolerance: {'amount': 1e-06, 'concentration': 1e-06, 'other': 1e-06, 'ids': {'Acat_dul': 1e-14, 'Asc_deg_dul': 1e-14, 'Cad_dul': 1e-14, 'Cad_plasma_dul': 1e-14, 'Car_dul': 1e-14, 'Cgu_dul': 1e-14, 'Cgu_plasma_dul': 1e-14, 'Chv_dul': 1e-14, 'Cki_dul': 1e-14, 'Cki_plasma_dul': 1e-14, 'Cli_dul': 1e-14, 'Cli_plasma_dul': 1e-14, 'Clu_dul': 1e-14, 'Clu_plasma_dul': 1e-14, 'Cpo_dul': 1e-14, 'Cre_dul': 1e-14, 'Cre_plasma_dul': 1e-14, 'Cve_dul': 1e-14}}
+	initial_time_step: 0.0
+	data_at_change: before
+Mappings: 146 (112 training, 31 validation, 3 outlier)
+Data
+	experiment_keys: ['Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Blonde2015', 'Blonde2015', 'Blonde2015', 'Blonde2015', 'Chen2018', 'Chen2018', 'Chen2018', 'Chen2018', 'Chen2018', 'Chen2018', 'Dungan2014', 'Dungan2014', 'Dungan2014', 'Dungan2016', 'Dungan2016', 'Dungan2016', 'Dungan2016', 'Dungan2016', 'Dungan2016', 'Gerstein2019', 'Gerstein2019', 'Gerstein2019', 'Gerstein2019', 'Giorgino2015', 'Giorgino2015', 'Giorgino2015', 'Giorgino2015', 'Giorgino2015', 'Giorgino2015', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Grunberger2012', 'Liu2025', 'Liu2025', 'Liu2025', 'Liu2025', 'Liu2025', 'Liu2025', 'Morioka2024', 'Morioka2024', 'Morioka2024', 'Morioka2024', 'Morioka2024', 'Morioka2024', 'Nauck2014', 'Nauck2014', 'Nauck2014', 'Nauck2014', 'Nauck2014', 'Nauck2014', 'Nauck2014', 'Nauck2014', 'Nauck2014', 'Pratley2018', 'Pratley2018', 'Pratley2018', 'Pratley2018', 'Pratley2018', 'Pratley2018', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Teraruchi2014', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2011', 'Umpierrez2014', 'Umpierrez2014', 'Umpierrez2014', 'Umpierrez2014', 'Umpierrez2014', 'Umpierrez2014', 'Wang2019', 'Wang2019', 'Wang2019', 'Wang2019', 'Wang2019', 'Wang2019', 'Weinstock2015', 'Weinstock2015', 'Weinstock2015', 'Weinstock2015', 'Weinstock2015', 'Weinstock2015', 'Wysham2014', 'Wysham2014', 'Wysham2014', 'Wysham2014', 'Wysham2014', 'Wysham2014', 'Wysham2014', 'Wysham2014', 'Wysham2014', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022']
+	mapping_keys: ['fm_dul_fpg_PLAC', 'fm_dul_hba1c_PLAC', 'fm_dul_bodyweight_PLAC', 'fm_dul_fpg_DUL03', 'fm_dul_hba1c_DUL03', 'fm_dul_bodyweight_DUL03', 'fm_dul_fpg_DUL1', 'fm_dul_hba1c_DUL1', 'fm_dul_bodyweight_DUL1', 'fm_dul_fpg_DUL3', 'fm_dul_hba1c_DUL3', 'fm_dul_bodyweight_DUL3', 'fm_dul_fpg_DUL5', 'fm_dul_hba1c_DUL5', 'fm_dul_bodyweight_DUL5', 'fm_dul_fpg_DUL8', 'fm_dul_hba1c_DUL8', 'fm_dul_bodyweight_DUL8', 'fm_dul_fpg_DUL005', 'fm_dul_hba1c_DUL005', 'fm_dul_bodyweight_DUL005', 'fm_dul_hba1c_DUL075', 'fm_dul_hba1c_DUL15', 'fm_dul_bodyweight_DUL075', 'fm_dul_bodyweight_DUL15', 'fm_dul_hba1c_DUL075', 'fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL075', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL075', 'fm_dul_bodyweight_DUL15', 'fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL15', 'fm_dul_hba1c_PLAC', 'fm_dul_fpg_PLAC', 'fm_dul_bodyweight_PLAC', 'fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL15', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_PLAC__fpg', 'fm_dul_DUL01__fpg', 'fm_dul_DUL05__fpg', 'fm_dul_DUL10__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL01__hba1c', 'fm_dul_DUL05__hba1c', 'fm_dul_DUL10__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL15__fpg', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL15__bodyweight', 'fm_dul_LY05008__fpg', 'fm_dul_LY05008__hba1c', 'fm_dul_LY05008__bodyweight', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_PLAC__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_PLAC__fpg', 'fm_dul_DUL025__fpg', 'fm_dul_DUL05__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL025__hba1c', 'fm_dul_DUL05__hba1c', 'fm_dul_DUL075__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL025__bodyweight', 'fm_dul_DUL05__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_PLAC__fpg', 'fm_dul_DUL1010__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL1010__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL1010__bodyweight', 'fm_dul_DUL0510__fpg', 'fm_dul_DUL1020__fpg', 'fm_dul_DUL0510__hba1c', 'fm_dul_DUL1020__hba1c', 'fm_dul_DUL0510__bodyweight', 'fm_dul_DUL1020__bodyweight', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg_ext', 'fm_dul_DUL15__fpg_ext', 'fm_dul_DUL075__hba1c_ext', 'fm_dul_DUL15__hba1c_ext', 'fm_dul_DUL075__bodyweight_ext', 'fm_dul_DUL15__bodyweight_ext', 'fm_dul_PLAC__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DULPLAM__fpg', 'fm_dul_DUL05M__fpg', 'fm_dul_DUL075M__fpg', 'fm_dul_DUL15M__fpg', 'fm_dul_DULPLAM__hba1c', 'fm_dul_DUL05M__hba1c', 'fm_dul_DUL075M__hba1c', 'fm_dul_DUL15M__hba1c']
+	xid_observable: ['time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time']
+	yid_observable: ['[fpg]', 'hba1c', 'BW', '[fpg]', 'hba1c', 'BW', '[fpg]', 'hba1c', 'BW', '[fpg]', 'hba1c', 'BW', '[fpg]', 'hba1c', 'BW', '[fpg]', 'hba1c', 'BW', '[fpg]', 'hba1c', 'BW', 'hba1c', 'hba1c', 'BW', 'BW', 'hba1c', 'hba1c', '[fpg]', '[fpg]', 'BW', 'BW', 'hba1c', '[fpg]', 'BW', 'hba1c', '[fpg]', 'BW', 'hba1c', '[fpg]', 'BW', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', '[fpg]', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'hba1c', 'hba1c', 'hba1c', '[fpg]', 'hba1c', 'BW', '[fpg]', 'hba1c', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'hba1c', 'BW', 'BW', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'hba1c', 'hba1c', 'BW', 'BW', 'BW', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'BW', 'BW', '[fpg]', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'hba1c', 'BW', 'BW', 'BW', '[fpg]', '[fpg]', '[fpg]', '[fpg]', 'hba1c', 'hba1c', 'hba1c', 'hba1c']
+	x_references: [array([    0.,  2880., 43200., 50400.]), array([    0., 50400.]), array([    0., 50400.]), array([    0.,  2880., 43200., 50400.]), array([    0., 50400.]), array([    0., 50400.]), array([    0.,  2880., 43200., 50400.]), array([    0., 50400.]), array([    0., 50400.]), array([    0.,  2880., 43200., 50400.]), array([    0., 50400.]), array([    0., 50400.]), array([    0.,  2880., 43200., 50400.]), array([    0., 50400.]), array([    0., 50400.]), array([    0.,  2880., 43200., 50400.]), array([    0., 50400.]), array([    0., 50400.]), array([    0.,  2880., 43200., 50400.]), array([    0., 50400.]), array([    0., 50400.]), array([     0., 131040., 262080., 524160.]), array([     0., 131040., 262080., 524160.]), array([     0.,  20160.,  40320.,  60480.,  80640., 131040., 191520.,
+       262080., 393120., 524160.]), array([     0.,  20160.,  40320.,  60480.,  80640., 131040., 191520.,
+       262080., 393120., 524160.]), array([     0.,  40320.,  80640., 161280., 262080.]), array([     0.,  40320.,  80640., 161280., 262080.]), array([     0., 262080.]), array([     0., 262080.]), array([     0.,  20160.,  40320.,  80640., 161280., 262080.]), array([     0.,  20160.,  40320.,  80640., 161280., 262080.]), array([     0.,  80640., 120960., 262080.]), array([     0., 262080.]), array([     0.,  10080.,  20160.,  40320.,  80640., 120960., 201600.,
+       262080.]), array([     0.,  40320.,  80640., 120960., 241920.]), array([     0., 241920.]), array([     0.,  20160.,  40320.,  80640., 120960., 181440., 241920.]), array([     0.,  40320.,  80640., 120960., 241920.]), array([     0., 241920.]), array([     0.,  20160.,  40320.,  80640., 120960., 181440., 241920.]), array([      0.,  131490.,  525960., 1051920., 1577880., 2103840.,
+       2629800.]), array([      0.,  131490.,  525960., 1051920., 1577880., 2103840.,
+       2629800.]), array([      0.,  525960., 1051920., 1577880., 2103840., 2629800.]), array([      0.,  525960., 1051920., 1577880., 2103840., 2629800.]), array([     0.,  20160.,  40320.,  80640., 141120., 201600., 262080.,
+       352800., 443520., 524160., 655200., 786240.]), array([     0.,  20160.,  40320.,  80640., 141120., 201600., 262080.,
+       352800., 443520., 524160., 655200., 786240.]), array([     0., 141120., 262080., 352800., 443520., 524160., 655200.,
+       786240.]), array([     0., 141120., 262080., 352800., 443520., 524160., 655200.,
+       786240.]), array([     0.,  20160.,  40320.,  80640., 141120., 201600., 262080.,
+       352800., 443520., 524160., 655200., 786240.]), array([     0.,  20160.,  40320.,  80640., 141120., 201600., 262080.,
+       352800., 443520., 524160., 655200., 786240.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0., 120960., 241920.]), array([     0., 120960., 241920.]), array([     0., 120960., 241920.]), array([     0., 120960., 241920.]), array([     0., 120960., 241920.]), array([     0., 120960., 241920.]), array([     0.,  80640., 161280., 262080., 383040., 524160.]), array([     0.,  80640., 161280., 262080., 383040., 524160.]), array([     0.,  80640., 161280., 262080., 383040., 524160.]), array([     0.,  80640., 161280., 262080., 383040., 524160.]), array([     0.,  80640., 161280., 262080., 383040., 524160.]), array([     0.,  80640., 161280., 262080., 383040., 524160.]), array([     0.,  20160.,  40320.,  80640., 120960., 262080.]), array([     0.,  20160.,  40320.,  80640., 120960., 262080., 393120.,
+       524160.]), array([     0.,  20160.,  40320.,  80640., 120960., 262080., 393120.,
+       524160.]), array([     0.,  40320.,  80640., 120960., 262080.]), array([     0.,  40320.,  80640., 120960., 262080., 393120., 524160.]), array([     0.,  40320.,  80640., 120960., 262080., 393120., 524160.]), array([     0.,  20160.,  40320.,  80640., 120960., 262080.]), array([     0.,  20160.,  40320.,  80640., 120960., 262080., 393120.,
+       524160.]), array([     0.,  20160.,  40320.,  80640., 120960., 262080., 393120.,
+       524160.]), array([     0.,  40320.,  80640., 120960., 161280., 282240., 403200.]), array([     0.,  40320.,  80640., 120960., 161280., 282240., 403200.]), array([     0.,  40320.,  80640., 120960., 161280., 282240., 403200.]), array([     0.,  40320.,  80640., 120960., 161280., 282240., 403200.]), array([     0.,  40320.,  80640., 120960., 161280., 282240., 403200.]), array([     0.,  40320.,  80640., 120960., 161280., 282240., 403200.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  20160.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0.,  40320.,  80640., 120960.]), array([     0., 120960.]), array([     0., 120960.]), array([     0., 120960.]), array([     0., 120960.]), array([     0., 161280.]), array([     0., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0., 161280.]), array([     0., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0.,  40320.,  80640., 161280.]), array([     0.,  20160.,  40320., 131040., 262080., 393120., 524160.]), array([     0.,  20160.,  40320., 131040., 262080., 393120., 524160.]), array([     0.,  40320., 131040., 262080., 393120., 524160.]), array([     0.,  40320., 131040., 262080., 393120., 524160.]), array([     0.,  20160.,  40320., 131040., 262080., 393120., 524160.]), array([     0.,  20160.,  40320., 131040., 262080., 393120., 524160.]), array([     0., 262080., 524160.]), array([     0., 262080., 524160.]), array([     0.,  40320.,  80640., 141120., 262080., 393120., 524160.]), array([     0.,  40320.,  80640., 141120., 262080., 393120., 524160.]), array([     0.,  20160.,  40320.,  80640., 141120., 201600., 262080.,
+       393120., 524160.]), array([     0.,  20160.,  40320.,  80640., 141120., 201600., 262080.,
+       393120., 524160.]), array([ 655200.,  786240.,  917280., 1048320.]), array([ 655200.,  786240.,  917280., 1048320.]), array([ 655200.,  786240.,  917280., 1048320.]), array([ 655200.,  786240.,  917280., 1048320.]), array([ 655200.,  786240.,  917280., 1048320.]), array([ 655200.,  786240.,  917280., 1048320.]), array([     0.,  20160.,  40320.,  80640., 131040., 262080.]), array([     0.,  20160.,  40320.,  80640., 131040., 262080., 393120.,
+       524160.]), array([     0.,  20160.,  40320.,  80640., 131040., 262080., 393120.,
+       524160.]), array([     0., 131040., 262080., 393120., 524160.]), array([     0., 131040., 262080., 393120., 524160.]), array([     0., 131040., 262080.]), array([     0.,  20160.,  40320.,  80640., 131040., 262080.]), array([     0.,  20160.,  40320.,  80640., 131040., 262080., 393120.,
+       524160.]), array([     0.,  20160.,  40320.,  80640., 131040., 262080., 393120.,
+       524160.]), array([    0.,  2880., 33120., 40320.]), array([    0.,  2880., 33120., 40320.]), array([    0.,  2880., 33120., 40320.]), array([    0.,  2880., 33120., 40320.]), array([    0., 40320., 60480.]), array([    0., 40320., 60480.]), array([    0., 40320., 60480.]), array([    0., 40320., 60480.])]
+	y_references: [array([8.79218472, 8.92224112, 8.75502575, 8.87888909]), array([0.074     , 0.07548645]), array([83.2       , 83.91731458]), array([10.2964032 ,  9.8752681 ,  9.32407688,  9.59038275]), array([0.082     , 0.07221094]), array([85.7       , 85.95088346]), array([11.12344583,  9.75475696,  8.21885301,  9.12305445]), array([0.084    , 0.0785362]), array([89.5       , 89.15724353]), array([8.05950266, 6.34399692, 5.0186601 , 5.14252315]), array([0.07      , 0.05807199]), array([67.       , 67.3498235]), array([7.90963588, 6.83821878, 5.17225843, 5.5871999 ]), array([0.074     , 0.06484237]), array([88.6       , 86.10883395]), array([9.84125222, 7.14722653, 5.70422   , 5.82189027]), array([0.073     , 0.06340494]), array([76.8       , 74.80353319]), array([9.47491119, 9.49349068, 7.4930993 , 8.28582411]), array([0.081     , 0.07436972]), array([81.4       , 82.07491175]), array([0.08395703, 0.0689436 , 0.06888988, 0.07119964]), array([0.08452104, 0.0689436 , 0.06827216, 0.07050134]), array([91.7       , 90.92499997, 90.87499997, 90.99999996, 91.14999996,
+       91.39999995, 92.03333352, 92.31666634, 93.07499991, 93.3249999 ]), array([91.        , 89.87499998, 89.72499998, 89.80833357, 90.03333356,
+       89.92499997, 90.42499996, 90.49166637, 90.99166636, 91.31666635]), array([0.08      , 0.07324503, 0.06942605, 0.06761589, 0.06783664]), array([0.08      , 0.07203091, 0.06715232, 0.06492274, 0.06520971]), array([9.1405, 6.8805]), array([9.1405, 6.4305]), array([72.  , 71.94, 71.67, 71.46, 71.34, 71.23]), array([72.  , 71.75, 71.18, 70.86, 70.71, 70.54]), array([0.08073107, 0.06971018, 0.06740731, 0.06616188]), array([9.3 , 7.37]), array([93.8       , 93.27619019, 92.91428571, 92.51428571, 91.90476161,
+       91.47619019, 91.27619019, 91.06666652]), array([0.08394904, 0.08165605, 0.08140127, 0.08210191, 0.08267516]), array([9.7 , 9.86]), array([89.5       , 89.20149252, 89.15422889, 89.03980104, 89.17910444,
+       89.24626858, 89.25870644]), array([0.08388535, 0.07477707, 0.07012739, 0.06955414, 0.06987261]), array([9.9, 8.2]), array([84.5       , 84.2189054 , 84.00248747, 83.79601985, 83.6492537 ,
+       83.68905474, 83.59203969]), array([0.07353461, 0.07424153, 0.07394698, 0.07459499, 0.07488954,
+       0.07499264, 0.07544919]), array([0.07351988, 0.06592047, 0.06680412, 0.06815906, 0.0687187 ,
+       0.06933726, 0.06992636]), array([88.93536122, 87.56653992, 87.8973384 , 87.63498099, 87.3269962 ,
+       86.7338403 ]), array([88.47908745, 85.96958175, 86.11787072, 85.99239544, 85.94676806,
+       85.17110266]), array([8.95572139, 7.47883559, 7.45737962, 7.63617924, 7.83285905,
+       7.96517096, 7.90437883, 8.02238665, 8.17615452, 8.11178662,
+       8.41217016, 8.40859422]), array([9.15240103, 7.07832409, 7.12838824, 7.19633191, 7.37155576,
+       7.43949976, 7.37155576, 7.4645315 , 7.62902736, 7.48956357,
+       7.865043  , 7.89007507]), array([0.08117172, 0.07153247, 0.07234055, 0.07335065, 0.07421645,
+       0.07421645, 0.07482251, 0.07594805]), array([0.08174892, 0.06931025, 0.06962771, 0.07020491, 0.07072439,
+       0.07089755, 0.07251371, 0.07280231]), array([86.        , 85.63993959, 85.33736793, 85.07715596, 84.93797309,
+       84.90771554, 84.65355519, 84.72617243, 84.8048413 , 84.84114992,
+       84.82299561, 84.69591543]), array([85.        , 84.37367655, 84.13161889, 83.79273861, 83.62934981,
+       83.45385777, 83.29652059, 83.31467491, 83.29652059, 83.23600604,
+       83.33282922, 83.24810928]), array([8.7964    , 9.26110594, 8.23757659, 8.69640006, 8.59640002]), array([8.6632    , 7.89261176, 7.78084719, 8.0161413 , 8.02202356]), array([8.6854    , 6.98540008, 7.16187066, 7.10304713, 7.01481184]), array([8.8852    , 7.09108253, 6.80284693, 6.88519996, 7.0087295 ]), array([8.7076    , 6.41348232, 6.53112938, 6.44877635, 6.63112964]), array([0.07685841, 0.0763938 , 0.07659292, 0.07646018]), array([0.07573009, 0.07340708, 0.07314159, 0.07294248]), array([0.0759292 , 0.07134956, 0.06889381, 0.06769912]), array([0.07765487, 0.07347345, 0.06949115, 0.06643805]), array([0.07606195, 0.07128319, 0.06756637, 0.06630531]), array([9.2404, 6.6504, 6.6104]), array([0.0809, 0.067 , 0.0668]), array([73.94, 72.23, 71.55]), array([9.3958, 6.8258, 7.1958]), array([0.0823, 0.0676, 0.0679]), array([73.4 , 71.37, 70.74]), array([9.95226465, 7.90986261, 8.0985628 , 8.02641273, 8.23731294,
+       8.11521282]), array([9.95226465, 7.33821204, 7.51026221, 7.56021226, 7.73226243,
+       7.5990623 ]), array([0.0869, 0.0762, 0.0733, 0.0744, 0.0755, 0.075 ]), array([0.0868, 0.0733, 0.0704, 0.0715, 0.0721, 0.0718]), array([71.3, 71.3, 71.5, 71.3, 71.2, 71.1]), array([72.8, 72.4, 72.6, 72.5, 72.5, 72.3]), array([9.2515    , 9.49013714, 9.30423741, 9.52573495, 9.1302038 ,
+       8.76235978]), array([9.3625    , 7.7144531 , 7.44153657, 7.52064305, 7.25563703,
+       7.39407283, 7.59579374, 7.73818498]), array([9.2515    , 6.88358643, 6.84403319, 6.94291611, 6.75701656,
+       6.87567593, 6.99829036, 6.86776506]), array([0.08096471, 0.08089412, 0.08162353, 0.08152941, 0.07983529]), array([0.08197647, 0.07465882, 0.07136471, 0.06936471, 0.06941177,
+       0.06985882, 0.07082353]), array([0.08127059, 0.0736    , 0.06971765, 0.06771765, 0.06724706,
+       0.0684    , 0.06828235]), array([87.        , 86.63982438, 86.32796488, 85.94582726, 85.77452419,
+       85.41874088]), array([86.        , 85.48169847, 84.89311862, 84.30014645, 83.86969251,
+       83.32503646, 83.09224012, 83.30746718]), array([87.        , 86.03806737, 85.41874088, 84.84773072, 84.21961919,
+       83.7101025 , 83.73206429, 83.77598829]), array([9.7       , 7.86426843, 7.82153452, 7.66480008, 7.61492576,
+       7.83581741, 7.82870594]), array([9.6       , 7.3724494 , 7.42234854, 7.34399424, 7.18010595,
+       7.35110881, 7.35110881]), array([0.082     , 0.07612322, 0.07256204, 0.07067996, 0.06971321,
+       0.07001845, 0.07093418]), array([0.082     , 0.07495295, 0.07113754, 0.06879751, 0.06778001,
+       0.06803439, 0.06833964]), array([95.6       , 94.43218004, 93.9271652 , 93.53617871, 93.32441553,
+       93.09634837, 93.29194378]), array([93.4       , 91.77599857, 91.17333796, 90.76612606, 90.55436813,
+       90.22861852, 90.40775801]), array([8.88      , 8.97742953, 8.52507794, 8.41199012, 8.3804995 ]), array([8.82      , 7.4559862 , 7.22981057, 7.44728727, 7.19939838]), array([8.38      , 7.22476396, 6.79850951, 6.73761596, 6.79269841]), array([8.71      , 6.97192635, 6.51087582, 6.51087582, 6.62874792]), array([0.08      , 0.07985915, 0.07877934, 0.0782    ]), array([0.081     , 0.07785446, 0.0739108 , 0.072     ]), array([0.08      , 0.07483568, 0.07061033, 0.0685    ]), array([0.08      , 0.07394366, 0.06892019, 0.0665    ]), array([76.4, 75.6]), array([74. , 74.4]), array([72.1, 71.7]), array([75.8, 75.2]), array([9.196, 8.706]), array([9.418, 7.368]), array([0.0805    , 0.07752913, 0.07613107, 0.0780534 ]), array([0.0825    , 0.07469417, 0.07084951, 0.0693    ]), array([94.7       , 94.63907153, 94.57137327, 94.58      ]), array([96.7       , 95.61682782, 95.02785294, 95.36      ]), array([9.418, 7.318]), array([9.6178, 6.9678]), array([0.0825    , 0.07626699, 0.07166505, 0.0687    ]), array([0.0843    , 0.0771932 , 0.07200874, 0.0684    ]), array([94.8       , 94.29903286, 93.41218567, 93.36      ]), array([98.6       , 97.32050278, 96.48104454, 96.05      ]), array([8.94      , 7.57303792, 7.41921108, 7.29684875, 7.42620324,
+       7.58352623, 7.60100656]), array([9.1       , 7.37993526, 7.24358875, 7.29253347, 7.3205021 ,
+       7.35546277, 7.50229759]), array([0.076     , 0.07120513, 0.06941026, 0.06942857, 0.07071062,
+       0.07151648]), array([0.076     , 0.07071062, 0.06840293, 0.06831136, 0.06891575,
+       0.06950183]), array([92.        , 91.5654649 , 91.18975319, 90.81973422, 91.01897521,
+       91.31499043, 91.21821619]), array([93.        , 92.21252368, 91.58633772, 91.15939275, 90.97722951,
+       91.2049335 , 91.31878549]), array([9.59, 7.88, 8.06]), array([9.57, 7.22, 7.34]), array([0.083     , 0.07469748, 0.07009244, 0.06831092, 0.06962185,
+       0.07103361, 0.0727479 ]), array([0.085     , 0.07531933, 0.06967227, 0.06698319, 0.06768908,
+       0.0687647 , 0.07034454]), array([74.6       , 74.413212  , 74.06697026, 73.83006835, 73.81184504,
+       73.74806365, 73.72072887, 73.85740313, 73.83917983]), array([73.6       , 73.28564922, 72.83917983, 72.46560365, 72.3471527 ,
+       72.31070609, 72.11936226, 72.12847374, 72.51116174]), array([7.70750014, 8.01749997, 7.7725001 , 7.97250009]), array([6.96650005, 7.10149989, 7.21150012, 7.25149989]), array([0.07142096, 0.07185358, 0.07221963, 0.07278536]), array([0.06869218, 0.06905824, 0.06982363, 0.06989018]), array([83.34883721, 83.38054969, 83.76109938, 83.71035947]), array([83.80338276, 83.67653286, 83.96194513, 84.08879478]), array([9.21      , 8.96067663, 9.1246153 , 9.02727676, 8.6379225 ,
+       8.95043053]), array([8.82      , 7.02862902, 6.83907494, 6.89542877, 6.87493656,
+       6.92616738, 7.26941372, 7.24892151]), array([8.99      , 6.77853625, 6.60947439, 6.62484379, 6.61459739,
+       6.62996679, 6.82464407, 6.95272092]), array([0.081     , 0.06698616, 0.06698616, 0.06854671, 0.06919377]), array([0.081     , 0.06485467, 0.06477855, 0.06546367, 0.0660346 ]), array([0.081     , 0.07452249, 0.07535986]), array([94.        , 94.14603176, 94.24761897, 94.60317444, 94.73650792,
+       95.36507935]), array([96.        , 95.77777759, 95.65714281, 95.75873002, 95.92380953,
+       96.1777778 , 96.4698412 , 96.49523812]), array([96.        , 95.03492062, 94.66666669, 94.58412681, 94.55238078,
+       94.66031709, 95.09206333, 94.9142856 ]), array([8.3524    , 7.49312867, 7.35902272, 7.78120805]), array([7.9417    , 6.5112365 , 6.35726284, 6.93342206]), array([8.9962    , 8.03759085, 6.8107698 , 7.09388237]), array([8.9074    , 7.50177101, 6.48355921, 6.84614167]), array([0.0729, 0.0703, 0.0694]), array([0.0692, 0.0637, 0.0637]), array([0.0787, 0.0723, 0.0695]), array([0.0779, 0.0675, 0.067 ])]
+	y_errors: [array([1.08948189, 1.08948189, 1.08948189, 1.08948189]), array([0.00432571, 0.00432571]), array([1.18553342, 1.18553342]), array([1.09200552, 1.09200552, 1.09200552, 1.09200552]), array([0.00455552, 0.00455552]), array([1.22448948, 1.22448948]), array([1.06244321, 1.06244321, 1.06244321, 1.06244321]), array([0.00530865, 0.00530865]), array([1.3863962, 1.3863962]), array([1.27000736, 1.27000736, 1.27000736, 1.27000736]), array([0.00555483, 0.00555483]), array([1.40672083, 1.40672083]), array([1.17904928, 1.17904928, 1.17904928, 1.17904928]), array([0.00489815, 0.00489815]), array([1.27723647, 1.27723647]), array([1.20695371, 1.20695371, 1.20695371, 1.20695371]), array([0.00494874, 0.00494874]), array([1.35726079, 1.35726079]), array([1.23952718, 1.23952718, 1.23952718, 1.23952718]), array([0.00440616, 0.00440616]), array([1.21056499, 1.21056499]), array([0.01020317, 0.00785761, 0.00914767, 0.010555  ]), array([0.01070864, 0.00847277, 0.00906116, 0.01141471]), array([5.23997213, 1.67387777, 1.96498955, 2.25610133, 2.61998607,
+       3.20220297, 3.5660877 , 4.14831127, 4.73053151, 5.23997213]), array([5.54992923, 1.75260853, 2.04471218, 2.40983673, 2.77496127,
+       3.35916857, 3.94336919, 4.30850042, 4.81967345, 5.54992923]), array([0.0103    , 0.00523279, 0.00766513, 0.00960605, 0.01043999]), array([0.0095    , 0.00533625, 0.00769413, 0.00992792, 0.01054841]), array([2.16434748, 2.16434748]), array([2.16434748, 2.16434748]), array([2.96824797, 1.39136624, 1.54596248, 2.31894373, 2.62813622,
+       2.96824797]), array([2.96824797, 1.39136624, 1.54596248, 2.31894373, 2.62813622,
+       2.96824797]), array([0.008     , 0.0075171 , 0.00934561, 0.00893926]), array([2.2       , 2.07499398]), array([3.54066684, 1.39979878, 1.31745524, 1.8938412 , 2.38789115,
+       2.63491047, 3.29364374, 3.54066684]), array([0.00677096, 0.00758347, 0.00839597, 0.01110435, 0.01110435]), array([2.5, 2.5]), array([3.13208304, 1.31485417, 1.58774438, 1.86821651, 2.35048863,
+       2.73906016, 3.13208304]), array([0.007     , 0.01159472, 0.01159472, 0.01159472, 0.01159472]), array([2.9, 2.9]), array([3.30242719, 1.75040986, 1.88702211, 2.14886101, 2.74348305,
+       2.96533762, 3.30242719]), None, None, None, None, array([2.65395657, 1.8872562 , 2.06418664, 1.94623482, 2.18214387,
+       1.94623482, 2.24112248, 2.12316795, 2.30009569, 2.41805022,
+       2.35907431, 2.59498066]), array([2.65883069, 1.89072765, 2.00889069, 1.89072765, 2.0088961 ,
+       2.00889069, 2.42248838, 2.12706455, 2.245233  , 2.245233  ,
+       2.42248838, 2.54065683]), array([0.00856749, 0.00809155, 0.00761556, 0.00904348, 0.00951946,
+       0.01142332, 0.01142332, 0.01047139]), array([0.00953693, 0.00810637, 0.00762955, 0.01001376, 0.00906004,
+       0.0095369 , 0.01096744, 0.0114443 ]), array([4.091914  , 1.09782836, 1.59683958, 1.79645138, 2.39526851,
+       2.79448298, 2.89428888, 3.29349421, 3.29349421, 3.59290277,
+       3.89231133, 4.091914  ]), array([4.29939824, 1.29981382, 1.69976146, 2.29967834, 2.59963678,
+       2.79961518, 3.09957362, 3.39953207, 3.29954287, 3.69949051,
+       3.99944895, 4.29939824]), array([1.46412616, 1.09809494, 1.46412616, 1.36430021, 1.33102447]), array([1.35721878, 1.11361524, 1.35721745, 1.25281631, 1.35721878]), array([1.40628782, 1.06329066, 1.40628782, 1.26908974, 1.30338893]), array([1.4748862 , 1.16619216, 1.4748862 , 1.30338762, 1.30338893]), array([1.58387194, 1.23542059, 1.58387194, 1.36212841, 1.48884107]), array([0.00769911, 0.00836283, 0.00869469, 0.00929203]), array([0.00736726, 0.00769911, 0.00869469, 0.00942478]), array([0.00736726, 0.00690266, 0.00630531, 0.00603982]), array([0.00769912, 0.00995575, 0.00676991, 0.00477876]), array([0.00676991, 0.00676991, 0.00524336, 0.0053761 ]), array([1.77177877, 1.77177877, 1.77177877]), array([0.00901   , 0.00899408, 0.00901   ]), array([2.95296461, 2.51001992, 2.95296461]), array([1.78795973, 1.78795973, 1.78795973]), array([0.00871   , 0.00781065, 0.00871   ]), array([2.97993289, 2.38394631, 2.97993289]), array([1.75532058, 1.33694546, 1.4899564 , 1.50173932, 1.54389218,
+       1.75532058]), array([1.73898674, 1.21188868, 1.47578968, 1.47508574, 1.73898674,
+       1.69387032]), array([0.00905927, 0.00581183, 0.00714298, 0.00856739, 0.00905927,
+       0.00904761]), array([0.00941812, 0.00941812, 0.00738132, 0.00873808, 0.00941812,
+       0.0094082 ]), array([2.58706124, 1.32292902, 2.05788874, 2.20488095, 2.30777501,
+       2.58706124]), array([2.68506392, 1.29049689, 2.08144594, 2.31040622, 2.31040622,
+       2.68506392]), array([2.15750058, 1.78914855, 1.73652615, 1.89439216, 1.94701336,
+       2.15750058]), array([2.33702594, 1.78714007, 1.58093209, 1.78713378, 1.85587187,
+       1.99334806, 2.19955605, 2.33702594]), array([2.41371699, 1.79304168, 1.72408266, 1.93097233, 2.06889667,
+       1.99993134, 2.20682732, 2.41371699]), array([0.00406951, 0.00438254, 0.00719987, 0.008139  , 0.01095635]), array([0.00899574, 0.00572459, 0.00654237, 0.00776907, 0.00940463,
+       0.00940467, 0.01104023]), array([0.01107673, 0.01107673, 0.01107673, 0.00779471, 0.00984598,
+       0.00984598, 0.01107673]), array([3.50621404, 1.28561092, 1.63623233, 2.04529242, 2.45434983,
+       3.50621404]), array([4.35089766, 1.67929616, 1.83195691, 2.1372819 , 2.44260689,
+       3.35858534, 4.12190305, 4.35089766]), array([4.13552921, 4.13552921, 1.60826136, 1.99117839, 2.29751623,
+       3.29310893, 3.90577759, 4.13552921]), array([2.03580339, 1.62900023, 1.70163024, 1.66502028, 1.64364064,
+       2.03580339, 2.01208199]), array([2.04811098, 1.62606857, 1.69811762, 1.66707602, 1.65476842,
+       2.04811098, 2.02497056]), array([0.00962417, 0.00447967, 0.00624516, 0.0071715 , 0.00726475,
+       0.00891066, 0.00962417]), array([0.00969717, 0.00447559, 0.00622694, 0.0071573 , 0.00727895,
+       0.00896742, 0.00969717]), array([4.75259091, 1.86125743, 2.36368052, 2.86759839, 3.21121375,
+       4.16333541, 4.75259091]), array([4.78153505, 1.85310415, 2.34882344, 2.85795034, 3.21343325,
+       4.17370819, 4.78153505]), array([1.55017496, 1.55017496, 1.55017496, 1.55017496, 1.55017496]), array([1.57155769, 1.57155769, 1.57155769, 1.57155769, 1.57155769]), array([1.57601121, 1.57601121, 1.57601121, 1.57601121, 1.57601121]), array([1.59145724, 1.59145724, 1.59145724, 1.59145724, 1.59145724]), array([0.00543104, 0.00543104, 0.00543104, 0.00543104]), array([0.00520408, 0.00520408, 0.00520408, 0.00520408]), array([0.00527587, 0.00527587, 0.00527587, 0.00527587]), array([0.00528221, 0.00528221, 0.00528221, 0.00528221]), array([1.82482876, 1.82482876]), array([1.8, 1.8]), array([1.82482876, 1.82482876]), array([1.77482393, 1.77482393]), array([2.27503429, 2.27503429]), array([2.41735881, 2.41735881]), array([0.00894891, 0.00466019, 0.00647311, 0.00894891]), array([0.00921737, 0.00545959, 0.00676833, 0.00921737]), array([2.99564684, 1.74656297, 2.38297844, 2.99564684]), array([2.99564684, 1.82695089, 2.46462608, 2.99564684]), array([2.33715493, 2.33715493]), array([2.31284924, 2.31284924]), array([0.00913893, 0.00563576, 0.00682449, 0.00913893]), array([0.00881816, 0.00541466, 0.00715914, 0.00881816]), array([2.99564684, 1.74656297, 2.47175516, 2.99564684]), array([2.99332591, 1.8806839 , 2.43220654, 2.99332591]), array([2.0106182 , 1.49360341, 1.55104877, 1.49360122, 1.49360122,
+       1.66593948, 2.0106182 ]), array([2.00689138, 1.83487256, 1.60551048, 1.77753368, 1.83487256,
+       1.72019261, 2.00689138]), array([0.009     , 0.00511609, 0.0078246 , 0.00932935, 0.00932935,
+       0.01113502]), array([0.009     , 0.00450583, 0.00811048, 0.00991281, 0.00961245,
+       0.01141476]), array([4.39633169, 1.30954326, 1.77724161, 2.71263118, 3.55448322,
+       3.92863691, 4.39633169]), array([4.57491465, 1.49384779, 1.58721551, 2.70760313, 3.73462304,
+       4.29481864, 4.57491465]), array([2.62964465, 2.56302761, 2.62964465]), array([2.68597673, 2.57676774, 2.68597673]), array([0.01227272, 0.00693676, 0.00747036, 0.00960474, 0.01013833,
+       0.01173914, 0.01227272]), array([0.0117624 , 0.00641584, 0.00801982, 0.00962376, 0.01069309,
+       0.0117624 , 0.0117624 ]), array([3.18213483, 1.44642442, 1.88035616, 2.31427686, 2.45892262,
+       2.7482086 , 3.03749459, 3.18213483, 3.18213483]), array([3.18844233, 1.5942184 , 1.8840778 , 2.1739372 , 2.753656  ,
+       3.04350987, 2.89858294, 3.18844233, 3.18844233]), array([2.1722683 , 2.51982924, 2.34605043, 2.69361468]), array([2.26662602, 2.35380266, 2.35380931, 2.61533925]), array([0.01156615, 0.0133011 , 0.01272277, 0.01387939]), array([0.01102418, 0.01276483, 0.0121846 , 0.01276483]), array([4.29861321, 4.73949393, 4.95993638, 5.07015971]), array([4.20224006, 4.64458245, 4.53399896, 4.97632869]), array([2.00749608, 1.64249764, 1.64249648, 1.82499686, 2.00749608,
+       2.00749608]), array([2.400315  , 1.54305941, 1.54305941, 1.71451118, 1.97168721,
+       1.88595969, 2.14313898, 2.400315  ]), array([2.31045386, 1.71144682, 1.54030475, 1.79701785, 1.96816645,
+       2.05373749, 2.22487956, 2.31045386]), array([0.012     , 0.00827977, 0.00891666, 0.01019045, 0.01082737]), array([0.013     , 0.00826492, 0.00953648, 0.01080799, 0.01080799]), array([0.013     , 0.00723144, 0.00994322]), array([4.37277315, 1.80942189, 1.96020776, 2.48795833, 3.39266927,
+       4.37277315]), array([5.52461119, 1.48739727, 1.91236502, 2.44357775, 3.29351731,
+       4.14345687, 5.09964141, 5.52461119]), array([5.62079005, 1.80289195, 2.01499807, 2.65131644, 3.39368181,
+       4.03000423, 4.7723696 , 5.62079005]), array([0.90553809, 0.90553773, 0.88951075, 0.90553809]), array([0.93292713, 0.93292675, 0.93292713, 0.90771251]), array([0.92452213, 0.92452213, 0.89930828, 0.90771251]), array([0.89752387, 0.86547029, 0.87348377, 0.89752387]), array([0.004862  , 0.004862  , 0.00479568]), array([0.00507128, 0.00491556, 0.00507128]), array([0.00489791, 0.00489791, 0.00488338]), array([0.00479865, 0.00479865, 0.0047838 ])]
+	y_errors_type: ['SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', None, None, None, None, 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD']
+	weights: [array([22.19266634, 22.52094633, 22.09887206, 22.41151991]), array([94.08862374, 95.97859153]), array([385.98658885, 389.31439905]), array([14.14333948, 13.56486013, 12.80773316, 13.17353607]), array([54.00038111, 47.55387953]), array([209.96505421, 210.57971884]), array([13.08710637, 11.4767981 ,  9.66975569, 10.73357895]), array([39.55811694, 36.98504996]), array([161.38965194, 160.77158101]), array([4.75952123, 3.74643316, 2.96375847, 3.03690552]), array([18.90247104, 15.68148645]), array([71.44274695, 71.81576713]), array([15.094094  , 13.04949036,  9.8703096 , 10.66214953]), array([67.98483432, 59.57158725]), array([312.15832759, 303.38137242]), array([12.23069135,  8.88256085,  7.08919482,  7.23543522]), array([44.25369955, 38.43702664]), array([169.75366982, 165.34081087]), array([5.7329791 , 5.74422098, 4.53384531, 5.01349886]), array([27.57505844, 25.31789522]), array([100.86199477, 101.69827174]), array([602.73943537, 642.70392453, 551.63606599, 494.11393742]), array([582.0930772 , 600.10943647, 555.67633905, 455.50658233]), array([ 512.75272685, 1591.57529484, 1355.03901233, 1181.81748259,
+       1019.3546572 ,  836.30551292,  756.17228062,  652.04324032,
+        576.48860225,  521.83912958]), array([ 483.69986132, 1512.78078232, 1294.50371002, 1099.38810891,
+        957.12447073,  789.71550301,  676.46151615,  619.59008876,
+        556.93693465,  485.38306428]), array([371.26213592, 669.0724606 , 432.94333001, 336.45893461,
+       310.59345057]), array([402.52631579, 645.22415944, 417.1854015 , 312.58386721,
+       295.49715187]), array([504.6739314 , 379.89267382]), array([504.6739314 , 355.04684819]), array([ 966.22655211, 2059.56557507, 1846.65218639, 1227.4942118 ,
+       1081.26434867,  955.89329593]), array([ 966.22655211, 2054.12607745, 1834.02682611, 1217.18779524,
+       1071.71575686,  946.6336248 ]), array([754.33093971, 693.19762935, 539.1513867 , 553.24476257]), array([631.97727273, 530.9967223 ]), array([ 990.14540526, 2490.49910486, 2635.89329879, 1825.77157849,
+       1438.48284973, 1297.54792202, 1035.76703278,  961.29255254]), array([148.78079232, 129.21160421, 116.34329937,  88.72405576,
+        89.34353917]), array([116.4 , 118.32]), array([244.93056159, 581.4973557 , 481.29857256, 408.51704867,
+       325.20570992, 279.2812026 , 244.27022453]), array([572.81710004, 308.27345591, 289.10482971, 286.74157322,
+       288.05449741]), array([407.94827586, 337.89655172]), array([ 873.62151076, 1642.74328967, 1519.90001039, 1331.41954058,
+       1041.02138414,  963.59464219,  864.2343669 ]), array([1414.85714286, 1414.85714286, 1414.85714286, 1414.85714286,
+       1414.85714286, 1414.85714286, 1414.85714286]), array([1414., 1414., 1414., 1414., 1414., 1414., 1414.]), array([1650.66666667, 1650.66666667, 1650.66666667, 1650.66666667,
+       1650.66666667, 1650.66666667]), array([1649.66666667, 1649.66666667, 1649.66666667, 1649.66666667,
+       1649.66666667, 1649.66666667]), array([76.48819646, 89.82366728, 81.88888284, 88.93414502, 81.36255715,
+       92.76572047, 79.94472492, 85.64596299, 80.57324301, 76.0394313 ,
+       80.82655836, 73.44748484]), array([78.31153908, 85.16925902, 80.72655868, 86.58917685, 83.48012287,
+       84.24979028, 69.22753263, 79.83683033, 77.30171985, 75.88859206,
+       73.8619552 , 70.65070958]), array([322.12910034, 300.57333872, 322.96742433, 275.77023764,
+       265.07366683, 220.89539648, 222.69925519, 246.59887084]), array([292.51375291, 291.77219439, 311.42672262, 239.244951  ,
+       266.3861227 , 253.6859924 , 225.62512652, 217.08435321]), array([ 476.38668226, 1768.19258984, 1211.33875478, 1073.45823627,
+        803.77657577,  688.70517408,  662.96558444,  583.10711623,
+        583.64853541,  535.24021888,  493.9621737 ,  469.16286226]), array([ 449.77224523, 1476.75083859, 1126.03702261,  828.93540748,
+        731.85905032,  678.1557967 ,  611.37307029,  557.54992645,
+        574.32072232,  511.85943912,  474.02076816,  440.50222381]), array([38.45089418, 53.9762784 , 36.00816082, 40.79524424, 41.33429641]), array([44.68137416, 49.61164369, 40.1305851 , 44.78947839, 41.3744386 ]), array([41.99760486, 44.67331685, 34.6306922 , 38.0593421 , 36.59745715]), array([40.96543855, 41.34769789, 31.36469724, 35.92128613, 36.56572453]), array([31.88646687, 30.10974375, 23.9164225 , 27.45916055, 25.83254366]), array([79.86207107, 73.07936674, 70.47327339, 65.82858519]), array([89.94369541, 83.426726  , 73.60688441, 67.72006098]), array([87.60361974, 87.86057027, 92.87369035, 95.27470844]), array([ 85.7327473 ,  62.73000476,  87.25000047, 118.17360579]), array([81.4558806 , 76.33826193, 93.42403889, 89.41668829]), array([378.98019724, 272.755498  , 271.1149621 ]), array([652.46762856, 541.31906608, 538.74953755]), array([1819.51836179, 2091.1042542 , 1760.70514993]), array([388.87296392, 282.5059151 , 297.8194591 ]), array([699.21928817, 640.45890353, 576.8771527 ]), array([1822.72561475, 2215.3938543 , 1756.6704358 ]), array([184.26753826, 192.28199083, 176.65167326, 173.70419152,
+       173.40114459, 150.25427279]), array([372.95046539, 394.59632452, 331.63177803, 333.9967427 ,
+       289.75825839, 292.35151917]), array([311.75249913, 426.11340106, 333.5094299 , 282.23312617,
+       270.85516322, 269.40805116]), array([600.59428199, 507.18388099, 621.53331055, 533.23145429,
+       498.88073424, 497.3284188 ]), array([ 895.70743871, 1751.60569168, 1129.19127098, 1050.96377137,
+       1002.69740034,  893.19493538]), array([1766.86048353, 3656.00777593, 2272.98720789, 2044.91457056,
+       2044.91457056, 1754.72545273]), array([126.49788032, 156.47613216, 158.05981611, 148.33738581,
+       138.33547177, 119.80975398]), array([151.23254271, 162.95342991, 177.69138081, 158.86011356,
+       147.58577983, 140.02885643, 130.36322234, 124.99496822]), array([145.64963548, 145.88410726, 150.84732688, 136.63106818,
+       124.10800067, 130.64232728, 120.50559218, 108.12165352]), array([704.29879578, 653.42238481, 401.32266615, 354.6061644 ,
+       257.94806313]), array([393.15265964, 562.65941183, 470.60555485, 385.19321314,
+       318.4199069 , 320.46946463, 276.76309958]), array([318.63783371, 288.56373166, 273.3421798 , 377.291794  ,
+       296.61270491, 301.69809018, 267.71482383]), array([ 731.98611612, 1988.06246193, 1556.42626006, 1239.62807612,
+       1030.9648739 ,  718.68198143]), array([ 746.16786028, 1921.5991707 , 1749.33984997, 1488.96153161,
+       1296.1892933 ,  936.56102415,  760.99122819,  722.80644807]), array([ 799.41401207,  790.57513366, 2018.27404009, 1619.24907152,
+       1392.95883455,  965.95161595,  814.64404206,  769.78964271]), array([203.52091683, 206.21028966, 196.33599122, 196.63211578,
+       197.89369244, 164.40749924, 166.19480918]), array([200.21236472, 193.66274944, 186.70103476, 188.16986461,
+       185.33898374, 153.31071638, 155.06268031]), array([363.93478545, 725.8453002 , 496.29421275, 420.97826124,
+       409.89032716, 335.64157378, 314.82215063]), array([361.19533535, 715.33862872, 487.97468793, 410.57897901,
+       397.74646891, 324.06660693, 301.0238901 ]), array([ 859.2125406 , 2167.13876054, 1697.36634402, 1393.26729959,
+       1241.36418787,  955.13419664,  838.46870326]), array([ 834.35847344, 2115.4484063 , 1658.0233062 , 1356.57019107,
+       1203.68616605,  923.41170335,  807.62825442]), array([42.39005382, 42.85514877, 40.69577845, 40.15593627, 40.00561091]), array([40.40831606, 34.15916632, 33.12295585, 34.11931266, 32.98362416]), array([39.34743587, 33.9231428 , 31.92170845, 31.63578903, 31.89442305]), array([38.31080005, 30.66591003, 28.63798642, 28.63798642, 29.15644502]), array([136.25388068, 136.01399567, 134.17488878, 133.18816836]), array([140.08235294, 134.64241976, 127.82220328, 124.51764706]), array([140.26134776, 131.20691929, 123.7987497 , 120.09877902]), array([132.52018714, 122.48784907, 114.16645195, 110.15740556]), array([774.53842886, 766.42807882]), array([740., 744.]), array([730.94529739, 726.89012237]), array([747.39807926, 741.48199948]), array([107.11662719, 101.40902091]), array([101.29567797,  79.24682048]), array([132.68378587, 245.38775046, 173.4766857 , 128.65118453]), array([132.01969254, 201.79897501, 154.40004361, 110.89654173]), array([466.28493739, 799.24190122, 585.37153913, 465.69408002]), array([476.13256014, 771.96832025, 568.71135136, 469.5346529 ]), array([94.69761609, 73.58219946]), array([106.03972617,  76.822517  ]), array([130.89610026, 196.22410851, 152.26678562, 109.00075258]), array([129.05749082, 192.46051438, 135.78703709, 104.7156865 ]), array([466.77731852, 796.37022096, 557.42970087, 459.68703014]), array([461.15927292, 724.46360674, 555.35358565, 449.23274   ]), array([171.50375496, 195.56924536, 184.50069172, 188.43709907,
+       191.77760743, 175.58107217, 145.81668532]), array([174.24958984, 154.56134444, 173.37835603, 157.6575716 ,
+       153.31660877, 164.31876546, 143.65629424]), array([380.        , 626.30440605, 399.18468231, 334.88795339,
+       341.07191318, 289.01983553]), array([378.59259259, 703.57592553, 378.11943908, 308.95635685,
+       321.42929691, 272.97967351]), array([ 807.16644593, 2696.97909476, 1979.08884778, 1291.38340504,
+        987.69122875,  896.53223564,  800.30742792]), array([ 781.18553359, 2372.12624435, 2217.42549102, 1293.81045419,
+        936.13864731,  816.07061887,  767.06359325]), array([306.33796881, 258.25706974, 257.46444511]), array([300.47542547, 236.29862194, 230.45868578]), array([243.46671771, 387.66094163, 337.77837967, 256.03954099,
+       247.21890337, 217.83631008, 213.39388228]), array([261.1832279 , 424.30239734, 313.99149205, 251.56119034,
+       228.79038986, 211.29632447, 216.15074413]), array([ 656.41467565, 1440.49693013, 1102.91614533,  893.2560947 ,
+        840.50292887,  751.37883606,  679.56677653,  649.88047346,
+        649.72012434]), array([ 648.89923057, 1292.25771324, 1086.78647705,  937.05035934,
+        738.56678098,  667.89147385,  699.42984239,  635.92542271,
+        639.29941658]), array([267.88415612, 240.22312242, 250.13262741, 223.46320018]), array([233.58683794, 229.29449475, 232.84554364, 210.72371097]), array([466.21225155, 407.85703023, 428.56866867, 395.93187907]), array([473.5595926 , 411.16291683, 435.51659976, 416.11620936]), array([1463.9226411 , 1328.24972462, 1275.00889406, 1246.53511827]), array([1515.63380587, 1369.2116719 , 1407.3906695 , 1284.22955893]), array([107.81341076, 128.20469005, 130.55033123, 116.24184578,
+       101.11660013, 104.77485811]), array([128.60811997, 159.42485021, 155.12534459, 140.76315689,
+       122.03902246, 128.53713676, 118.71814307, 105.69956539]), array([135.69898784, 138.12959254, 149.64922979, 128.56935541,
+       117.20760896, 112.58502765, 106.97633538, 104.94740733]), array([378.        , 453.0591075 , 420.69827174, 376.68751828,
+       357.87556435]), array([347.67692308, 437.86142771, 379.03313642, 337.97878339,
+       340.92642864]), array([292.84615385, 484.35101117, 356.21377662]), array([ 505.17141495, 1222.72852141, 1129.8899481 ,  893.57388928,
+        656.211307  ,  512.50757521]), array([ 608.18759626, 2253.75041742, 1750.71179371, 1371.5772071 ,
+       1019.37625171,  812.41879093,  662.09448279,  611.32507213]), array([ 595.64580238, 1838.34803051, 1638.46310838, 1244.14474571,
+        971.66277305,  819.17496104,  694.9033683 ,  588.90933126]), array([23.05921765, 20.68695882, 20.68278182, 21.48227695]), array([23.40984014, 19.19325438, 18.73937656, 21.00545101]), array([26.75928376, 23.9078916 , 20.82669249, 21.49158053]), array([24.81103922, 21.66963766, 18.55661032, 19.06952529]), array([49.97946365, 48.19693134, 48.23787619]), array([50.03341592, 47.51580295, 46.05677159]), array([58.91631282, 54.12515142, 52.18384965]), array([54.11244169, 46.8881876 , 46.68534427])]
+	weights_points: [array([8.07006049, 8.18943503, 8.03595348, 8.1496436 ]), array([17.1070225 , 17.45065301]), array([70.17937979, 70.78443619]), array([9.42889299, 9.04324008, 8.53848877, 8.78235738]), array([18.00012704, 15.85129318]), array([69.9883514 , 70.19323961]), array([10.4696851 ,  9.18143848,  7.73580455,  8.58686316]), array([15.82324677, 14.79401998]), array([64.55586077, 64.30863241]), array([6.34602831, 4.99524422, 3.95167796, 4.04920736]), array([12.60164736, 10.4543243 ]), array([47.62849797, 47.87717808]), array([6.70848622, 5.79977349, 4.38680427, 4.73873313]), array([15.10774096, 13.2381305 ]), array([69.36851724, 67.41808276]), array([8.15379423, 5.92170723, 4.72612988, 4.82362348]), array([14.75123318, 12.81234221]), array([56.58455661, 55.11360362]), array([7.64397213, 7.6589613 , 6.04512708, 6.68466515]), array([18.38337229, 16.87859681]), array([67.24132985, 67.79884783]), array([8.22852471, 8.77411501, 7.5308678 , 6.74558276]), array([7.89278749, 8.1370771 , 7.53459443, 6.17636044]), array([17.50009307, 54.31997593, 46.24706527, 40.33506767, 34.79026134,
+       28.54285027, 25.80792767, 22.25403551, 19.67537892, 17.8102092 ]), array([16.39660547, 51.28070449, 43.8814817 , 37.26739352, 32.44489731,
+       26.77001705, 22.93089885, 21.00305386, 18.87921812, 16.4536632 ]), array([ 7.76699029, 13.99733181,  9.05739184,  7.03888985,  6.49777093]), array([ 8.42105263, 13.49841338,  8.72772806,  6.53941145,  6.18194878]), array([4.22321282, 3.17901819]), array([4.22321282, 2.97110333]), array([24.25673353, 51.70457511, 46.35946911, 30.81575427, 27.14471168,
+       23.99732124]), array([24.25673353, 51.56801868, 46.04251446, 30.55701578, 26.90499808,
+       23.76486087]), array([10.09138381,  9.27354688,  7.21272758,  7.40126773]), array([4.22727273, 3.55181754]), array([26.49218476, 66.63542755, 70.52557321, 48.85007568, 38.48783544,
+       34.71700126, 27.71283031, 25.72020207]), array([12.39839936, 10.76763368,  9.69527495,  7.39367131,  7.44529493]), array([3.88 , 3.944]), array([28.57523219, 67.84135816, 56.15150013, 47.66032234, 37.94066616,
+       32.58280697, 28.49819286]), array([11.98362134,  6.44923548,  6.04821819,  5.99877768,  6.02624472]), array([3.4137931 , 2.82758621]), array([25.5872409 , 48.1138202 , 44.51589989, 38.9955514 , 30.49016606,
+       28.22243722, 25.31230363]), array([2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2.]), array([3.37447926, 3.96280885, 3.61274483, 3.92356522, 3.58952458,
+       4.09260531, 3.52697316, 3.77849837, 3.5547019 , 3.35468079,
+       3.56587757, 3.24033021]), array([3.44226545, 3.74370369, 3.54842016, 3.80611766, 3.66945595,
+       3.70328748, 3.04296847, 3.50931122, 3.3978778 , 3.33576229,
+       3.24667935, 3.1055257 ]), array([9.4743853 , 8.84039232, 9.49904189, 8.11088934, 7.79628432,
+       6.49692343, 6.54997809, 7.25290797]), array([8.57183159, 8.55010093, 9.12605781, 7.01084106, 7.80618675,
+       7.43402176, 6.61172532, 6.36144625]), array([21.01705951, 78.00849661, 53.44141565, 47.3584516 , 35.46073128,
+       30.3840518 , 29.24848167, 25.72531395, 25.74920009, 23.61353907,
+       21.79244884, 20.69836157]), array([19.77020858, 64.91212477, 49.49613286, 36.43672121, 32.16962859,
+       29.80904601, 26.87354155, 24.50768907, 25.24486692, 22.49931601,
+       20.83607772, 19.36273511]), array([6.00795221, 8.4337935 , 5.62627513, 6.37425691, 6.45848381]), array([6.38305345, 7.08737767, 5.73294073, 6.39849691, 5.91063409]), array([6.17611836, 6.56960542, 5.09274885, 5.59696207, 5.38197899]), array([6.0243292 , 6.08054381, 4.61245548, 5.28254208, 5.37731243]), array([5.4976667 , 5.19133513, 4.12352112, 4.73433803, 4.45388684]), array([9.98275888, 9.13492084, 8.80915917, 8.22857315]), array([10.27927948,  9.53448297,  8.41221536,  7.73943554]), array([10.3063082 , 10.33653768, 10.92631651, 11.20878923]), array([10.08620556,  7.38000056, 10.26470594, 13.90277715]), array([11.23529388, 10.52941544, 12.88607433, 12.33333632]), array([5.21532382, 3.75351603, 3.73093985]), array([8.97891232, 7.44934495, 7.41398446]), array([25.03924351, 28.77666405, 24.22988738]), array([5.25504005, 3.8176475 , 4.02458729]), array([9.4489093 , 8.65485005, 7.7956372 ]), array([24.63142723, 29.93775479, 23.73878967]), array([5.66977041, 5.91636895, 5.4354361 , 5.34474435, 5.33541983,
+       4.62320839]), array([5.72302504, 6.05518657, 5.08897869, 5.12526971, 4.44641829,
+       4.48621257]), array([ 9.59238459, 13.11118157, 10.26182861,  8.68409619,  8.33400502,
+        8.2894785 ]), array([9.21628054, 7.78287285, 9.53759556, 8.18257986, 7.65545884,
+       7.63163814]), array([27.56022888, 53.89555974, 34.7443468 , 32.33734681, 30.8522277 ,
+       27.48292109]), array([27.1129486 , 56.10242111, 34.8795991 , 31.37976323, 31.37976323,
+       26.92673329]), array([4.28806374, 5.30427567, 5.35795987, 5.02838596, 4.68933803,
+       4.06134759]), array([4.00616007, 4.31664715, 4.70705645, 4.20821493, 3.90955708,
+       3.70937368, 3.45333039, 3.31112499]), array([3.83288514, 3.83905545, 3.9696665 , 3.59555443, 3.26600002,
+       3.43795598, 3.17119979, 2.84530667]), array([19.89544621, 18.45825946, 11.33679848, 10.01712329,  7.28666845]), array([ 9.11280999, 13.04177445, 10.90807577,  8.92831951,  7.38059387,
+        7.42810017,  6.41503873]), array([7.33705538, 6.64455961, 6.29406335, 8.68763999, 6.82989781,
+       6.9469955 , 6.16448607]), array([24.81308868, 67.39194786, 52.76021221, 42.02129072, 34.94796183,
+       24.36210107]), array([19.76603603, 50.90328929, 46.34012848, 39.44268958, 34.33614022,
+       24.80956355, 20.15870803, 19.14719068]), array([21.03721084, 20.80460878, 53.11247474, 42.61181767, 36.65681144,
+       25.41977937, 21.43800111, 20.25762218]), array([4.76470374, 4.82766564, 4.59649478, 4.60342746, 4.6329627 ,
+       3.849005  , 3.89084838]), array([4.687246  , 4.53391052, 4.37092724, 4.40531456, 4.33903975,
+       3.5892141 , 3.63022997]), array([ 8.52021237, 16.99303378, 11.61892806,  9.85567836,  9.59609462,
+        7.85782949,  7.37041824]), array([ 8.45607809, 16.7470582 , 11.42415657,  9.6122169 ,  9.31179024,
+        7.58684364,  7.04738204]), array([20.11534376, 50.73569005, 39.73767361, 32.61829798, 29.06203784,
+       22.36100126, 19.62970208]), array([19.53347597, 49.52554797, 38.81659914, 31.75916835, 28.17994369,
+       21.61833419, 18.90768489]), array([5.72838565, 5.79123632, 5.49942952, 5.42647787, 5.40616364]), array([5.61226612, 4.74432866, 4.60041053, 4.73879342, 4.58105891]), array([5.31722106, 4.58420849, 4.31374438, 4.27510663, 4.31005717]), array([5.47297144, 4.38084429, 4.09114092, 4.09114092, 4.16520643]), array([14.73014926, 14.70421575, 14.50539338, 14.3987209 ]), array([15.56470588, 14.96026886, 14.20246703, 13.83529412]), array([15.16338895, 14.18453182, 13.38364862, 12.98365179]), array([15.14516424, 13.99861132, 13.04759451, 12.58941778]), array([41.8669421, 41.4285448]), array([41.11111111, 41.33333333]), array([39.51055662, 39.29135797]), array([42.70846167, 42.37039997]), array([4.04213688, 3.82675551]), array([3.89598761, 3.04795463]), array([ 8.99551091, 16.63645766, 11.76113123,  8.72211421]), array([ 8.95048763, 13.68128644, 10.46779957,  7.51840961]), array([31.61253813, 54.18589161, 39.68620604, 31.57248   ]), array([32.28017357, 52.33683527, 38.55670179, 31.83285782]), array([4.02968579, 3.13115742]), array([4.15842063, 3.01264773]), array([ 9.02731726, 13.53269714, 10.50115763,  7.51729328]), array([ 9.55981414, 14.2563344 , 10.05829904,  7.75671752]), array([31.6459199 , 53.99120142, 37.79184413, 31.16522238]), array([32.93994807, 51.74740048, 39.66811326, 32.08805286]), array([4.44639365, 5.07031377, 4.78335127, 4.88540627, 4.97201204,
+       4.55210187, 3.78043258]), array([4.53437594, 4.02204242, 4.51170443, 4.10261339, 3.98965153,
+       4.275953  , 3.73826788]), array([ 8.44444444, 13.91787569,  8.87077072,  7.44195452,  7.57937585,
+        6.42266301]), array([ 8.44444444, 15.69314332,  8.43389083,  6.89121986,  7.1694267 ,
+        6.08876595]), array([20.92653749, 69.92168023, 51.30971087, 33.4803105 , 25.60680963,
+       23.24342833, 20.74871109]), array([20.32824809, 61.72819223, 57.70252207, 33.66793003, 24.36048525,
+       21.23603841, 19.96076265]), array([3.64688058, 3.07448893, 3.06505292]), array([3.56294971, 2.80195994, 2.73271169]), array([ 6.76296438, 10.76835949,  9.38273277,  7.11220947,  6.86719176,
+        6.05100861,  5.92760784]), array([ 7.22641342, 11.73959202,  8.68751164,  6.96019104,  6.33016889,
+        5.84614336,  5.98045537]), array([23.44338127, 51.44631893, 39.38986233, 31.90200338, 30.01796175,
+       26.83495843, 24.27024202, 23.21001691, 23.20429015]), array([23.08337184, 45.96964197, 38.66038851, 33.33380725, 26.2731266 ,
+       23.75898524, 24.88090348, 22.62185298, 22.74187648]), array([3.54813452, 3.18176321, 3.31301493, 2.95977749]), array([3.07351103, 3.01703283, 3.06375715, 2.77268041]), array([6.17499671, 5.40207987, 5.67640621, 5.24413085]), array([6.23104727, 5.41003838, 5.73048158, 5.47521328]), array([19.38970386, 17.59271158, 16.88753502, 16.51039892]), array([19.94255008, 18.01594305, 18.51829828, 16.89775735]), array([4.58780471, 5.45551873, 5.55533324, 4.94646152, 4.30283405,
+       4.4585046 ]), array([3.67451771, 4.55499572, 4.4321527 , 4.02180448, 3.48682921,
+       3.67248962, 3.39194694, 3.01998758]), array([3.8910104 , 3.96070516, 4.29101734, 3.6865765 , 3.36079165,
+       3.22824452, 3.0674218 , 3.00924465]), array([6.75      , 8.09034121, 7.51246914, 6.72656283, 6.39063508]), array([6.23076923, 7.84697899, 6.79270854, 6.05696744, 6.10979263]), array([ 6.23076923, 10.30534066,  7.57901652]), array([21.49665596, 52.03100091, 48.08042332, 38.02442082, 27.9238854 ,
+       21.80883299]), array([17.37678846, 64.39286907, 50.02033696, 39.1879202 , 29.12503576,
+       23.21196546, 18.91698522, 17.46643063]), array([17.07944953, 52.71248833, 46.98102103, 35.67440131, 27.86129815,
+       23.48888777, 19.92554461, 16.88628907]), array([9.22368706, 8.27478353, 8.27311273, 8.59291078]), array([8.51266914, 6.97936523, 6.81431875, 7.63834582]), array([9.73064864, 8.69377876, 7.57334272, 7.81512019]), array([9.92441569, 8.66785506, 7.42264413, 7.62781012]), array([14.9938391 , 14.4590794 , 14.47136286]), array([13.64547707, 12.95885535, 12.56093771]), array([16.06808531, 14.76140493, 14.231959  ]), array([16.23373251, 14.06645628, 14.00560328])]
+	weights_curves: [2.75, 5.5, 5.5, 1.5, 3.0, 3.0, 1.25, 2.5, 2.5, 0.75, 1.5, 1.5, 2.25, 4.5, 4.5, 1.5, 3.0, 3.0, 0.75, 1.5, 1.5, 73.25, 73.75, 29.3, 29.5, 47.8, 47.8, 119.5, 119.5, 39.833333333333336, 39.833333333333336, 74.75, 149.5, 37.375, 12.0, 30.0, 8.571428571428571, 47.8, 119.5, 34.142857142857146, 707.4285714285714, 707.0, 825.3333333333334, 824.8333333333334, 22.666666666666668, 22.75, 34.0, 34.125, 22.666666666666668, 22.75, 6.4, 7.0, 6.8, 6.8, 5.8, 8.0, 8.75, 8.5, 8.5, 7.25, 72.66666666666667, 72.66666666666667, 72.66666666666667, 74.0, 74.0, 74.0, 32.5, 65.16666666666667, 32.5, 65.16666666666667, 32.5, 65.16666666666667, 29.5, 37.75, 38.0, 35.4, 43.142857142857146, 43.42857142857143, 29.5, 37.75, 38.0, 42.714285714285715, 42.714285714285715, 42.714285714285715, 42.714285714285715, 42.714285714285715, 42.714285714285715, 7.4, 7.2, 7.4, 7.0, 9.25, 9.0, 9.25, 8.75, 18.5, 18.0, 18.5, 17.5, 26.5, 26.0, 14.75, 14.75, 14.75, 14.75, 23.5, 25.5, 14.5, 13.5, 14.75, 14.0, 38.57142857142857, 38.42857142857143, 45.0, 44.833333333333336, 38.57142857142857, 38.42857142857143, 84.0, 84.33333333333333, 36.0, 36.142857142857146, 28.0, 28.11111111111111, 75.5, 76.0, 75.5, 76.0, 75.5, 76.0, 23.5, 35.0, 34.875, 56.0, 55.8, 47.0, 23.5, 35.0, 34.875, 2.5, 2.75, 2.75, 2.5, 3.3333333333333335, 3.6666666666666665, 3.6666666666666665, 3.3333333333333335]
+--------------------------------------------------------------------------------
+Parameter sets: ['PD_20261019_103700__c0378_0']
+--------------------------------------------------------------------------------
+    parameter          unit  PD_20261019_103700__c0378_0
+Emax_glp1_fpg dimensionless                 6.141198e-01
+EC50_glp1_fpg            mM                 3.403777e-07
+        k_fpg         l/min                 3.104998e-04
+  f_trial_fpg dimensionless                 4.241218e-02
+     k_hb_deg     mmole/min                 2.427525e-05
+Emax_SAT_glp1 dimensionless                 2.038218e-01
+EC50_SAT_glp1            mM                 4.247250e-07
+   k_SAT_glp1         1/min                 2.108765e-05
+
+PD_20261019_103700__c0378_0: cost = 33.1284
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Metrics: PD_20261019_103700__c0378_0
+--------------------------------------------------------------------------------
+              parameter_set       kind   n  k      cost      MSE     RMSE    NRMSE   RMSE_w       R2  within_2fold         AIC         BIC
+PD_20261019_103700__c0378_0   training 525  8 33.128406 0.148034 0.384751 0.034685 0.355251 0.999886         100.0 -986.916006 -952.808820
+PD_20261019_103700__c0378_0 validation 184  8       NaN 0.658480 0.811468 0.035598 0.730952 0.999655         100.0  -60.879165  -35.159679
+PD_20261019_103700__c0378_0    outlier   8  8       NaN 0.420465 0.648432 0.070338 0.181412 0.999615         100.0    9.068839    9.704372
+
+     experiment                       mapping       kind  n          MSE     RMSE    NRMSE   RMSE_w         R2  within_2fold
+Barrington2011a               fm_dul_fpg_PLAC   training  4 2.938207e-02 0.171412 0.019397 0.091821  -5.621722         100.0
+Barrington2011a             fm_dul_hba1c_PLAC   training  2 2.327937e-06 0.001526 0.020413 0.199987  -3.214376         100.0
+Barrington2011a        fm_dul_bodyweight_PLAC   training  2 2.572701e-01 0.507218 0.006070 0.119771  -1.000000         100.0
+Barrington2011a              fm_dul_fpg_DUL03   training  4 2.504898e-01 0.500490 0.051219 0.185009  -0.929508         100.0
+Barrington2011a            fm_dul_hba1c_DUL03   training  2 6.297202e-06 0.002509 0.032545 0.224430   0.737139         100.0
+Barrington2011a       fm_dul_bodyweight_DUL03   training  2 3.615756e-01 0.601312 0.007006 0.101670 -21.978147         100.0
+Barrington2011a               fm_dul_fpg_DUL1   training  4 1.398147e-01 0.373918 0.039133 0.128563   0.874936         100.0
+Barrington2011a             fm_dul_hba1c_DUL1   training  2 1.458154e-05 0.003819 0.046987 0.285756  -0.953771         100.0
+Barrington2011a        fm_dul_bodyweight_DUL1   training  2 3.900978e-01 0.624578 0.006992 0.088654 -12.281960         100.0
+Barrington2011a               fm_dul_fpg_DUL3   training  4 9.917509e-01 0.995867 0.162162 0.288796   0.336451         100.0
+Barrington2011a             fm_dul_hba1c_DUL3   training  2 1.013390e-05 0.003183 0.049712 0.196860   0.715095         100.0
+Barrington2011a        fm_dul_bodyweight_DUL3   training  2 2.323904e-01 0.482069 0.007176 0.060815  -6.595916         100.0
+Barrington2011a               fm_dul_fpg_DUL5   training  4 3.960427e-01 0.629319 0.098688 0.316723   0.658354         100.0
+Barrington2011a             fm_dul_hba1c_DUL5   training  2 1.038329e-06 0.001019 0.014678 0.113291   0.950475         100.0
+Barrington2011a        fm_dul_bodyweight_DUL5   training  2 3.416075e-01 0.584472 0.006691 0.116540   0.779818         100.0
+Barrington2011a               fm_dul_fpg_DUL8   training  4 1.168995e+00 1.081201 0.151670 0.426074   0.578557         100.0
+Barrington2011a             fm_dul_hba1c_DUL8   training  2 1.157944e-06 0.001076 0.015778 0.097818   0.949690         100.0
+Barrington2011a        fm_dul_bodyweight_DUL8   training  2 5.092701e-01 0.713632 0.009414 0.121056   0.488926         100.0
+Barrington2011a             fm_dul_fpg_DUL005    outlier  4 6.808576e-01 0.825141 0.094988 0.204717   0.046943         100.0
+Barrington2011a           fm_dul_hba1c_DUL005    outlier  2 1.023771e-05 0.003200 0.041187 0.207243   0.068463         100.0
+Barrington2011a      fm_dul_bodyweight_DUL005    outlier  2 3.201328e-01 0.565803 0.006922 0.069807  -1.811229         100.0
+     Blonde2015           fm_dul_hba1c_DUL075 validation  4 4.639436e-06 0.002154 0.029406 0.721620   0.881344         100.0
+     Blonde2015            fm_dul_hba1c_DUL15 validation  4 1.031714e-06 0.001016 0.013903 0.326414   0.976785         100.0
+     Blonde2015      fm_dul_bodyweight_DUL075 validation 10 3.650836e+00 1.910716 0.020818 0.521142  -4.125859         100.0
+     Blonde2015       fm_dul_bodyweight_DUL15 validation 10 1.999984e+00 1.414208 0.015651 0.383221  -5.702161         100.0
+       Chen2018           fm_dul_hba1c_DUL075   training  5 2.010791e-07 0.000448 0.006261 0.118964   0.990693         100.0
+       Chen2018            fm_dul_hba1c_DUL15   training  5 9.193002e-07 0.000959 0.013724 0.251460   0.971426         100.0
+       Chen2018             fm_dul_fpg_DUL075   training  2 1.111285e-01 0.333359 0.041615 0.811117   0.912970         100.0
+       Chen2018              fm_dul_fpg_DUL15   training  2 1.779129e-01 0.421797 0.054177 1.020846   0.903099         100.0
+       Chen2018      fm_dul_bodyweight_DUL075   training  6 5.988864e-03 0.077388 0.001081 0.046699   0.928751         100.0
+       Chen2018       fm_dul_bodyweight_DUL15   training  6 1.487217e-01 0.385645 0.005418 0.183959   0.484182         100.0
+     Dungan2014            fm_dul_hba1c_DUL15   training  4 5.235006e-07 0.000724 0.010190 0.242322   0.984217         100.0
+     Dungan2014              fm_dul_fpg_DUL15   training  2 1.255016e-02 0.112027 0.013441 0.309717   0.986523         100.0
+     Dungan2014       fm_dul_bodyweight_DUL15   training  8 1.478843e-02 0.121608 0.001318 0.048111   0.983163         100.0
+     Dungan2016             fm_dul_hba1c_PLAC   training  5 1.068395e-06 0.001034 0.012551 0.137364  -0.301131         100.0
+     Dungan2016               fm_dul_fpg_PLAC   training  2 5.832720e-02 0.241510 0.024694 0.268605  -8.113625         100.0
+     Dungan2016        fm_dul_bodyweight_PLAC   training  7 9.228909e-02 0.303791 0.003405 0.068510  -4.420723         100.0
+     Dungan2016            fm_dul_hba1c_DUL15   training  5 4.773448e-07 0.000691 0.009382 0.159722   0.984034         100.0
+     Dungan2016              fm_dul_fpg_DUL15   training  2 2.831907e-01 0.532157 0.058802 1.081244   0.608040         100.0
+     Dungan2016       fm_dul_bodyweight_DUL15   training  7 4.722292e-01 0.687189 0.008189 0.269418  -3.846158         100.0
+   Gerstein2019            fm_dul_PLAC__hba1c validation  7 3.845525e-06 0.001961 0.026315 0.989814  -9.330127         100.0
+   Gerstein2019           fm_dul_DUL15__hba1c validation  7 2.660465e-05 0.005158 0.074848 2.814537  -4.110800         100.0
+   Gerstein2019       fm_dul_PLAC__bodyweight validation  6 2.024259e+00 1.422765 0.016226 0.659249  -3.569674         100.0
+   Gerstein2019      fm_dul_DUL15__bodyweight validation  6 1.772259e-01 0.420982 0.004879 0.198177   0.833383         100.0
+   Giorgino2015            fm_dul_DUL075__fpg validation 12 4.467954e-01 0.668428 0.083240 0.744985  -1.654132         100.0
+   Giorgino2015             fm_dul_DUL15__fpg validation 12 1.733897e-01 0.416401 0.054864 0.474448   0.384798         100.0
+   Giorgino2015          fm_dul_DUL075__hba1c validation  8 1.316746e-05 0.003629 0.048577 0.764034  -0.717184         100.0
+   Giorgino2015           fm_dul_DUL15__hba1c validation  8 8.303240e-06 0.002882 0.039895 0.612329   0.419648         100.0
+   Giorgino2015     fm_dul_DUL075__bodyweight validation 12 2.478177e-01 0.497813 0.005854 0.153236  -0.559178         100.0
+   Giorgino2015      fm_dul_DUL15__bodyweight validation 12 1.353880e-01 0.367951 0.004397 0.113303   0.525715         100.0
+ Grunberger2012              fm_dul_PLAC__fpg   training  5 1.103976e-01 0.332261 0.038114 0.265981  -0.008806         100.0
+ Grunberger2012             fm_dul_DUL01__fpg   training  5 4.038487e-02 0.200960 0.024887 0.164492   0.572232         100.0
+ Grunberger2012             fm_dul_DUL05__fpg   training  5 1.154579e-01 0.339791 0.045979 0.291629   0.727297         100.0
+ Grunberger2012             fm_dul_DUL10__fpg   training  5 4.769884e-02 0.218401 0.029777 0.173734   0.921922         100.0
+ Grunberger2012             fm_dul_DUL15__fpg   training  5 1.305262e-01 0.361284 0.052010 0.274333   0.832886         100.0
+ Grunberger2012            fm_dul_PLAC__hba1c   training  4 1.452204e-07 0.000381 0.004976 0.041172  -3.586534         100.0
+ Grunberger2012           fm_dul_DUL01__hba1c   training  4 2.306929e-07 0.000480 0.006508 0.054637   0.817214         100.0
+ Grunberger2012           fm_dul_DUL05__hba1c   training  4 3.896360e-08 0.000197 0.002781 0.026498   0.996079         100.0
+ Grunberger2012           fm_dul_DUL10__hba1c   training  4 2.010710e-06 0.001418 0.019759 0.166494   0.886969         100.0
+ Grunberger2012           fm_dul_DUL15__hba1c   training  4 2.277641e-06 0.001509 0.021467 0.196882   0.841822         100.0
+        Liu2025             fm_dul_DUL15__fpg   training  3 1.375710e-01 0.370906 0.049451 0.815370   0.909138         100.0
+        Liu2025           fm_dul_DUL15__hba1c   training  3 9.349512e-08 0.000306 0.004273 0.099404   0.997854         100.0
+        Liu2025      fm_dul_DUL15__bodyweight   training  3 5.576647e-01 0.746769 0.010290 0.439636   0.448379         100.0
+        Liu2025           fm_dul_LY05008__fpg validation  3 3.729110e-02 0.193109 0.024739 0.415961   0.971022         100.0
+        Liu2025         fm_dul_LY05008__hba1c validation  3 2.197409e-07 0.000469 0.006457 0.162685   0.995331         100.0
+        Liu2025    fm_dul_LY05008__bodyweight validation  3 1.013753e+00 1.006853 0.014016 0.608993   0.213019         100.0
+    Morioka2024            fm_dul_DUL075__fpg   training  6 7.167054e-02 0.267714 0.031909 0.415263   0.856043         100.0
+    Morioka2024             fm_dul_DUL15__fpg   training  6 2.593552e-02 0.161045 0.020261 0.352465   0.968237         100.0
+    Morioka2024          fm_dul_DUL075__hba1c   training  6 3.422295e-06 0.001850 0.024062 0.410483   0.836082         100.0
+    Morioka2024           fm_dul_DUL15__hba1c   training  6 1.453407e-06 0.001206 0.016222 0.364834   0.954436         100.0
+    Morioka2024     fm_dul_DUL075__bodyweight   training  6 5.599963e-01 0.748329 0.010498 0.355885 -37.037488         100.0
+    Morioka2024      fm_dul_DUL15__bodyweight   training  6 5.075075e-01 0.712396 0.009824 0.462999 -19.528394         100.0
+      Nauck2014              fm_dul_PLAC__fpg   training  6 8.882912e-02 0.298042 0.032242 0.390646  -0.371632         100.0
+      Nauck2014            fm_dul_DUL075__fpg   training  8 2.324903e-02 0.152476 0.019667 0.238057   0.940844         100.0
+      Nauck2014             fm_dul_DUL15__fpg   training  8 7.743314e-02 0.278268 0.038769 0.446370   0.874857         100.0
+      Nauck2014            fm_dul_PLAC__hba1c   training  5 1.093853e-06 0.001046 0.012917 0.256661  -1.689734         100.0
+      Nauck2014          fm_dul_DUL075__hba1c   training  7 4.765531e-07 0.000690 0.009523 0.184102   0.973293         100.0
+      Nauck2014           fm_dul_DUL15__hba1c   training  7 4.422093e-07 0.000665 0.009380 0.159344   0.979743         100.0
+      Nauck2014       fm_dul_PLAC__bodyweight   training  6 9.491349e-01 0.974236 0.011304 0.357117  -2.341290         100.0
+      Nauck2014     fm_dul_DUL075__bodyweight   training  8 5.092398e-01 0.713610 0.008467 0.250008   0.504124         100.0
+      Nauck2014      fm_dul_DUL15__bodyweight   training  8 6.372640e-01 0.798288 0.009409 0.296712   0.512473         100.0
+    Pratley2018            fm_dul_DUL075__fpg   training  7 1.155485e-02 0.107494 0.013358 0.187677   0.975049         100.0
+    Pratley2018             fm_dul_DUL15__fpg   training  7 5.368334e-03 0.073269 0.009565 0.130183   0.991505         100.0
+    Pratley2018          fm_dul_DUL075__hba1c   training  7 4.515999e-07 0.000672 0.009187 0.209301   0.973687         100.0
+    Pratley2018           fm_dul_DUL15__hba1c   training  7 7.129538e-07 0.000844 0.011797 0.274687   0.969827         100.0
+    Pratley2018     fm_dul_DUL075__bodyweight   training  7 4.054464e-02 0.201357 0.002145 0.068839   0.938991         100.0
+    Pratley2018      fm_dul_DUL15__bodyweight   training  7 1.292701e-01 0.359541 0.003943 0.128859   0.876845         100.0
+  Teraruchi2014              fm_dul_PLAC__fpg   training  5 6.157046e-02 0.248134 0.028736 0.183449  -0.013106         100.0
+  Teraruchi2014            fm_dul_DUL025__fpg   training  5 1.799692e-01 0.424228 0.055596 0.321163   0.507024         100.0
+  Teraruchi2014             fm_dul_DUL05__fpg   training  5 6.729047e-02 0.259404 0.036095 0.203571   0.825945         100.0
+  Teraruchi2014            fm_dul_DUL075__fpg   training  5 2.171728e-01 0.466018 0.065948 0.354319   0.691437         100.0
+  Teraruchi2014            fm_dul_PLAC__hba1c   training  4 2.455299e-07 0.000496 0.006256 0.072414   0.563709         100.0
+  Teraruchi2014          fm_dul_DUL025__hba1c   training  4 1.502093e-06 0.001226 0.016086 0.181139   0.876517         100.0
+  Teraruchi2014           fm_dul_DUL05__hba1c   training  4 2.817486e-06 0.001679 0.022841 0.251278   0.854362         100.0
+  Teraruchi2014          fm_dul_DUL075__hba1c   training  4 3.461209e-06 0.001860 0.025718 0.271182   0.870667         100.0
+  Teraruchi2014       fm_dul_PLAC__bodyweight   training  2 3.200000e-01 0.565685 0.007443 0.206062  -1.000000         100.0
+  Teraruchi2014     fm_dul_DUL025__bodyweight   training  2 4.303835e-01 0.656036 0.008841 0.241163  -9.759587         100.0
+  Teraruchi2014      fm_dul_DUL05__bodyweight   training  2 5.758744e-02 0.239974 0.003338 0.089985  -0.439686         100.0
+  Teraruchi2014     fm_dul_DUL075__bodyweight   training  2 6.796899e-02 0.260709 0.003453 0.094028   0.244789         100.0
+  Umpierrez2011              fm_dul_PLAC__fpg   training  2 4.868400e-02 0.220645 0.024650 0.248233   0.188938         100.0
+  Umpierrez2011           fm_dul_DUL1010__fpg   training  2 9.020579e-03 0.094977 0.011316 0.100737   0.991414         100.0
+  Umpierrez2011            fm_dul_PLAC__hba1c   training  4 4.676594e-06 0.002163 0.027706 0.381264  -0.878891         100.0
+  Umpierrez2011         fm_dul_DUL1010__hba1c   training  4 3.428858e-07 0.000586 0.007877 0.094628   0.986850         100.0
+  Umpierrez2011       fm_dul_PLAC__bodyweight   training  4 8.664278e-03 0.093082 0.000984 0.023249  -2.238677         100.0
+  Umpierrez2011    fm_dul_DUL1010__bodyweight   training  4 2.735424e-01 0.523013 0.005466 0.121242   0.303976         100.0
+  Umpierrez2011           fm_dul_DUL0510__fpg validation  2 1.503003e-02 0.122597 0.014651 0.125674   0.986367         100.0
+  Umpierrez2011           fm_dul_DUL1020__fpg validation  2 4.328576e-02 0.208052 0.025088 0.219895   0.975345         100.0
+  Umpierrez2011         fm_dul_DUL0510__hba1c validation  4 6.528712e-07 0.000808 0.010805 0.120866   0.975926         100.0
+  Umpierrez2011         fm_dul_DUL1020__hba1c validation  4 2.506074e-07 0.000501 0.006633 0.077899   0.992985         100.0
+  Umpierrez2011    fm_dul_DUL0510__bodyweight validation  4 2.322921e-01 0.481967 0.005129 0.119343   0.372353         100.0
+  Umpierrez2011    fm_dul_DUL1020__bodyweight validation  4 3.852037e-02 0.196266 0.002021 0.044384   0.959276         100.0
+  Umpierrez2014            fm_dul_DUL075__fpg   training  7 1.937216e-02 0.139184 0.018096 0.233114   0.928361         100.0
+  Umpierrez2014             fm_dul_DUL15__fpg   training  7 5.088031e-02 0.225567 0.029683 0.366512   0.866478         100.0
+  Umpierrez2014          fm_dul_DUL075__hba1c   training  6 1.337749e-05 0.003658 0.051241 0.931405  -1.718117         100.0
+  Umpierrez2014           fm_dul_DUL15__hba1c   training  6 1.856180e-05 0.004308 0.061279 1.107386  -1.604245         100.0
+  Umpierrez2014     fm_dul_DUL075__bodyweight   training  7 6.683102e-01 0.817502 0.008954 0.276567  -4.261905         100.0
+  Umpierrez2014      fm_dul_DUL15__bodyweight   training  7 3.472497e-01 0.589279 0.006431 0.192679   0.226593         100.0
+       Wang2019            fm_dul_DUL075__fpg   training  3 8.474334e-02 0.291107 0.034208 0.549102   0.856026         100.0
+       Wang2019             fm_dul_DUL15__fpg   training  3 3.245738e-03 0.056971 0.007083 0.107610   0.997221         100.0
+       Wang2019          fm_dul_DUL075__hba1c   training  7 2.440348e-06 0.001562 0.021462 0.343948   0.884847         100.0
+       Wang2019           fm_dul_DUL15__hba1c   training  7 2.605733e-06 0.001614 0.022430 0.363531   0.924749         100.0
+       Wang2019     fm_dul_DUL075__bodyweight   training  9 2.786342e-02 0.166923 0.002256 0.061840   0.680857         100.0
+       Wang2019      fm_dul_DUL15__bodyweight   training  9 3.188123e-02 0.178553 0.002459 0.066539   0.866511         100.0
+  Weinstock2015        fm_dul_DUL075__fpg_ext   training  4 1.039113e-01 0.322353 0.040973 0.629354  -5.098983         100.0
+  Weinstock2015         fm_dul_DUL15__fpg_ext   training  4 1.268031e-02 0.112607 0.015787 0.238915  -0.036847         100.0
+  Weinstock2015      fm_dul_DUL075__hba1c_ext   training  4 4.170054e-06 0.002042 0.028335 0.576865 -15.643386         100.0
+  Weinstock2015       fm_dul_DUL15__hba1c_ext   training  4 4.705048e-06 0.002169 0.031271 0.647183 -17.219990         100.0
+  Weinstock2015 fm_dul_DUL075__bodyweight_ext   training  4 6.331232e-01 0.795690 0.009523 0.351257 -17.159564         100.0
+  Weinstock2015  fm_dul_DUL15__bodyweight_ext   training  4 1.027922e+00 1.013865 0.012087 0.453154 -41.149119         100.0
+     Wysham2014              fm_dul_PLAC__fpg   training  6 2.925336e-02 0.171036 0.019035 0.193698   0.095975         100.0
+     Wysham2014            fm_dul_DUL075__fpg   training  8 1.102274e-01 0.332005 0.045871 0.545046   0.711183         100.0
+     Wysham2014             fm_dul_DUL15__fpg   training  8 1.248761e-01 0.353378 0.050460 0.570064   0.783800         100.0
+     Wysham2014          fm_dul_DUL075__hba1c   training  5 7.020318e-06 0.002650 0.037560 0.776107   0.750090         100.0
+     Wysham2014           fm_dul_DUL15__hba1c   training  5 7.157663e-06 0.002675 0.039099 0.771867   0.819850         100.0
+     Wysham2014            fm_dul_PLAC__hba1c validation  3 1.649606e-05 0.004062 0.052774 1.096359  -0.993603         100.0
+     Wysham2014       fm_dul_PLAC__bodyweight validation  6 4.753909e-01 0.689486 0.007295 0.179730  -1.277651         100.0
+     Wysham2014     fm_dul_DUL075__bodyweight validation  8 2.996278e+00 1.730976 0.018025 0.518577 -32.287545         100.0
+     Wysham2014      fm_dul_DUL15__bodyweight validation  8 1.028298e+00 1.014050 0.010681 0.293837  -4.186243         100.0
+         Xu2022           fm_dul_DULPLAM__fpg   training  4 3.853261e-01 0.620746 0.080133 0.365287  -1.645312         100.0
+         Xu2022            fm_dul_DUL05M__fpg   training  4 2.794277e-01 0.528609 0.076213 0.333427   0.267939         100.0
+         Xu2022           fm_dul_DUL075M__fpg   training  4 5.147920e-02 0.226890 0.029334 0.136413   0.930137         100.0
+         Xu2022            fm_dul_DUL15M__fpg   training  4 1.177244e-01 0.343110 0.046150 0.209545   0.862488         100.0
+         Xu2022         fm_dul_DULPLAM__hba1c validation  3 4.095461e-06 0.002024 0.028557 0.198307  -0.859695         100.0
+         Xu2022          fm_dul_DUL05M__hba1c validation  3 1.250634e-06 0.001118 0.017065 0.116699   0.813955         100.0
+         Xu2022         fm_dul_DUL075M__hba1c validation  3 1.936928e-06 0.001392 0.018935 0.136829   0.869362         100.0
+         Xu2022          fm_dul_DUL15M__hba1c validation  3 5.456378e-06 0.002336 0.032993 0.225669   0.783877         100.0
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Optimization results: PD_20261019_103700__c0378
+--------------------------------------------------------------------------------
+   run  success      duration       cost  Emax_glp1_fpg  EC50_glp1_fpg     k_fpg  f_trial_fpg  k_hb_deg  Emax_SAT_glp1  EC50_SAT_glp1  k_SAT_glp1                                message                                                  x                                                 x0
+0    0     True  10477.282838  33.128406       0.614120   3.403777e-07  0.000310     0.042412  0.000024       0.203822   4.247250e-07    0.000021  Optimization terminated successfully.  [0.6141197793272749, 3.4037771251839813e-07, 0...  [0.7, 5e-07, 0.00037, 0.1, 2e-05, 0.3, 1e-06, ...
+1    2     True  10397.186999  33.137953       0.621836   3.473362e-07  0.000351     0.037898  0.000022       0.194718   2.603473e-07    0.000017  Optimization terminated successfully.  [0.6218363080114805, 3.473361899870205e-07, 0....  [0.7, 5e-07, 0.00037, 0.1, 2e-05, 0.3, 1e-06, ...
+2    1     True   9369.585630  33.172722       0.611743   3.650799e-07  0.000342     0.052221  0.000024       0.192995   2.968872e-07    0.000017  Optimization terminated successfully.  [0.611742591405405, 3.650798584217997e-07, 0.0...  [0.7, 5e-07, 0.00037, 0.1, 2e-05, 0.3, 1e-06, ...
+--------------------------------------------------------------------------------
+Optimal parameters:
+	'Emax_glp1_fpg': Q(0.6141197793272749, 'dimensionless'),  # [0.05 - 1.0]
+	'EC50_glp1_fpg': Q(3.4037771251839813e-07, 'mmol/l'),  # [1e-08 - 0.0001]
+	'k_fpg': Q(0.000310499807261476, 'l/(min)'),  # [1e-05 - 0.01]
+	'f_trial_fpg': Q(0.042412184403208264, 'dimensionless'),  # [0.001 - 0.5]
+	'k_hb_deg': Q(2.4275248244463414e-05, '(mmol)/(min)'),  # [5e-06 - 5e-05]
+	'Emax_SAT_glp1': Q(0.20382184492269212, 'dimensionless'),  # [0.01 - 0.8]
+	'EC50_SAT_glp1': Q(4.2472499454937013e-07, 'mmol/l'),  # [1e-08 - 0.0001]
+	'k_SAT_glp1': Q(2.1087651300803437e-05, '1/(min)'),  # [5e-07 - 0.0001]
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Identifiability 'PD_20261019_103700__c0378'
+--------------------------------------------------------------------------------
+parameter set: PD_20261019_103700__c0378_0
+cost: 33.1284
+cost_min: 33.0241
+alpha: 0.95
+degrees of freedom: 1
+threshold: 34.9449
+reoptimize: True
+duration: 5871.1 s
+
+!A profile found a cost of 33.0241 below the cost 33.1284 of the parameter set, the fit did not converge!
+    parameter        value          unit  lower_bound  upper_bound     ci_lower     ci_upper        identifiability  n_points  cost_min  converged
+Emax_glp1_fpg 6.141198e-01 dimensionless 5.000000e-02      1.00000 5.088392e-01 7.374868e-01           identifiable        15 33.128406       True
+EC50_glp1_fpg 3.403777e-07            mM 1.000000e-08      0.00010 1.392739e-07 6.812889e-07           identifiable        18 33.125542       True
+        k_fpg 3.104998e-04         l/min 1.000000e-05      0.01000 1.380202e-04 1.880324e-03           identifiable        17 33.049596       True
+  f_trial_fpg 4.241218e-02 dimensionless 1.000000e-03      0.50000          NaN 1.181666e-01 non_identifiable_lower        16 33.049554       True
+     k_hb_deg 2.427525e-05     mmole/min 5.000000e-06      0.00005 1.707001e-05 3.410460e-05           identifiable        17 33.113888       True
+Emax_SAT_glp1 2.038218e-01 dimensionless 1.000000e-02      0.80000 1.011427e-01          NaN non_identifiable_upper        12 33.029843       True
+EC50_SAT_glp1 4.247250e-07            mM 1.000000e-08      0.00010          NaN 7.283947e-06 non_identifiable_lower        16 33.024126       True
+   k_SAT_glp1 2.108765e-05         1/min 5.000000e-07      0.00010 3.736371e-06          NaN non_identifiable_upper        18 33.026085       True
+--------------------------------------------------------------------------------

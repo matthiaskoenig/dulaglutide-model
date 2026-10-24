@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	0.0	week	88.0								kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	2.0	week	88.1543119189051				1.3713119053247	0.084719932442119			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	4.0	week	88.2511348175587				1.6651695808587	0.102874520265772			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	8.0	week	88.4568835810774				1.95902277254883	0.121028831076626			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	14.0	week	88.6565809999968				2.54672915592908	0.157337452698333			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	20.0	week	89.0075645270152				2.74262829449332	0.16944014189704			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	26.0	week	89.2193646351333				3.03648597002727	0.18759472972069			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	35.0	week	89.5098336081069				3.42828873099956	0.2118003851309			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	44.0	week	89.5703481621517				3.52623830028162	0.21785172973025			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	52.0	week	89.7276853378372				3.6241923534074	0.22390335134239			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	65.0	week	89.7337369594494				4.01599063053581	0.2481087297398			kg	kg	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	weight 			NR	bodyweight_GLAR	78.0	week	89.6006051621612				4.2118987367877	0.2602119729641			kg	kg	dimensionless

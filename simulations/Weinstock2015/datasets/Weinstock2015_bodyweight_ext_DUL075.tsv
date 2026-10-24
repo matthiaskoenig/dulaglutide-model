@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	DUL075	302.0	DUL075	weight			NR	bodyweight_DUL075	65.0	week	83.348837214929				4.29861321427315		0.24735739463753			kg	kg	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	weight			NR	bodyweight_DUL075	78.0	week	83.3805496890135				4.73949392561521		0.27272722873691			kg	kg	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	weight			NR	bodyweight_DUL075	91.0	week	83.7610993780269				4.95993638358136		0.28541226676009			kg	kg	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	weight			NR	bodyweight_DUL075	104.0	week	83.7103594678812				5.07015971485954		0.29175490674517			kg	kg	dimensionless

@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	0.0	day	8.0684073260117				0.8	0.04618802153517		baseline sd of Table 1	percent	percent	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	56.0	day	6.99921672211921				0.7122657174028019	0.0411226803677049		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	percent	percent	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	84.0	day	6.81827662730954				0.7936682057012224	0.0458224552208848		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	percent	percent	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	hba1c		plasma	NR	hba1c_LIR18	182.0	day	6.67493473132528				0.9157710065782376	0.0528720637164		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	percent	percent	dimensionless

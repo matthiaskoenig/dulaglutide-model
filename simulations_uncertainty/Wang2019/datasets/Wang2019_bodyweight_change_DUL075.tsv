@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	0.0	week	0.0									kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	2.0	week	-0.186788000109314				1.44642441952887		0.0911161739124844			kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	4.0	week	-0.53302973904125				1.88035615952456		0.118451304150726			kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	8.0	week	-0.769931652181461				2.31427686417768		0.145785739227727			kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	14.0	week	-0.788154956480082				2.45892261673333		0.154897565167347			kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	20.0	week	-0.851936347734945				2.74820860417336		0.173120869465968			kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	26.0	week	-0.879271130392566				3.03749459161339		0.191344173764589			kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	39.0	week	-0.74259686952384				3.18213482649777		0.20045565212359			kg	kg	dimensionless
+Wang2019	DUL075	252.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	52.0	week	-0.76082017382246				3.18213482649776		0.200455652123589			kg	kg	dimensionless

@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wang2019	DUL15	253.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	0.0	week	9.57									mmol/l	mmol/l	dimensionless
+Wang2019	DUL15	253.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	26.0	week	7.22				2.5767677427350724		0.162			mmol/l	mmol/l	dimensionless
+Wang2019	DUL15	253.0	DUL15	concentration	glucose	plasma	NR	fpg_DUL15	52.0	week	7.34				2.68597672750468		0.16886591004663			mmol/l	mmol/l	dimensionless

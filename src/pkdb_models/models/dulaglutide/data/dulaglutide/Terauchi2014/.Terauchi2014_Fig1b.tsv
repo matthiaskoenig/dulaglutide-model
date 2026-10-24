@@ -1,0 +1,33 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	4.0	week	-0.0140845902830171	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	8.0	week	-0.122065772543039	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)	NA	plasma	NR	hba1c_change_PLAC	12.0	week	-0.18	NA	NA	NA	0.543103797348055	0.175	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c (change)	NA	plasma	NR	hba1c_change_DUL025	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c (change)	NA	plasma	NR	hba1c_change_DUL025	4.0	week	-0.314553959219872	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c (change)	NA	plasma	NR	hba1c_change_DUL025	8.0	week	-0.708920218623339	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c (change)	NA	plasma	NR	hba1c_change_DUL025	12.0	week	-0.9	NA	NA	NA	0.520408163265306	0.17	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c (change)	NA	plasma	NR	hba1c_change_DUL05	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c (change)	NA	plasma	NR	hba1c_change_DUL05	4.0	week	-0.516431852852742	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c (change)	NA	plasma	NR	hba1c_change_DUL05	8.0	week	-0.938967054030558	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c (change)	NA	plasma	NR	hba1c_change_DUL05	12.0	week	-1.15	NA	NA	NA	0.527586545995254	0.17	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	4.0	week	-0.605633800294454	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	8.0	week	-1.10798124195794	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	12.0	week	-1.35	NA	NA	NA	0.528221409205323	0.175	NA	NA	percent	NA
+Terauchi2014	PLAC	37.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	0.0	week	8.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	PLAC	37.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	4.0	week	7.98591540971698	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	PLAC	37.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	8.0	week	7.87793422745696	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	PLAC	37.0	PLAC	hba1c	NA	plasma	NR	hba1c_PLAC	12.0	week	7.82	NA	NA	NA	0.543103797348055	0.175	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c	NA	plasma	NR	hba1c_DUL025	0.0	week	8.1	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c	NA	plasma	NR	hba1c_DUL025	4.0	week	7.78544604078013	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c	NA	plasma	NR	hba1c_DUL025	8.0	week	7.39107978137666	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL025	36.0	DUL025	hba1c	NA	plasma	NR	hba1c_DUL025	12.0	week	7.2	NA	NA	NA	0.520408163265306	0.17	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c	NA	plasma	NR	hba1c_DUL05	0.0	week	8.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c	NA	plasma	NR	hba1c_DUL05	4.0	week	7.48356814714726	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c	NA	plasma	NR	hba1c_DUL05	8.0	week	7.06103294596944	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL05	37.0	DUL05	hba1c	NA	plasma	NR	hba1c_DUL05	12.0	week	6.85	NA	NA	NA	0.527586545995254	0.17	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	0.0	week	8.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	4.0	week	7.39436619970555	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	8.0	week	6.89201875804206	NA	NA	NA	NA	NA	NA	NA	percent	NA
+Terauchi2014	DUL075	35.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	12.0	week	6.65	NA	NA	NA	0.528221409205323	0.175	NA	NA	percent	NA

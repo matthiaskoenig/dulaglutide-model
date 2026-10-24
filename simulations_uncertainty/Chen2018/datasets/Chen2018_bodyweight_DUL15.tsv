@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	week	72.0								kg	kg	dimensionless
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	2.0	week	71.75				1.3913662350366276	0.09		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	4.0	week	71.18				1.5459624833740309	0.1		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	8.0	week	70.86				2.318943725061046	0.15		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	16.0	week	70.71				2.6281362217358524	0.17		SE of the upper error bar of Fig2F, sd = se x sqrt(n)	kg	kg	dimensionless
+Chen2018	DUL15	239.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	26.0	week	70.54				2.968247968078139	0.192		SE of the text (LSM (SE)), sd = se x sqrt(n)	kg	kg	dimensionless

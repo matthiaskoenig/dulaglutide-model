@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	1.0	hr	3.0718630420511816e-07								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	8.0	hr	4.209629472038445e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	12.0	hr	5.022681890262661e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	24.0	hr	5.401502748159578e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	48.0	hr	5.457903667090699e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	72.0	hr	4.0383021734107255e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	96.0	hr	4.080468948865845e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	168.0	hr	1.9315151291558737e-06								mole/meter^3	ng/ml	dimensionless
+Barrington2011	DUL6	6.0	DUL6	concentration	dulaglutide	plasma	RIA	dulaglutide_DUL6	336.0	hr	4.902407000010056e-07								mole/meter^3	ng/ml	dimensionless

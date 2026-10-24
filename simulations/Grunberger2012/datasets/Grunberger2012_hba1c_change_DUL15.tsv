@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Grunberger2012	DUL15	29.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	0.0	week	0.0									percent	percent	dimensionless
+Grunberger2012	DUL15	29.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	4.0	week	-0.528571447570769				0.564159781603577		0.104761841430768			percent	percent	dimensionless
+Grunberger2012	DUL15	29.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	8.0	week	-0.897619035493451				0.6667347319984		0.123809531532829			percent	percent	dimensionless
+Grunberger2012	DUL15	29.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	12.0	week	-1.03809515962641				0.718021718082244		0.13333328575775			percent	percent	dimensionless

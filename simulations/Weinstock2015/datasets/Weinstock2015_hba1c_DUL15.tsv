@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	0.0	week	8.11381034153932				1.04439572877659		0.0599002031421403			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	4.0	week	7.35840261554934				0.580219480426841		0.0332778694770299			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	8.0	week	6.96572378110943				0.754284881882398		0.0432612049311301			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	12.0	week	6.76605656424728				0.812308157942227		0.0465890680458401			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	26.0	week	6.71946749620144				0.928350283338125		0.05324454038524			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	39.0	week	6.83594016631603				1.04439683545744		0.0599002666146404			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	52.0	week	6.82262896774722				1.04439462209573		0.0599001396696401			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	65.0	week	6.86921803579306				1.10241789815556		0.0632280027843502			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	78.0	week	6.90582364143979				1.27648329961129		0.07321133823846			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	91.0	week	6.98236271584795				1.21846002355163		0.0698834751237598			percent	percent	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	104.0	week	6.98901831513235				1.27648329961112		0.0732113382384503			percent	percent	dimensionless

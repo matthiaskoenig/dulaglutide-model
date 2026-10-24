@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	2.0	week	-1.72006473886356				1.83487255726173		0.111874154295027			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	4.0	week	-1.85641125188446				1.60551048001431		0.0978897016321678			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	13.0	week	-1.80746653443273				1.77753367845336		0.108378141152575			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-1.77949789583571				1.83487255726183		0.111874154295033			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	39.0	week	-1.74453723095378				1.72019261230698		0.104881994645771			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	52.0	week	-1.59770241177683				2.00689138102486		0.122362327086736			mmol/l	mmol/l	dimensionless

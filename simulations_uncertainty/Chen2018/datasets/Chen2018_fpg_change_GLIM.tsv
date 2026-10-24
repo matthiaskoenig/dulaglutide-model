@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Chen2018	GLIM	242.0	GLIM	concentration change absolute	glucose	plasma	NR	fpg_change_GLIM	0.0	week	0.0								mmol/l	mmol/l	dimensionless
+Chen2018	GLIM	242.0	GLIM	concentration change absolute	glucose	plasma	NR	fpg_change_GLIM	26.0	week	-1.89				2.1778888860545664	0.14		fasting blood glucose, LSM (SE) of the text (Fig2D), sd = se x sqrt(n)	mmol/l	mmol/l	dimensionless

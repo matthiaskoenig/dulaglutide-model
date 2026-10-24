@@ -1,0 +1,4845 @@
+{
+  "experiment_id": "DoseDependencyExperiment",
+  "base_path": "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide",
+  "data_path": [
+    "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide/data/dulaglutide"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide/models/output/models/dulaglutide_body.xml",
+        "path": "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide/models/output/models/dulaglutide_body.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "Abody_dul",
+        "Acat_dul",
+        "Asc_deg_dul",
+        "BW",
+        "BW0",
+        "BW_change",
+        "BW_ratio",
+        "FAT",
+        "IVDOSE_dul",
+        "LBW0",
+        "Ri_dul",
+        "SAT",
+        "SCDEPOT_dul",
+        "SCDOSE_dul",
+        "[Cvep_dul]",
+        "[fpg]",
+        "fpg0",
+        "fpg_change",
+        "fpg_ratio",
+        "hba1c",
+        "hba1c0",
+        "hba1c_change",
+        "hba1c_ratio",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_dul_dul_SC_0": {
+      "sid": "model__dul_dul_SC_0",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_dul_SC_0",
+      "observables": []
+    },
+    "task_dul_dul_SC_0p25": {
+      "sid": "model__dul_dul_SC_0p25",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_dul_SC_0p25",
+      "observables": []
+    },
+    "task_dul_dul_SC_0p5": {
+      "sid": "model__dul_dul_SC_0p5",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_dul_SC_0p5",
+      "observables": []
+    },
+    "task_dul_dul_SC_0p75": {
+      "sid": "model__dul_dul_SC_0p75",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_dul_SC_0p75",
+      "observables": []
+    },
+    "task_dul_dul_SC_1p5": {
+      "sid": "model__dul_dul_SC_1p5",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_dul_SC_1p5",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "dul_dul_SC_0": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 6552,
+      "preinit_changes": {
+        "BW0": {
+          "value": 90,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.0,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.14,
+          "unit": "millimolar"
+        },
+        "SCDOSE_dul": {
+          "value": 0,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168,
+            336,
+            504,
+            672,
+            840,
+            1008,
+            1176,
+            1344,
+            1512,
+            1680,
+            1848,
+            2016,
+            2184,
+            2352,
+            2520,
+            2688,
+            2856,
+            3024,
+            3192,
+            3360,
+            3528,
+            3696,
+            3864,
+            4032,
+            4200
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "dul_dul_SC_0p25": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 6552,
+      "preinit_changes": {
+        "BW0": {
+          "value": 90,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.0,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.14,
+          "unit": "millimolar"
+        },
+        "SCDOSE_dul": {
+          "value": 0.25,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168,
+            336,
+            504,
+            672,
+            840,
+            1008,
+            1176,
+            1344,
+            1512,
+            1680,
+            1848,
+            2016,
+            2184,
+            2352,
+            2520,
+            2688,
+            2856,
+            3024,
+            3192,
+            3360,
+            3528,
+            3696,
+            3864,
+            4032,
+            4200
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.25"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "dul_dul_SC_0p5": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 6552,
+      "preinit_changes": {
+        "BW0": {
+          "value": 90,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.0,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.14,
+          "unit": "millimolar"
+        },
+        "SCDOSE_dul": {
+          "value": 0.5,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168,
+            336,
+            504,
+            672,
+            840,
+            1008,
+            1176,
+            1344,
+            1512,
+            1680,
+            1848,
+            2016,
+            2184,
+            2352,
+            2520,
+            2688,
+            2856,
+            3024,
+            3192,
+            3360,
+            3528,
+            3696,
+            3864,
+            4032,
+            4200
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.5"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "dul_dul_SC_0p75": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 6552,
+      "preinit_changes": {
+        "BW0": {
+          "value": 90,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.0,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.14,
+          "unit": "millimolar"
+        },
+        "SCDOSE_dul": {
+          "value": 0.75,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168,
+            336,
+            504,
+            672,
+            840,
+            1008,
+            1176,
+            1344,
+            1512,
+            1680,
+            1848,
+            2016,
+            2184,
+            2352,
+            2520,
+            2688,
+            2856,
+            3024,
+            3192,
+            3360,
+            3528,
+            3696,
+            3864,
+            4032,
+            4200
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.75"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "dul_dul_SC_1p5": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 6552,
+      "preinit_changes": {
+        "BW0": {
+          "value": 90,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.0,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.14,
+          "unit": "millimolar"
+        },
+        "SCDOSE_dul": {
+          "value": 1.5,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168,
+            336,
+            504,
+            672,
+            840,
+            1008,
+            1176,
+            1344,
+            1512,
+            1680,
+            1848,
+            2016,
+            2184,
+            2352,
+            2520,
+            2688,
+            2856,
+            3024,
+            3192,
+            3360,
+            3528,
+            3696,
+            3864,
+            4032,
+            4200
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.5"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    }
+  },
+  "data": {
+    "task_dul_dul_SC_0__time": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__BW": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__time": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__BW": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p25__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p25__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p25",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__time": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__BW": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p5__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p5__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__time": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__BW": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_0p75__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_0p75__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_0p75",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__time": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__BW": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_dul_SC_1p5__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_dul_SC_1p5__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_dul_SC_1p5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {
+    "Fig_dose_dependency_pk_dul_SC": {
+      "sid": "Fig_dose_dependency_pk_dul_SC",
+      "name": "Dose dependency of dulaglutide (s.c.)",
+      "num_rows": 5,
+      "num_cols": 2,
+      "width": null,
+      "height": null,
+      "settings": {
+        "legend_scope": "row"
+      },
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot0_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot0_yaxis",
+              "name": "dulaglutide plasma [nM]",
+              "label": "dulaglutide plasma",
+              "unit": "nM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot0_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot0_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot0_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot0_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot0_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot1_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot1_yaxis",
+              "name": "SC depot dulaglutide [mg]",
+              "label": "SC depot dulaglutide",
+              "unit": "mg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot1_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__SCDEPOT_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot1_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__SCDEPOT_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot1_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__SCDEPOT_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot1_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__SCDEPOT_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot1_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__SCDEPOT_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot2_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot2_yaxis",
+              "name": "dulaglutide catabolized [nmole]",
+              "label": "dulaglutide catabolized",
+              "unit": "nmole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot2_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__Acat_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot2_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__Acat_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot2_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__Acat_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot2_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__Acat_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot2_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__Acat_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot3_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot3_yaxis",
+              "name": "dulaglutide degraded SC [nmole]",
+              "label": "dulaglutide degraded SC",
+              "unit": "nmole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot3_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__Asc_deg_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot3_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__Asc_deg_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot3_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__Asc_deg_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot3_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__Asc_deg_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot3_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__Asc_deg_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot4",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot4_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot4_yaxis",
+              "name": "bodyweight [kg]",
+              "label": "bodyweight",
+              "unit": "kg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot4_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot4_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot4_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot4_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot4_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot5",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot5_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot5_yaxis",
+              "name": "bodyweight change [kg]",
+              "label": "bodyweight change",
+              "unit": "kg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot5_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot5_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot5_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot5_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot5_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 3,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot6",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot6_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot6_yaxis",
+              "name": "HbA1c [percent]",
+              "label": "HbA1c",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot6_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot6_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot6_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot6_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot6_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__hba1c",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 4,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot7",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot7_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot7_yaxis",
+              "name": "HbA1c change [percent]",
+              "label": "HbA1c change",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot7_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot7_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot7_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot7_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot7_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 4,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot8",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot8_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot8_yaxis",
+              "name": "FPG [mM]",
+              "label": "FPG",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot8_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__conc__fpg",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot8_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__conc__fpg",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot8_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__conc__fpg",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot8_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__conc__fpg",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot8_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__conc__fpg",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 5,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_pk_dul_SC__plot9",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot9_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_pk_dul_SC__plot9_yaxis",
+              "name": "FPG change [mM]",
+              "label": "FPG change",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot9_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot9_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot9_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot9_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_pk_dul_SC__plot9_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 5,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_dose_dependency_bodyweight_dul_SC": {
+      "sid": "Fig_dose_dependency_bodyweight_dul_SC",
+      "name": "Dose dependency of dulaglutide (s.c.)",
+      "num_rows": 2,
+      "num_cols": 2,
+      "width": null,
+      "height": null,
+      "settings": {
+        "legend_scope": "row"
+      },
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0_yaxis",
+              "name": "dulaglutide plasma [nM]",
+              "label": "dulaglutide plasma",
+              "unit": "nM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot0_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__conc__Cvep_dul",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1_yaxis",
+              "name": "lean body weight [kg]",
+              "label": "lean body weight",
+              "unit": "kg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__LBW0",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__LBW0",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__LBW0",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__LBW0",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot1_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__LBW0",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2_yaxis",
+              "name": "bodyweight [kg]",
+              "label": "bodyweight",
+              "unit": "kg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot2_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__BW",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3_yaxis",
+              "name": "fat weight [kg]",
+              "label": "fat weight",
+              "unit": "kg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3_curve0",
+                "name": "0 mg",
+                "x": "task_dul_dul_SC_0__time",
+                "y": "task_dul_dul_SC_0__FAT",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3_curve1",
+                "name": "0.25 mg",
+                "x": "task_dul_dul_SC_0p25__time",
+                "y": "task_dul_dul_SC_0p25__FAT",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3_curve2",
+                "name": "0.5 mg",
+                "x": "task_dul_dul_SC_0p5__time",
+                "y": "task_dul_dul_SC_0p5__FAT",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3_curve3",
+                "name": "0.75 mg",
+                "x": "task_dul_dul_SC_0p75__time",
+                "y": "task_dul_dul_SC_0p75__FAT",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig_dose_dependency_bodyweight_dul_SC__plot3_curve4",
+                "name": "1.5 mg",
+                "x": "task_dul_dul_SC_1p5__time",
+                "y": "task_dul_dul_SC_1p5__FAT",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

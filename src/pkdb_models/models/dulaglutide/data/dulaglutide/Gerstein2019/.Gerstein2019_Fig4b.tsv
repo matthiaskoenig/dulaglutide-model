@@ -1,13 +1,25 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
-Gerstein2019	plac	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	0.0	month	88.93536121673	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	plac	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	12.0	month	87.5665399239543	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	plac	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	24.0	month	87.8973384030418	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	plac	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	36.0	month	87.6349809885931	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	plac	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	48.0	month	87.3269961977186	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	plac	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	60.0	month	86.7338403041825	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	dul15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	0.0	month	88.4790874524714	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	dul15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	12.0	month	85.9695817490494	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	dul15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	24.0	month	86.1178707224334	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	dul15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	36.0	month	85.9923954372623	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	dul15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	48.0	month	85.9467680608365	NA	NA	NA	NA	NA	NA	kg	NA
-Gerstein2019	dul15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	60.0	month	85.1711026615969	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	0.0	month	88.93536121673	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	12.0	month	87.5665399239543	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	24.0	month	87.8973384030418	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	36.0	month	87.6349809885931	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	48.0	month	87.3269961977186	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight	NA	NA	NR	bodyweight_PLAC	60.0	month	86.7338403041825	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	0.0	month	88.4790874524714	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	12.0	month	85.9695817490494	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	24.0	month	86.1178707224334	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	36.0	month	85.9923954372623	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	48.0	month	85.9467680608365	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight	NA	NA	NR	bodyweight_DUL15	60.0	month	85.1711026615969	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight (change)	NA	NA	NR	bodyweight_change_PLAC	0.0	month	0.0	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight (change)	NA	NA	NR	bodyweight_change_PLAC	12.0	month	-1.36882129277571	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight (change)	NA	NA	NR	bodyweight_change_PLAC	24.0	month	-1.0380228136882	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight (change)	NA	NA	NR	bodyweight_change_PLAC	36.0	month	-1.3003802281369	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight (change)	NA	NA	NR	bodyweight_change_PLAC	48.0	month	-1.6083650190114	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	PLAC	4952.0	PLAC	weight (change)	NA	NA	NR	bodyweight_change_PLAC	60.0	month	-2.20152091254751	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	0.0	month	0.0	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	12.0	month	-2.50950570342201	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	24.0	month	-2.36121673003801	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	36.0	month	-2.4866920152091	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	48.0	month	-2.5323193916349	NA	NA	NA	NA	NA	NA	kg	NA
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)	NA	NA	NR	bodyweight_change_DUL15	60.0	month	-3.3079847908745	NA	NA	NA	NA	NA	NA	kg	NA

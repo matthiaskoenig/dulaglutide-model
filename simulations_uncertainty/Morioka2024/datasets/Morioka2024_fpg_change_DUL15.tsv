@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	8.0	week	-2.61405261405261				1.2118886776166	0.0612878447608951				mmol/l	mmol/l	dimensionless
+Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	16.0	week	-2.44200244200244				1.47578967564057	0.0746338918837606				mmol/l	mmol/l	dimensionless
+Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-2.39205239205239				1.4750857400368	0.0745982923301032				mmol/l	mmol/l	dimensionless
+Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	38.0	week	-2.22000222000222				1.73898673806067	0.0879443394529638				mmol/l	mmol/l	dimensionless
+Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	52.0	week	-2.35320235320235				1.693870315181	0.0856627038764568				mmol/l	mmol/l	dimensionless

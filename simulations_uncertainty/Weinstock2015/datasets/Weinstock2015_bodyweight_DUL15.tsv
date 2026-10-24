@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	0.0	week	87.0									kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	4.0	week	85.4143762957773				1.54819414897426		0.08879502421526			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	8.0	week	84.8498941602952				2.21170351654067		0.12684989633782			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	12.0	week	84.2156446786061				2.21170351654067		0.12684989633782			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	26.0	week	83.6955600552317				3.09637986096921		0.17758956453657			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	39.0	week	83.720930131278				3.87048115394609		0.22198731859118			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	52.0	week	83.7780126814088				4.20224005621886		0.24101499659943			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	65.0	week	83.8033827574552				4.20224005621903		0.24101499659944			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	78.0	week	83.6765328611174				4.64458244692296		0.26638507264579			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	91.0	week	83.9619451278775				4.53399895849181		0.26004267460769			kg	kg	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	weight			NR	bodyweight_DUL15	104.0	week	84.0887947822683				4.97632869372668		0.28541202481311			kg	kg	dimensionless

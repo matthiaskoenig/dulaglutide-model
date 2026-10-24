@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	0.0	week	0.0								percent	percent	dimensionless
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	26.0	week	-1.41				1.2289036095775183	0.0714285714285714		adjusted mean (95% CI) of the text, sd = CI half-width / 1.96 x sqrt(n); the copy had 26 and 52 weeks swapped	percent	percent	dimensionless
+Blonde2015	GLAR	296.0	GLAR	hba1c (change)		plasma	NR	hba1c_change_GLAR	52.0	week	-1.23				1.4044612680885915	0.0816326530612244		adjusted mean (95% CI) of the text, sd = CI half-width / 1.96 x sqrt(n); the copy had 26 and 52 weeks swapped	percent	percent	dimensionless

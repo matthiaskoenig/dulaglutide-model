@@ -1,16 +1,31 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
 Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
-Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	4.0	week	-0.357615894039735	NA	NA	NA	0.2848880363151792	0.07178812258554	NA	NA	percent	NA
-Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	8.0	week	-0.66887417218543	NA	NA	NA	0.404146109636464	0.101839623861754	NA	NA	percent	NA
-Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	16.0	week	-0.905077262693156	NA	NA	NA	0.5363693882560403	0.135158190190397	NA	NA	percent	NA
-Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	26.0	week	-0.900662251655629	NA	NA	NA	0.5550581478101431	0.139867517332367	NA	NA	percent	NA
+Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	4.0	week	-0.357615894039735	NA	NA	NA	0.5583805511777513	NA	0.03589406129277	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	8.0	week	-0.66887417218543	NA	NA	NA	0.7921263748874695	NA	0.050919811930877	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	16.0	week	-0.905077262693156	NA	NA	NA	1.051284000981839	NA	0.0675790950951985	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	hba1c (change)	NA	plasma	NR	hba1c_change_GLIM	26.0	week	-0.900662251655629	NA	NA	NA	1.0879139697078803	NA	0.0699337586661835	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
 Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
-Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	4.0	week	-0.675496688741722	NA	NA	NA	0.2669788453706337	0.0676961494931491	NA	NA	percent	NA
-Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	8.0	week	-1.05739514348785	NA	NA	NA	0.3910778507847273	0.0991631550935399	NA	NA	percent	NA
-Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	16.0	week	-1.23841059602649	NA	NA	NA	0.49010434712931195	0.12427268199639	NA	NA	percent	NA
-Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	26.0	week	-1.21633554083885	NA	NA	NA	0.5326524021136472	0.13506132514474	NA	NA	percent	NA
+Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	4.0	week	-0.675496688741722	NA	NA	NA	0.5232785369264421	NA	0.03384807474657455	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	8.0	week	-1.05739514348785	NA	NA	NA	0.7665125875380655	NA	0.04958157754676995	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	16.0	week	-1.23841059602649	NA	NA	NA	0.9606045203734513	NA	0.062136340998195	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	hba1c (change)	NA	plasma	NR	hba1c_change_DUL075	26.0	week	-1.21633554083885	NA	NA	NA	1.0439987081427484	NA	0.06753066257237	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
 Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	percent	NA
-Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	4.0	week	-0.79690949227373	NA	NA	NA	0.27225764055931756	0.069034660444235	NA	NA	percent	NA
-Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	8.0	week	-1.28476821192053	NA	NA	NA	0.3925579076198248	0.0995384438121199	NA	NA	percent	NA
-Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	16.0	week	-1.50772626931567	NA	NA	NA	0.5065264026902861	0.12843671951291	NA	NA	percent	NA
-Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	26.0	week	-1.47902869757174	NA	NA	NA	0.5381840404958301	0.13646394795683	NA	NA	percent	NA
+Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	4.0	week	-0.79690949227373	NA	NA	NA	0.5336249754962624	NA	0.0345173302221175	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	8.0	week	-1.28476821192053	NA	NA	NA	0.7694134989348566	NA	0.04976922190605995	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	16.0	week	-1.50772626931567	NA	NA	NA	0.9927917492729608	NA	0.064218359756455	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL15	239.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	26.0	week	-1.47902869757174	NA	NA	NA	1.054840719371827	NA	0.068231973978415	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	hba1c	NA	plasma	NR	hba1c_GLIM	0.0	week	7.9	NA	NA	NA	1.01	NA	0.06492525899985573	NA	percent	baseline sd of Table 1
+Chen2018	GLIM	242.0	GLIM	hba1c	NA	plasma	NR	hba1c_GLIM	4.0	week	7.54238410596027	NA	NA	NA	0.5583805511777513	NA	0.03589406129277	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	hba1c	NA	plasma	NR	hba1c_GLIM	8.0	week	7.23112582781457	NA	NA	NA	0.7921263748874695	NA	0.050919811930877	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	hba1c	NA	plasma	NR	hba1c_GLIM	16.0	week	6.99492273730684	NA	NA	NA	1.051284000981839	NA	0.0675790950951985	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	hba1c	NA	plasma	NR	hba1c_GLIM	26.0	week	6.99933774834437	NA	NA	NA	1.0879139697078803	NA	0.0699337586661835	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	0.0	week	8.0	NA	NA	NA	1.03	NA	0.06662516141737454	NA	percent	baseline sd of Table 1
+Chen2018	DUL075	239.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	4.0	week	7.32450331125828	NA	NA	NA	0.5232785369264421	NA	0.03384807474657455	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	8.0	week	6.94260485651215	NA	NA	NA	0.7665125875380655	NA	0.04958157754676995	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	16.0	week	6.76158940397351	NA	NA	NA	0.9606045203734513	NA	0.062136340998195	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	26.0	week	6.78366445916115	NA	NA	NA	1.0439987081427484	NA	0.06753066257237	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL15	239.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	0.0	week	8.0	NA	NA	NA	0.95	NA	0.06145039159854933	NA	percent	baseline sd of Table 1
+Chen2018	DUL15	239.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	4.0	week	7.20309050772627	NA	NA	NA	0.5336249754962624	NA	0.0345173302221175	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL15	239.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	8.0	week	6.71523178807947	NA	NA	NA	0.7694134989348566	NA	0.04976922190605995	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL15	239.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	16.0	week	6.49227373068433	NA	NA	NA	0.9927917492729608	NA	0.064218359756455	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)
+Chen2018	DUL15	239.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	26.0	week	6.52097130242826	NA	NA	NA	1.054840719371827	NA	0.068231973978415	NA	percent	error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)

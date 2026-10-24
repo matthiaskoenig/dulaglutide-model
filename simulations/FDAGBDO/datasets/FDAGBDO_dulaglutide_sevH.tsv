@@ -1,0 +1,9 @@
+time	time_unit	mean	mean_sd	count	mean_unit	count_unit
+0.0	day	0.0	0.0	3	mole/meter^3	dimensionless
+0.5	day	3.9262748693940165e-07	1.348246618365857e-07	3	mole/meter^3	dimensionless
+1.0	day	7.159676277813468e-07	1.5501146695558219e-07	3	mole/meter^3	dimensionless
+2.0	day	9.700207529129115e-07	1.7300138632750725e-07	3	mole/meter^3	dimensionless
+3.0	day	1.0421950212886265e-06	1.948862892896011e-07	3	mole/meter^3	dimensionless
+4.0	day	9.209424134083835e-07	1.7350641095708338e-07	3	mole/meter^3	dimensionless
+7.0	day	5.658454667314543e-07	5.63513041994152e-08	3	mole/meter^3	dimensionless
+14.0	day	1.8765292157041597e-07	2.1796113434650297e-08	3	mole/meter^3	dimensionless

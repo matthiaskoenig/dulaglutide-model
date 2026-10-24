@@ -1,0 +1,14 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	0.0	hr	0.0				0.0				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	4.0	hr	2.7763810665397016e-07				1.6358487393733384e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	12.0	hr	6.504292192167806e-07				2.2810643559932211e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	24.0	hr	9.124257423972885e-07				2.3592722733605402e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	36.0	hr	9.215500392020782e-07				2.0659925832331075e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	48.0	hr	9.033015052604039e-07				1.7401261614227752e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	60.0	hr	8.36824775498185e-07				1.6228142853718031e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	72.0	hr	7.925069755460082e-07				1.57067587268661e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	96.0	hr	6.061114192646036e-07				1.0427724304572313e-07				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	120.0	hr	4.901029886137825e-07				9.450125337480897e-08				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	168.0	hr	3.0631438280058993e-07				8.407351116986424e-08				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	216.0	hr	1.9030601181767555e-07				6.582497722818871e-08				mole/meter^3	ng/ml	dimensionless
+Zhang2023	DULP	12.0	DULP	concentration	dulaglutide	plasma	NR	dulaglutide_DULP	288.0	hr	1.0427730271362864e-07				4.953164122069625e-08				mole/meter^3	ng/ml	dimensionless

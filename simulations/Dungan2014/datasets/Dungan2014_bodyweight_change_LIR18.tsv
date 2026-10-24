@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	0.0	day	0.0								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	7.0	day	-0.504762050083705								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	14.0	day	-1.03809552873883								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	28.0	day	-1.69523838588169								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	56.0	day	-2.42857142857142				2.391880945166387	0.138095310756135		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	84.0	day	-2.80952410016741				2.886752604471805	0.166666739327565		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	140.0	day	-3.04761919294084				3.216665785485046	0.185714285714285		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight (change)			NR	bodyweight_change_LIR18	182.0	day	-3.46666695731026				3.5465827420694014	0.204762050083705		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless

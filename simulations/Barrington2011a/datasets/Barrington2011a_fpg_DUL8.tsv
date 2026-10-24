@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	0.0	day	9.841252220248666								mole/meter^3	mg/dl	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	2.0	day	7.147226528509046								mole/meter^3	mg/dl	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	30.0	day	5.704220004590419				1.206953712524317	0.4927367898070653		SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm	mole/meter^3	mg/dl	dimensionless
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	35.0	day	5.821890268893094				1.206953712524317	0.4927367898070653		SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm	mole/meter^3	mg/dl	dimensionless

@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	0.0	week	73.9									kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	2.0	week	0.195899652258624				1.87287956466824		0.118451304150725			kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	4.0	week	0.0865605216281388				2.01693919126497		0.127562434929106			kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	8.0	week	0.341685739066971				2.30507493165487		0.145785739227727			kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	14.0	week	0.587699478146802				2.73727579437365		0.173120521885349			kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	20.0	week	0.906605913050188				2.88134641243456		0.182232347824962			kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	26.0	week	0.970387304305051				3.16948215282455		0.200455652123589			kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	39.0	week	1.37129843476192				3.3135500230195		0.2095673042729			kg	kg	dimensionless
+Wang2019	GLAR	250.0	GLAR	weight			NR	bodyweight_GLAR	52.0	week	1.34396365210429				3.31354727515343		0.20956713048259			kg	kg	dimensionless

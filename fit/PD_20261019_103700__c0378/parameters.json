@@ -1,0 +1,29 @@
+{
+  "sets": [
+    {
+      "sid": "PD_20261019_103700__c0378_0",
+      "values": {
+        "Emax_glp1_fpg": 0.6141197793272749,
+        "EC50_glp1_fpg": 3.4037771251839813e-07,
+        "k_fpg": 0.000310499807261476,
+        "f_trial_fpg": 0.042412184403208264,
+        "k_hb_deg": 2.4275248244463414e-05,
+        "Emax_SAT_glp1": 0.20382184492269212,
+        "EC50_SAT_glp1": 4.2472499454937013e-07,
+        "k_SAT_glp1": 2.1087651300803437e-05
+      },
+      "units": {
+        "Emax_glp1_fpg": "dimensionless",
+        "EC50_glp1_fpg": "mmol/l",
+        "k_fpg": "l/(min)",
+        "f_trial_fpg": "dimensionless",
+        "k_hb_deg": "(mmol)/(min)",
+        "Emax_SAT_glp1": "dimensionless",
+        "EC50_SAT_glp1": "mmol/l",
+        "k_SAT_glp1": "1/(min)"
+      },
+      "cost": 33.12840573794441,
+      "provenance": "optimization 'PD_20261019_103700__c0378', run '0'"
+    }
+  ]
+}

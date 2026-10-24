@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2011	PLAC	66.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Umpierrez2011	PLAC	53.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	16.0	week	-0.49				2.275034291090121		0.312499993226745			mmol/l	mmol/l	dimensionless

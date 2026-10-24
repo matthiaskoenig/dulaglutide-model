@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	0.0	week	8.45210384959713				1.07086423688354	0.0623481263588696		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	13.0	week	6.89435989256938				0.847277198413375	0.0493303856905357		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	26.0	week	6.8272157564906				0.906115892747607	0.0527561069190433		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless
+Blonde2015	DUL15	295.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	52.0	week	7.05013428827215				1.14147067008463	0.0664589918330795		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless

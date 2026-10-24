@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	0.0	week	0.0						0.0599001396696508			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	4.0	week	-0.41264556882062				0.531562134481727		0.0299501333073202			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	8.0	week	-0.602329450228671				0.767810219656765		0.0432612049311301			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	12.0	week	-0.715474130283551				0.885935388769494		0.04991680421554			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	26.0	week	-0.71214639411385				1.06312201591339		0.0599001396696508			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	39.0	week	-0.55906824529753				1.06312201591339		0.0599001396696508			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	52.0	week	-0.5158069134214				1.12218572699478		0.0632280027843502			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	65.0	week	-0.55241264601313				1.18124718502593		0.0665557389540501			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	78.0	week	-0.48252904394437				1.29937235413866		0.07321133823846			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	91.0	week	-0.45257903758205				1.29937235413866		0.07321133823846			percent	percent	dimensionless
+Weinstock2015	SITA	315.0	SITA	hba1c (change)		plasma	NR	hba1c_change_SITA	104.0	week	-0.39600663408211				1.29937235413849		0.0732113382384503			percent	percent	dimensionless

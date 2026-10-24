@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	0.0	day	94.4								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	7.0	day	93.8952379499163								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	14.0	day	93.3619044712612								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	28.0	day	92.7047616141183								kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	56.0	day	91.9714285714286				2.391880945166387	0.138095310756135		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	84.0	day	91.5904758998326				2.886752604471805	0.166666739327565		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	140.0	day	91.3523808070592				3.216665785485046	0.185714285714285		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless
+Dungan2014	LIR	300.0	LIR18D168	weight 			NR	bodyweight_LIR18	182.0	day	90.9333330426897				3.5465827420694014	0.204762050083705		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	kg	kg	dimensionless

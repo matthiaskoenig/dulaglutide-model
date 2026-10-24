@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Liu2025	DUL15	218.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	mmol/l	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	DUL15	218.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	12.0	week	-2.59	NA	NA	NA	1.7717787672280079	0.12	NA	mmol/l	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	DUL15	218.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	24.0	week	-2.63	NA	NA	NA	1.7717787672280079	0.12	NA	mmol/l	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	LY05008	222.0	LY05008	concentration change absolute	glucose	plasma	NR	fpg_change_LY05008	0.0	week	0.0	NA	NA	NA	NA	NA	NA	mmol/l	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	LY05008	222.0	LY05008	concentration change absolute	glucose	plasma	NR	fpg_change_LY05008	12.0	week	-2.57	NA	NA	NA	1.7879597310901607	0.12	NA	mmol/l	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	LY05008	222.0	LY05008	concentration change absolute	glucose	plasma	NR	fpg_change_LY05008	24.0	week	-2.2	NA	NA	NA	1.7879597310901607	0.12	NA	mmol/l	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	DUL15	218.0	DUL15	weight change absolute	NA	NA	NR	bodyweight_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	kg	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	DUL15	218.0	DUL15	weight change absolute	NA	NA	NR	bodyweight_change_DUL15	12.0	week	-1.71	NA	NA	NA	2.510019920239678	0.17	NA	kg	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	DUL15	218.0	DUL15	weight change absolute	NA	NA	NR	bodyweight_change_DUL15	24.0	week	-2.39	NA	NA	NA	2.95296461204668	0.2	NA	kg	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	LY05008	222.0	LY05008	weight change absolute	NA	NA	NR	bodyweight_change_LY05008	0.0	week	0.0	NA	NA	NA	NA	NA	NA	kg	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	LY05008	222.0	LY05008	weight change absolute	NA	NA	NR	bodyweight_change_LY05008	12.0	week	-2.03	NA	NA	NA	2.3839463081202146	0.16	NA	kg	Table 6, LS mean change from baseline (SE), ANCOVA, FAS
+Liu2025	LY05008	222.0	LY05008	weight change absolute	NA	NA	NR	bodyweight_change_LY05008	24.0	week	-2.66	NA	NA	NA	2.979932885150268	0.2	NA	kg	Table 6, LS mean change from baseline (SE), ANCOVA, FAS

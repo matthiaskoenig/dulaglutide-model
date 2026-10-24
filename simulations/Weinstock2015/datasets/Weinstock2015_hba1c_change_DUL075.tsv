@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	0.0	week	0.0						0.06988353859626			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	4.0	week	-0.72212985651296				0.578307714173806		0.0332778694770299			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	8.0	week	-1.04825295199882				0.809629476201784		0.04658894110083			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	12.0	week	-1.23793683340686				0.983121349240333		0.0565722765549497			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	26.0	week	-1.24126456957657				0.983123555309064		0.0565724034999402			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	39.0	week	-1.19800336464543				1.09878333328877		0.0632278758393499			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	52.0	week	-1.10149749238406				1.09878553935767		0.0632280027843502			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	65.0	week	-1.03826961654471				1.15661542834744		0.0665557389540501			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	78.0	week	-0.995008284668581				1.33010950745454		0.0765392013531496			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	91.0	week	-0.95840267902185				1.27227741239588		0.0732113382384503			percent	percent	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	104.0	week	-0.9018302755219				1.38793939644466		0.07986693752287			percent	percent	dimensionless

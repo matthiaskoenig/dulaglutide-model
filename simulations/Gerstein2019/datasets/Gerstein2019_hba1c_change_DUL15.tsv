@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Gerstein2019	DUL15	4949.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	0.0	month	0.0								percent	percent	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	3.0	month	-0.759941109788501								percent	percent	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	12.0	month	-0.67157593114993								percent	percent	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	24.0	month	-0.5360823671931								percent	percent	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	36.0	month	-0.480117780423011								percent	percent	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	48.0	month	-0.41826209604875								percent	percent	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	hba1c (change)		plasma	NR	hba1c_change_DUL15	60.0	month	-0.35935200991596								percent	percent	dimensionless

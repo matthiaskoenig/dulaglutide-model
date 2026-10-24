@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit	count_unit
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	0.0	hr	0.0									mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	2.0	hr	2.8009202633884366e-08				5.601840526777024e-08					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	4.0	hr	1.5124973696162997e-07				1.2884228937721868e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	8.0	hr	3.977308056171209e-07				2.2967537612055305e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	12.0	hr	6.106007028959947e-07				3.0810122897273504e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	24.0	hr	8.122668763826647e-07				2.968977188737875e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	36.0	hr	8.626835266009604e-07				3.473141553988252e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	48.0	hr	9.355074107104088e-07				3.417124003493514e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	72.0	hr	8.346743239670756e-07				2.5208282370496566e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	120.0	hr	5.545822976282252e-07				1.8486069464498912e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075IM	7.0	DUL075IM	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075IM	168.0	hr	3.921288368743891e-07				2.0166638717992626e-07					mole/meter^3	ng/ml	dimensionless

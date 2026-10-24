@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	0.0	week	96.0									kg	kg	dimensionless
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	2.0	week	95.0349206178127				1.80289194512469		0.10793631744192			kg	kg	dimensionless
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	4.0	week	94.6666666868503				2.01499806972396		0.12063477896538			kg	kg	dimensionless
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	8.0	week	94.5841268080493				2.65131644352192		0.15873016353577			kg	kg	dimensionless
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	13.0	week	94.5523807753421				3.39368181123798		0.20317441556339			kg	kg	dimensionless
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	26.0	week	94.660317092784				4.03000423062364		0.24127004233678			kg	kg	dimensionless
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	39.0	week	95.0920633313637				4.77236959833958		0.285714294364393			kg	kg	dimensionless
+Wysham2014	DUL15	279.0	DUL15	weight			NR	bodyweight_DUL15	52.0	week	94.9142855966443				5.62079005114895		0.336507898255233			kg	kg	dimensionless

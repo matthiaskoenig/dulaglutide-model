@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wysham2014	PLAC	141.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Wysham2014	PLAC	141.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	2.0	week	-0.249323365332417				1.64249764053415		0.138323254332306			mmol/l	mmol/l	dimensionless
+Wysham2014	PLAC	141.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	4.0	week	-0.0853847007693157				1.64249648023239		0.13832315661727			mmol/l	mmol/l	dimensionless
+Wysham2014	PLAC	141.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	8.0	week	-0.182723240103329				1.82499686268161		0.153692461384769			mmol/l	mmol/l	dimensionless
+Wysham2014	PLAC	141.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	13.0	week	-0.572077495154418				2.00749608482907		0.169061668437232			mmol/l	mmol/l	dimensionless
+Wysham2014	PLAC	141.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	26.0	week	-0.259569470795714				2.00749608482907		0.169061668437232			mmol/l	mmol/l	dimensionless

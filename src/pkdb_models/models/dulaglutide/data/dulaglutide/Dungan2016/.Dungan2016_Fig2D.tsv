@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Dungan2016	DUL15	239.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Dungan2016	DUL15	239.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	24.0	week	-1.7	NA	NA	NA	2.9	0.18758540593241374	NA	mmol/l	LS mean of the text (ANCOVA, LOCF); sd: baseline sd of Table 1, consistent with the 95 % CI of the difference (-2.58, -1.14)
+Dungan2016	DUL15	239.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	0.0	week	9.9	NA	NA	NA	2.9	0.18758540593241374	NA	mmol/l	Table 1 mean (SD)
+Dungan2016	DUL15	239.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	24.0	week	8.2	NA	NA	NA	2.9	0.18758540593241374	NA	mmol/l	baseline plus the change; LS mean of the text (ANCOVA, LOCF); sd: baseline sd of Table 1, consistent with the 95 % CI of the difference (-2.58, -1.14)
+Dungan2016	PLAC	60.0	PLAC	concentration change absolute	glucose	serum	NR	fpg_change_PLAC	0.0	week	0.0	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Dungan2016	PLAC	60.0	PLAC	concentration change absolute	glucose	serum	NR	fpg_change_PLAC	24.0	week	0.16	NA	NA	NA	2.5	0.3227486121839514	NA	mmol/l	LS mean of the text (ANCOVA, LOCF); sd: baseline sd of Table 1, consistent with the 95 % CI of the difference (-2.58, -1.14)
+Dungan2016	PLAC	60.0	PLAC	concentration	glucose	serum	NR	fpg_PLAC	0.0	week	9.7	NA	NA	NA	2.5	0.3227486121839514	NA	mmol/l	Table 1 mean (SD)
+Dungan2016	PLAC	60.0	PLAC	concentration	glucose	serum	NR	fpg_PLAC	24.0	week	9.86	NA	NA	NA	2.5	0.3227486121839514	NA	mmol/l	baseline plus the change; LS mean of the text (ANCOVA, LOCF); sd: baseline sd of Table 1, consistent with the 95 % CI of the difference (-2.58, -1.14)

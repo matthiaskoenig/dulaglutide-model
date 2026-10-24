@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	0.0	hr	0.0								mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	2.0	hr	8.475735070438864e-08				4.558465899739182e-08	7.705213700398862e-09			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	4.0	hr	2.0932501138491537e-07				9.876629744988134e-08	1.6694551302709906e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	8.0	hr	4.212183881458857e-07				1.215586269485874e-07	2.0547158152911013e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	12.0	hr	5.881646653924921e-07				1.5194897925242565e-07	2.5684065263368528e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	24.0	hr	8.938047892462795e-07				1.5194897925242565e-07	2.5684065263368528e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	36.0	hr	9.477412851490733e-07				1.5954648038254082e-07	2.6968277344452823e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	48.0	hr	9.426044956108447e-07				1.3675397699217514e-07	2.3115641101196417e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	60.0	hr	8.437209001936871e-07				1.2915664975372014e-07	2.183145841316742e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	72.0	hr	7.923528284530652e-07				1.3675397699217578e-07	2.3115641101196583e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	96.0	hr	5.945856964048634e-07				1.2155897473192577e-07	2.0547216939024634e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	120.0	hr	4.4690239462313897e-07				9.116931799478364e-08	1.5410427400797724e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	144.0	hr	3.351767959673538e-07				6.837698849608782e-08	1.1557820550598308e-08			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	168.0	hr	2.4656683841276687e-07				3.79869839755879e-08	6.420972226254416e-09			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	240.0	hr	1.0016777810518653e-07				4.558465899739299e-08	7.705213700399027e-09			mole/meter^3	ng/ml	dimensionless
+Gao2024	HEC14028	35.0	HEC14028	concentration	dulaglutide	plasma	ELISA	dulaglutide_HEC14028	288.0	hr	5.650486127884884e-08				3.0390004520494054e-08	5.136848324342886e-09			mole/meter^3	ng/ml	dimensionless

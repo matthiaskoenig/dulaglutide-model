@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Chen2018	DUL15	239.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Chen2018	DUL15	239.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-2.71	NA	NA	NA	2.164347476723643	0.14	NA	mmol/l	fasting blood glucose, LSM (SE) of the text (Fig2D), sd = se x sqrt(n)
+Chen2018	DUL075	239.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Chen2018	DUL075	239.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	26.0	week	-2.26	NA	NA	NA	2.164347476723643	0.14	NA	mmol/l	fasting blood glucose, LSM (SE) of the text (Fig2D), sd = se x sqrt(n)
+Chen2018	GLIM	242.0	GLIM	concentration change absolute	glucose	plasma	NR	fpg_change_GLIM	0.0	week	0.0	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Chen2018	GLIM	242.0	GLIM	concentration change absolute	glucose	plasma	NR	fpg_change_GLIM	26.0	week	-1.89	NA	NA	NA	2.1778888860545664	0.14	NA	mmol/l	fasting blood glucose, LSM (SE) of the text (Fig2D), sd = se x sqrt(n)

@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wysham2014	PLAC	141.0	PLAC	weight			NR	bodyweight_PLAC	0.0	week	94.0									kg	kg	dimensionless
+Wysham2014	PLAC	141.0	PLAC	weight			NR	bodyweight_PLAC	2.0	week	94.1460317625631				1.80942188530022		0.152380811672538			kg	kg	dimensionless
+Wysham2014	PLAC	141.0	PLAC	weight			NR	bodyweight_PLAC	4.0	week	94.2476189703448				1.96020776140891		0.165079273196001			kg	kg	dimensionless
+Wysham2014	PLAC	141.0	PLAC	weight			NR	bodyweight_PLAC	8.0	week	94.6031744397837				2.48795832778936		0.209523888528125			kg	kg	dimensionless
+Wysham2014	PLAC	141.0	PLAC	weight			NR	bodyweight_PLAC	13.0	week	94.7365079224755				3.39266927043942		0.28571429436439			kg	kg	dimensionless
+Wysham2014	PLAC	141.0	PLAC	weight			NR	bodyweight_PLAC	26.0	week	95.3650793458569				4.37277315114386		0.36825393096239			kg	kg	dimensionless

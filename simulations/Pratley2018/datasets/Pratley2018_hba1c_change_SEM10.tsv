@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Pratley2018	SEM10	300.0	SEM10	hba1c (change)		plasma	NR	hba1c_change_SEM10	0.0	hr	0.0									percent	percent	dimensionless
+Pratley2018	SEM10	300.0	SEM10	hba1c (change)		plasma	NR	hba1c_change_SEM10	672.0	hr	-0.4757694245577237				0.4493229130679488		0.0259416704812847			percent	percent	dimensionless
+Pratley2018	SEM10	300.0	SEM10	hba1c (change)		plasma	NR	hba1c_change_SEM10	1344.0	hr	-0.9539571692325728				0.6257637375960279		0.0361284862350173			percent	percent	dimensionless
+Pratley2018	SEM10	300.0	SEM10	hba1c (change)		plasma	NR	hba1c_change_SEM10	2016.0	hr	-1.3660403481495689				0.7201757353953442		0.0415793654694338			percent	percent	dimensionless
+Pratley2018	SEM10	300.0	SEM10	hba1c (change)		plasma	NR	hba1c_change_SEM10	2688.0	hr	-1.6254767286438394				0.732763382145314		0.0423061135933897			percent	percent	dimensionless
+Pratley2018	SEM10	300.0	SEM10	hba1c (change)		plasma	NR	hba1c_change_SEM10	4704.0	hr	-1.7526596179042775				0.9063632339759564		0.0523289057119598			percent	percent	dimensionless
+Pratley2018	SEM10	300.0	SEM10	hba1c (change)		plasma	NR	hba1c_change_SEM10	6720.0	hr	-1.77810885974041				0.9818922125921268		0.0566895733255261			percent	percent	dimensionless

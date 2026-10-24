@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	0.0	week	0.0				2.488947825496064	0.1537677101826493			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	2.0	week	-1.2301423362452262				1.7943601378327094	0.1108559395304185			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	4.0	week	-1.5698617073717247				1.9101234276173344	0.11800781945777086			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	8.0	week	-1.5770135872990674				1.9680024228572879	0.12158359572537741			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	14.0	week	-1.5197978930960812				2.083771011946603	0.12873580304486676			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	20.0	week	-1.6556855760682723				1.9680077221610786	0.12158392311745891			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	26.0	week	-1.6699896633150528				2.199539601034075	0.1358880103642423			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	35.0	week	-1.6735654395826485				2.0837710119456756	0.1287358030448096			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	44.0	week	-1.6807176469020868				2.199539601034075	0.1358880103642423			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	52.0	week	-1.8452131769757993				2.3152975915158023	0.14303956289956815			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	65.0	week	-1.7236295812503326				2.3153028908186775	0.14303989029159303			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	GLAR	262.0	GLAR	concentration change absolute	glucose	serum	NR	fpg_change_GLAR	78.0	week	-1.6699896633150528				2.4889504751479348	0.15376787387868837			mole/meter^3	mg/dl	dimensionless

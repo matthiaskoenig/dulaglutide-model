@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	2.0	week	-0.845000050253494				1.77482385384707		0.099999995431501			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	4.0	week	-1.1749999588835				1.86356369245621		0.10499991890913			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	8.0	week	-1.09500003883224				2.1297865934918		0.11999988007689			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	12.0	week	-1.15499988350326				1.86356707766416		0.10500010964399			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	26.0	week	-0.97000004454287				1.95230353106536		0.10999984238676			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	39.0	week	-0.770000053679869				2.4847527183443		0.139999955457129			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	52.0	week	-0.904999894924511				2.30727304112581		0.130000108501859			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	65.0	week	-0.710000018273997				2.12978659349177		0.119999880076888			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	78.0	week	-0.749999978299627				2.3960128797351		0.135000031979496			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	91.0	week	-0.75499990177726				2.30727304112589		0.130000108501863			mmol/l	mmol/l	dimensionless
+Weinstock2015	SITA	315.0	SITA	concentration change absolute	glucose	plasma	NR	fpg_change_SITA	104.0	week	-0.470000067385367				2.57349255695353		0.144999878934763			mmol/l	mmol/l	dimensionless

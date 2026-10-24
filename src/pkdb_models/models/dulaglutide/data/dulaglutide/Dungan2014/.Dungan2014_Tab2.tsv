@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Dungan2014	DUL15	299.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Dungan2014	DUL15	299.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	182.0	day	-1.93	NA	NA	NA	2.07499397589487	0.12	NA	mmol/l	Table 2 LSM (SE), sd = se x sqrt(n)
+Dungan2014	DUL15	299.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	0.0	day	9.3	NA	NA	NA	2.2	0.12722928503257286	NA	mmol/l	Table 1 mean (SD)
+Dungan2014	DUL15	299.0	DUL15	concentration	glucose	serum	NR	fpg_DUL15	182.0	day	7.37	NA	NA	NA	2.07499397589487	0.12	NA	mmol/l	baseline plus the change of Table 2, sd of the change
+Dungan2014	LIR	300.0	LIR18	concentration change absolute	glucose	serum	NR	fpg_change_LIR18	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Dungan2014	LIR	300.0	LIR18	concentration change absolute	glucose	serum	NR	fpg_change_LIR18	182.0	day	-1.9	NA	NA	NA	2.078460969082653	0.12	NA	mmol/l	Table 2 LSM (SE), sd = se x sqrt(n)
+Dungan2014	LIR	300.0	LIR18	concentration	glucose	serum	NR	fpg_LIR18	0.0	day	9.2	NA	NA	NA	2.3	0.1327905619136139	NA	mmol/l	Table 1 mean (SD)
+Dungan2014	LIR	300.0	LIR18	concentration	glucose	serum	NR	fpg_LIR18	182.0	day	7.3	NA	NA	NA	2.078460969082653	0.12	NA	mmol/l	baseline plus the change of Table 2, sd of the change

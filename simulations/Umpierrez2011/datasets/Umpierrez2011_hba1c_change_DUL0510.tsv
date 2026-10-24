@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2011	DUL0510	66.0	DUL05W4, DUL10W12	hba1c (change)		plasma	NR	hba1c_change_lsmean_DUL0510	0.0	week	0.0									percent	percent	dimensionless
+Umpierrez2011	DUL0510	65.0	DUL05W4, DUL10W12	hba1c (change)		plasma	NR	hba1c_change_lsmean_DUL0510	4.0	week	-0.623300986694946				0.5635756815729974		0.069902960084839			percent	percent	dimensionless
+Umpierrez2011	DUL0510	61.0	DUL05W4, DUL10W12	hba1c (change)		plasma	NR	hba1c_change_lsmean_DUL0510	8.0	week	-1.08349515911501				0.6824490302949827		0.0873786445522			percent	percent	dimensionless
+Umpierrez2011	DUL0510	58.0	DUL05W4, DUL10W12	hba1c (change)		plasma	NR	hba1c_change_lsmean_DUL0510	16.0	week	-1.38				0.913892772703669		0.12			percent	percent	dimensionless

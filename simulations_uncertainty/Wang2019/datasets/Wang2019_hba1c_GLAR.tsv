@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wang2019	GLAR	250.0	GLAR	hba1c 		plasma	NR	hba1c_GLAR	0.0	week	8.4									percent	percent	dimensionless
+Wang2019	GLAR	250.0	GLAR	hba1c 		plasma	NR	hba1c_GLAR	4.0	week	7.95966385272371				0.744065129062612		0.0470588107069			percent	percent	dimensionless
+Wang2019	GLAR	250.0	GLAR	hba1c 		plasma	NR	hba1c_GLAR	8.0	week	7.58319330295595				0.850359568238093		0.053781461314995			percent	percent	dimensionless
+Wang2019	GLAR	250.0	GLAR	hba1c 		plasma	NR	hba1c_GLAR	14.0	week	7.31428573993074				1.00980173385564		0.06386546928342			percent	percent	dimensionless
+Wang2019	GLAR	250.0	GLAR	hba1c 		plasma	NR	hba1c_GLAR	26.0	week	7.23361341973313				1.11609718673963		0.0705881840040701			percent	percent	dimensionless
+Wang2019	GLAR	250.0	GLAR	hba1c 		plasma	NR	hba1c_GLAR	39.0	week	7.45882352941177				1.27553935235713		0.080672191972492			percent	percent	dimensionless
+Wang2019	GLAR	250.0	GLAR	hba1c 		plasma	NR	hba1c_GLAR	52.0	week	7.50924369747899				1.16924592689022		0.0739496054769561			percent	percent	dimensionless

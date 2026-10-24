@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	DUL075	302.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	65.0	week	7.70750013933924				2.17226830038285		0.12499999428938			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	78.0	week	8.017499972589011				2.51982923967294		0.14499987893476			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	91.0	week	7.772500098222741				2.34605042733696		0.13500003197949			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL075	302.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	104.0	week	7.9725000890857505				2.69361468124569		0.15500010735974			mmol/l	mmol/l	dimensionless

@@ -1,9 +1,17 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
-Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	0.0	day	8.07310704708063	NA	NA	NA	2.0316517956363116	0.11749345699725033	NA	percent	NA
-Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	56.0	day	6.97101828813713	NA	NA	NA	1.5034200781309859	0.08694502802010007	NA	percent	NA
-Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	84.0	day	6.74073093385882	NA	NA	NA	1.8691211772126555	0.10809406864363957	NA	percent	NA
-Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	182.0	day	6.61618792215029	NA	NA	NA	1.7878526129428352	0.10339418622197005	NA	percent	NA
-Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	0.0	day	8.0684073260117	NA	NA	NA	1.8315420131564741	0.10574412743279993	NA	percent	NA
-Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	56.0	day	6.99921672211921	NA	NA	NA	1.4245314348056035	0.08224536073540989	NA	percent	NA
-Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	84.0	day	6.81827662730954	NA	NA	NA	1.5873364114024446	0.09164491044176959	NA	percent	NA
-Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	182.0	day	6.67493473132528	NA	NA	NA	1.8315420131564741	0.10574412743279993	NA	percent	NA
+Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	0.0	day	8.07310704708063	NA	NA	NA	0.8	0.04626519455729922	NA	percent	baseline sd of Table 1
+Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	56.0	day	6.97101828813713	NA	NA	NA	0.7517100390654932	0.04347251401005005	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	84.0	day	6.74073093385882	NA	NA	NA	0.9345605886063315	0.05404703432182	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	DUL15	299.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	182.0	day	6.61618792215029	NA	NA	NA	0.8939263064714171	0.051697093110985	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	0.0	day	8.0684073260117	NA	NA	NA	0.8	0.04618802153517006	NA	percent	baseline sd of Table 1
+Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	56.0	day	6.99921672211921	NA	NA	NA	0.7122657174028019	0.04112268036770495	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	84.0	day	6.81827662730954	NA	NA	NA	0.7936682057012224	0.0458224552208848	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	LIR	300.0	LIR18D168	hba1c	NA	plasma	NR	hba1c_LIR18	182.0	day	6.67493473132528	NA	NA	NA	0.9157710065782376	0.0528720637164	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	DUL15	299.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	0.0	day	0.0	NA	NA	NA	NA	NA	NA	percent	NA
+Dungan2014	DUL15	299.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	56.0	day	-1.1020887589435	NA	NA	NA	0.7517100390654932	0.04347251401005005	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	DUL15	299.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	84.0	day	-1.33237611322181	NA	NA	NA	0.9345605886063315	0.05404703432182	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	DUL15	299.0	DUL15	hba1c (change)	NA	plasma	NR	hba1c_change_DUL15	182.0	day	-1.45691912493034	NA	NA	NA	0.8939263064714171	0.051697093110985	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	LIR	300.0	LIR18D168	hba1c (change)	NA	plasma	NR	hba1c_change_LIR18	0.0	day	0.0	NA	NA	NA	NA	NA	NA	percent	NA
+Dungan2014	LIR	300.0	LIR18D168	hba1c (change)	NA	plasma	NR	hba1c_change_LIR18	56.0	day	-1.06919060389249	NA	NA	NA	0.7122657174028019	0.04112268036770495	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	LIR	300.0	LIR18D168	hba1c (change)	NA	plasma	NR	hba1c_change_LIR18	84.0	day	-1.25013069870216	NA	NA	NA	0.7936682057012224	0.0458224552208848	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)
+Dungan2014	LIR	300.0	LIR18D168	hba1c (change)	NA	plasma	NR	hba1c_change_LIR18	182.0	day	-1.39347259468642	NA	NA	NA	0.9157710065782376	0.0528720637164	NA	percent	the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)

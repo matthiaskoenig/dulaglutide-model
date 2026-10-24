@@ -1,0 +1,2863 @@
+{
+  "experiment_id": "Umpierrez2011",
+  "base_path": "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide",
+  "data_path": [
+    "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide/data/dulaglutide"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide/models/output/models/dulaglutide_body.xml",
+        "path": "/home/mkoenig/git/dulaglutide-model/src/pkdb_models/models/dulaglutide/models/output/models/dulaglutide_body.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "Abody_dul",
+        "Acat_dul",
+        "Asc_deg_dul",
+        "BW",
+        "BW0",
+        "BW_change",
+        "BW_ratio",
+        "FAT",
+        "IVDOSE_dul",
+        "LBW0",
+        "Ri_dul",
+        "SAT",
+        "SCDEPOT_dul",
+        "SCDOSE_dul",
+        "[Cvep_dul]",
+        "[fpg]",
+        "fpg0",
+        "fpg_change",
+        "fpg_ratio",
+        "hba1c",
+        "hba1c0",
+        "hba1c_change",
+        "hba1c_ratio",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_dul_PLAC": {
+      "sid": "model__dul_PLAC",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_PLAC",
+      "observables": []
+    },
+    "task_dul_DUL0510": {
+      "sid": "model__dul_DUL0510",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_DUL0510",
+      "observables": []
+    },
+    "task_dul_DUL1010": {
+      "sid": "model__dul_DUL1010",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_DUL1010",
+      "observables": []
+    },
+    "task_dul_DUL1020": {
+      "sid": "model__dul_DUL1020",
+      "name": null,
+      "model": "model",
+      "simulation": "dul_DUL1020",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "dul_PLAC": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 2688,
+      "preinit_changes": {
+        "BW0": {
+          "value": 94.7,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.05,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.196000000000002,
+          "unit": "millimolar"
+        },
+        "HEIGHT": {
+          "value": 167.13797666849314,
+          "unit": "centimeter"
+        },
+        "SCDOSE_dul": {
+          "value": 0.0,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            336
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            504
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            672
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            840
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            1008
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            1176
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            1344
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            1512
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            1680
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            1848
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            2016
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            2184
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            2352
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        },
+        {
+          "times": [
+            2520
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.0"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "dul_DUL0510": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 2688,
+      "preinit_changes": {
+        "BW0": {
+          "value": 94.8,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.25,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.418000000000001,
+          "unit": "millimolar"
+        },
+        "HEIGHT": {
+          "value": 167.72168553356354,
+          "unit": "centimeter"
+        },
+        "SCDOSE_dul": {
+          "value": 0.5,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.5"
+          }
+        },
+        {
+          "times": [
+            336
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.5"
+          }
+        },
+        {
+          "times": [
+            504
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 0.5"
+          }
+        },
+        {
+          "times": [
+            672
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            840
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1008
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1176
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1344
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1512
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1680
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1848
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2016
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2184
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2352
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2520
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "dul_DUL1010": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 2688,
+      "preinit_changes": {
+        "BW0": {
+          "value": 96.7,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.25,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.418000000000001,
+          "unit": "millimolar"
+        },
+        "HEIGHT": {
+          "value": 168.8936758623978,
+          "unit": "centimeter"
+        },
+        "SCDOSE_dul": {
+          "value": 1.0,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            336
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            504
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            672
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            840
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1008
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1176
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1344
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1512
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1680
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            1848
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2016
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2184
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2352
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            2520
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "dul_DUL1020": {
+      "type": "Simulation",
+      "time_unit": "hr",
+      "start": 0.0,
+      "end": 2688,
+      "preinit_changes": {
+        "BW0": {
+          "value": 98.6,
+          "unit": "kilogram"
+        },
+        "hba1c0": {
+          "value": 8.43,
+          "unit": "percent"
+        },
+        "fpg0": {
+          "value": 9.6178,
+          "unit": "millimolar"
+        },
+        "HEIGHT": {
+          "value": 169.79519827346456,
+          "unit": "centimeter"
+        },
+        "SCDOSE_dul": {
+          "value": 1.0,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            168
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            336
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            504
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 1.0"
+          }
+        },
+        {
+          "times": [
+            672
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            840
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            1008
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            1176
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            1344
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            1512
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            1680
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            1848
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            2016
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            2184
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            2352
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        },
+        {
+          "times": [
+            2520
+          ],
+          "values": {
+            "SCDOSE_dul": "SCDOSE_dul + 2.0"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    }
+  },
+  "data": {
+    "task_dul_PLAC__time": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__BW": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_PLAC__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_PLAC__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_PLAC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__time": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__BW": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL0510__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL0510__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL0510",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__time": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__BW": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1010__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1010__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1010",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__time": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__IVDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__IVDOSE_dul",
+      "index": "IVDOSE_dul",
+      "selection": "IVDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__Ri_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__Ri_dul",
+      "index": "Ri_dul",
+      "selection": "Ri_dul",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__SCDOSE_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__SCDOSE_dul",
+      "index": "SCDOSE_dul",
+      "selection": "SCDOSE_dul",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__SCDEPOT_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__SCDEPOT_dul",
+      "index": "SCDEPOT_dul",
+      "selection": "SCDEPOT_dul",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__conc__Cvep_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__conc__Cvep_dul",
+      "index": "Cvep_dul",
+      "selection": "[Cvep_dul]",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__Abody_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__Abody_dul",
+      "index": "Abody_dul",
+      "selection": "Abody_dul",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__Acat_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__Acat_dul",
+      "index": "Acat_dul",
+      "selection": "Acat_dul",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__Asc_deg_dul": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__Asc_deg_dul",
+      "index": "Asc_deg_dul",
+      "selection": "Asc_deg_dul",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__BW0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__BW0",
+      "index": "BW0",
+      "selection": "BW0",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__BW": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__BW",
+      "index": "BW",
+      "selection": "BW",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__BW_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__BW_change",
+      "index": "BW_change",
+      "selection": "BW_change",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__BW_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__BW_ratio",
+      "index": "BW_ratio",
+      "selection": "BW_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__LBW0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__LBW0",
+      "index": "LBW0",
+      "selection": "LBW0",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__FAT": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__FAT",
+      "index": "FAT",
+      "selection": "FAT",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__SAT": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__SAT",
+      "index": "SAT",
+      "selection": "SAT",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__hba1c0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__hba1c0",
+      "index": "hba1c0",
+      "selection": "hba1c0",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__hba1c": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__hba1c",
+      "index": "hba1c",
+      "selection": "hba1c",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__hba1c_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__hba1c_change",
+      "index": "hba1c_change",
+      "selection": "hba1c_change",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__hba1c_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__hba1c_ratio",
+      "index": "hba1c_ratio",
+      "selection": "hba1c_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__fpg0": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__fpg0",
+      "index": "fpg0",
+      "selection": "fpg0",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__conc__fpg": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__conc__fpg",
+      "index": "fpg",
+      "selection": "[fpg]",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__fpg_change": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__fpg_change",
+      "index": "fpg_change",
+      "selection": "fpg_change",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_dul_DUL1020__fpg_ratio": {
+      "type": "TASK",
+      "sid": "task_dul_DUL1020__fpg_ratio",
+      "index": "fpg_ratio",
+      "selection": "fpg_ratio",
+      "unit": null,
+      "task": "task_dul_DUL1020",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {
+    "Fig2_3_5": {
+      "sid": "Fig2_3_5",
+      "name": "Umpierrez2011",
+      "num_rows": 1,
+      "num_cols": 3,
+      "width": null,
+      "height": null,
+      "settings": {
+        "legend_scope": "row"
+      },
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig2_3_5__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig2_3_5__plot0_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig2_3_5__plot0_yaxis",
+              "name": "FPG change [mM]",
+              "label": "FPG change",
+              "unit": "mM",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig2_3_5__plot0_curve0",
+                "name": "PLAC",
+                "x": "task_dul_PLAC__time",
+                "y": "task_dul_PLAC__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig2_3_5__plot0_curve1",
+                "name": "PLAC\u00b1SD",
+                "x": "fpg_change_PLAC__time",
+                "y": "fpg_change_PLAC__mean",
+                "xerr": null,
+                "yerr": "fpg_change_PLAC__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig2_3_5__plot0_curve2",
+                "name": "DUL0510",
+                "x": "task_dul_DUL0510__time",
+                "y": "task_dul_DUL0510__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig2_3_5__plot0_curve3",
+                "name": "DUL0510\u00b1SD",
+                "x": "fpg_change_DUL0510__time",
+                "y": "fpg_change_DUL0510__mean",
+                "xerr": null,
+                "yerr": "fpg_change_DUL0510__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#2ca02cff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig2_3_5__plot0_curve4",
+                "name": "DUL1010",
+                "x": "task_dul_DUL1010__time",
+                "y": "task_dul_DUL1010__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig2_3_5__plot0_curve5",
+                "name": "DUL1010\u00b1SD",
+                "x": "fpg_change_DUL1010__time",
+                "y": "fpg_change_DUL1010__mean",
+                "xerr": null,
+                "yerr": "fpg_change_DUL1010__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig2_3_5__plot0_curve6",
+                "name": "DUL1020",
+                "x": "task_dul_DUL1020__time",
+                "y": "task_dul_DUL1020__fpg_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig2_3_5__plot0_curve7",
+                "name": "DUL1020\u00b1SD",
+                "x": "fpg_change_DUL1020__time",
+                "y": "fpg_change_DUL1020__mean",
+                "xerr": null,
+                "yerr": "fpg_change_DUL1020__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#ff7f0eff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig2_3_5__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig2_3_5__plot1_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig2_3_5__plot1_yaxis",
+              "name": "HbA1c change [percent]",
+              "label": "HbA1c change",
+              "unit": "percent",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig2_3_5__plot1_curve0",
+                "name": "PLAC",
+                "x": "task_dul_PLAC__time",
+                "y": "task_dul_PLAC__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig2_3_5__plot1_curve1",
+                "name": "PLAC\u00b1SD",
+                "x": "hba1c_change_PLAC__time",
+                "y": "hba1c_change_PLAC__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_PLAC__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig2_3_5__plot1_curve2",
+                "name": "DUL0510",
+                "x": "task_dul_DUL0510__time",
+                "y": "task_dul_DUL0510__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig2_3_5__plot1_curve3",
+                "name": "DUL0510\u00b1SD",
+                "x": "hba1c_change_DUL0510__time",
+                "y": "hba1c_change_DUL0510__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL0510__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#2ca02cff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig2_3_5__plot1_curve4",
+                "name": "DUL1010",
+                "x": "task_dul_DUL1010__time",
+                "y": "task_dul_DUL1010__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig2_3_5__plot1_curve5",
+                "name": "DUL1010\u00b1SD",
+                "x": "hba1c_change_DUL1010__time",
+                "y": "hba1c_change_DUL1010__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL1010__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig2_3_5__plot1_curve6",
+                "name": "DUL1020",
+                "x": "task_dul_DUL1020__time",
+                "y": "task_dul_DUL1020__hba1c_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig2_3_5__plot1_curve7",
+                "name": "DUL1020\u00b1SD",
+                "x": "hba1c_change_DUL1020__time",
+                "y": "hba1c_change_DUL1020__mean",
+                "xerr": null,
+                "yerr": "hba1c_change_DUL1020__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#ff7f0eff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig2_3_5__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig2_3_5__plot2_xaxis",
+              "name": "time [week]",
+              "label": "time",
+              "unit": "week",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig2_3_5__plot2_yaxis",
+              "name": "bodyweight change [kg]",
+              "label": "bodyweight change",
+              "unit": "kg",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig2_3_5__plot2_curve0",
+                "name": "PLAC",
+                "x": "task_dul_PLAC__time",
+                "y": "task_dul_PLAC__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig2_3_5__plot2_curve1",
+                "name": "PLAC\u00b1SD",
+                "x": "bodyweight_change_PLAC__time",
+                "y": "bodyweight_change_PLAC__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_PLAC__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig2_3_5__plot2_curve2",
+                "name": "DUL0510",
+                "x": "task_dul_DUL0510__time",
+                "y": "task_dul_DUL0510__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca02cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig2_3_5__plot2_curve3",
+                "name": "DUL0510\u00b1SD",
+                "x": "bodyweight_change_DUL0510__time",
+                "y": "bodyweight_change_DUL0510__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL0510__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#2ca02cff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#2ca02cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca02cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig2_3_5__plot2_curve4",
+                "name": "DUL1010",
+                "x": "task_dul_DUL1010__time",
+                "y": "task_dul_DUL1010__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig2_3_5__plot2_curve5",
+                "name": "DUL1010\u00b1SD",
+                "x": "bodyweight_change_DUL1010__time",
+                "y": "bodyweight_change_DUL1010__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL1010__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              },
+              {
+                "sid": "Fig2_3_5__plot2_curve6",
+                "name": "DUL1020",
+                "x": "task_dul_DUL1020__time",
+                "y": "task_dul_DUL1020__BW_change",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff7f0eff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 6
+              },
+              {
+                "sid": "Fig2_3_5__plot2_curve7",
+                "name": "DUL1020\u00b1SD",
+                "x": "bodyweight_change_DUL1020__time",
+                "y": "bodyweight_change_DUL1020__mean",
+                "xerr": null,
+                "yerr": "bodyweight_change_DUL1020__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#ff7f0eff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#ff7f0eff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff7f0eff",
+                    "second_color": null
+                  }
+                },
+                "order": 7
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	0.0	week	8.0									percent	percent	dimensionless
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	4.0	week	7.394366199705546									percent	percent	dimensionless
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	8.0	week	6.8920187580420595									percent	percent	dimensionless
+Terauchi2014	DUL075	35.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	12.0	week	6.65				0.528221409205323	0.175				percent	percent	dimensionless

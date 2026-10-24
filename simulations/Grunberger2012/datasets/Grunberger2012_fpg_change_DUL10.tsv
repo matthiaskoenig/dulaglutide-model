@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Grunberger2012	DUL10	34.0	DUL10	concentration change absolute	glucose	plasma	NR	fpg_change_DUL10	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Grunberger2012	DUL10	34.0	DUL10	concentration change absolute	glucose	plasma	NR	fpg_change_DUL10	2.0	week	-1.794117473401				1.1661921617054		0.20000030573676			mmol/l	mmol/l	dimensionless
+Grunberger2012	DUL10	34.0	DUL10	concentration change absolute	glucose	plasma	NR	fpg_change_DUL10	4.0	week	-2.082353069543				1.47488620005498		0.25294089655564			mmol/l	mmol/l	dimensionless
+Grunberger2012	DUL10	34.0	DUL10	concentration change absolute	glucose	plasma	NR	fpg_change_DUL10	8.0	week	-2.00000004207386				1.30338762212805		0.22352913308722			mmol/l	mmol/l	dimensionless
+Grunberger2012	DUL10	34.0	DUL10	concentration change absolute	glucose	plasma	NR	fpg_change_DUL10	12.0	week	-1.87647050087015				1.30338893055838		0.22352935748117			mmol/l	mmol/l	dimensionless

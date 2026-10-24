@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Morioka2024	DUL075	195.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	0.0	week	71.3									kg	kg	dimensionless
+Morioka2024	DUL075	195.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	8.0	week	71.3				1.32292901936284	0.094736914806413				kg	kg	dimensionless
+Morioka2024	DUL075	195.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	16.0	week	71.5				2.05788873835028	0.147368473465088				kg	kg	dimensionless
+Morioka2024	DUL075	195.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	26.0	week	71.3				2.20488095129814	0.157894804471081				kg	kg	dimensionless
+Morioka2024	DUL075	195.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	38.0	week	71.2				2.30777500691931	0.165263200839137				kg	kg	dimensionless
+Morioka2024	DUL075	195.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	52.0	week	71.1				2.58706124326333	0.185263303635182				kg	kg	dimensionless

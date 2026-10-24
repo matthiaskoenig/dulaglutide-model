@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	0.0	day	8.07310704708063				0.8	0.0462651945572992		baseline sd of Table 1	percent	percent	dimensionless
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	56.0	day	6.97101828813713				0.7517100390654932	0.04347251401005		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	percent	percent	dimensionless
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	84.0	day	6.74073093385882				0.9345605886063316	0.05404703432182		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	percent	percent	dimensionless
+Dungan2014	DUL15	299.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	182.0	day	6.61618792215029				0.8939263064714171	0.051697093110985		the copy had the whole error bar (2 x SE) as SE, se halved (Table 2: SE 0.05 % / 0.22 kg at 26 weeks), sd = se x sqrt(n)	percent	percent	dimensionless

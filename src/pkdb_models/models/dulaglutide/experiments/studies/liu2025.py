@@ -1,144 +1,158 @@
-from typing import Dict
+"""Simulation experiment of the study Liu2025.
 
-from sbmlsim.data import DataSet, load_pkdb_dataframe
-from sbmlsim.fit import FitMapping, FitData
-from sbmlutils.console import console
+Phase 3 equivalence trial in China: 440 adults with type 2 diabetes on
+metformin (1.5-2.0 g/d) received 1.5 mg of the biosimilar LY05008 or of
+dulaglutide (Trulicity) s.c. once weekly for 24 weeks (doses on days 1 to 162).
+Trough concentrations before the doses of days 29 to 141 and on day 169
+(Fig3, mean and SD), the HbA1c change (Fig2 at 12 weeks with the means of the
+text, Table 2 at 24 weeks, mean and SD) and the FPG and body weight change
+(Table 6, LS mean and SE). The FPG baselines are not reported.
+"""
 
+from typing import ClassVar, override
+
+from pkpdsim.metadata import (
+    ApplicationForm,
+    Coadministration,
+    DataType,
+    Dosing,
+    Fasting,
+    Health,
+    PKPDData,
+    PKPDMappingMetaData,
+    Route,
+)
+from sbmlsim import Q
+from sbmlsim.data import DataSet
+from sbmlsim.fit import FitData, FitMapping
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Simulation
+
+from pkdb_models.models.dulaglutide import MODEL
 from pkdb_models.models.dulaglutide.experiments.base_experiment import (
     DulaglutideSimulationExperiment,
 )
-from pkdb_models.models.dulaglutide.experiments.metadata import (
-    Tissue, Route, Dosing, ApplicationForm, Health,
-    Fasting, DulaglutideMappingMetaData, Coadministration
-)
 
-from sbmlsim.plot import Axis, Figure
-from sbmlsim.simulation import Timecourse, TimecourseSim
-
-from pkdb_models.models.dulaglutide.helpers import run_experiments
-
-from sbmlsim.plot import Figure
-Figure.legend_position: str = "outside"
 
 class Liu2025(DulaglutideSimulationExperiment):
     """Simulation experiment of Liu2025."""
-    # FIXME: add plot hba1c and hbac1_change
 
-    interventions = ["LY05008", "DUL15"]
-    doses = {
+    interventions: ClassVar[list[str]] = ["LY05008", "DUL15"]
+    doses: ClassVar[dict[str, float]] = {
         "DUL15": 1.5,  # [mg]
         "LY05008": 1.5,  # [mg]
     }
-    colors = {
+    colors: ClassVar[dict[str, str]] = {
         "DUL15": "black",
         "LY05008": "tab:blue",
     }
-    bodyweights = {
-        "DUL15": 73.94,
-        "LY05008": 73.40,
+    # Table 1
+    bodyweights: ClassVar[dict[str, float]] = {
+        "DUL15": 73.94,  # [kg]
+        "LY05008": 73.40,  # [kg]
     }
-    hba1cs = {
-        "DUL15": 8.09,
-        "LY05008": 8.23,
+    heights: ClassVar[dict[str, float]] = {
+        "DUL15": 165.53,  # [cm]
+        "LY05008": 165.57,  # [cm]
     }
-    fpgs = {k: DulaglutideSimulationExperiment.apg_from_hba1c(v) for k, v in hba1cs.items()}  # [mM]
+    hba1cs: ClassVar[dict[str, float]] = {
+        "DUL15": 8.09,  # [%]
+        "LY05008": 8.23,  # [%]
+    }
+    # the FPG baselines are not reported, estimated from the HbA1c
+    fpgs: ClassVar[dict[str, float]] = {
+        k: DulaglutideSimulationExperiment.fpg_from_hba1c(v) for k, v in hba1cs.items()
+    }  # [mM]
+    # weekly doses on days 1 to 162, the end of treatment on day 169
+    weeks: ClassVar[int] = 24
 
-    info_pk = {
-        #sid: name
-        "[Cve_dul]": "dulaglutide",
+    # observable: dataset prefix
+    info_pk: ClassVar[dict[str, str]] = {
+        "[Cvep_dul]": "dulaglutide",  # Fig3
+    }
+    info_pd: ClassVar[dict[str, str]] = {
+        "[fpg]": "fpg",
+        "hba1c": "hba1c",
+        "BW": "bodyweight",
+        "fpg_change": "fpg_change",  # Tab6
+        "hba1c_change": "hba1c_change",  # Fig2, Tab2
+        "BW_change": "bodyweight_change",  # Tab6
+    }
+    # the changes of the figure
+    info_changes: ClassVar[dict[str, str]] = {
+        "fpg_change": "fpg_change",
+        "hba1c_change": "hba1c_change",
+        "BW_change": "bodyweight_change",
     }
 
-    info_pd = {
-        #sid: name
-        "hba1c_change": "hba1c_change", # Tab2
-    }
-
-    def datasets(self) -> Dict[str, DataSet]:
+    @override
+    def datasets(self) -> dict[str, DataSet]:
         dsets = {}
-        for fig_id in ["Fig3", "Tab2"]:
-            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+        for fig_id in ["Fig3", "Tab2", "Tab6"]:
+            df = self.load_dataframe(fig_id)
+            if fig_id == "Fig3":
+                # the pre-dose sample of day 1 is below the limit of
+                # quantification in all but 3 patients per arm
+                df = df[df["time"] > 0]
             for label, df_label in df.groupby("label"):
+                label = str(label)
                 dset = DataSet.from_df(df_label, self.ureg)
-                # unit conversion
                 if label.startswith("dulaglutide_"):
                     dset.unit_conversion("mean", 1 / self.Mr.dul)
-
                 dsets[label] = dset
 
-        # console.print(dsets)
-        # console.print(dsets.keys())
+        # the absolute series: the baseline of the arm and the change
+        baselines = {
+            "hba1c": (self.hba1cs, "percent"),
+            "fpg": (self.fpgs, "mM"),
+            "bodyweight": (self.bodyweights, "kg"),
+        }
+        for label in [k for k in dsets if "_change_" in k]:
+            name, intervention = label.split("_change_")
+            values, unit = baselines[name]
+            dset = dsets[label].copy()
+            dset["mean"] += Q(values[intervention], unit).to(dset.uinfo["mean"]).m
+            dsets[f"{name}_{intervention}"] = dset
+
         return dsets
 
-    def simulations(self) -> Dict[str, TimecourseSim]:
-        Q_ = self.Q_
-        tcsims = {}
+    @override
+    def simulations(self) -> dict[str, Simulation]:
+        simulations: dict[str, Simulation] = {}
+        week = 7 * 24  # [hr]
+        end = self.weeks * week + 24  # [hr]
         for intervention in self.interventions:
-            tc0 = Timecourse(
-                start = 0,
-                end = 168*60,
-                steps = 1000,
-                changes = {
+            dose = Q(self.doses[intervention], "mg")
+            simulations[f"dul_{intervention}"] = Simulation(
+                time_unit="hr",
+                end=end,
+                preinit_changes={
                     **self.default_changes(),
-                    #physiological changes
-                    "BW0": Q_(self.bodyweights[intervention], "kg"),
-                    "hba1c0": Q_(self.hba1cs[intervention], "percent"),
-                    "hba1c": Q_(self.hba1cs[intervention], "percent"),
-                    "fpg0": Q_(self.fpgs[intervention], "mM"),
-                    "[fpg]": Q_(self.fpgs[intervention], "mM"),
-
-                    #dose (SCDOSE)
-                    "SCDOSE_dul": Q_(self.doses[intervention], "mg")
-                },
-            )
-            tc1 = Timecourse(
-                start = 0,
-                end = 168*60, #[min]
-                steps = 1000,
-                changes = {
-                    "SCDOSE_dul": Q_(self.doses[intervention], "mg")
-                },
-            )
-            tcsims[f"dul_{intervention}"] = TimecourseSim(
-                [tc0] + [tc1 for _ in range(24)]
-            )
-
-        # console.print(tcsims.keys())
-        return tcsims
-
-    def fit_mappings(self) -> Dict[str, FitMapping]:
-
-        mappings = {}
-        # pharmacokinetics
-        for intervention in self.interventions:
-            for sid, name in self.info_pk.items():
-                mappings[f"fm_dul_{intervention}"] = FitMapping(
-                    self,
-                    reference = FitData(
-                        self,
-                        dataset=f"dulaglutide_{intervention}",
-                        xid="time",
-                        yid="mean",
-                        yid_sd="mean_sd",
-                        count="count",
+                    **self.baseline_changes(
+                        bodyweight=self.bodyweights[intervention],
+                        hba1c=self.hba1cs[intervention],
+                        fpg=Q(self.fpgs[intervention], "mM"),
                     ),
-                    observable = FitData(
-                        self, task = f"task_dul_{intervention}", xid = "time", yid = f"[Cve_dul]",
-                    ),
-                    metadata = DulaglutideMappingMetaData(
-                        tissue = Tissue.PLASMA,
-                        route = Route.SC,
-                        application_form = ApplicationForm.SOLUTION,
-                        dosing = Dosing.MULTIPLE,
-                        health = Health.HEALTHY,
-                        fasting = Fasting.NR,
-                        coadministration = Coadministration.METFORMIN
+                    "HEIGHT": Q(self.heights[intervention], "cm"),
+                    # dose in week 0
+                    "SCDOSE_dul": dose,
+                },
+                # weekly doses
+                changes=[
+                    self.add_doses(
+                        [k * week for k in range(1, self.weeks)], {"SCDOSE_dul": dose}
                     )
-                )
+                ],
+            )
 
-        #pharmacodynamics
-        for intervention in self.interventions:
-            for sid, name in self.info_pd.items():
-                mappings[f"fm_dul_{name}_{intervention}"] = FitMapping(
+        return simulations
+
+    @override
+    def fit_mappings(self) -> dict[str, FitMapping]:
+        mappings = {}
+        for sid, name in {**self.info_pk, **self.info_pd}.items():
+            for intervention in self.interventions:
+                mappings[f"fm_dul_{intervention}__{name}"] = FitMapping(
                     self,
                     reference=FitData(
                         self,
@@ -149,65 +163,43 @@ class Liu2025(DulaglutideSimulationExperiment):
                         count="count",
                     ),
                     observable=FitData(
-                        self, task=f"task_dul_{intervention}", xid="time", yid=sid,
+                        self,
+                        task=f"task_dul_{intervention}",
+                        xid="time",
+                        yid=sid,
                     ),
-                    metadata=DulaglutideMappingMetaData(
-                        tissue=Tissue.PLASMA,
+                    metadata=PKPDMappingMetaData(
+                        tissue=self.tissues[sid],
                         route=Route.SC,
                         application_form=ApplicationForm.SOLUTION,
                         dosing=Dosing.MULTIPLE,
                         health=Health.T2DM,
                         fasting=Fasting.NR,
-                        coadministration=Coadministration.NONE
-                    )
+                        # metformin 1.5-2.0 g/d in all patients
+                        coadministration=Coadministration.METFORMIN,
+                        data=PKPDData.PK if sid in self.info_pk else PKPDData.PD,
+                        data_type=DataType.MEAN,
+                    ),
                 )
-        
+
         return mappings
 
-    def figures(self) -> Dict[str, Figure]:
-        
-        #pharmacokinetics
+    @override
+    def figures(self) -> dict[str, Figure]:
+        # pharmacokinetics
         fig_pk = Figure(
             experiment=self,
-            sid="Fig2_pk",
+            sid="Fig3",
             name=f"{self.__class__.__name__} (T2DM)",
         )
-        plots = fig_pk.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        fig_pk.settings = {**fig_pk.settings, "legend_position": "outside"}
+        plots = fig_pk.create_plots(
+            xaxis=Axis(self.label_time, unit="day"), legend=True
+        )
         plots[0].set_yaxis(self.label_dul, unit=self.unit_dul)
 
         for intervention in self.interventions:
-            # simulation
-            plots[0].add_data(
-                task=f"task_dul_{intervention}",
-                xid="time",
-                yid=f"[Cve_dul]",
-                label=f"dul {intervention}",
-                color=self.colors[intervention],
-            )
-            # data
-            plots[0].add_data(
-                dataset=f"dulaglutide_{intervention}",
-                xid="time",
-                yid="mean",
-                yid_sd="mean_sd",
-                count="count",
-                label=intervention,
-                color=self.colors[intervention],
-            )
-
-        # pharmacodynamics
-        fig_pd = Figure(
-            experiment=self,
-            sid="Fig3_pd",
-            name=f"{self.__class__.__name__} (T2DM)",
-        )
-        plots = fig_pd.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
-        plots[0].set_yaxis(self.label_hba1c_change, unit=self.unit_hba1c)
-
-        for intervention in self.interventions:
-            for sid, name in self.info_pd.items():
-
-                # simulation
+            for sid, name in self.info_pk.items():
                 plots[0].add_data(
                     task=f"task_dul_{intervention}",
                     xid="time",
@@ -215,7 +207,6 @@ class Liu2025(DulaglutideSimulationExperiment):
                     label=intervention,
                     color=self.colors[intervention],
                 )
-                # data
                 plots[0].add_data(
                     dataset=f"{name}_{intervention}",
                     xid="time",
@@ -226,10 +217,44 @@ class Liu2025(DulaglutideSimulationExperiment):
                     color=self.colors[intervention],
                 )
 
-        return {
-            fig_pk.sid: fig_pk,
-            fig_pd.sid: fig_pd
-        }
+        # pharmacodynamics, the changes from baseline
+        fig_pd = Figure(
+            experiment=self,
+            sid="Fig2_Tab6",
+            num_rows=1,
+            num_cols=3,
+            name=f"{self.__class__.__name__} (T2DM)",
+        )
+        # one legend for the row of panels, which share their curves
+        fig_pd.settings = {**fig_pd.settings, "legend_scope": "row"}
+        plots = fig_pd.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+        plots[0].set_yaxis(self.label_fpg_change, unit=self.unit_fpg)
+        plots[1].set_yaxis(self.label_hba1c_change, unit=self.unit_hba1c)
+        plots[2].set_yaxis(self.label_bodyweight_change, unit=self.unit_bodyweight)
+
+        for intervention in self.interventions:
+            for kp, (sid, name) in enumerate(self.info_changes.items()):
+                plots[kp].add_data(
+                    task=f"task_dul_{intervention}",
+                    xid="time",
+                    yid=sid,
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+                plots[kp].add_data(
+                    dataset=f"{name}_{intervention}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=intervention,
+                    color=self.colors[intervention],
+                )
+
+        return self.figures_by_sid(fig_pk, fig_pd)
+
 
 if __name__ == "__main__":
-    run_experiments(Liu2025, output_dir=Liu2025.__name__)
+    MODEL.run_experiments(Liu2025, output_dir=Liu2025.__name__)

@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wysham2014	PLAC	141.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_ancova_PLAC	0.0	week	0.0									percent	percent	dimensionless
+Wysham2014	PLAC	141.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_ancova_PLAC	26.0	week	-0.46				0.969556447733063		0.0816513825040829			percent	percent	dimensionless

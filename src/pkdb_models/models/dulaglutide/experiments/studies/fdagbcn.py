@@ -1,156 +1,142 @@
-from typing import Dict
+"""Simulation experiment of the study FDAGBCN."""
 
-from sbmlsim.data import DataSet, load_pkdb_dataframe
-from sbmlsim.fit import FitMapping, FitData
-from sbmlutils.console import console
+from typing import ClassVar, override
 
+from pkpdsim.metadata import (
+    AdministrationSite,
+    ApplicationForm,
+    Coadministration,
+    Dosing,
+    Fasting,
+    Health,
+    PKPDMappingMetaData,
+    Route,
+    Tissue,
+)
+from sbmlsim import Q
+from sbmlsim.data import DataSet
+from sbmlsim.fit import FitData, FitMapping
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Simulation
+
+from pkdb_models.models.dulaglutide import MODEL
 from pkdb_models.models.dulaglutide.experiments.base_experiment import (
     DulaglutideSimulationExperiment,
 )
-from pkdb_models.models.dulaglutide.experiments.metadata import (
-    Tissue, Route, Dosing, ApplicationForm, Health,
-    Fasting, DulaglutideMappingMetaData, Coadministration, InjectionSite
-)
-
-from sbmlsim.plot import Axis, Figure
-from sbmlsim.simulation import Timecourse, TimecourseSim
-
-from pkdb_models.models.dulaglutide.helpers import run_experiments
 
 
 class FDAGBCN(DulaglutideSimulationExperiment):
-    """Simulation experiment of FDA_GBCN."""
+    """Simulation experiment of FDA_GBCN (FDA review of BLA 125469, Fig. 34).
 
-    groups = ["abdomen", "arm", "thigh"]
-    colors = {
+    A single dose of 1.5 mg dulaglutide SC into the abdomen, the upper arm and
+    the thigh of 45 healthy subjects in a crossover (29 M / 16 F, 84.5 kg, BMI
+    28.7). The model has no parameter of the injection site: the three sites
+    are the same simulation (relative bioavailability arm/abdomen 96.6 %,
+    thigh/abdomen 99.0 %, Cmax of the thigh 11 % lower, Tab. 11).
+    """
+
+    groups: ClassVar[list[str]] = ["abdomen", "arm", "thigh"]
+    colors: ClassVar[dict[str, str]] = {
         "abdomen": "tab:blue",
-        "arm":     "tab:red",
-        "thigh":   "tab:orange",
+        "arm": "tab:red",
+        "thigh": "tab:orange",
     }
-    bodyweights = {  # [kg]
-        "abdomen": 84.53,
-        "arm":     84.53,
-        "thigh":   84.53,
+    bodyweight: ClassVar[float] = 84.53  # [kg]
+    bmi: ClassVar[float] = 28.7  # [kg/m^2]
+    injection_sites: ClassVar[dict[str, AdministrationSite]] = {
+        "abdomen": AdministrationSite.ABDOMEN,
+        "arm": AdministrationSite.UPPER_ARM,
+        "thigh": AdministrationSite.THIGH,
     }
 
-    def datasets(self) -> Dict[str, DataSet]:
+    @override
+    def datasets(self) -> dict[str, DataSet]:
         dsets = {}
         for fig_id in ["Fig34"]:
-            # full_sid = f"{self.sid}_{fig_id}"
-            # console.print(f"[debug] Using sid={self.sid}, full_sid={full_sid}")
-            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            df = self.load_dataframe(fig_id)
             for label, df_label in df.groupby("label"):
+                label = str(label)
                 dset = DataSet.from_df(df_label, self.ureg)
                 # unit conversion
                 dset.unit_conversion("mean", 1 / self.Mr.dul)
 
                 dsets[label] = dset
 
-        # console.print(dsets)
-        # console.print(dsets.keys())
         return dsets
 
-    def simulations(self) -> Dict[str, TimecourseSim]:
-        Q_ = self.Q_
-        tcsims = {}
+    @override
+    def simulations(self) -> dict[str, Simulation]:
+        simulations: dict[str, Simulation] = {}
         for group in self.groups:
-            tcsims[f"dul_{group}"] = TimecourseSim(
-                [Timecourse(
-                    start=0,
-                    end=16 * 24 * 60,  # [min]
-                    steps=1000,
-                    changes={
-                        **self.default_changes(),
-
-                        # physiological changes
-                        "BW0": Q_(self.bodyweights[group], "kg"),
-                        "hba1c0": Q_(self.hba1c_healthy, "percent"),
-                        "hba1c": Q_(self.hba1c_healthy, "percent"),
-                        "fpg0": Q_(self.fpg_healthy, "mM"),
-                        "[fpg]": Q_(self.fpg_healthy, "mM"),
-
-                        # dose
-                        "SCDOSE_dul": Q_(1.5, "mg"),
-                    },
-                )]
+            simulations[f"dul_{group}"] = Simulation(
+                time_unit="hr",
+                end=16 * 24,
+                preinit_changes={
+                    **self.default_changes(),
+                    # healthy subjects, height from body weight and BMI
+                    **self.baseline_changes(self.bodyweight),
+                    "HEIGHT": Q(100 * (self.bodyweight / self.bmi) ** 0.5, "cm"),
+                    # dose
+                    "SCDOSE_dul": Q(1.5, "mg"),
+                },
             )
 
-        # console.print(tcsims.keys())
-        return tcsims
+        return simulations
 
-    def fit_mappings(self) -> Dict[str, FitMapping]:
-
+    @override
+    def fit_mappings(self) -> dict[str, FitMapping]:
         mappings = {}
         for group in self.groups:
-            if group == "DUL15SC":
-                mappings[f"fm_dul_{group}"] = FitMapping(
+            mappings[f"fm_dul_{group}"] = FitMapping(
+                self,
+                reference=FitData(
                     self,
-                    reference = FitData(
-                        self,
-                        dataset=f"dulaglutide_{group}",
-                        xid="time",
-                        yid="mean",
-                        yid_sd="mean_sd",
-                        count="count",
-                    ),
-                    observable = FitData(
-                        self, task = f"task_dul_{group}", xid="time", yid=f"[Cve_dul]",
-                    ),
-                    metadata = DulaglutideMappingMetaData(
-                        tissue = Tissue.PLASMA,
-                        route = Route.SC,
-                        application_form = ApplicationForm.SOLUTION,
-                        dosing = Dosing.SINGLE,
-                        health = Health.HEALTHY,
-                        fasting = Fasting.NR,
-                        coadministration = Coadministration.NONE
-                    )
-                )
-            else:
-                mappings[f"fm_dul_{group}"] = FitMapping(
+                    dataset=f"dulaglutide_{group}",
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                ),
+                observable=FitData(
                     self,
-                    reference = FitData(
-                        self,
-                        dataset=f"dulaglutide_{group}",
-                        xid="time",
-                        yid="mean",
-                        yid_sd="mean_sd",
-                        count="count",
-                    ),
-                    observable = FitData(
-                        self, task = f"task_dul_{group}", xid="time", yid=f"[Cve_dul]",
-                    ),
-                    metadata = DulaglutideMappingMetaData(
-                        tissue = Tissue.PLASMA,
-                        route = Route.IV,
-                        application_form = ApplicationForm.SOLUTION,
-                        dosing = Dosing.SINGLE,
-                        health = Health.HEALTHY,
-                        fasting = Fasting.NR,
-                        coadministration = Coadministration.NONE,
-                        injection_site = InjectionSite.ABDOMEN  # FIXME
-                    )
-                )
+                    task=f"task_dul_{group}",
+                    xid="time",
+                    yid="[Cvep_dul]",
+                ),
+                metadata=PKPDMappingMetaData(
+                    tissue=Tissue.PLASMA,
+                    route=Route.SC,
+                    application_form=ApplicationForm.SOLUTION,
+                    dosing=Dosing.SINGLE,
+                    health=Health.HEALTHY,
+                    fasting=Fasting.NR,
+                    coadministration=Coadministration.NONE,
+                    administration_site=self.injection_sites[group],
+                ),
+            )
         return mappings
 
-    def figures(self) -> Dict[str, Figure]:
+    @override
+    def figures(self) -> dict[str, Figure]:
         fig = Figure(
             experiment=self,
-            sid="Fig42",
-            name=f"{self.__class__.__name__}",
+            sid="Fig34",
+            name=self.__class__.__name__,
         )
-        plots = fig.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
         plots[0].set_yaxis(self.label_dul, unit=self.unit_dul)
 
+        # simulation: the sites are the same simulation
+        plots[0].add_data(
+            task="task_dul_abdomen",
+            xid="time",
+            yid="[Cvep_dul]",
+            label="all sites",
+            color="black",
+        )
         for group in self.groups:
-            # simulation
-            plots[0].add_data(
-                task=f"task_dul_{group}",
-                xid="time",
-                yid=f"[Cve_dul]",
-                label=group,
-                color=self.colors[group],
-            )
             # data
             plots[0].add_data(
                 dataset=f"dulaglutide_{group}",
@@ -162,10 +148,8 @@ class FDAGBCN(DulaglutideSimulationExperiment):
                 color=self.colors[group],
             )
 
-        return {
-            fig.sid: fig,
-        }
+        return self.figures_by_sid(fig)
 
 
 if __name__ == "__main__":
-    run_experiments(FDAGBCN, output_dir=FDAGBCN.__name__)
+    MODEL.run_experiments(FDAGBCN, output_dir=FDAGBCN.__name__)

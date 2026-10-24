@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Liu2025	LY05008	222.0	LY05008	weight change absolute			NR	bodyweight_change_LY05008	0.0	week	0.0							Table 6, LS mean change from baseline (SE), ANCOVA, FAS	kg	kg	dimensionless
+Liu2025	LY05008	222.0	LY05008	weight change absolute			NR	bodyweight_change_LY05008	12.0	week	-2.03				2.3839463081202146	0.16		Table 6, LS mean change from baseline (SE), ANCOVA, FAS	kg	kg	dimensionless
+Liu2025	LY05008	222.0	LY05008	weight change absolute			NR	bodyweight_change_LY05008	24.0	week	-2.66				2.979932885150268	0.2		Table 6, LS mean change from baseline (SE), ANCOVA, FAS	kg	kg	dimensionless

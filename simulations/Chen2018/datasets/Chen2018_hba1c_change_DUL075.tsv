@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Chen2018	DUL075	239.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	0.0	week	0.0									percent	percent	dimensionless
+Chen2018	DUL075	239.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	4.0	week	-0.675496688741722				0.5232785369264421		0.0338480747465745		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless
+Chen2018	DUL075	239.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	8.0	week	-1.05739514348785				0.7665125875380655		0.0495815775467699		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless
+Chen2018	DUL075	239.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	16.0	week	-1.23841059602649				0.9606045203734512		0.062136340998195		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless
+Chen2018	DUL075	239.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	26.0	week	-1.21633554083885				1.0439987081427484		0.06753066257237		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless

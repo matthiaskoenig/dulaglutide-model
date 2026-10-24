@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	MET	268.0	MET	hba1c (change)		plasma	NR	hba1c_change_MET	0.0	week	0.0									percent	percent	dimensionless
+Umpierrez2014	MET	268.0	MET	hba1c (change)		plasma	NR	hba1c_change_MET	4.0	week	-0.20659335438567				0.419760962093092		0.0256409817506906			percent	percent	dimensionless
+Umpierrez2014	MET	268.0	MET	hba1c (change)		plasma	NR	hba1c_change_MET	13.0	week	-0.39890103191396				0.809539406807952		0.0494504897571302			percent	percent	dimensionless
+Umpierrez2014	MET	268.0	MET	hba1c (change)		plasma	NR	hba1c_change_MET	26.0	week	-0.560073236592579				0.98943908611614		0.0604396116876096			percent	percent	dimensionless
+Umpierrez2014	MET	268.0	MET	hba1c (change)		plasma	NR	hba1c_change_MET	39.0	week	-0.52161165916717				0.989437942356338		0.0604395418213599			percent	percent	dimensionless
+Umpierrez2014	MET	268.0	MET	hba1c (change)		plasma	NR	hba1c_change_MET	52.0	week	-0.47948713425327				1.10937029938849		0.0677655765308396			percent	percent	dimensionless

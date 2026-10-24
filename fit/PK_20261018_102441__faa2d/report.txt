@@ -1,0 +1,602 @@
+--------------------------------------------------------------------------------
+OptimizationProblem: PK
+--------------------------------------------------------------------------------
+Experiments
+	*** FitMappingCollection ***
+experiment: Barrington2011
+mappings: ['fm_dul_DUL03', 'fm_dul_DUL1', 'fm_dul_DUL3', 'fm_dul_DUL6']
+weights: [6.0, 6.0, 4.0, 6.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Barrington2011
+mappings: ['fm_dul_DUL01', 'fm_dul_DUL12']
+weights: [6.0, 6.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Barrington2011a
+mappings: ['fm_dul_dulaglutide_DUL03', 'fm_dul_dulaglutide_DUL1', 'fm_dul_dulaglutide_DUL3', 'fm_dul_dulaglutide_DUL5', 'fm_dul_dulaglutide_DUL8']
+weights: [6.0, 5.0, 3.0, 9.0, 6.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Barrington2011a
+mappings: ['fm_dul_fpg_PLAC', 'fm_dul_hba1c_PLAC', 'fm_dul_bodyweight_PLAC', 'fm_dul_fpg_change_PLAC', 'fm_dul_hba1c_change_PLAC', 'fm_dul_bodyweight_change_PLAC', 'fm_dul_fpg_DUL005', 'fm_dul_hba1c_DUL005', 'fm_dul_bodyweight_DUL005', 'fm_dul_fpg_change_DUL005', 'fm_dul_hba1c_change_DUL005', 'fm_dul_bodyweight_change_DUL005', 'fm_dul_fpg_DUL03', 'fm_dul_hba1c_DUL03', 'fm_dul_bodyweight_DUL03', 'fm_dul_fpg_change_DUL03', 'fm_dul_hba1c_change_DUL03', 'fm_dul_bodyweight_change_DUL03', 'fm_dul_fpg_DUL1', 'fm_dul_hba1c_DUL1', 'fm_dul_bodyweight_DUL1', 'fm_dul_fpg_change_DUL1', 'fm_dul_hba1c_change_DUL1', 'fm_dul_bodyweight_change_DUL1', 'fm_dul_fpg_DUL3', 'fm_dul_hba1c_DUL3', 'fm_dul_bodyweight_DUL3', 'fm_dul_fpg_change_DUL3', 'fm_dul_hba1c_change_DUL3', 'fm_dul_bodyweight_change_DUL3', 'fm_dul_fpg_DUL5', 'fm_dul_hba1c_DUL5', 'fm_dul_bodyweight_DUL5', 'fm_dul_fpg_change_DUL5', 'fm_dul_hba1c_change_DUL5', 'fm_dul_bodyweight_change_DUL5', 'fm_dul_fpg_DUL8', 'fm_dul_hba1c_DUL8', 'fm_dul_bodyweight_DUL8', 'fm_dul_fpg_change_DUL8', 'fm_dul_hba1c_change_DUL8', 'fm_dul_bodyweight_change_DUL8']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Blonde2015
+mappings: ['fm_dul_hba1c_DUL075', 'fm_dul_hba1c_DUL15', 'fm_dul_bodyweight_DUL075', 'fm_dul_bodyweight_DUL15', 'fm_dul_hba1c_change_DUL075', 'fm_dul_hba1c_change_DUL15', 'fm_dul_bodyweight_change_DUL075', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Chen2018
+mappings: ['fm_dul_hba1c_DUL075', 'fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL075', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL075', 'fm_dul_bodyweight_DUL15', 'fm_dul_hba1c_change_DUL075', 'fm_dul_hba1c_change_DUL15', 'fm_dul_fpg_change_DUL075', 'fm_dul_fpg_change_DUL15', 'fm_dul_bodyweight_change_DUL075', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Dungan2014
+mappings: ['fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL15', 'fm_dul_hba1c_change_DUL15', 'fm_dul_fpg_change_DUL15', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Dungan2016
+mappings: ['fm_dul_hba1c_PLAC', 'fm_dul_fpg_PLAC', 'fm_dul_bodyweight_PLAC', 'fm_dul_hba1c_change_PLAC', 'fm_dul_fpg_change_PLAC', 'fm_dul_bodyweight_change_PLAC', 'fm_dul_hba1c_DUL15', 'fm_dul_fpg_DUL15', 'fm_dul_bodyweight_DUL15', 'fm_dul_hba1c_change_DUL15', 'fm_dul_fpg_change_DUL15', 'fm_dul_bodyweight_change_DUL15']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBCM
+mappings: ['fm_dul_control']
+weights: [16.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBCM
+mappings: ['fm_dul_mildR', 'fm_dul_modR', 'fm_dul_sevR', 'fm_dul_ESR']
+weights: [8.0, 8.0, 8.0, 8.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBCN
+mappings: ['fm_dul_abdomen', 'fm_dul_arm', 'fm_dul_thigh']
+weights: [43.0, 40.0, 44.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBDO
+mappings: ['fm_dul_control']
+weights: [11.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBDO
+mappings: ['fm_dul_mildH', 'fm_dul_modH', 'fm_dul_sevH']
+weights: [6.0, 6.0, 3.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBDR
+mappings: ['fm_dul_DUL01IV', 'fm_dul_DUL15SC', 'fm_dul_DUL075SC']
+weights: [22.0, 16.0, 8.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: FDAGBDR
+mappings: ['fm_dul_DUL075IM']
+weights: [7.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Gao2024
+mappings: ['fm_dul_HEC14028', 'fm_dul_DUL075']
+weights: [35.0, 33.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Gerstein2019
+mappings: ['fm_dul_PLAC__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL15__bodyweight']
+weights: [None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Giorgino2015
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Grunberger2012
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL01__fpg', 'fm_dul_DUL05__fpg', 'fm_dul_DUL10__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_PLAC__fpg_change', 'fm_dul_DUL01__fpg_change', 'fm_dul_DUL05__fpg_change', 'fm_dul_DUL10__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL01__hba1c', 'fm_dul_DUL05__hba1c', 'fm_dul_DUL10__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL01__hba1c_change', 'fm_dul_DUL05__hba1c_change', 'fm_dul_DUL10__hba1c_change', 'fm_dul_DUL15__hba1c_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Liu2025
+mappings: ['fm_dul_LY05008__dulaglutide', 'fm_dul_DUL15__dulaglutide']
+weights: [222.0, 218.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Liu2025
+mappings: ['fm_dul_LY05008__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_LY05008__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_LY05008__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_LY05008__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_LY05008__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_LY05008__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Morioka2024
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Nauck2014
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_PLAC__fpg_change', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Pratley2018
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Terauchi2014
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL025__fpg', 'fm_dul_DUL05__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL025__hba1c', 'fm_dul_DUL05__hba1c', 'fm_dul_DUL075__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL025__bodyweight', 'fm_dul_DUL05__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_PLAC__fpg_change', 'fm_dul_DUL025__fpg_change', 'fm_dul_DUL05__fpg_change', 'fm_dul_DUL075__fpg_change', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL025__hba1c_change', 'fm_dul_DUL05__hba1c_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL025__bodyweight_change', 'fm_dul_DUL05__bodyweight_change', 'fm_dul_DUL075__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Umpierrez2011
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL0510__fpg', 'fm_dul_DUL1010__fpg', 'fm_dul_DUL1020__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL0510__hba1c', 'fm_dul_DUL1010__hba1c', 'fm_dul_DUL1020__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL0510__bodyweight', 'fm_dul_DUL1010__bodyweight', 'fm_dul_DUL1020__bodyweight', 'fm_dul_PLAC__fpg_change', 'fm_dul_DUL0510__fpg_change', 'fm_dul_DUL1010__fpg_change', 'fm_dul_DUL1020__fpg_change', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL0510__hba1c_change', 'fm_dul_DUL1010__hba1c_change', 'fm_dul_DUL1020__hba1c_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL0510__bodyweight_change', 'fm_dul_DUL1010__bodyweight_change', 'fm_dul_DUL1020__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Umpierrez2014
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Wang2019
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Weinstock2015
+mappings: ['fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change', 'fm_dul_DUL075__fpg_ext', 'fm_dul_DUL15__fpg_ext', 'fm_dul_DUL075__hba1c_ext', 'fm_dul_DUL15__hba1c_ext', 'fm_dul_DUL075__bodyweight_ext', 'fm_dul_DUL15__bodyweight_ext']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Wysham2014
+mappings: ['fm_dul_PLAC__fpg', 'fm_dul_DUL075__fpg', 'fm_dul_DUL15__fpg', 'fm_dul_PLAC__hba1c', 'fm_dul_DUL075__hba1c', 'fm_dul_DUL15__hba1c', 'fm_dul_PLAC__bodyweight', 'fm_dul_DUL075__bodyweight', 'fm_dul_DUL15__bodyweight', 'fm_dul_PLAC__fpg_change', 'fm_dul_DUL075__fpg_change', 'fm_dul_DUL15__fpg_change', 'fm_dul_PLAC__hba1c_change', 'fm_dul_DUL075__hba1c_change', 'fm_dul_DUL15__hba1c_change', 'fm_dul_PLAC__bodyweight_change', 'fm_dul_DUL075__bodyweight_change', 'fm_dul_DUL15__bodyweight_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Xu2022
+mappings: ['fm_dul_DUL05S', 'fm_dul_DUL075S', 'fm_dul_DUL15S']
+weights: [10.0, 11.0, 11.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Xu2022
+mappings: ['fm_dul_DUL05M', 'fm_dul_DUL075M', 'fm_dul_DUL15M']
+weights: [11.0, 11.0, 10.0]
+use_mapping_weights: True
+kind: validation
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Xu2022
+mappings: ['fm_dul_DULPLAM__fpg', 'fm_dul_DULPLAM__hba1c', 'fm_dul_DULPLAM__fpg_change', 'fm_dul_DULPLAM__hba1c_change', 'fm_dul_DUL05M__fpg', 'fm_dul_DUL05M__hba1c', 'fm_dul_DUL05M__fpg_change', 'fm_dul_DUL05M__hba1c_change', 'fm_dul_DUL075M__fpg', 'fm_dul_DUL075M__hba1c', 'fm_dul_DUL075M__fpg_change', 'fm_dul_DUL075M__hba1c_change', 'fm_dul_DUL15M__fpg', 'fm_dul_DUL15M__hba1c', 'fm_dul_DUL15M__fpg_change', 'fm_dul_DUL15M__hba1c_change']
+weights: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+use_mapping_weights: True
+kind: excluded
+fit_parameters: {}
+	*** FitMappingCollection ***
+experiment: Zhang2023
+mappings: ['fm_dul_DULP', 'fm_dul_DULF']
+weights: [12.0, 41.0]
+use_mapping_weights: True
+kind: training
+fit_parameters: {}
+Parameters
+	FitParameter<DULCAT_k = 0.00155 [0.0002 - 0.01]>
+	FitParameter<Kp_dul = 0.1 [0.005 - 0.5]>
+	FitParameter<ftissue_dul = 0.02 [0.001 - 1.0]>
+	FitParameter<Ksc_dul = 0.0004 [2e-05 - 0.01]>
+	FitParameter<Fsc_dul = 0.47 [0.2 - 1.0]>
+FitSettings:
+	residual: NORMALIZED
+	parameter_scale: LOG10
+	loss_function: LINEAR
+	weighting_curves: ['MAPPING', 'POINTS']
+	weighting_points: ERROR_WEIGHTING
+	variable_step_size: True
+	relative_tolerance: 1e-06
+	absolute_tolerance: {'amount': 1e-06, 'concentration': 1e-06, 'other': 1e-06, 'ids': {'Acat_dul': 1e-14, 'Asc_deg_dul': 1e-14, 'Cad_dul': 1e-14, 'Cad_plasma_dul': 1e-14, 'Car_dul': 1e-14, 'Cgu_dul': 1e-14, 'Cgu_plasma_dul': 1e-14, 'Chv_dul': 1e-14, 'Cki_dul': 1e-14, 'Cki_plasma_dul': 1e-14, 'Cli_dul': 1e-14, 'Cli_plasma_dul': 1e-14, 'Clu_dul': 1e-14, 'Clu_plasma_dul': 1e-14, 'Cpo_dul': 1e-14, 'Cre_dul': 1e-14, 'Cre_plasma_dul': 1e-14, 'Cve_dul': 1e-14}}
+	initial_time_step: 0.0
+	data_at_change: before
+Mappings: 39 (17 training, 22 validation)
+Data
+	experiment_keys: ['Barrington2011', 'Barrington2011', 'Barrington2011', 'Barrington2011', 'Barrington2011', 'Barrington2011', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'Barrington2011a', 'FDAGBCM', 'FDAGBCM', 'FDAGBCM', 'FDAGBCM', 'FDAGBCM', 'FDAGBCN', 'FDAGBCN', 'FDAGBCN', 'FDAGBDO', 'FDAGBDO', 'FDAGBDO', 'FDAGBDO', 'FDAGBDR', 'FDAGBDR', 'FDAGBDR', 'FDAGBDR', 'Gao2024', 'Gao2024', 'Liu2025', 'Liu2025', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022', 'Xu2022', 'Zhang2023', 'Zhang2023']
+	mapping_keys: ['fm_dul_DUL03', 'fm_dul_DUL1', 'fm_dul_DUL3', 'fm_dul_DUL6', 'fm_dul_DUL01', 'fm_dul_DUL12', 'fm_dul_dulaglutide_DUL03', 'fm_dul_dulaglutide_DUL1', 'fm_dul_dulaglutide_DUL3', 'fm_dul_dulaglutide_DUL5', 'fm_dul_dulaglutide_DUL8', 'fm_dul_control', 'fm_dul_mildR', 'fm_dul_modR', 'fm_dul_sevR', 'fm_dul_ESR', 'fm_dul_abdomen', 'fm_dul_arm', 'fm_dul_thigh', 'fm_dul_control', 'fm_dul_mildH', 'fm_dul_modH', 'fm_dul_sevH', 'fm_dul_DUL01IV', 'fm_dul_DUL15SC', 'fm_dul_DUL075SC', 'fm_dul_DUL075IM', 'fm_dul_HEC14028', 'fm_dul_DUL075', 'fm_dul_LY05008__dulaglutide', 'fm_dul_DUL15__dulaglutide', 'fm_dul_DUL05S', 'fm_dul_DUL075S', 'fm_dul_DUL15S', 'fm_dul_DUL05M', 'fm_dul_DUL075M', 'fm_dul_DUL15M', 'fm_dul_DULP', 'fm_dul_DULF']
+	xid_observable: ['time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time', 'time']
+	yid_observable: ['[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]', '[Cvep_dul]']
+	x_references: [array([  480.,   720.,  1440.,  2880.,  4320.,  5760., 10080.]), array([  480.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([  480.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([   60.,   480.,   720.,  1440.,  2880.,  4320.,  5760., 10080.,
+       20160.]), array([ 720., 1440., 2880., 4320., 5760.]), array([   60.,   480.,   720.,  1440.,  2880.,  4320.,  5760., 10080.,
+       20160.]), array([    0.,   720.,  1440.,  2880.,  4320., 10080., 20160., 30240.,
+       40320., 41760., 43200., 44640., 48960., 50400.]), array([    0.,   720.,  1440.,  2880.,  4320., 10080., 20160., 30240.,
+       40320., 41760., 43200., 44640., 48960., 50400.]), array([    0.,   720.,  1440.,  2880.,  4320., 10080., 20160., 30240.,
+       40320., 41760., 43200., 44640., 48960., 50400.]), array([    0.,   720.,  1440.,  2880.,  4320., 10080., 20160., 30240.,
+       40320., 41760., 43200., 44640., 48960., 50400.]), array([    0.,   720.,  1440.,  2880.,  4320., 10080., 20160., 30240.,
+       40320., 41760., 43200., 44640., 48960., 50400.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   480.,   720.,  1440.,  2160.,  2880.,  4320.,  7200.,
+       10080., 20160.]), array([    0.,   480.,   720.,  1440.,  2160.,  2880.,  4320.,  7200.,
+       10080., 20160.]), array([    0.,   480.,   720.,  1440.,  2160.,  2880.,  4320.,  7200.,
+       10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 20160.]), array([   0.,   30.,   60.,  120.,  240.,  480.,  720., 1440., 2160.,
+       2880., 4320., 7200.]), array([    0.,    60.,   120.,   240.,   480.,   720.,  1440.,  2160.,
+        2880.,  4320.,  7200., 10080., 20160.]), array([    0.,   120.,   240.,   480.,   720.,  1440.,  2160.,  2880.,
+        4320.,  7200., 10080., 20160.]), array([    0.,   120.,   240.,   480.,   720.,  1440.,  2160.,  2880.,
+        4320.,  7200., 10080.]), array([    0.,   120.,   240.,   480.,   720.,  1440.,  2160.,  2880.,
+        3600.,  4320.,  5760.,  7200.,  8640., 10080., 14400., 17280.]), array([    0.,   120.,   240.,   480.,   720.,  1440.,  2160.,  2880.,
+        3600.,  4320.,  5760.,  7200.,  8640., 10080., 14400., 17280.]), array([ 40320.,  80640., 120960., 161280., 201600., 241920.]), array([ 40320.,  80640., 120960., 161280., 201600., 241920.]), array([   0.,  720., 1440., 2880., 4320., 5760.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080.]), array([    0.,  1440.,  2880.,  4320.,  5760., 31680., 32400., 33120.,
+       34560., 36000.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 30240.,
+       31680., 32400., 33120., 34560., 36000., 37440.]), array([    0.,   720.,  1440.,  2880.,  4320.,  5760., 10080., 30240.,
+       31680., 32400., 33120., 34560., 36000., 37440.]), array([    0.,   240.,   720.,  1440.,  2160.,  2880.,  3600.,  4320.,
+        5760.,  7200., 10080., 12960., 17280.]), array([    0.,   240.,   720.,  1440.,  2160.,  2880.,  3600.,  4320.,
+        5760.,  7200., 10080., 12960., 17280., 21600.])]
+	y_references: [array([2.41903671e-07, 3.20218860e-07, 4.19507849e-07, 4.23888376e-07,
+       3.51599655e-07, 2.91638848e-07, 1.80853428e-07]), array([5.78881605e-07, 7.42780346e-07, 1.00389325e-06, 9.43234753e-07,
+       9.73091634e-07, 7.98802486e-07, 4.28314495e-07, 1.56375510e-07]), array([1.55296352e-06, 1.95168345e-06, 2.72126165e-06, 2.98793870e-06,
+       2.50426356e-06, 1.97206236e-06, 1.01437561e-06, 2.94684056e-07]), array([3.07186304e-07, 4.20962947e-06, 5.02268189e-06, 5.40150275e-06,
+       5.45790367e-06, 4.03830217e-06, 4.08046895e-06, 1.93151513e-06,
+       4.90240700e-07]), array([1.82741784e-07, 2.00650106e-07, 1.92483867e-07, 1.63009831e-07,
+       1.36622474e-07]), array([5.61120267e-07, 6.24701478e-06, 7.30031592e-06, 9.46506606e-06,
+       9.56389752e-06, 7.76979067e-06, 6.64875297e-06, 3.71628099e-06,
+       8.77083500e-07]), array([0.00000000e+00, 1.71262303e-07, 2.27012498e-07, 2.53402570e-07,
+       2.06185847e-07, 1.14954925e-07, 1.52375649e-07, 1.54484780e-07,
+       1.57703378e-07, 3.42889589e-07, 3.11432105e-07, 2.71432515e-07,
+       1.67767056e-07, 1.49265785e-07]), array([0.00000000e+00, 2.53402570e-07, 4.70400433e-07, 5.78122775e-07,
+       5.94237891e-07, 3.22321005e-07, 4.27244810e-07, 4.60800155e-07,
+       4.39154217e-07, 8.20840583e-07, 8.85308514e-07, 8.20840583e-07,
+       5.10844473e-07, 3.80128456e-07]), array([0.00000000e+00, 1.17349874e-06, 1.39350832e-06, 1.82191210e-06,
+       1.91171426e-06, 7.61067189e-07, 9.41803566e-07, 7.05646479e-07,
+       7.76923389e-07, 2.86775698e-06, 3.15742732e-06, 2.78998638e-06,
+       2.78998638e-06, 1.72443487e-06]), array([0.00000000e+00, 1.31895185e-06, 1.99220200e-06, 2.31742140e-06,
+       2.46530527e-06, 1.57703323e-06, 1.93817555e-06, 1.99220200e-06,
+       1.82191210e-06, 3.31305710e-06, 3.47635788e-06, 3.96132819e-06,
+       2.60466172e-06, 2.11933232e-06]), array([0.00000000e+00, 2.33340476e-06, 3.33590740e-06, 4.09983381e-06,
+       4.33158435e-06, 2.77087553e-06, 3.57326102e-06, 4.07175077e-06,
+       3.31305710e-06, 4.96990786e-06, 5.62444490e-06, 4.93586441e-06,
+       3.80128500e-06, 3.11431997e-06]), array([0.00000000e+00, 7.56850972e-07, 1.07123515e-06, 1.26918065e-06,
+       1.19349566e-06, 1.06541304e-06, 6.98631503e-07, 2.15411558e-07]), array([0.00000000e+00, 7.55777216e-07, 1.08413434e-06, 1.32166916e-06,
+       1.37755936e-06, 1.25879222e-06, 8.60571942e-07, 3.08653481e-07]), array([0.00000000e+00, 8.60571942e-07, 1.23783306e-06, 1.55221724e-06,
+       1.46838167e-06, 1.34961399e-06, 8.18654158e-07, 3.01666740e-07]), array([0.00000000e+00, 5.88106082e-07, 1.04920277e-06, 1.36358694e-06,
+       1.30769621e-06, 1.21687443e-06, 7.34818591e-07, 2.24817381e-07]), array([0.00000000e+00, 6.50982491e-07, 1.05618898e-06, 1.34961399e-06,
+       1.32166916e-06, 1.20988769e-06, 7.55777216e-07, 2.59748956e-07]), array([0.00000000e+00, 5.82438503e-07, 7.58268789e-07, 1.12091923e-06,
+       1.22531843e-06, 1.30224434e-06, 1.19784492e-06, 9.06625777e-07,
+       6.53869583e-07, 2.08798622e-07]), array([0.00000000e+00, 6.20901248e-07, 8.02226571e-07, 1.07146683e-06,
+       1.17586624e-06, 1.26378139e-06, 1.15938218e-06, 8.84647096e-07,
+       6.42880138e-07, 2.08798622e-07]), array([0.00000000e+00, 4.56060197e-07, 6.31890693e-07, 9.12120604e-07,
+       1.01102519e-06, 1.10992978e-06, 1.12091923e-06, 8.79152268e-07,
+       6.53869583e-07, 2.08798622e-07]), array([0.00000000e+00, 8.94434737e-07, 1.15268696e-06, 1.39519217e-06,
+       1.28732456e-06, 1.13693987e-06, 6.51929602e-07, 2.42505256e-07]), array([0.00000000e+00, 5.09549601e-07, 8.81968302e-07, 1.08261243e-06,
+       1.04508183e-06, 9.38264167e-07, 5.19654050e-07, 1.53009304e-07]), array([0.00000000e+00, 5.09549711e-07, 7.83811348e-07, 9.97446900e-07,
+       9.13724943e-07, 8.63203032e-07, 5.12436579e-07, 1.38574527e-07]), array([0.00000000e+00, 3.92627487e-07, 7.15967628e-07, 9.70020753e-07,
+       1.04219502e-06, 9.20942413e-07, 5.65845467e-07, 1.87652922e-07]), array([0.00000000e+00, 3.04469726e-07, 5.93325268e-07, 5.93325268e-07,
+       5.14496397e-07, 4.79302832e-07, 3.98022457e-07, 2.62275851e-07,
+       2.04457852e-07, 1.87699011e-07, 1.57533099e-07, 1.12619407e-07]), array([0.00000000e+00, 5.94938830e-08, 1.57533099e-07, 3.27890405e-07,
+       6.01132360e-07, 7.80691299e-07, 1.12419559e-06, 1.26471996e-06,
+       1.31156132e-06, 1.17103695e-06, 8.58760429e-07, 6.08939154e-07,
+       1.95172825e-07]), array([0.00000000e+00, 1.06435055e-07, 2.29675590e-07, 4.25740008e-07,
+       5.88193255e-07, 7.39442992e-07, 7.84257674e-07, 8.85090974e-07,
+       7.61850440e-07, 5.82591500e-07, 4.25740008e-07, 1.84860908e-07]), array([0.00000000e+00, 2.80092026e-08, 1.51249737e-07, 3.97730806e-07,
+       6.10600703e-07, 8.12266876e-07, 8.62683527e-07, 9.35507411e-07,
+       8.34674324e-07, 5.54582298e-07, 3.92128837e-07]), array([0.00000000e+00, 8.47573507e-08, 2.09325011e-07, 4.21218388e-07,
+       5.88164665e-07, 8.93804789e-07, 9.47741285e-07, 9.42604496e-07,
+       8.43720900e-07, 7.92352828e-07, 5.94585696e-07, 4.46902395e-07,
+       3.35176796e-07, 2.46566838e-07, 1.00167778e-07, 5.65048613e-08]), array([0.00000000e+00, 9.02270564e-08, 2.40605484e-07, 4.58152942e-07,
+       6.03518755e-07, 8.44124239e-07, 8.61167127e-07, 8.41116670e-07,
+       7.48884568e-07, 7.07781131e-07, 5.35347201e-07, 4.04016708e-07,
+       3.07774515e-07, 2.42610529e-07, 1.05264899e-07, 6.31589395e-08]), array([6.64672736e-07, 6.81715580e-07, 7.78291987e-07, 7.32844330e-07,
+       7.78291987e-07, 7.89653955e-07]), array([7.26331497e-07, 8.09261872e-07, 8.21701526e-07, 8.21701526e-07,
+       8.00968862e-07, 8.46580555e-07]), array([0.00000000e+00, 3.82584040e-07, 4.88626217e-07, 4.78230015e-07,
+       3.76346208e-07, 3.07730608e-07]), array([0.00000000e+00, 5.44766291e-07, 7.00710849e-07, 7.31899733e-07,
+       6.00906366e-07, 4.71992183e-07, 2.55749042e-07]), array([0.00000000e+00, 1.08745333e-06, 1.32240976e-06, 1.34320237e-06,
+       1.11032519e-06, 8.67051679e-07, 4.74071507e-07]), array([0.00000000e+00, 2.95555020e-07, 3.49802487e-07, 3.16131637e-07,
+       2.78719595e-07, 3.45157324e-07, 4.22089941e-07, 4.42882484e-07,
+       3.78425392e-07, 3.16047625e-07]), array([0.00000000e+00, 3.03037529e-07, 4.62038614e-07, 5.25638997e-07,
+       4.78874039e-07, 4.28367763e-07, 2.67496020e-07, 3.45157324e-07,
+       5.30211442e-07, 6.77838983e-07, 6.90314508e-07, 6.25857417e-07,
+       5.40607783e-07, 3.20206133e-07]), array([0.00000000e+00, 4.71992183e-07, 7.19424208e-07, 8.52496829e-07,
+       8.50417575e-07, 7.46454583e-07, 4.61595842e-07, 6.15461215e-07,
+       8.69130933e-07, 1.09161184e-06, 1.15191035e-06, 1.07913624e-06,
+       9.48142874e-07, 5.75955175e-07]), array([0.00000000e+00, 2.77638107e-07, 6.50429219e-07, 9.12425742e-07,
+       9.21550039e-07, 9.03301505e-07, 8.36824775e-07, 7.92506976e-07,
+       6.06111419e-07, 4.90102989e-07, 3.06314383e-07, 1.90306012e-07,
+       1.04277303e-07]), array([0.00000000e+00, 2.72475032e-07, 6.68436145e-07, 8.53665421e-07,
+       8.73799038e-07, 9.39568833e-07, 7.73130953e-07, 8.37558527e-07,
+       6.93938706e-07, 5.30185329e-07, 3.55693941e-07, 2.05362893e-07,
+       1.12748255e-07, 8.45611913e-08])]
+	y_errors: [None, None, None, None, None, None, None, None, None, None, None, array([3.68062389e-07, 2.19486782e-07, 3.10658193e-07, 3.68062389e-07,
+       3.46113742e-07, 3.08969782e-07, 2.02603136e-07, 6.24693517e-08]), array([2.06633904e-07, 1.13366582e-07, 1.62620151e-07, 1.98250374e-07,
+       2.06633904e-07, 1.88818833e-07, 1.29085791e-07, 4.62980222e-08]), array([4.03576481e-07, 2.23748705e-07, 3.21836596e-07, 4.03576481e-07,
+       3.81779234e-07, 3.50899638e-07, 2.12850081e-07, 7.84333523e-08]), array([2.72717389e-07, 1.17621216e-07, 2.09840553e-07, 2.72717389e-07,
+       2.61539242e-07, 2.43374887e-07, 1.46963718e-07, 4.49634762e-08]), array([1.75449819e-07, 8.46277238e-08, 1.37304567e-07, 1.75449819e-07,
+       1.71816991e-07, 1.57285400e-07, 9.82510381e-08, 3.37673643e-08]), array([4.45070962e-07, 3.90123735e-07, 4.45070962e-07, 4.22569130e-07,
+       4.42185353e-07, 3.75315904e-07, 3.00395509e-07, 2.47219708e-07,
+       1.37367542e-07, 8.79153526e-08]), array([3.95618353e-07, 3.46166373e-07, 3.95618353e-07, 3.18692655e-07,
+       3.35176718e-07, 3.40671546e-07, 2.96713765e-07, 2.47261575e-07,
+       1.48356987e-07, 7.69259073e-08]), array([3.90123945e-07, 2.85724529e-07, 3.90123945e-07, 3.29682101e-07,
+       3.13198037e-07, 3.13198037e-07, 2.58251021e-07, 2.08798622e-07,
+       1.37367542e-07, 7.69259073e-08]), array([4.82458782e-07, 3.83025046e-07, 4.52318847e-07, 4.82458782e-07,
+       2.69888732e-07, 3.02266350e-07, 1.77118735e-07, 5.38092144e-08]), array([3.52914406e-07, 1.86434086e-07, 3.02681633e-07, 3.52914406e-07,
+       2.44087778e-07, 2.22884274e-07, 1.46776094e-07, 3.31687064e-08]), array([3.16824055e-07, 3.16824055e-07, 2.77730134e-07, 2.96320144e-07,
+       1.90125981e-07, 1.54316442e-07, 7.35751803e-08, 2.94979940e-08]), array([1.94886289e-07, 1.34824662e-07, 1.55011467e-07, 1.73001386e-07,
+       1.94886289e-07, 1.73506411e-07, 5.63513042e-08, 2.17961134e-08]), array([1.48331466e-07, 1.48331466e-07, 1.32717283e-07, 1.32717283e-07,
+       9.36830155e-08, 1.40524374e-07, 1.48331466e-07, 5.46484505e-08,
+       4.68413588e-08, 5.46484505e-08, 3.12277711e-08, 3.12274733e-08]), array([6.16746246e-07, 1.32717580e-07, 3.20083611e-07, 4.52800894e-07,
+       5.30870024e-07, 6.16746246e-07, 5.38676818e-07, 4.91835459e-07,
+       4.13766329e-07, 2.81048749e-07, 1.63945054e-07, 1.24910787e-07,
+       9.36830155e-08]), array([2.46481069e-07, 2.46481069e-07, 1.62453461e-07, 2.46481069e-07,
+       2.40879100e-07, 1.90462450e-07, 1.68055216e-07, 1.79258940e-07,
+       2.12869897e-07, 1.62453461e-07, 1.90462663e-07, 7.28240978e-08]), array([3.47314155e-07, 5.60184053e-08, 1.28842289e-07, 2.29675376e-07,
+       3.08101229e-07, 2.96897719e-07, 3.47314155e-07, 3.41712400e-07,
+       2.52082824e-07, 1.84860695e-07, 2.01666387e-07]), array([1.59546480e-07, 4.55846590e-08, 9.87662974e-08, 1.21558627e-07,
+       1.51948979e-07, 1.51948979e-07, 1.59546480e-07, 1.36753977e-07,
+       1.29156650e-07, 1.36753977e-07, 1.21558975e-07, 9.11693180e-08,
+       6.83769885e-08, 3.79869840e-08, 4.55846590e-08, 3.03900045e-08]), array([2.41398969e-07, 6.60973368e-08, 1.12078093e-07, 1.63806443e-07,
+       2.04039605e-07, 2.35651375e-07, 2.41398969e-07, 2.09787199e-07,
+       1.89670619e-07, 1.69554038e-07, 1.43689863e-07, 1.29320876e-07,
+       1.26447079e-07, 1.32194674e-07, 9.19615120e-08, 7.47187285e-08]), array([3.20974363e-07, 3.26655347e-07, 3.15293379e-07, 3.15293487e-07,
+       3.57900598e-07, 3.69262567e-07]), array([3.21355169e-07, 3.62820357e-07, 3.40014372e-07, 3.46234198e-07,
+       3.66966862e-07, 4.00138970e-07]), array([2.24560158e-07, 1.55944418e-07, 2.24560158e-07, 1.28914043e-07,
+       9.35666511e-08, 8.73289581e-08]), array([1.24755674e-07, 1.24755674e-07, 1.24755605e-07, 8.10911953e-08,
+       9.77251596e-08, 7.90119411e-08, 4.15852248e-08]), array([3.55553543e-07, 3.22285353e-07, 3.55553543e-07, 2.28718632e-07,
+       1.66340829e-07, 9.14874666e-08, 5.61399348e-08]), array([1.58023743e-07, 6.73417010e-08, 5.79886590e-08, 5.05062757e-08,
+       2.61884672e-08, 1.58023743e-07, 1.30993367e-07, 9.35667907e-08,
+       6.44570915e-08, 4.99022418e-08]), array([1.42165660e-07, 1.42165660e-07, 1.23459701e-07, 1.08494935e-07,
+       1.15977318e-07, 1.10365468e-07, 7.29534257e-08, 7.06947844e-08,
+       8.73289581e-08, 1.20597096e-07, 1.26834929e-07, 1.35152015e-07,
+       1.06042316e-07, 7.06949240e-08]), array([3.01492775e-07, 2.78620908e-07, 3.01492775e-07, 2.53669787e-07,
+       1.74657916e-07, 1.30993437e-07, 7.90119411e-08, 1.10200685e-07,
+       1.95450529e-07, 2.68224567e-07, 2.20401650e-07, 1.74657916e-07,
+       1.47627471e-07, 1.01883808e-07]), array([2.35927227e-07, 1.63584874e-07, 2.28106436e-07, 2.35927227e-07,
+       2.06599258e-07, 1.74012616e-07, 1.62281429e-07, 1.57067587e-07,
+       1.04277243e-07, 9.45012534e-08, 8.40735112e-08, 6.58249772e-08,
+       4.95316412e-08]), array([1.96638336e-07, 9.73125025e-08, 1.89927141e-07, 1.96638336e-07,
+       1.87913779e-07, 1.91940502e-07, 1.22143953e-07, 1.16774978e-07,
+       1.03352588e-07, 7.31521621e-08, 4.49650369e-08, 3.89250133e-08,
+       2.55025610e-08, 1.81202553e-08])]
+	y_errors_type: [None, None, None, None, None, None, None, None, None, None, None, 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD', 'SD']
+	weights: [array([1.71428571, 1.71428571, 1.71428571, 1.71428571, 1.71428571,
+       1.71428571, 1.71428571]), array([1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5]), array([1., 1., 1., 1., 1., 1., 1., 1.]), array([1.33333333, 1.33333333, 1.33333333, 1.33333333, 1.33333333,
+       1.33333333, 1.33333333, 1.33333333, 1.33333333]), array([2.4, 2.4, 2.4, 2.4, 2.4]), array([1.33333333, 1.33333333, 1.33333333, 1.33333333, 1.33333333,
+       1.33333333, 1.33333333, 1.33333333, 1.33333333]), array([0.85714286, 0.85714286, 0.85714286, 0.85714286, 0.85714286,
+       0.85714286, 0.85714286, 0.85714286, 0.85714286, 0.85714286,
+       0.85714286, 0.85714286, 0.85714286, 0.85714286]), array([0.71428571, 0.71428571, 0.71428571, 0.71428571, 0.71428571,
+       0.71428571, 0.71428571, 0.71428571, 0.71428571, 0.71428571,
+       0.71428571, 0.71428571, 0.71428571, 0.71428571]), array([0.42857143, 0.42857143, 0.42857143, 0.42857143, 0.42857143,
+       0.42857143, 0.42857143, 0.42857143, 0.42857143, 0.42857143,
+       0.42857143, 0.42857143, 0.42857143, 0.42857143]), array([1.28571429, 1.28571429, 1.28571429, 1.28571429, 1.28571429,
+       1.28571429, 1.28571429, 1.28571429, 1.28571429, 1.28571429,
+       1.28571429, 1.28571429, 1.28571429, 1.28571429]), array([0.85714286, 0.85714286, 0.85714286, 0.85714286, 0.85714286,
+       0.85714286, 0.85714286, 0.85714286, 0.85714286, 0.85714286,
+       0.85714286, 0.85714286, 0.85714286, 0.85714286]), array([0.        , 6.89655172, 6.89655172, 6.89655172, 6.89655172,
+       6.89655172, 6.89655172, 6.89655172]), array([0.        , 6.66666667, 6.66666667, 6.66666667, 6.66666667,
+       6.66666667, 6.66666667, 6.66666667]), array([0.        , 3.84615385, 3.84615385, 3.84615385, 3.84615385,
+       3.84615385, 3.84615385, 3.84615385]), array([0., 5., 5., 5., 5., 5., 5., 5.]), array([0.        , 7.69230769, 7.69230769, 7.69230769, 7.69230769,
+       7.69230769, 7.69230769, 7.69230769]), array([ 0.        ,  6.41972108,  7.32592345, 11.40630568, 11.91552191,
+       14.91983312, 17.14650527, 15.76933678, 20.46800262, 10.21248334]), array([ 0.        ,  7.17459921,  8.11111582, 13.44827763, 14.0327914 ,
+       14.83870785, 15.62963795, 14.31111315, 17.33332957, 10.85712884]), array([ 0.        ,  7.02307525,  7.12675827, 12.17333501, 14.20350805,
+       15.59298096, 19.09787067, 18.52631951, 20.94400269, 11.94284173]), array([0.        , 3.21088079, 3.50404274, 3.97627592, 6.55852233,
+       5.17190327, 5.06102983, 6.19679604]), array([0.        , 2.04985156, 2.18538608, 2.30072592, 3.21118649,
+       3.15723542, 2.65534071, 3.4597966 ]), array([0.        , 1.20622875, 2.11665368, 2.52458427, 3.60441904,
+       4.19529032, 5.22360166, 3.52332079]), array([0.        , 1.09205026, 1.73205161, 2.10262929, 2.0053906 ,
+       1.99043599, 3.76552154, 3.22855016]), array([ 0.        ,  3.76315634,  8.1960915 ,  8.1960915 , 10.0684568 ,
+        6.25316329,  4.91944061,  8.7987684 ,  8.00231684,  6.29688218,
+        9.24852049,  6.61177132]), array([0.        , 0.55172224, 0.60573826, 0.89124696, 1.39366545,
+       1.55793543, 2.568563  , 3.1648357 , 3.90130663, 5.1282073 ,
+       6.44689113, 5.99999083, 2.56410093]), array([0.        , 0.28787892, 0.94252877, 1.1515151 , 1.62790727,
+       2.58823719, 3.11111111, 3.29166652, 2.38596579, 2.39080369,
+       1.49019586, 1.69230528]), array([0.        , 0.31818182, 0.74703603, 1.10199633, 1.2611572 ,
+       1.74099385, 1.58064512, 1.74217528, 2.10707092, 1.90909164,
+       1.23737295]), array([ 0.        ,  4.06730485,  4.63618131,  7.58000684,  8.46738301,
+       12.86746371, 12.9942325 , 15.07778698, 14.28992989, 12.67437957,
+       10.69979583, 10.72289461, 10.72289461, 14.19867814,  4.80681482,
+        4.067271  ]), array([0.        , 2.8154433 , 4.4277057 , 5.76864025, 6.10056775,
+       7.38805893, 7.3577663 , 8.26934693, 8.14345645, 8.60963621,
+       7.68428324, 6.44354171, 5.02016291, 3.7852071 , 2.36086651,
+       1.74340912]), array([76.61948752, 77.21739949, 91.33335945, 86.00000092, 80.46033915,
+       79.12309285]), array([82.12111362, 81.04060529, 87.80556919, 86.22821074, 79.30380556,
+       76.87102676]), array([0.        , 4.08889317, 3.62654282, 6.18280216, 6.70370984,
+       5.87301575]), array([ 0.        ,  6.86190283,  8.82619304, 14.18314463,  9.66262358,
+        9.38721403,  9.66428229]), array([ 0.        ,  5.30230498,  5.84461192,  9.22857297, 10.48928721,
+       14.89285725, 13.26986775]), array([ 0.        ,  4.82777413,  6.63548256,  6.88518002, 11.707121  ,
+        2.40263299,  3.54444614,  5.20666284,  6.45806259,  6.96666872]), array([0.        , 1.67481314, 2.94047641, 3.8066484 , 3.2442393 ,
+       3.04963752, 2.88095373, 3.83613929, 4.77040736, 4.41625702,
+       4.27634546, 3.63845934, 4.00560147, 3.55882034]), array([0.        , 1.21002144, 1.70443366, 2.40046839, 3.4778906 ,
+       4.07029433, 4.17293021, 3.98922342, 3.17629128, 2.90697735,
+       3.73315313, 4.41326461, 4.58752632, 4.03789928]), array([0.        , 1.56665664, 2.63208796, 3.56991076, 4.11744738,
+       4.791703  , 4.75996327, 4.65751663, 5.36538412, 4.78726729,
+       3.36314892, 2.66869956, 1.94332288]), array([ 0.        ,  8.20000074, 10.30691554, 12.7137984 , 13.61785662,
+       14.33566343, 18.5368916 , 21.00492765, 19.66326257, 21.22542329,
+       23.16633507, 15.45073079, 12.94737882, 13.66666667])]
+	weights_points: [array([2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2.]), array([2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2., 2.]), array([0.        , 3.44827586, 3.44827586, 3.44827586, 3.44827586,
+       3.44827586, 3.44827586, 3.44827586]), array([0.        , 6.66666667, 6.66666667, 6.66666667, 6.66666667,
+       6.66666667, 6.66666667, 6.66666667]), array([0.        , 3.84615385, 3.84615385, 3.84615385, 3.84615385,
+       3.84615385, 3.84615385, 3.84615385]), array([0., 5., 5., 5., 5., 5., 5., 5.]), array([0.        , 7.69230769, 7.69230769, 7.69230769, 7.69230769,
+       7.69230769, 7.69230769, 7.69230769]), array([0.        , 1.49295839, 1.70370313, 2.65262923, 2.77105161,
+       3.46972863, 3.98755936, 3.66728762, 4.76000061, 2.37499613]), array([0.        , 1.7936498 , 2.02777896, 3.36206941, 3.50819785,
+       3.70967696, 3.90740949, 3.57777829, 4.33333239, 2.71428221]), array([0.        , 1.59615347, 1.61971779, 2.76666705, 3.22807001,
+       3.54385931, 4.34042515, 4.21052716, 4.76000061, 2.71428221]), array([0.        , 2.33518603, 2.54839472, 2.89183704, 4.76983442,
+       3.7613842 , 3.68074896, 4.50676076]), array([0.        , 2.73313541, 2.9138481 , 3.06763456, 4.28158199,
+       4.20964723, 3.54045428, 4.61306214]), array([0.        , 1.608305  , 2.82220491, 3.36611236, 4.80589205,
+       5.59372043, 6.96480222, 4.69776105]), array([ 0.        ,  2.91213404,  4.61880428,  5.60701144,  5.34770827,
+        5.30782931, 10.04139079,  8.6094671 ]), array([0.        , 2.05263073, 4.47059536, 4.47059536, 5.49188553,
+       3.41081634, 2.68333124, 4.79932822, 4.36490009, 3.434663  ,
+       5.04464754, 3.60642072]), array([0.        , 0.44827432, 0.49216234, 0.72413816, 1.13235318,
+       1.26582254, 2.08695744, 2.571429  , 3.16981163, 4.16666843,
+       5.23809904, 4.87499255, 2.08333201]), array([0.        , 0.43181838, 1.41379315, 1.72727265, 2.4418609 ,
+       3.88235578, 4.66666667, 4.93749978, 3.57894869, 3.58620554,
+       2.23529379, 2.53845793]), array([0.        , 0.5       , 1.17391376, 1.73170852, 1.98181846,
+       2.73584748, 2.48387091, 2.73770402, 3.31111145, 3.00000116,
+       1.94444321]), array([0.        , 1.85933936, 2.11939717, 3.46514599, 3.87080366,
+       5.88226913, 5.94022057, 6.89270262, 6.53253938, 5.79400209,
+       4.89133524, 4.90189468, 4.90189468, 6.49082429, 2.19740106,
+       1.85932389]), array([0.        , 1.36506342, 2.1467664 , 2.79691649, 2.95785103,
+       3.58208918, 3.56740184, 4.00938033, 3.94834252, 4.17436907,
+       3.72571309, 3.12414143, 2.43401838, 1.83525193, 1.14466255,
+       0.84528927]), array([2.07079696, 2.08695674, 2.46846917, 2.32432435, 2.17460376,
+       2.13846197]), array([2.26021414, 2.23047537, 2.41666704, 2.37325351, 2.18267355,
+       2.11571633]), array([0.        , 2.4533359 , 2.17592569, 3.7096813 , 4.0222259 ,
+       3.52380945]), array([0.        , 4.36666544, 5.6166683 , 9.02563749, 6.14894228,
+       5.97368165, 6.14999782]), array([0.        , 3.37419408, 3.7192985 , 5.87272825, 6.67500095,
+       9.4772728 , 8.4444613 ]), array([ 0.        ,  4.38888557,  6.03225688,  6.25925456, 10.64283728,
+        2.1842118 ,  3.22222376,  4.73332985,  5.870966  ,  6.3333352 ]), array([0.        , 2.13158037, 3.74242452, 4.84482523, 4.12903184,
+       3.88135684, 3.66666839, 4.8823591 , 6.07142754, 5.62069075,
+       5.44262149, 4.63076643, 5.09803823, 4.5294077 ]), array([0.        , 1.69403002, 2.38620712, 3.36065575, 4.86904684,
+       5.69841206, 5.84210229, 5.58491278, 4.44680779, 4.06976828,
+       5.22641438, 6.17857046, 6.42253685, 5.65305899]), array([0.        , 1.69721136, 2.85142862, 3.86740332, 4.46056799,
+       5.19101158, 5.15662687, 5.04564302, 5.81249946, 5.18620623,
+       3.64341133, 2.89109119, 2.10526645]), array([0.        , 2.80000025, 3.51943457, 4.34129701, 4.64999982,
+       4.89510459, 6.3296703 , 7.17241432, 6.71428478, 7.24770551,
+       7.91045588, 5.27585929, 4.42105618, 4.66666667])]
+	weights_curves: [0.8571428571428571, 0.75, 0.5, 0.6666666666666666, 1.2, 0.6666666666666666, 0.42857142857142855, 0.35714285714285715, 0.21428571428571427, 0.6428571428571429, 0.42857142857142855, 2.0, 1.0, 1.0, 1.0, 1.0, 4.3, 4.0, 4.4, 1.375, 0.75, 0.75, 0.375, 1.8333333333333333, 1.2307692307692308, 0.6666666666666666, 0.6363636363636364, 2.1875, 2.0625, 37.0, 36.333333333333336, 1.6666666666666667, 1.5714285714285714, 1.5714285714285714, 1.1, 0.7857142857142857, 0.7142857142857143, 0.9230769230769231, 2.9285714285714284]
+--------------------------------------------------------------------------------
+Parameter sets: ['PK_20261018_102441__faa2d_0']
+--------------------------------------------------------------------------------
+  parameter          unit  PK_20261018_102441__faa2d_0
+   DULCAT_k         l/min                     0.001609
+     Kp_dul dimensionless                     0.087008
+ftissue_dul         l/min                     0.028268
+    Ksc_dul         1/min                     0.000481
+    Fsc_dul dimensionless                     0.478929
+
+PK_20261018_102441__faa2d_0: cost = 16.0591
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Metrics: PK_20261018_102441__faa2d_0
+--------------------------------------------------------------------------------
+              parameter_set       kind   n  k      cost          MSE         RMSE    NRMSE   RMSE_w       R2  within_2fold          AIC          BIC     GMFE      AFE  within_1.25fold  within_1.5fold  within_1sd  within_2sd
+PK_20261018_102441__faa2d_0   training 162  5 16.046163 4.239113e-14 2.058911e-07 0.195124 0.445085 0.950186     98.657718 -4978.277636 -4962.839654 1.179338 0.993123        73.825503       93.288591   87.826087   97.391304
+PK_20261018_102441__faa2d_0 validation 233  5       NaN 7.045627e-13 8.393823e-07 0.458493 0.841798 0.687327     91.162791 -6509.619378 -6492.364185 1.373070 1.220372        46.511628       71.162791   52.205882   73.529412
+
+     experiment                     mapping       kind  n          MSE         RMSE    NRMSE   RMSE_w         R2  within_2fold     GMFE      AFE  within_1.25fold  within_1.5fold  within_1sd  within_2sd
+ Barrington2011                fm_dul_DUL03   training  7 1.422341e-14 1.192619e-07 0.374430 0.490244  -1.076716    100.000000 1.539776 0.649445         0.000000       42.857143         NaN         NaN
+ Barrington2011                 fm_dul_DUL1   training  8 1.075439e-14 1.037034e-07 0.147479 0.180625   0.861594    100.000000 1.157194 0.864819        87.500000      100.000000         NaN         NaN
+ Barrington2011                 fm_dul_DUL3   training  8 3.371849e-14 1.836260e-07 0.097939 0.097939   0.952741    100.000000 1.107639 1.023094        87.500000      100.000000         NaN         NaN
+ Barrington2011                 fm_dul_DUL6   training  9 5.572809e-13 7.465125e-07 0.217154 0.250748   0.846036    100.000000 1.274019 1.074725        44.444444       88.888889         NaN         NaN
+ Barrington2011                fm_dul_DUL01 validation  5 9.927038e-15 9.963452e-08 0.569010 0.881506 -17.800527     40.000000 2.247683 0.444903         0.000000        0.000000         NaN         NaN
+ Barrington2011                fm_dul_DUL12 validation  9 1.461214e-12 1.208807e-06 0.208618 0.240891   0.854964    100.000000 1.271805 1.251087        44.444444       77.777778         NaN         NaN
+Barrington2011a    fm_dul_dulaglutide_DUL03 validation 14 2.391876e-16 1.546569e-08 0.080786 0.074793   0.965946    100.000000 1.055637 1.010928       100.000000      100.000000         NaN         NaN
+Barrington2011a     fm_dul_dulaglutide_DUL1 validation 14 2.431533e-14 1.559337e-07 0.313496 0.264952   0.538424     92.307692 1.261806 1.261806        61.538462       92.307692         NaN         NaN
+Barrington2011a     fm_dul_dulaglutide_DUL3 validation 14 1.061463e-12 1.030273e-06 0.632190 0.413865  -0.197135     76.923077 1.687583 1.644490        15.384615       38.461538         NaN         NaN
+Barrington2011a     fm_dul_dulaglutide_DUL5 validation 14 1.378694e-12 1.174178e-06 0.532025 0.603260  -0.540906    100.000000 1.417981 1.417981        38.461538       61.538462         NaN         NaN
+Barrington2011a     fm_dul_dulaglutide_DUL8 validation 14 7.603696e-12 2.757480e-06 0.767864 0.710903  -3.354396     84.615385 1.572532 1.572532        23.076923       53.846154         NaN         NaN
+        FDAGBCM              fm_dul_control   training  8 4.524911e-15 6.726746e-08 0.085825 0.225387   0.976039    100.000000 1.105688 0.965679        85.714286      100.000000  100.000000  100.000000
+        FDAGBCM                fm_dul_mildR validation  8 2.179694e-14 1.476379e-07 0.169524 0.437710   0.900001    100.000000 1.237246 0.890847        71.428571       85.714286   57.142857   85.714286
+        FDAGBCM                 fm_dul_modR validation  8 3.831695e-14 1.957472e-07 0.206350 0.404686   0.862045    100.000000 1.257058 0.802847        57.142857       85.714286   85.714286  100.000000
+        FDAGBCM                 fm_dul_sevR validation  8 2.357732e-14 1.535491e-07 0.189418 0.423551   0.896949    100.000000 1.222254 0.936735        71.428571      100.000000   71.428571   85.714286
+        FDAGBCM                  fm_dul_ESR validation  8 1.919679e-14 1.385525e-07 0.167844 0.465516   0.912677    100.000000 1.200142 0.962123        71.428571       85.714286   42.857143   71.428571
+        FDAGBCN              fm_dul_abdomen   training 10 4.866223e-15 6.975832e-08 0.087677 0.334186   0.972438    100.000000 1.109509 0.937548        88.888889      100.000000  100.000000  100.000000
+        FDAGBCN                  fm_dul_arm   training 10 2.225178e-15 4.717179e-08 0.060245 0.229723   0.986177    100.000000 1.079289 0.944881        88.888889      100.000000  100.000000  100.000000
+        FDAGBCN                fm_dul_thigh   training 10 1.544430e-14 1.242751e-07 0.177949 0.587466   0.882693    100.000000 1.185770 1.057344        66.666667      100.000000  100.000000  100.000000
+        FDAGBDO              fm_dul_control   training  8 7.260512e-15 8.520864e-08 0.100824 0.231199   0.967641    100.000000 1.124356 0.891401        85.714286      100.000000   85.714286  100.000000
+        FDAGBDO                fm_dul_mildH validation  8 3.324375e-14 1.823287e-07 0.284326 0.423691   0.775712    100.000000 1.215680 1.215680        71.428571       85.714286   85.714286  100.000000
+        FDAGBDO                 fm_dul_modH validation  8 5.434092e-14 2.331114e-07 0.395209 0.598878   0.541130    100.000000 1.311429 1.311429        42.857143       85.714286   42.857143  100.000000
+        FDAGBDO                 fm_dul_sevH validation  8 6.686487e-14 2.585824e-07 0.431397 0.535179   0.477159     85.714286 1.321597 1.270935        57.142857       71.428571   42.857143   71.428571
+        FDAGBDR              fm_dul_DUL01IV   training 12 1.267230e-14 1.125713e-07 0.354786 0.702534   0.642066     90.909091 1.131655 1.065636        90.909091       90.909091  100.000000  100.000000
+        FDAGBDR              fm_dul_DUL15SC   training 13 2.007603e-14 1.416899e-07 0.217698 0.359258   0.903372     91.666667 1.285440 1.275943        58.333333       83.333333  100.000000  100.000000
+        FDAGBDR             fm_dul_DUL075SC   training 12 6.370475e-15 7.981526e-08 0.167624 0.262857   0.919623    100.000000 1.203495 0.861660        90.909091       90.909091   90.000000  100.000000
+        FDAGBDR             fm_dul_DUL075IM validation 11 1.338607e-14 1.156982e-07 0.228102 0.289142   0.873266     90.000000 1.388189 1.064512        60.000000       80.000000   90.000000  100.000000
+        Gao2024             fm_dul_HEC14028 validation 16 1.304553e-14 1.142170e-07 0.243546 0.861030   0.878666     93.333333 1.315006 1.099335        53.333333       80.000000   46.666667   80.000000
+        Gao2024               fm_dul_DUL075 validation 16 7.026245e-15 8.382270e-08 0.190135 0.460504   0.918082     93.333333 1.275847 1.136226        66.666667       86.666667   86.666667  100.000000
+        Liu2025 fm_dul_LY05008__dulaglutide validation  6 3.233124e-14 1.798089e-07 0.243783 2.184426 -12.391969    100.000000 1.238376 1.238376        66.666667      100.000000  100.000000  100.000000
+        Liu2025   fm_dul_DUL15__dulaglutide validation  6 1.134547e-14 1.065151e-07 0.132412 1.200950  -7.001055    100.000000 1.126698 1.126698       100.000000      100.000000  100.000000  100.000000
+         Xu2022               fm_dul_DUL05S   training  6 3.566813e-15 5.972280e-08 0.176215 0.437885   0.867047    100.000000 1.145545 1.103474        60.000000      100.000000   60.000000  100.000000
+         Xu2022              fm_dul_DUL075S   training  7 6.381795e-15 7.988614e-08 0.169147 0.527753   0.891391    100.000000 1.157742 1.149254        66.666667      100.000000   50.000000   83.333333
+         Xu2022               fm_dul_DUL15S   training  7 4.866985e-14 2.206125e-07 0.248897 0.872496   0.764300    100.000000 1.234007 1.225747        50.000000       83.333333   50.000000   66.666667
+         Xu2022               fm_dul_DUL05M validation 10 4.333548e-14 2.081718e-07 0.661953 1.431672  -2.212780     88.888889 1.563286 1.563286         0.000000       44.444444    0.000000    0.000000
+         Xu2022              fm_dul_DUL075M validation 14 8.788564e-14 2.964551e-07 0.669885 1.342890  -1.753400     84.615385 1.570284 1.570284         0.000000       46.153846    0.000000   46.153846
+         Xu2022               fm_dul_DUL15M validation 14 3.965670e-13 6.297356e-07 0.844981 1.541375  -3.504269     76.923077 1.723839 1.723839         0.000000       30.769231    0.000000   15.384615
+      Zhang2023                 fm_dul_DULP   training 13 6.020866e-15 7.759424e-08 0.144273 0.277904   0.940447    100.000000 1.164016 1.014915        83.333333      100.000000   91.666667  100.000000
+      Zhang2023                 fm_dul_DULF   training 14 7.307991e-15 8.548679e-08 0.166198 0.638867   0.929075    100.000000 1.136062 0.943960        84.615385      100.000000   76.923077  100.000000
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Optimization results: PK_20261018_102441__faa2d
+--------------------------------------------------------------------------------
+   run  success    duration       cost  DULCAT_k    Kp_dul  ftissue_dul   Ksc_dul   Fsc_dul                                message                                                  x                                  x0
+0    0     True  109.134089  16.059138  0.001609  0.087008     0.028268  0.000481  0.478929  Optimization terminated successfully.  [0.0016090326034870533, 0.0870081209863143, 0....  [0.00155, 0.1, 0.02, 0.0004, 0.47]
+1    1     True  115.814875  16.066335  0.001558  0.085879     0.028451  0.000494  0.466559  Optimization terminated successfully.  [0.001558074714787636, 0.08587894391701162, 0....  [0.00155, 0.1, 0.02, 0.0004, 0.47]
+2    2     True  119.202305  16.072848  0.001584  0.084225     0.029564  0.000489  0.468230  Optimization terminated successfully.  [0.0015842040057673884, 0.08422547422690445, 0...  [0.00155, 0.1, 0.02, 0.0004, 0.47]
+--------------------------------------------------------------------------------
+Optimal parameters:
+	'DULCAT_k': Q(0.0016090326034870533, 'l/(min)'),  # [0.0002 - 0.01]
+	'Kp_dul': Q(0.0870081209863143, 'dimensionless'),  # [0.005 - 0.5]
+	'ftissue_dul': Q(0.02826823903169208, 'l/(min)'),  # [0.001 - 1.0]
+	'Ksc_dul': Q(0.0004809625251069162, '1/(min)'),  # [2e-05 - 0.01]
+	'Fsc_dul': Q(0.47892920668069267, 'dimensionless'),  # [0.2 - 1.0]
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Identifiability 'PK_20261018_102441__faa2d'
+--------------------------------------------------------------------------------
+parameter set: PK_20261018_102441__faa2d_0
+cost: 16.0591
+cost_min: 16.0591
+alpha: 0.95
+degrees of freedom: 1
+threshold: 17.9799
+reoptimize: True
+duration: 67.7 s
+
+  parameter    value          unit  lower_bound  upper_bound  ci_lower  ci_upper identifiability  n_points  cost_min  converged
+   DULCAT_k 0.001609         l/min      0.00020         0.01  0.000998  0.003202    identifiable        17 16.059138       True
+     Kp_dul 0.087008 dimensionless      0.00500         0.50  0.043456  0.253196    identifiable        18 16.059138       True
+ftissue_dul 0.028268         l/min      0.00100         1.00  0.004174  0.221575    identifiable        17 16.059138       True
+    Ksc_dul 0.000481         1/min      0.00002         0.01  0.000217  0.000933    identifiable        17 16.059138       True
+    Fsc_dul 0.478929 dimensionless      0.20000         1.00  0.311840  0.917518    identifiable        17 16.059138       True
+--------------------------------------------------------------------------------

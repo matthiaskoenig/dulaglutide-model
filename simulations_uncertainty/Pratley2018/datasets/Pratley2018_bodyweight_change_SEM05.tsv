@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Pratley2018	SEM05	301.0	SEM05	weight (change)			NR	bodyweight_change_SEM05	0.0	hr	0.0									kg	kg	dimensionless
+Pratley2018	SEM05	301.0	SEM05	weight (change)			NR	bodyweight_change_SEM05	672.0	hr	-1.2004331662419503				1.8592914949967865		0.1071677801435129			kg	kg	dimensionless
+Pratley2018	SEM05	301.0	SEM05	weight (change)			NR	bodyweight_change_SEM05	1344.0	hr	-2.5198193988063338				2.357438547785879		0.1358804989270368			kg	kg	dimensionless
+Pratley2018	SEM05	301.0	SEM05	weight (change)			NR	bodyweight_change_SEM05	2016.0	hr	-3.2039789682805804				2.868219929621308		0.1653214483302036			kg	kg	dimensionless
+Pratley2018	SEM05	301.0	SEM05	weight (change)			NR	bodyweight_change_SEM05	2688.0	hr	-3.627479127548284				3.224889765429116		0.18587955589458			kg	kg	dimensionless
+Pratley2018	SEM05	301.0	SEM05	weight (change)			NR	bodyweight_change_SEM05	4704.0	hr	-4.409357815852999				4.186189506383151		0.2412879518173269			kg	kg	dimensionless
+Pratley2018	SEM05	301.0	SEM05	weight (change)			NR	bodyweight_change_SEM05	6720.0	hr	-4.572140935152888				4.798227309495201		0.2765652243159806			kg	kg	dimensionless

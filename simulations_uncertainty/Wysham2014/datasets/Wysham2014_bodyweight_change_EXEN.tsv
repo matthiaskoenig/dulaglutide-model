@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	0.0	week	0.0									kg	kg	dimensionless
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	2.0	week	-0.355555651091186				1.58221411702937		0.095238098121464			kg	kg	dimensionless
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	4.0	week	-0.501587353103497				2.10961882270585		0.12698413082862			kg	kg	dimensionless
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	8.0	week	-0.9523811628669				2.42606486513458		0.146031944215319			kg	kg	dimensionless
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	13.0	week	-1.16190493029352				3.37539092108507		0.203174657766393			kg	kg	dimensionless
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	26.0	week	-1.14285735910982				4.32472100081397		0.260317613520466			kg	kg	dimensionless
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	39.0	week	-0.806349218651581				5.16856370136216		0.311110975208312			kg	kg	dimensionless
+Wysham2014	EXEN	276.0	EXEN	weight (change)			NR	bodyweight_change_EXEN	52.0	week	-0.761904966623971				5.80145176244106		0.349206359778703			kg	kg	dimensionless

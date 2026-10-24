@@ -1,41 +1,41 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
 FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	ng/ml	NA
-FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	12.0	hr	45.1612975043362	NA	NA	NA	6.8821824828822	NA	NA	ng/ml	NA
-FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	24.0	hr	63.9206012946873	NA	NA	NA	13.0793966155219	NA	NA	ng/ml	NA
-FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	48.0	hr	75.7320094914961	NA	NA	NA	7.3549497863438	NA	NA	ng/ml	NA
-FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	72.0	hr	71.215886102046	NA	NA	NA	16.4362907185324	NA	NA	ng/ml	NA
-FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	96.0	hr	63.5731961784119	NA	NA	NA	15.8615890652373	NA	NA	ng/ml	NA
-FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	168.0	hr	41.6873417563357	NA	NA	NA	9.7474379145381	NA	NA	ng/ml	NA
-FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	336.0	hr	12.853607643176	NA	NA	NA	4.1898618950887	NA	NA	ng/ml	NA
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	12.0	hr	45.1612975043362	NA	NA	NA	13.096776276257497	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (29 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	24.0	hr	63.9206012946873	NA	NA	NA	18.536974375459316	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (29 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	48.0	hr	75.7320094914961	NA	NA	NA	21.962282752533866	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (29 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	72.0	hr	71.215886102046	NA	NA	NA	20.65260696959334	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (29 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	96.0	hr	63.5731961784119	NA	NA	NA	18.436226891739448	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (29 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	168.0	hr	41.6873417563357	NA	NA	NA	12.089329109337351	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (29 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	control	16.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_control	336.0	hr	12.853607643176	NA	NA	NA	3.7275462165210396	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (29 %); the error bars of Fig42 are not assignable to the groups
 FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	ng/ml	NA
-FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	12.0	hr	45.0972264975856	NA	NA	NA	23.0766795193498	NA	NA	ng/ml	NA
-FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	24.0	hr	64.690296206014	NA	NA	NA	19.9183929647799	NA	NA	ng/ml	NA
-FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	48.0	hr	78.8639987641517	NA	NA	NA	22.7881738768443	NA	NA	ng/ml	NA
-FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	72.0	hr	82.198967021708	NA	NA	NA	16.1053747773013	NA	NA	ng/ml	NA
-FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	96.0	hr	75.112131645098	NA	NA	NA	11.0183013505881	NA	NA	ng/ml	NA
-FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	168.0	hr	51.350327761036	NA	NA	NA	8.30184348676711	NA	NA	ng/ml	NA
-FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	336.0	hr	18.4173532174649	NA	NA	NA	3.1913338635383	NA	NA	ng/ml	NA
+FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	12.0	hr	45.0972264975856	NA	NA	NA	6.76458397463784	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (15 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	24.0	hr	64.690296206014	NA	NA	NA	9.703544430902099	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (15 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	48.0	hr	78.8639987641517	NA	NA	NA	11.829599814622755	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (15 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	72.0	hr	82.198967021708	NA	NA	NA	12.3298450532562	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (15 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	96.0	hr	75.112131645098	NA	NA	NA	11.2668197467647	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (15 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	168.0	hr	51.350327761036	NA	NA	NA	7.7025491641554	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (15 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	mildR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_mildR	336.0	hr	18.4173532174649	NA	NA	NA	2.7626029826197347	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (15 %); the error bars of Fig42 are not assignable to the groups
 FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	ng/ml	NA
-FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	12.0	hr	51.350327761036	NA	NA	NA	31.1279312004594	NA	NA	ng/ml	NA
-FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	24.0	hr	73.8614986704408	NA	NA	NA	30.8341476884022	NA	NA	ng/ml	NA
-FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	48.0	hr	92.6208024607919	NA	NA	NA	30.0313708768011	NA	NA	ng/ml	NA
-FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	72.0	hr	87.6183341719987	NA	NA	NA	23.4686167466773	NA	NA	ng/ml	NA
-FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	96.0	hr	80.531466990471	NA	NA	NA	18.0772319326797	NA	NA	ng/ml	NA
-FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	168.0	hr	48.8490936166394	NA	NA	NA	11.1074208233668	NA	NA	ng/ml	NA
-FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	336.0	hr	18.0004543559674	NA	NA	NA	8.4778073919156	NA	NA	ng/ml	NA
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	12.0	hr	51.350327761036	NA	NA	NA	13.35108521786936	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (26 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	24.0	hr	73.8614986704408	NA	NA	NA	19.203989654314608	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (26 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	48.0	hr	92.6208024607919	NA	NA	NA	24.081408639805893	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (26 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	72.0	hr	87.6183341719987	NA	NA	NA	22.78076688471966	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (26 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	96.0	hr	80.531466990471	NA	NA	NA	20.93818141752246	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (26 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	168.0	hr	48.8490936166394	NA	NA	NA	12.700764340326245	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (26 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	modR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_modR	336.0	hr	18.0004543559674	NA	NA	NA	4.680118132551524	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (26 %); the error bars of Fig42 are not assignable to the groups
 FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	ng/ml	NA
-FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	12.0	hr	35.0922899199992	NA	NA	NA	19.3859634687209	NA	NA	ng/ml	NA
-FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	24.0	hr	62.6059291181973	NA	NA	NA	17.4375425098581	NA	NA	ng/ml	NA
-FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	48.0	hr	81.3652329085483	NA	NA	NA	12.3738913477225	NA	NA	ng/ml	NA
-FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	72.0	hr	78.0302328460744	NA	NA	NA	12.0567173760057	NA	NA	ng/ml	NA
-FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	96.0	hr	72.6108975007014	NA	NA	NA	8.0412744436986	NA	NA	ng/ml	NA
-FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	168.0	hr	43.8466253278462	NA	NA	NA	10.6316280608739	NA	NA	ng/ml	NA
-FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	336.0	hr	13.414853123754	NA	NA	NA	3.6286164145107	NA	NA	ng/ml	NA
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	12.0	hr	35.0922899199992	NA	NA	NA	7.018457983999841	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (20 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	24.0	hr	62.6059291181973	NA	NA	NA	12.521185823639462	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (20 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	48.0	hr	81.3652329085483	NA	NA	NA	16.27304658170966	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (20 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	72.0	hr	78.0302328460744	NA	NA	NA	15.60604656921488	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (20 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	96.0	hr	72.6108975007014	NA	NA	NA	14.52217950014028	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (20 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	168.0	hr	43.8466253278462	NA	NA	NA	8.76932506556924	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (20 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	sevR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_sevR	336.0	hr	13.414853123754	NA	NA	NA	2.6829706247508	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (20 %); the error bars of Fig42 are not assignable to the groups
 FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	ng/ml	NA
-FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	12.0	hr	38.8441252341353	NA	NA	NA	17.7645722958216	NA	NA	ng/ml	NA
-FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	24.0	hr	63.0227961747771	NA	NA	NA	20.9772066116105	NA	NA	ng/ml	NA
-FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	48.0	hr	80.531466990471	NA	NA	NA	16.5554881077875	NA	NA	ng/ml	NA
-FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	72.0	hr	78.8639987641517	NA	NA	NA	11.2229514579284	NA	NA	ng/ml	NA
-FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	96.0	hr	72.1939986392038	NA	NA	NA	10.8929606386361	NA	NA	ng/ml	NA
-FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	168.0	hr	45.0972264975856	NA	NA	NA	14.2506015580143	NA	NA	ng/ml	NA
-FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	336.0	hr	15.4992202115708	NA	NA	NA	3.6746934679307	NA	NA	ng/ml	NA
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	12.0	hr	38.8441252341353	NA	NA	NA	5.049736280437589	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (13 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	24.0	hr	63.0227961747771	NA	NA	NA	8.192963502721023	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (13 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	48.0	hr	80.531466990471	NA	NA	NA	10.46909070876123	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (13 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	72.0	hr	78.8639987641517	NA	NA	NA	10.252319839339721	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (13 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	96.0	hr	72.1939986392038	NA	NA	NA	9.385219823096493	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (13 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	168.0	hr	45.0972264975856	NA	NA	NA	5.8626394446861285	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (13 %); the error bars of Fig42 are not assignable to the groups
+FDAGBCM	ESR	8.0	DUL15	concentration	dulaglutide	plasma	NR	dulaglutide_ESR	336.0	hr	15.4992202115708	NA	NA	NA	2.014898627504204	NA	NA	ng/ml	sd = mean x CV of Cmax of Tab46 (13 %); the error bars of Fig42 are not assignable to the groups

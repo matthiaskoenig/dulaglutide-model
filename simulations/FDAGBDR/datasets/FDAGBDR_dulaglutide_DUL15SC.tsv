@@ -1,0 +1,14 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	0.0	hr	0.0								mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	1.0	hr	5.9493883023294785e-08				1.327175804393112e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	2.0	hr	1.5753309870956932e-07				3.200836113901173e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	4.0	hr	3.278904052588604e-07				4.528008940193347e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	8.0	hr	6.011323600062292e-07				5.308700239471526e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	12.0	hr	7.806912992781951e-07				6.167462455538127e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	24.0	hr	1.124195590084639e-06				5.386768178158975e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	36.0	hr	1.264719964392695e-06				4.918354589832395e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	48.0	hr	1.3115613232253477e-06				4.137663290554131e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	72.0	hr	1.1710369489172919e-06				2.810487486161119e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	120.0	hr	8.587604292060148e-07				1.6394505372438245e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	168.0	hr	6.089391538749723e-07				1.249107865705698e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL15SC	16.0	DUL15SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL15SC	336.0	hr	1.9517282481954918e-07				9.368301547540138e-08				mole/meter^3	ng/ml	dimensionless

@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Terauchi2014	DUL05	37.0	DUL05	weight (change)		plasma	NR	bodyweight_change_DUL05	0.0	week	72.1									kg	kg	dimensionless
+Terauchi2014	DUL05	37.0	DUL05	weight (change)		plasma	NR	bodyweight_change_DUL05	12.0	week	71.69999999999999				1.82482875908947		0.3			kg	kg	dimensionless

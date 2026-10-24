@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2011	PLAC	66.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_lsmean_PLAC	0.0	week	8.05									percent	percent	dimensionless
+Umpierrez2011	PLAC	64.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_lsmean_PLAC	4.0	week	7.7529126418548175				0.466019437611744		0.058252429701468			percent	percent	dimensionless
+Umpierrez2011	PLAC	63.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_lsmean_PLAC	8.0	week	7.613106832792832				0.6473107629844806		0.08155349046821			percent	percent	dimensionless
+Umpierrez2011	PLAC	59.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_lsmean_PLAC	16.0	week	7.805339806364602				0.8948908054089072		0.116504859402938			percent	percent	dimensionless

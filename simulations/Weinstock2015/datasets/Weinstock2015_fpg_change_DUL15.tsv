@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	2.0	week	-2.38000001827399				1.74355949776175		0.0999999954314998			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	4.0	week	-2.41499986408713				1.83073614241962		0.10499991890914			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	8.0	week	-2.31499986865563				1.91791943822899		0.11000022385648			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	12.0	week	-2.50000008908574				1.83073614241945		0.10499991890913			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-2.38499994175163				2.09227272754439		0.12000007081174			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	39.0	week	-2.26999979441752				2.1794493722021		0.12499999428937			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	52.0	week	-2.38999986522926				2.17944937220228		0.12499999428938			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	65.0	week	-2.28499994632013				2.26662601685981		0.129999917767			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	78.0	week	-2.15000010507548				2.35380266151786		0.13499984124465			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	91.0	week	-2.03999988121901				2.35380931266934		0.13500022271435			mmol/l	mmol/l	dimensionless
+Weinstock2015	DUL15	304.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	104.0	week	-2.00000011192823				2.61533924664263		0.14999999314725			mmol/l	mmol/l	dimensionless

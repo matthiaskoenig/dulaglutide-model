@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	MET	268.0	MET	weight (change)			NR	bodyweight_change_MET	0.0	week	0.0									kg	kg	dimensionless
+Umpierrez2014	MET	268.0	MET	weight (change)			NR	bodyweight_change_MET	2.0	week	-0.297912837605459				1.49107209303774		0.091081724550807			kg	kg	dimensionless
+Umpierrez2014	MET	268.0	MET	weight (change)			NR	bodyweight_change_MET	4.0	week	-0.531309336028232				1.58426254354543		0.0967742373297261			kg	kg	dimensionless
+Umpierrez2014	MET	268.0	MET	weight (change)			NR	bodyweight_change_MET	13.0	week	-1.27134728937075				2.79575617508448		0.17077798923289			kg	kg	dimensionless
+Umpierrez2014	MET	268.0	MET	weight (change)			NR	bodyweight_change_MET	26.0	week	-2.01707797264764				3.54129399909734		0.21631896008602			kg	kg	dimensionless
+Umpierrez2014	MET	268.0	MET	weight (change)			NR	bodyweight_change_MET	39.0	week	-2.01138545986872				4.19363781761457		0.25616720100478			kg	kg	dimensionless
+Umpierrez2014	MET	268.0	MET	weight (change)			NR	bodyweight_change_MET	52.0	week	-2.10246696726408				4.56640317463299		0.27893746927589			kg	kg	dimensionless

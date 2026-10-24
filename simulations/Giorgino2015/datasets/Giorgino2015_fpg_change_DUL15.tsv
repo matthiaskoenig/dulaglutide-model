@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	0.0	week	0.0				2.658830689615136	0.16091975380598578			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	2.0	week	-2.074076935963921				1.8907276522188161	0.11443204319010711			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	4.0	week	-2.0240127942962367				2.008890692550688	0.12158359572537741			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	8.0	week	-1.9560691165062163				1.8907276522188328	0.11443204319010822			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	14.0	week	-1.7808452754533746				2.008896101955645	0.12158392311745891			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	20.0	week	-1.7129012702712587				2.008890692550688	0.12158359572537741			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	26.0	week	-1.7808452754533746				2.4224883807374384	0.1466156665592562			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	35.0	week	-1.6878695268294845				2.1270645516924787	0.12873580304481128			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	44.0	week	-1.5233736693637876				2.245233001430206	0.13588768297221746			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	52.0	week	-1.6628374559956147				2.2452330014292903	0.13588768297216194			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	65.0	week	-1.2873580304482124				2.4224883807365227	0.1466156665592007			mole/meter^3	mg/dl	dimensionless
+Giorgino2015	DUL15	273.0	DUL15	concentration change absolute	glucose	serum	NR	fpg_change_DUL15	78.0	week	-1.2623259596143979				2.54065683047425	0.1537675464866069			mole/meter^3	mg/dl	dimensionless

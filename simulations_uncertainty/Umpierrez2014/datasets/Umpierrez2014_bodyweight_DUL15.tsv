@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	DUL15	269.0	DUL15	weight			NR	bodyweight_DUL15	0.0	week	93.0									kg	kg	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	weight			NR	bodyweight_DUL15	2.0	week	92.2125236801224				1.4938477921635		0.091081507395364			kg	kg	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	weight			NR	bodyweight_DUL15	4.0	week	91.5863377196018				1.58721550518258		0.09677423732973			kg	kg	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	weight			NR	bodyweight_DUL15	13.0	week	91.1593927465196				2.70760313011217		0.16508547645397			kg	kg	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	weight			NR	bodyweight_DUL15	26.0	week	90.9772295145734				3.73462304202294		0.22770398564386			kg	kg	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	weight			NR	bodyweight_DUL15	39.0	week	91.2049335002173				4.29481863529459		0.26185971378369			kg	kg	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	weight			NR	bodyweight_DUL15	52.0	week	91.3187854930392				4.57491465112364		0.2789374692759			kg	kg	dimensionless

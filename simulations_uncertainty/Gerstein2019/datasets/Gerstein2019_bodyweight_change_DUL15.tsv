@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	0.0	month	0.0								kg	kg	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	12.0	month	-2.50950570342201								kg	kg	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	24.0	month	-2.36121673003801								kg	kg	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	36.0	month	-2.4866920152091								kg	kg	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	48.0	month	-2.5323193916349								kg	kg	dimensionless
+Gerstein2019	DUL15	4949.0	DUL15	weight (change)			NR	bodyweight_change_DUL15	60.0	month	-3.3079847908745								kg	kg	dimensionless

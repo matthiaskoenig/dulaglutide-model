@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	0.0	week	8.94									mmol/l	mmol/l	dimensionless
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	2.0	week	8.36314902944825				1.54529237108731		0.0943937551718869			mmol/l	mmol/l	dimensionless
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	4.0	week	7.74784124750776				1.65976004945448		0.101385981503324			mmol/l	mmol/l	dimensionless
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	13.0	week	7.67791991774391				1.65976004945448		0.101385981503324			mmol/l	mmol/l	dimensionless
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	26.0	week	7.43319526357043				1.77422663618733		0.108378141152581			mmol/l	mmol/l	dimensionless
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	39.0	week	7.44018742321969				1.88869103965151		0.115370167437479			mmol/l	mmol/l	dimensionless
+Umpierrez2014	MET	268.0	MET	concentration	glucose	plasma	NR	fpg_MET	52.0	week	7.56954190995568				2.11762421311718		0.129354486735992			mmol/l	mmol/l	dimensionless

@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit	count_unit
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	0.0	hr	0.0									mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	2.0	hr	1.0643505548606586e-07									mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	4.0	hr	2.2967558981381095e-07				1.6245346075383559e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	8.0	hr	4.2574000825100554e-07				2.464810686554919e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	12.0	hr	5.881932553115837e-07				2.408790999127585e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	24.0	hr	7.394429922732144e-07				1.9046244969446287e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	36.0	hr	7.842576737487782e-07				1.680552158033082e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	48.0	hr	8.850909741853712e-07				1.7925893959551535e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	72.0	hr	7.618504398576253e-07				2.1286989727887382e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	120.0	hr	5.8259150026211e-07				1.6245346075383612e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	168.0	hr	4.2574000825100554e-07				1.904626633877208e-07					mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL075SC	8.0	DUL075SC	concentration	dulaglutide	plasma	NR	dulaglutide_DUL075SC	336.0	hr	1.848609083382454e-07				7.282409780270555e-08					mole/meter^3	ng/ml	dimensionless

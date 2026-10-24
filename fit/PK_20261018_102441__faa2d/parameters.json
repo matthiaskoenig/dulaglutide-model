@@ -1,0 +1,23 @@
+{
+  "sets": [
+    {
+      "sid": "PK_20261018_102441__faa2d_0",
+      "values": {
+        "DULCAT_k": 0.0016090326034870533,
+        "Kp_dul": 0.0870081209863143,
+        "ftissue_dul": 0.02826823903169208,
+        "Ksc_dul": 0.0004809625251069162,
+        "Fsc_dul": 0.47892920668069267
+      },
+      "units": {
+        "DULCAT_k": "l/(min)",
+        "Kp_dul": "dimensionless",
+        "ftissue_dul": "l/(min)",
+        "Ksc_dul": "1/(min)",
+        "Fsc_dul": "dimensionless"
+      },
+      "cost": 16.05913797561731,
+      "provenance": "optimization 'PK_20261018_102441__faa2d', run '0'"
+    }
+  ]
+}

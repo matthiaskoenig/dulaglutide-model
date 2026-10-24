@@ -1,65 +1,78 @@
-from typing import Dict
+"""Simulation experiment of the study FDAGBCM."""
 
-from sbmlsim.data import DataSet, load_pkdb_dataframe
-from sbmlsim.fit import FitMapping, FitData
-from sbmlutils.console import console
+from typing import ClassVar, override
 
+from pkpdsim.metadata import (
+    ApplicationForm,
+    Coadministration,
+    Dosing,
+    Fasting,
+    Health,
+    PKPDMappingMetaData,
+    Route,
+    Tissue,
+)
+from sbmlsim import Q
+from sbmlsim.data import DataSet
+from sbmlsim.fit import FitData, FitMapping
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Simulation
+
+from pkdb_models.models.dulaglutide import MODEL
 from pkdb_models.models.dulaglutide.experiments.base_experiment import (
     DulaglutideSimulationExperiment,
 )
-from pkdb_models.models.dulaglutide.experiments.metadata import (
-    Tissue, Route, Dosing, ApplicationForm, Health,
-    Fasting, DulaglutideMappingMetaData, Coadministration
-)
-
-from sbmlsim.plot import Axis, Figure
-from sbmlsim.simulation import Timecourse, TimecourseSim
-
-from pkdb_models.models.dulaglutide.helpers import run_experiments
 
 
 class FDAGBCM(DulaglutideSimulationExperiment):
-    """Simulation experiment of FDA_GBCM.
+    """Simulation experiment of FDAGBCM (study H9X-MC-GBCM, FDA review BLA 125469).
 
-    Renal impairment.
+    A single subcutaneous dose of 1.5 mg in groups of normal (n = 16) and
+    impaired renal function (mild, moderate, severe, end stage renal disease,
+    n = 8 each) by the creatinine clearance (Cockcroft-Gault), plasma
+    concentrations over 14 days (Fig42, arithmetic mean and SD). The SD of
+    the data copy is the mean times the CV of Cmax of Table 46 per group: the
+    error bars of Fig42 are drawn in one color and cannot be assigned to the
+    groups (the control had a CV of 10 % instead of the 29 % of Cmax). The
+    groups of impaired renal function are validation data of the populations:
+    the model has no renal elimination of dulaglutide and simulates them as
+    the control (AUC +12 to +28 %, Cmax +11 to +23 % without a relation to the
+    creatinine clearance, Table 46, Fig21).
     """
-    groups = ["control", "mildR", "modR", "sevR", "ESR"]
-    colors = {
-        "control":  "black",
-        "mildR":  "#9dd8f0",
-        "modR":   "#5bc0de",
-        "sevR":   "#2ca0c2",
-        "ESR":     "#1f77b4"
+
+    groups: ClassVar[list[str]] = ["control", "mildR", "modR", "sevR", "ESR"]
+    colors: ClassVar[dict[str, str]] = {
+        "control": "black",
+        "mildR": "#9dd8f0",
+        "modR": "#5bc0de",
+        "sevR": "#2ca0c2",
+        "ESR": "#1f77b4",
     }
-    bodyweights = {  # [kg]
-        "control":  80,
-        "mildR":    75.59,
-        "modR":     78.25,
-        "sevR":     80.7,
-        "ESR":     75.58,
+    bodyweights: ClassVar[dict[str, float]] = {  # [kg]
+        "control": 79.6,
+        "mildR": 75.59,
+        "modR": 78.25,
+        "sevR": 80.7,
+        "ESR": 75.58,
     }
-    renal_function_values = {  # [kg]
-        "control":  89.9/101,
-        "mildR":    55.70/101,
-        "modR":     39.30/101,
-        "sevR":     25.80/101,
-        "ESR":     10.30/101,
-    }
-    renal_functions = {
-        "control": "Normal renal function",
-        "mildR":    "Mild renal impairment",
-        "modR":   "Moderate renal impairment",
-        "sevR":  "Severe renal impairment",
-        "ESR":    "End stage renal disease",
+    # the creatinine clearance of the groups [ml/min] (Cockcroft-Gault, mean),
+    # relative to the normal 101 ml/min of `renal_map`; the model has no renal
+    # mechanism, the values document the groups
+    renal_function_values: ClassVar[dict[str, float]] = {  # [-]
+        "control": 89.9 / 101,  # normal renal function
+        "mildR": 55.70 / 101,  # mild renal impairment
+        "modR": 39.30 / 101,  # moderate renal impairment
+        "sevR": 25.80 / 101,  # severe renal impairment
+        "ESR": 10.30 / 101,  # end stage renal disease
     }
 
-    def datasets(self) -> Dict[str, DataSet]:
+    @override
+    def datasets(self) -> dict[str, DataSet]:
         dsets = {}
         for fig_id in ["Fig42"]:
-            full_sid = f"{self.sid}_{fig_id}"
-            console.print(f"[debug] Using sid={self.sid}, full_sid={full_sid}")
-            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            df = self.load_dataframe(fig_id)
             for label, df_label in df.groupby("label"):
+                label = str(label)
                 dset = DataSet.from_df(df_label, self.ureg)
                 # unit conversion
                 if label.startswith("dulaglutide_"):
@@ -67,52 +80,36 @@ class FDAGBCM(DulaglutideSimulationExperiment):
 
                 dsets[label] = dset
 
-        # console.print(dsets)
-        # console.print(dsets.keys())
         return dsets
 
-    def simulations(self) -> Dict[str, TimecourseSim]:
-        Q_ = self.Q_
-        tcsims = {}
+    @override
+    def simulations(self) -> dict[str, Simulation]:
+        simulations: dict[str, Simulation] = {}
         for group in self.groups:
-            # rf_value = DulaglutideSimulationExperiment.renal_map[self.renal_functions[group]]
-            rf_value = self.renal_function_values[group]
-            tcsims[f"dul_{group}"] = TimecourseSim(
-                [Timecourse(
-                    start=0,
-                    end=18 * 24 * 60,  # [min]
-                    steps=1000,
-                    changes={
-                        **self.default_changes(),
-
-                        # physiological changes
-                        "BW0": Q_(self.bodyweights[group], "kg"),
-
-                        # healthy (2/48 T2DM)
-                        "hba1c0": Q_(self.hba1c_healthy, "dimensionless"),
-                        "hba1c": Q_(self.hba1c_healthy, "dimensionless"),
-                        "fpg0": Q_(self.fpg_healthy, "mM"),
-                        "[fpg]": Q_(self.fpg_healthy, "mM"),
-
-                        # renal function
-                        "KI__f_renal_function": Q_(rf_value, "dimensionless"),
-
-                        # dose
-                        "SCDOSE_dul": Q_(1.5, "mg"),
-                    },
-                )]
+            simulations[f"dul_{group}"] = Simulation(
+                time_unit="hr",
+                end=18 * 24,
+                preinit_changes={
+                    **self.default_changes(),
+                    # physiological changes, healthy glucose (2 of 48 with
+                    # type 2 diabetes); no renal function of the model: the
+                    # groups simulate the control (no renal elimination of
+                    # dulaglutide)
+                    **self.baseline_changes(self.bodyweights[group]),
+                    # dose
+                    "SCDOSE_dul": Q(1.5, "mg"),
+                },
             )
 
-        # console.print(tcsims.keys())
-        return tcsims
+        return simulations
 
-    def fit_mappings(self) -> Dict[str, FitMapping]:
-
+    @override
+    def fit_mappings(self) -> dict[str, FitMapping]:
         mappings = {}
         for group in self.groups:
             mappings[f"fm_dul_{group}"] = FitMapping(
                 self,
-                reference = FitData(
+                reference=FitData(
                     self,
                     dataset=f"dulaglutide_{group}",
                     xid="time",
@@ -120,50 +117,44 @@ class FDAGBCM(DulaglutideSimulationExperiment):
                     yid_sd="mean_sd",
                     count="count",
                 ),
-                observable = FitData(
-                    self, task = f"task_dul_{group}", xid="time", yid="[Cve_dul]",
+                observable=FitData(
+                    self,
+                    task=f"task_dul_{group}",
+                    xid="time",
+                    yid="[Cvep_dul]",
                 ),
-                metadata = DulaglutideMappingMetaData(
-                    tissue = Tissue.PLASMA,
-                    route = Route.SC,
-                    application_form = ApplicationForm.SOLUTION,
-                    dosing = Dosing.SINGLE,
-                    health = Health.HEALTHY if group == "control" else Health.RENAL_IMPAIRMENT,
-                    fasting = Fasting.NR,
-                    coadministration = Coadministration.NONE
-                )
+                metadata=PKPDMappingMetaData(
+                    tissue=Tissue.PLASMA,
+                    route=Route.SC,
+                    application_form=ApplicationForm.SOLUTION,
+                    dosing=Dosing.SINGLE,
+                    health=Health.HEALTHY
+                    if group == "control"
+                    else Health.RENAL_IMPAIRMENT,
+                    fasting=Fasting.NR,
+                    coadministration=Coadministration.NONE,
+                ),
             )
         return mappings
 
-    def figures(self) -> Dict[str, Figure]:
+    @override
+    def figures(self) -> dict[str, Figure]:
         fig = Figure(
             experiment=self,
             sid="Fig42",
-            num_cols=4,
-            name=f"{self.__class__.__name__}",
+            name=self.__class__.__name__,
         )
-        plots = fig.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
         plots[0].set_yaxis(self.label_dul, unit=self.unit_dul)
-        plots[1].set_yaxis(self.label_dm, unit=self.unit_dm)
-        plots[2].set_yaxis(self.label_dm_urine, unit=self.unit_dm_urine)
-        plots[3].set_yaxis(self.label_dm_feces, unit=self.unit_dm_feces)
 
         for group in self.groups:
             # simulation
-            for k, sid in enumerate(["[Cve_dul]", "[Cve_dm]", "Aurine_dm", "Afeces_dm"]):
-                # simulation
-                plots[k].add_data(
-                    task=f"task_dul_{group}",
-                    xid="time",
-                    yid=sid,
-                    label=group,
-                    color=self.colors[group],
-                )
-
             plots[0].add_data(
                 task=f"task_dul_{group}",
                 xid="time",
-                yid=f"[Cve_dul]",
+                yid="[Cvep_dul]",
                 label=group,
                 color=self.colors[group],
             )
@@ -178,10 +169,8 @@ class FDAGBCM(DulaglutideSimulationExperiment):
                 color=self.colors[group],
             )
 
-        return {
-            fig.sid: fig,
-        }
+        return self.figures_by_sid(fig)
 
 
 if __name__ == "__main__":
-    run_experiments(FDAGBCM, output_dir=FDAGBCM.__name__)
+    MODEL.run_experiments(FDAGBCM, output_dir=FDAGBCM.__name__)

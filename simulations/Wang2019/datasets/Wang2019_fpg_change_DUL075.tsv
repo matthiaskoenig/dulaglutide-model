@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wang2019	DUL075	252.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	0.0	week	0.0									mmol/l	mmol/l	dimensionless
+Wang2019	DUL075	252.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	26.0	week	-1.71				2.56302760918054		0.16145556326867			mmol/l	mmol/l	dimensionless
+Wang2019	DUL075	252.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	52.0	week	-1.53				2.62964464748251		0.16565204223121			mmol/l	mmol/l	dimensionless

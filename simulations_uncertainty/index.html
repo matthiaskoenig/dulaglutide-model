@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulation experiments | sbmlsim</title>
+<style>
+:root {
+  --bg: #ffffff; --bg-soft: #f6f7f9; --bg-card: #ffffff;
+  --fg: #1b1f24; --fg-soft: #5b6472; --line: #e3e6ea;
+  --accent: #3b5bdb; --training: #2f9e44; --validation: #1c7ed6; --outlier: #e8590c;
+  --excluded: #868e96;
+  --radius: 10px; --shadow: 0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c; --bg-soft: #1a1e24; --bg-card: #1a1e24;
+    --fg: #e6e9ee; --fg-soft: #9aa4b2; --line: #2a3038;
+    --accent: #748ffc; --training: #51cf66; --validation: #4dabf7; --outlier: #ff922b;
+    --excluded: #adb5bd;
+    --shadow: none;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header.top {
+  position: sticky; top: 0; z-index: 20; background: var(--bg);
+  border-bottom: 1px solid var(--line); padding: 14px 24px 0;
+}
+.top .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; }
+.top h1 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -.01em; }
+.top .sub { color: var(--fg-soft); font-size: 13px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.badge {
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 999px;
+  padding: 2px 10px; font-size: 12px; color: var(--fg-soft); white-space: nowrap;
+}
+.badge b { color: var(--fg); font-weight: 600; }
+.badge.failed, .badge.failed b { color: var(--outlier); border-color: var(--outlier); }
+nav.sections { display: flex; gap: 4px; margin-top: 12px; }
+nav.sections a {
+  padding: 8px 14px; border-bottom: 2px solid transparent; color: var(--fg-soft);
+  font-size: 14px; font-weight: 550;
+}
+nav.sections a.active { color: var(--fg); border-bottom-color: var(--accent); }
+.search { display: flex; gap: 8px; align-items: center; padding: 10px 0 12px; }
+.search input {
+  flex: 1; max-width: 460px; padding: 8px 12px; font-size: 14px; color: var(--fg);
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+}
+.search input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.chip {
+  border: 1px solid var(--line); background: var(--bg-soft); color: var(--fg-soft);
+  border-radius: 999px; padding: 5px 12px; font-size: 12.5px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { color: #fff; border-color: transparent; }
+.chip[data-kind="training"][aria-pressed="true"] { background: var(--training); }
+.chip[data-kind="validation"][aria-pressed="true"] { background: var(--validation); }
+.chip[data-kind="outlier"][aria-pressed="true"] { background: var(--outlier); }
+.chip[data-kind="excluded"][aria-pressed="true"] { background: var(--excluded); }
+#hits { color: var(--fg-soft); font-size: 12.5px; margin-left: auto; }
+
+main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+section { margin-bottom: 44px; scroll-margin-top: 150px; }
+section > h2 {
+  font-size: 17px; font-weight: 650; margin: 0 0 4px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+h3 { font-size: 14px; font-weight: 600; color: var(--fg-soft); margin: 26px 0 10px;
+     text-transform: uppercase; letter-spacing: .04em; }
+.card {
+  background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px; margin-bottom: 16px;
+}
+/* a heading which opens a card sits at the padding of the card */
+.card > h3:first-child { margin-top: 0; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        margin-bottom: 16px; }
+/* the gap of the grid is the space between its cards */
+.grid > .card { margin-bottom: 0; }
+.card.wide { grid-column: 1 / -1; }
+
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+/* two tables in one card, e.g. the networks and their arrays */
+table + table { margin-top: 24px; }
+th, td { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--fg-soft); font-weight: 600; white-space: nowrap; }
+th[data-sort] { cursor: pointer; user-select: none; }
+th[data-sort]:hover { color: var(--fg); }
+th[data-sort]::after { content: " ⇅"; opacity: .35; }
+th[data-sort].asc::after { content: " ↑"; opacity: 1; }
+th[data-sort].desc::after { content: " ↓"; opacity: 1; }
+td.num, th.num { text-align: right; padding-right: 18px; font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--bg-soft); }
+tr.total td { font-weight: 650; border-top: 2px solid var(--line); }
+
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 20px; font-size: 13.5px;
+      margin: 0; }
+.kv dt { color: var(--fg-soft); }
+.kv dd { margin: 0; word-break: break-word; white-space: pre-line; }
+
+.tag { border-radius: 999px; padding: 1px 9px; font-size: 11.5px; font-weight: 600; color: #fff; }
+.tag.training { background: var(--training); }
+.tag.validation { background: var(--validation); }
+.tag.outlier { background: var(--outlier); }
+.tag.excluded { background: var(--excluded); }
+.warn { color: var(--outlier); }
+
+/* what a value means, on the header of a column or next to a figure */
+.hint {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 14px; height: 14px; margin-left: 4px; border-radius: 50%;
+  border: 1px solid var(--line); color: var(--fg-soft);
+  font-size: 10px; font-weight: 700; line-height: 1; cursor: help;
+  position: relative; vertical-align: middle; user-select: none;
+}
+.hint:hover, .hint:focus { border-color: var(--accent); color: var(--accent); }
+.hint::after {
+  content: attr(data-tip);
+  position: absolute; bottom: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  width: max-content; max-width: 320px; padding: 8px 10px;
+  border-radius: 6px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--fg); box-shadow: 0 4px 16px rgb(0 0 0 / 18%);
+  font-size: 12px; font-weight: 400; line-height: 1.45; text-align: left;
+  white-space: normal; opacity: 0; visibility: hidden; transition: opacity .12s;
+  z-index: 20; pointer-events: none;
+}
+.hint:hover::after, .hint:focus::after { opacity: 1; visibility: visible; }
+/* a tooltip of the last columns would leave the page */
+td:last-child .hint::after, th:last-child .hint::after { left: auto; right: 0; transform: none; }
+/* on a phone a wide table scrolls inside its card and not the page; the
+   tooltips of its header open downwards, into the table, not above the card */
+@media (max-width: 700px) {
+  .card { overflow-x: auto; }
+  th .hint::after { bottom: auto; top: calc(100% + 8px); }
+  /* the header of a phone is not sticky, it would cover half of the screen,
+     and its rows wrap; the gutter is 16px */
+  header.top { position: static; padding: 12px 16px 0; }
+  main { padding: 16px; }
+  footer { padding: 8px 16px 24px; }
+  section { scroll-margin-top: 16px; }
+  nav.sections { overflow-x: auto; }
+  nav.sections a { padding: 8px 10px; white-space: nowrap; }
+  .search { flex-wrap: wrap; }
+  .search input { flex-basis: 100%; max-width: none; }
+}
+
+figure { margin: 0; }
+figure img {
+  width: 100%; height: auto; background: #fff; border: 1px solid var(--line);
+  border-radius: 8px; cursor: zoom-in;
+}
+figcaption { color: var(--fg-soft); font-size: 12.5px; margin-top: 6px; }
+
+.mapping { }
+.mapping header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; }
+.mapping header .name { font-weight: 650; }
+.mapping header .exp { color: var(--fg-soft); font-size: 13px; }
+.mapping .metrics { margin-left: auto; display: flex; gap: 14px; font-size: 12.5px; color: var(--fg-soft); }
+.mapping .metrics b { color: var(--fg); font-weight: 600; }
+.hidden { display: none !important; }
+.failed { color: var(--outlier); }
+.empty { color: var(--fg-soft); font-style: italic; padding: 16px 0; }
+
+pre.code {
+  margin: 0; padding: 14px 16px; overflow-x: auto; max-height: 70vh;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12.5px; line-height: 1.5; tab-size: 4;
+}
+#lightbox {
+  position: fixed; inset: 0; background: rgba(8,10,14,.86); z-index: 50;
+  display: none; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out;
+}
+#lightbox.open { display: flex; }
+#lightbox img { max-width: 100%; max-height: 100%; background: #fff; border-radius: 8px; }
+footer { color: var(--fg-soft); font-size: 12.5px; padding: 8px 24px 32px; max-width: 1400px; margin: 0 auto; }
+</style>
+<style>
+  /* the figures of an experiment are thumbnails of one height, a click opens
+     a figure in full size */
+  #experiments figure img { height: 220px; object-fit: contain; }
+  #experiments figure a.interactive { display: flex; align-items: center; justify-content: center; height: 220px; border: 1px dashed var(--line); border-radius: 8px; }
+  .chip[data-kind="passed"][aria-pressed="true"] { background: var(--training); }
+  .chip[data-kind="failed"][aria-pressed="true"] { background: var(--outlier); }
+</style>
+</head>
+<body data-items="experiments">
+
+<header class="top">
+  <div class="row">
+    <h1>Simulation experiments</h1>
+    <span class="sub">28 experiment(s)</span>
+    <div class="badges">
+<span class="badge">experiments <b>28</b></span>
+    </div>
+  </div>
+  <nav class="sections">
+<a href="#experiments">Experiments</a>
+  </nav>
+  <div class="search">
+    <input id="search" type="search" placeholder="Search experiments and figures …" autocomplete="off">
+    <span id="hits"></span>
+  </div>
+</header>
+
+<main>
+
+<section id="experiments">
+  <h2>Experiments (28)</h2>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Barrington2011/Barrington2011.html">Barrington2011</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Barrington2011/Barrington2011_Fig1.svg" alt="Fig1">
+        <figcaption>Fig1</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Barrington2011a/Barrington2011a.html">Barrington2011a</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Barrington2011a/Barrington2011a_Fig1_pk.svg" alt="Fig1_pk">
+        <figcaption>Fig1_pk</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Barrington2011a/Barrington2011a_Fig2_Fig3_pd.svg" alt="Fig2_Fig3_pd">
+        <figcaption>Fig2_Fig3_pd</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Blonde2015/Blonde2015.html">Blonde2015</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Blonde2015/Blonde2015_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Chen2018/Chen2018.html">Chen2018</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Chen2018/Chen2018_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Dungan2014/Dungan2014.html">Dungan2014</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Dungan2014/Dungan2014_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Dungan2016/Dungan2016.html">Dungan2016</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Dungan2016/Dungan2016_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="FDAGBCM/FDAGBCM.html">FDAGBCM</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="FDAGBCM/FDAGBCM_Fig42.svg" alt="Fig42">
+        <figcaption>Fig42</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="FDAGBCN/FDAGBCN.html">FDAGBCN</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="FDAGBCN/FDAGBCN_Fig34.svg" alt="Fig34">
+        <figcaption>Fig34</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="FDAGBDO/FDAGBDO.html">FDAGBDO</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="FDAGBDO/FDAGBDO_Fig45.svg" alt="Fig45">
+        <figcaption>Fig45</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="FDAGBDR/FDAGBDR.html">FDAGBDR</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="FDAGBDR/FDAGBDR_Fig15.svg" alt="Fig15">
+        <figcaption>Fig15</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="FDAGBDR/FDAGBDR_Fig32.svg" alt="Fig32">
+        <figcaption>Fig32</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Gao2024/Gao2024.html">Gao2024</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Gao2024/Gao2024_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Gerstein2019/Gerstein2019.html">Gerstein2019</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Gerstein2019/Gerstein2019_Fig4.svg" alt="Fig4">
+        <figcaption>Fig4</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Giorgino2015/Giorgino2015.html">Giorgino2015</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Giorgino2015/Giorgino2015_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Grunberger2012/Grunberger2012.html">Grunberger2012</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Grunberger2012/Grunberger2012_Fig3.svg" alt="Fig3">
+        <figcaption>Fig3</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Liu2025/Liu2025.html">Liu2025</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Liu2025/Liu2025_Fig3.svg" alt="Fig3">
+        <figcaption>Fig3</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Liu2025/Liu2025_Fig2_Tab6.svg" alt="Fig2_Tab6">
+        <figcaption>Fig2_Tab6</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Morioka2024/Morioka2024.html">Morioka2024</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Morioka2024/Morioka2024_Fig1_3.svg" alt="Fig1_3">
+        <figcaption>Fig1_3</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Nauck2014/Nauck2014.html">Nauck2014</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Nauck2014/Nauck2014_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Pratley2018/Pratley2018.html">Pratley2018</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Pratley2018/Pratley2018_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Terauchi2014/Terauchi2014.html">Terauchi2014</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Terauchi2014/Terauchi2014_Fig1_Tab2.svg" alt="Fig1_Tab2">
+        <figcaption>Fig1_Tab2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Umpierrez2011/Umpierrez2011.html">Umpierrez2011</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Umpierrez2011/Umpierrez2011_Fig2_3_5.svg" alt="Fig2_3_5">
+        <figcaption>Fig2_3_5</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Umpierrez2014/Umpierrez2014.html">Umpierrez2014</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Umpierrez2014/Umpierrez2014_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Wang2019/Wang2019.html">Wang2019</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Wang2019/Wang2019_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Weinstock2015/Weinstock2015.html">Weinstock2015</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Weinstock2015/Weinstock2015_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Wysham2014/Wysham2014.html">Wysham2014</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Wysham2014/Wysham2014_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Xu2022/Xu2022.html">Xu2022</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Xu2022/Xu2022_Fig1_pk.svg" alt="Fig1_pk">
+        <figcaption>Fig1_pk</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="Xu2022/Xu2022_Fig2_Fig3_pd.svg" alt="Fig2_Fig3_pd">
+        <figcaption>Fig2_Fig3_pd</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="Zhang2023/Zhang2023.html">Zhang2023</a></span>
+      <span class="exp">1 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="Zhang2023/Zhang2023_Fig2.svg" alt="Fig2">
+        <figcaption>Fig2</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="DoseDependencyExperiment/DoseDependencyExperiment.html">DoseDependencyExperiment</a></span>
+      <span class="exp">2 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="DoseDependencyExperiment/DoseDependencyExperiment_Fig_dose_dependency_pk_dul_SC.svg" alt="Fig_dose_dependency_pk_dul_SC">
+        <figcaption>Fig_dose_dependency_pk_dul_SC</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="DoseDependencyExperiment/DoseDependencyExperiment_Fig_dose_dependency_bodyweight_dul_SC.svg" alt="Fig_dose_dependency_bodyweight_dul_SC">
+        <figcaption>Fig_dose_dependency_bodyweight_dul_SC</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name"><a href="DulaglutideParameterScan/DulaglutideParameterScan.html">DulaglutideParameterScan</a></span>
+      <span class="exp">4 figure(s) · 1 model(s)</span>
+    </header>
+    <div class="grid">
+      <figure>
+        <img loading="lazy" src="DulaglutideParameterScan/DulaglutideParameterScan_timecourse__dose_scan.svg" alt="timecourse__dose_scan">
+        <figcaption>timecourse__dose_scan</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="DulaglutideParameterScan/DulaglutideParameterScan_timecourse__bodyweight_scan.svg" alt="timecourse__bodyweight_scan">
+        <figcaption>timecourse__bodyweight_scan</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="DulaglutideParameterScan/DulaglutideParameterScan_pk_dose_scan.svg" alt="pk_dose_scan">
+        <figcaption>pk_dose_scan</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="DulaglutideParameterScan/DulaglutideParameterScan_pk_bodyweight_scan.svg" alt="pk_bodyweight_scan">
+        <figcaption>pk_bodyweight_scan</figcaption>
+      </figure>
+    </div>
+  </div>
+  <p class="empty hidden" data-empty>No experiment matches the search.</p>
+</section>
+
+</main>
+
+<footer>
+<br>created by sbmlsim 0.13.0</footer>
+
+<div id="lightbox"><img alt=""></div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- search and the filter chips ------------------------------------
+  const search = document.getElementById("search");
+  const hits = document.getElementById("hits");
+  const chips = Array.from(document.querySelectorAll(".chip"));
+  const cards = Array.from(document.querySelectorAll('[data-filter="card"]'));
+  const rows = Array.from(document.querySelectorAll('table[data-filter="row"] tbody tr'));
+  const empty = document.querySelector("[data-empty]");
+  const itemLabel = document.body.dataset.items || "items";
+
+  const haystack = new Map();
+  for (const node of [...cards, ...rows]) {
+    haystack.set(node, node.textContent.toLowerCase());
+  }
+
+  function activeKinds() {
+    return new Set(chips.filter((c) => c.getAttribute("aria-pressed") === "true")
+                        .map((c) => c.dataset.kind));
+  }
+
+  function matches(node, query, kinds) {
+    const kind = node.dataset.kind;
+    if (kind && !kinds.has(kind)) return false;
+    return !query || haystack.get(node).includes(query);
+  }
+
+  function apply() {
+    const query = search.value.trim().toLowerCase();
+    const kinds = activeKinds();
+    let shownCards = 0;
+    for (const node of cards) {
+      const show = matches(node, query, kinds);
+      node.classList.toggle("hidden", !show);
+      if (show) shownCards += 1;
+    }
+    for (const node of rows) {
+      node.classList.toggle("hidden", !matches(node, query, kinds));
+    }
+    if (empty) empty.classList.toggle("hidden", shownCards > 0 || cards.length === 0);
+    const filtering = Boolean(query) || (chips.length > 0 && kinds.size < chips.length);
+    hits.textContent = filtering
+      ? shownCards + " / " + cards.length + " " + itemLabel
+      : "";
+  }
+
+  search.addEventListener("input", apply);
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      chip.setAttribute("aria-pressed", chip.getAttribute("aria-pressed") === "true" ? "false" : "true");
+      apply();
+    });
+  }
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && document.activeElement !== search) {
+      event.preventDefault();
+      search.focus();
+    } else if (event.key === "Escape") {
+      if (document.activeElement === search && search.value) { search.value = ""; apply(); }
+      closeLightbox();
+    }
+  });
+
+  // ---- sortable tables -------------------------------------------------
+  function cellValue(row, index, kind) {
+    const text = row.cells[index] ? row.cells[index].textContent.trim() : "";
+    if (kind !== "num") return text.toLowerCase();
+    // the AIC of a perfect fit is -inf, a cell without a value sorts last
+    if (text === "-inf") return Number.NEGATIVE_INFINITY;
+    const value = parseFloat(text);
+    return Number.isNaN(value) ? Number.POSITIVE_INFINITY : value;
+  }
+
+  for (const table of document.querySelectorAll("table")) {
+    const headers = Array.from(table.querySelectorAll("th[data-sort]"));
+    headers.forEach((th, index) => {
+      th.addEventListener("click", () => {
+        const body = table.tBodies[0];
+        if (!body) return;
+        const kind = th.dataset.sort;
+        const descending = th.classList.contains("asc");
+        for (const other of headers) other.classList.remove("asc", "desc");
+        th.classList.add(descending ? "desc" : "asc");
+        const sorted = Array.from(body.rows).sort((a, b) => {
+          const left = cellValue(a, index, kind);
+          const right = cellValue(b, index, kind);
+          if (left < right) return descending ? 1 : -1;
+          if (left > right) return descending ? -1 : 1;
+          return 0;
+        });
+        for (const row of sorted) body.appendChild(row);
+      });
+    });
+  }
+
+  // ---- the section the page is scrolled to -----------------------------
+  // a tab (data-tab) is not a section, its page marks the tab which is shown
+  const links = Array.from(document.querySelectorAll("nav.sections a:not([data-tab])"));
+  const sections = links.map((link) => document.querySelector(link.getAttribute("href")));
+  function scrollspy() {
+    let current = 0;
+    sections.forEach((section, index) => {
+      if (section && section.getBoundingClientRect().top < 200) current = index;
+    });
+    links.forEach((link, index) => link.classList.toggle("active", index === current));
+  }
+  window.addEventListener("scroll", scrollspy, { passive: true });
+  scrollspy();
+
+  // ---- click a figure to enlarge it ------------------------------------
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImage = lightbox.querySelector("img");
+  function closeLightbox() { lightbox.classList.remove("open"); lightboxImage.src = ""; }
+  for (const image of document.querySelectorAll("figure img")) {
+    image.addEventListener("click", () => {
+      lightboxImage.src = image.getAttribute("src");
+      lightbox.classList.add("open");
+    });
+  }
+  lightbox.addEventListener("click", closeLightbox);
+
+  apply();
+})();
+</script>
+</body>
+</html>

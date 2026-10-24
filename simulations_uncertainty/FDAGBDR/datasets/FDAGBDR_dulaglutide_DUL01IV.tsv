@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	0.0	hr	0.0								mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	0.5	hr	3.044697258425339e-07								mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	1.0	hr	5.93325268327389e-07				1.3271728262921567e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	2.0	hr	5.93325268327389e-07				1.3271728262921567e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	4.0	hr	5.14496396849338e-07				9.368301547540305e-08				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	8.0	hr	4.793028322440088e-07				1.4052437430805596e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	12.0	hr	3.9802245684598625e-07				1.4833146598689627e-07				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	24.0	hr	2.6227585051114465e-07				5.464845051149154e-08				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	36.0	hr	2.0445785151667504e-07				4.68413588326536e-08				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	48.0	hr	1.87699011228423e-07				5.464845051149154e-08				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	72.0	hr	1.5753309870956932e-07				3.1227771095166246e-08				mole/meter^3	ng/ml	dimensionless
+FDAGBDR	DUL01IV	22.0	DUL01IV	concentration	dulaglutide	plasma	NR	dulaglutide_DUL01IV	120.0	hr	1.126194067370538e-07				3.122747328506955e-08				mole/meter^3	ng/ml	dimensionless

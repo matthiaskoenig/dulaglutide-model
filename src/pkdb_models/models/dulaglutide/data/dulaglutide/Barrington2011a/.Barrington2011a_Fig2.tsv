@@ -1,22 +1,57 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
-Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	3.0	day	2.34309608471627	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	31.0	day	-0.669456024204649	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	36.0	day	1.56206575899223	NA	NA	NA	19.6281056647703	5.91809653049931	NA	mg/dl	NA
-Barrington2011a	DUL005	11.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	3.0	day	0.334728012102331	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL005	11.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	31.0	day	-35.7043229934294	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL005	11.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	36.0	day	-21.4225927745488	NA	NA	NA	42.7612253275357	12.892994544298	NA	mg/dl	NA
-Barrington2011a	DUL03	11.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	3.0	day	-7.58716997683409	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL03	11.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	31.0	day	-17.5174309308403	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL03	11.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	36.0	day	-12.7196644598883	NA	NA	NA	26.6381416831124	8.0317019159282	NA	mg/dl	NA
-Barrington2011a	DUL1	11.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	3.0	day	-24.6582985940527	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL1	11.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	31.0	day	-52.3291441894822	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL1	11.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	36.0	day	-36.0390510055317	NA	NA	NA	28.3906567044625	8.5601050764082	NA	mg/dl	NA
-Barrington2011a	DUL3	11.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	3.0	day	-30.9065514149333	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL3	11.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	31.0	day	-54.783819683262	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL3	11.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	36.0	day	-52.5523030076092	NA	NA	NA	43.8127311314045	13.2100354730538	NA	mg/dl	NA
-Barrington2011a	DUL5	11.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	3.0	day	-19.3026504004154	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL5	11.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	31.0	day	-49.3165920805612	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL5	11.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	36.0	day	-41.8410066203348	NA	NA	NA	23.4836403162108	7.0805839673213	NA	mg/dl	NA
-Barrington2011a	DUL8	11.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	3.0	day	-48.5355668623813	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL8	11.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	31.0	day	-74.5327723972992	NA	NA	NA	NA	NA	NA	mg/dl	NA
-Barrington2011a	DUL8	11.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	36.0	day	-72.4128249156217	NA	NA	NA	29.4421625083316	8.87714600516409	NA	mg/dl	NA
+Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	2.0	day	2.34309608471627	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	30.0	day	-0.669456024204649	NA	NA	NA	19.628105664770292	5.91809653049931	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	PLAC	11.0	PLAC	concentration change absolute	glucose	plasma	NR	fpg_change_PLAC	35.0	day	1.56206575899223	NA	NA	NA	19.628105664770292	5.91809653049931	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL005	3.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL005	3.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	2.0	day	0.334728012102331	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL005	3.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	30.0	day	-35.7043229934294	NA	NA	NA	22.33132161243248	12.892994544298	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL005	3.0	DUL005	concentration change absolute	glucose	plasma	NR	fpg_change_DUL005	35.0	day	-21.4225927745488	NA	NA	NA	22.33132161243248	12.892994544298	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL03	6.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL03	6.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	2.0	day	-7.58716997683409	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL03	6.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	30.0	day	-17.5174309308403	NA	NA	NA	19.673571460158126	8.0317019159282	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL03	6.0	DUL03	concentration change absolute	glucose	plasma	NR	fpg_change_DUL03	35.0	day	-12.7196644598883	NA	NA	NA	19.673571460158126	8.0317019159282	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL1	5.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL1	5.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	2.0	day	-24.6582985940527	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL1	5.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	30.0	day	-52.3291441894822	NA	NA	NA	19.14097684538977	8.5601050764082	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL1	5.0	DUL1	concentration change absolute	glucose	plasma	NR	fpg_change_DUL1	35.0	day	-36.0390510055317	NA	NA	NA	19.14097684538977	8.5601050764082	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL3	3.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL3	3.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	2.0	day	-30.9065514149333	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL3	3.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	30.0	day	-54.783819683262	NA	NA	NA	22.88045260911635	13.2100354730538	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL3	3.0	DUL3	concentration change absolute	glucose	plasma	NR	fpg_change_DUL3	35.0	day	-52.5523030076092	NA	NA	NA	22.88045260911635	13.2100354730538	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL5	9.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL5	9.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	2.0	day	-19.3026504004154	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL5	9.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	30.0	day	-49.3165920805612	NA	NA	NA	21.2417519019639	7.0805839673213	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL5	9.0	DUL5	concentration change absolute	glucose	plasma	NR	fpg_change_DUL5	35.0	day	-41.8410066203348	NA	NA	NA	21.2417519019639	7.0805839673213	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL8	6.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	0.0	day	0.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL8	6.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	2.0	day	-48.5355668623813	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL8	6.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	30.0	day	-74.5327723972992	NA	NA	NA	21.7444780848381	8.87714600516409	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL8	6.0	DUL8	concentration change absolute	glucose	plasma	NR	fpg_change_DUL8	35.0	day	-72.4128249156217	NA	NA	NA	21.7444780848381	8.87714600516409	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	0.0	day	158.4	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	2.0	day	160.743096084716	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	30.0	day	157.730543975795	NA	NA	NA	19.628105664770292	5.91809653049931	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	PLAC	11.0	PLAC	concentration	glucose	plasma	NR	fpg_PLAC	35.0	day	159.962065758992	NA	NA	NA	19.628105664770292	5.91809653049931	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL005	3.0	DUL005	concentration	glucose	plasma	NR	fpg_DUL005	0.0	day	170.7	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL005	3.0	DUL005	concentration	glucose	plasma	NR	fpg_DUL005	2.0	day	171.034728012102	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL005	3.0	DUL005	concentration	glucose	plasma	NR	fpg_DUL005	30.0	day	134.995677006571	NA	NA	NA	22.33132161243248	12.892994544298	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL005	3.0	DUL005	concentration	glucose	plasma	NR	fpg_DUL005	35.0	day	149.277407225451	NA	NA	NA	22.33132161243248	12.892994544298	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL03	6.0	DUL03	concentration	glucose	plasma	NR	fpg_DUL03	0.0	day	185.5	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL03	6.0	DUL03	concentration	glucose	plasma	NR	fpg_DUL03	2.0	day	177.912830023166	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL03	6.0	DUL03	concentration	glucose	plasma	NR	fpg_DUL03	30.0	day	167.98256906916	NA	NA	NA	19.673571460158126	8.0317019159282	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL03	6.0	DUL03	concentration	glucose	plasma	NR	fpg_DUL03	35.0	day	172.780335540112	NA	NA	NA	19.673571460158126	8.0317019159282	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL1	5.0	DUL1	concentration	glucose	plasma	NR	fpg_DUL1	0.0	day	200.4	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL1	5.0	DUL1	concentration	glucose	plasma	NR	fpg_DUL1	2.0	day	175.741701405947	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL1	5.0	DUL1	concentration	glucose	plasma	NR	fpg_DUL1	30.0	day	148.070855810518	NA	NA	NA	19.14097684538977	8.5601050764082	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL1	5.0	DUL1	concentration	glucose	plasma	NR	fpg_DUL1	35.0	day	164.360948994468	NA	NA	NA	19.14097684538977	8.5601050764082	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL3	3.0	DUL3	concentration	glucose	plasma	NR	fpg_DUL3	0.0	day	145.2	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL3	3.0	DUL3	concentration	glucose	plasma	NR	fpg_DUL3	2.0	day	114.293448585067	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL3	3.0	DUL3	concentration	glucose	plasma	NR	fpg_DUL3	30.0	day	90.416180316738	NA	NA	NA	22.88045260911635	13.2100354730538	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL3	3.0	DUL3	concentration	glucose	plasma	NR	fpg_DUL3	35.0	day	92.6476969923908	NA	NA	NA	22.88045260911635	13.2100354730538	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL5	9.0	DUL5	concentration	glucose	plasma	NR	fpg_DUL5	0.0	day	142.5	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL5	9.0	DUL5	concentration	glucose	plasma	NR	fpg_DUL5	2.0	day	123.197349599585	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL5	9.0	DUL5	concentration	glucose	plasma	NR	fpg_DUL5	30.0	day	93.1834079194388	NA	NA	NA	21.2417519019639	7.0805839673213	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL5	9.0	DUL5	concentration	glucose	plasma	NR	fpg_DUL5	35.0	day	100.658993379665	NA	NA	NA	21.2417519019639	7.0805839673213	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	0.0	day	177.3	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	2.0	day	128.764433137619	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	30.0	day	102.767227602701	NA	NA	NA	21.7444780848381	8.87714600516409	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm
+Barrington2011a	DUL8	6.0	DUL8	concentration	glucose	plasma	NR	fpg_DUL8	35.0	day	104.887175084378	NA	NA	NA	21.7444780848381	8.87714600516409	NA	mg/dl	SEM of the week 5 mean of Fig2A (study days 31 and 36), sd = se x sqrt(n) with n of the arm

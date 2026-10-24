@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Grunberger2012	PLAC	32.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	0.0	week	7.68584070964505				0.76991148425937					percent	percent	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	4.0	week	7.63938048476106				0.83628316175425					percent	percent	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	8.0	week	7.65929193737195				0.86946912709562					percent	percent	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	hba1c		plasma	NR	hba1c_PLAC	12.0	week	7.64601780442326				0.92920335833437					percent	percent	dimensionless

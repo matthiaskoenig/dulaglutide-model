@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	0.0	week	0.0									kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	4.0	week	-0.551796976485415				1.688521741228		0.095137422253363			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	8.0	week	-0.837209243245505				2.13879592320862		0.120507498299718			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	12.0	week	-1.08456651690955				2.25136232163738		0.12684989633782			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	26.0	week	-1.48414388393126				3.48960988088461		0.19661724254482			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	39.0	week	-1.52854115409191				3.71475126600788		0.20930252251498			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	52.0	week	-1.64270625435353				4.2775875522844		0.24101475465246			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	65.0	week	-1.59196610226082				4.16502115385568		0.23467235661436			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	78.0	week	-1.71247360056054				4.6152910417033		0.26004219071373			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	91.0	week	-1.82663845887518				4.84042813269365		0.27272722873691			kg	kg	dimensionless
+Weinstock2015	SITA	315.0	SITA	weight (change)			NR	bodyweight_change_SITA	104.0	week	-1.88372100900599				4.95299453112238		0.27906962677501			kg	kg	dimensionless

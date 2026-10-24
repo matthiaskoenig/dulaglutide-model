@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	DUL15	269.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	0.0	week	7.6				0.9					percent	percent	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	4.0	week	7.07106230612335				0.450582917757497		0.0274725253611798			percent	percent	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	13.0	week	6.84029312103589				0.811048335250404		0.04945048975714			percent	percent	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	26.0	week	6.83113561258217				0.991281043996695		0.0604394719551102			percent	percent	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	39.0	week	6.89157508453728				0.961244932952705		0.0586081379433505			percent	percent	dimensionless
+Umpierrez2014	DUL15	269.0	DUL15	hba1c		plasma	NR	hba1c_DUL15	52.0	week	6.95018322248063				1.14147649580761		0.0695970502750898			percent	percent	dimensionless

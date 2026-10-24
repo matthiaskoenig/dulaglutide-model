@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	0.0	week	8.69									percent	percent	dimensionless
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	8.0	week	7.619999999999999				0.58118331736129	0.0416194018106				percent	percent	dimensionless
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	16.0	week	7.329999999999999				0.714297643917578	0.05115191673007				percent	percent	dimensionless
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	26.0	week	7.4399999999999995				0.856738552565545	0.0613523220655201				percent	percent	dimensionless
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	38.0	week	7.55				0.905926979865909	0.0648747785075599				percent	percent	dimensionless
+Morioka2024	DUL075	195.0	DUL075	hba1c (change)		plasma	NR	hba1c_change_DUL075	52.0	week	7.5				0.904761379430617	0.06479130812667				percent	percent	dimensionless

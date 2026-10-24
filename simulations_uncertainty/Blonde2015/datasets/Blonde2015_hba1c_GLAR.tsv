@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	0.0	week	8.54073410922112				1.04910239083384	0.0609778378674646		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	13.0	week	7.01521933751119				0.919438050393712	0.0534412511647448		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	26.0	week	7.05550581915846				1.10804072739759	0.0644035590959768		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless
+Blonde2015	GLAR	296.0	GLAR	hba1c		plasma	NR	hba1c_GLAR	52.0	week	7.30796777081468				1.33200640633959	0.0774212997643088		error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)	percent	percent	dimensionless

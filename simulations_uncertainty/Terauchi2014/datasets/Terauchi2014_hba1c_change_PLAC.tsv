@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	0.0	week	0.0									percent	percent	dimensionless
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	4.0	week	-0.0140845902830171									percent	percent	dimensionless
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	8.0	week	-0.122065772543039									percent	percent	dimensionless
+Terauchi2014	PLAC	37.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	12.0	week	-0.18				0.543103797348055	0.175				percent	percent	dimensionless

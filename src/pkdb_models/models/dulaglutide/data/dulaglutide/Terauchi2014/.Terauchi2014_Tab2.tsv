@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
+Terauchi2014	PLAC	37.0	PLAC	weight (change)	NA	plasma	NR	bodyweight_change_PLAC	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	PLAC	37.0	PLAC	weight (change)	NA	plasma	NR	bodyweight_change_PLAC	12.0	week	-0.8	NA	NA	NA	1.8248287590894656	NA	0.3	NA	kg	NA
+Terauchi2014	DUL025	36.0	DUL025	weight (change)	NA	plasma	NR	bodyweight_change_DUL025	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	DUL025	36.0	DUL025	weight (change)	NA	plasma	NR	bodyweight_change_DUL025	12.0	week	0.4	NA	NA	NA	1.8	NA	0.3	NA	kg	NA
+Terauchi2014	DUL05	37.0	DUL05	weight (change)	NA	plasma	NR	bodyweight_change_DUL05	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	DUL05	37.0	DUL05	weight (change)	NA	plasma	NR	bodyweight_change_DUL05	12.0	week	-0.4	NA	NA	NA	1.82482875908947	NA	0.3	NA	kg	NA
+Terauchi2014	DUL075	35.0	DUL075	weight (change)	NA	plasma	NR	bodyweight_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	DUL075	35.0	DUL075	weight (change)	NA	plasma	NR	bodyweight_change_DUL075	12.0	week	-0.6	NA	NA	NA	1.77482393492988	NA	0.3	NA	kg	NA
+Terauchi2014	PLAC	37.0	PLAC	weight 	NA	plasma	NR	bodyweight_PLAC	0.0	week	76.4	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	PLAC	37.0	PLAC	weight 	NA	plasma	NR	bodyweight_PLAC	12.0	week	75.6	NA	NA	NA	1.8248287590894656	NA	0.3	NA	kg	NA
+Terauchi2014	DUL025	36.0	DUL025	weight 	NA	plasma	NR	bodyweight_DUL025	0.0	week	74.0	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	DUL025	36.0	DUL025	weight 	NA	plasma	NR	bodyweight_DUL025	12.0	week	74.4	NA	NA	NA	1.8	NA	0.3	NA	kg	NA
+Terauchi2014	DUL05	37.0	DUL05	weight 	NA	plasma	NR	bodyweight_DUL05	0.0	week	72.1	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	DUL05	37.0	DUL05	weight 	NA	plasma	NR	bodyweight_DUL05	12.0	week	71.7	NA	NA	NA	1.82482875908947	NA	0.3	NA	kg	NA
+Terauchi2014	DUL075	35.0	DUL075	weight 	NA	plasma	NR	bodyweight_DUL075	0.0	week	75.8	NA	NA	NA	NA	NA	NA	NA	kg	NA
+Terauchi2014	DUL075	35.0	DUL075	weight 	NA	plasma	NR	bodyweight_DUL075	12.0	week	75.2	NA	NA	NA	1.77482393492988	NA	0.3	NA	kg	NA

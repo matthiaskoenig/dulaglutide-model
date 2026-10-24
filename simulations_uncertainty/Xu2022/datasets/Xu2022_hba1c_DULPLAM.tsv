@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Xu2022	Bplac	10.0	DULPLAM	hba1c		plasma	NR	hba1c_DULPLAM	0.0	day	7.29								percent	percent	dimensionless
+Xu2022	Bplac	10.0	DULPLAM	hba1c		plasma	NR	hba1c_DULPLAM	28.0	day	7.03				0.486199695340774		0.602699386503066		percent	percent	dimensionless
+Xu2022	Bplac	10.0	DULPLAM	hba1c		plasma	NR	hba1c_DULPLAM	42.0	day	6.94				0.479567824304788		0.594478433995158		percent	percent	dimensionless

@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wysham2014	EXEN	276.0	EXEN	hba1c (change)		plasma	NR	hba1c_change_ancova_EXEN	0.0	week	0.0									percent	percent	dimensionless
+Wysham2014	EXEN	276.0	EXEN	hba1c (change)		plasma	NR	hba1c_change_ancova_EXEN	26.0	week	-0.99				1.05623716234139		0.06357800592468			percent	percent	dimensionless
+Wysham2014	EXEN	276.0	EXEN	hba1c (change)		plasma	NR	hba1c_change_ancova_EXEN	52.0	week	-0.8				1.35954272620035		0.081834855450091			percent	percent	dimensionless

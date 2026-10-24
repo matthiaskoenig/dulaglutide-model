@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	DUL075	270.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	0.0	week	0.0									kg	kg	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	2.0	week	-0.434535098698506				1.30954325745837		0.079696264682083			kg	kg	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	4.0	week	-0.81024680530413				1.77724161082756		0.108159480043008			kg	kg	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	13.0	week	-1.18026578197539				2.71263118110982		0.16508547645397			kg	kg	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	26.0	week	-0.98102479453702				3.5544832216551		0.216318960086015			kg	kg	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	39.0	week	-0.685009569768922				3.9286369088312		0.239089228357135			kg	kg	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	weight (change)			NR	bodyweight_change_DUL075	52.0	week	-0.781783807098648				4.39633169397233		0.267552226562616			kg	kg	dimensionless

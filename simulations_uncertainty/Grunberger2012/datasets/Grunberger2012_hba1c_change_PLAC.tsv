@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Grunberger2012	PLAC	32.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	0.0	week	0.0									percent	percent	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	4.0	week	-0.0119047609007316				0.565685223103123		0.0999999643183108			percent	percent	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	8.0	week	-0.0023809612627581				0.633028720393615		0.111904725219042			percent	percent	dimensionless
+Grunberger2012	PLAC	32.0	PLAC	hba1c (change)		plasma	NR	hba1c_change_PLAC	12.0	week	0.0071428383752154				0.72730971935833		0.12857140864529			percent	percent	dimensionless

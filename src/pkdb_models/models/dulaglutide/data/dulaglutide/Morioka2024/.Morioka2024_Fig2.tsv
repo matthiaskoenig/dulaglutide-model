@@ -1,7 +1,7 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	ci	se	cv	unit	comments
 Morioka2024	DUL075	195.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	0.0	week	0.0	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
 Morioka2024	DUL075	195.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	8.0	week	-2.04240204240204	NA	NA	NA	1.33694546096557	0.0957406530376954	NA	NA	mmol/l	NA
-Morioka2024	DUL075	195.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	16.0	week	-1.85370185370185	NA	NA	NA	1.48995639916467	0.106697993911205	NA	NA	mmol/l	NA
+Morioka2024	DUL075	195.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	16.0	week	-1.85370185370185	NA	NA	NA	1.48995639916466	0.106697993911205	NA	NA	mmol/l	NA
 Morioka2024	DUL075	195.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	26.0	week	-1.92585192585193	NA	NA	NA	1.50173931541468	0.107541786069825	NA	NA	mmol/l	NA
 Morioka2024	DUL075	195.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	38.0	week	-1.71495171495171	NA	NA	NA	1.54389217640926	0.110560415143978	NA	NA	mmol/l	NA
 Morioka2024	DUL075	195.0	DUL075	concentration change absolute	glucose	plasma	NR	fpg_change_DUL075	52.0	week	-1.83705183705184	NA	NA	NA	1.75532057514552	0.125701117256916	NA	NA	mmol/l	NA
@@ -11,3 +11,15 @@ Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fp
 Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	26.0	week	-2.39205239205239	NA	NA	NA	1.4750857400368	0.0745982923301032	NA	NA	mmol/l	NA
 Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	38.0	week	-2.22000222000222	NA	NA	NA	1.73898673806067	0.0879443394529638	NA	NA	mmol/l	NA
 Morioka2024	DUL15	391.0	DUL15	concentration change absolute	glucose	plasma	NR	fpg_change_DUL15	52.0	week	-2.35320235320235	NA	NA	NA	1.693870315181	0.0856627038764568	NA	NA	mmol/l	NA
+Morioka2024	DUL075	195.0	DUL075	concentration 	glucose	plasma	NR	fpg_DUL075	0.0	week	9.97	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Morioka2024	DUL075	195.0	DUL075	concentration 	glucose	plasma	NR	fpg_DUL075	8.0	week	7.92759795759796	NA	NA	NA	1.33694546096557	0.0957406530376954	NA	NA	mmol/l	NA
+Morioka2024	DUL075	195.0	DUL075	concentration 	glucose	plasma	NR	fpg_DUL075	16.0	week	8.11629814629815	NA	NA	NA	1.48995639916466	0.106697993911205	NA	NA	mmol/l	NA
+Morioka2024	DUL075	195.0	DUL075	concentration 	glucose	plasma	NR	fpg_DUL075	26.0	week	8.04414807414807	NA	NA	NA	1.50173931541468	0.107541786069825	NA	NA	mmol/l	NA
+Morioka2024	DUL075	195.0	DUL075	concentration 	glucose	plasma	NR	fpg_DUL075	38.0	week	8.25504828504829	NA	NA	NA	1.54389217640926	0.110560415143978	NA	NA	mmol/l	NA
+Morioka2024	DUL075	195.0	DUL075	concentration 	glucose	plasma	NR	fpg_DUL075	52.0	week	8.13294816294816	NA	NA	NA	1.75532057514552	0.125701117256916	NA	NA	mmol/l	NA
+Morioka2024	DUL15	391.0	DUL15	concentration 	glucose	plasma	NR	fpg_DUL15	0.0	week	9.96	NA	NA	NA	NA	NA	NA	NA	mmol/l	NA
+Morioka2024	DUL15	391.0	DUL15	concentration 	glucose	plasma	NR	fpg_DUL15	8.0	week	7.34594738594739	NA	NA	NA	1.2118886776166	0.0612878447608951	NA	NA	mmol/l	NA
+Morioka2024	DUL15	391.0	DUL15	concentration 	glucose	plasma	NR	fpg_DUL15	16.0	week	7.51799755799756	NA	NA	NA	1.47578967564057	0.0746338918837606	NA	NA	mmol/l	NA
+Morioka2024	DUL15	391.0	DUL15	concentration 	glucose	plasma	NR	fpg_DUL15	26.0	week	7.56794760794761	NA	NA	NA	1.4750857400368	0.0745982923301032	NA	NA	mmol/l	NA
+Morioka2024	DUL15	391.0	DUL15	concentration 	glucose	plasma	NR	fpg_DUL15	38.0	week	7.73999777999778	NA	NA	NA	1.73898673806067	0.0879443394529638	NA	NA	mmol/l	NA
+Morioka2024	DUL15	391.0	DUL15	concentration 	glucose	plasma	NR	fpg_DUL15	52.0	week	7.60679764679765	NA	NA	NA	1.693870315181	0.0856627038764568	NA	NA	mmol/l	NA

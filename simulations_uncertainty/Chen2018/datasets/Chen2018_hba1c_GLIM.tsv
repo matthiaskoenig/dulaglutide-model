@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Chen2018	GLIM	242.0	GLIM	hba1c		plasma	NR	hba1c_GLIM	0.0	week	7.9				1.01		0.0649252589998557		baseline sd of Table 1	percent	percent	dimensionless
+Chen2018	GLIM	242.0	GLIM	hba1c		plasma	NR	hba1c_GLIM	4.0	week	7.54238410596027				0.5583805511777513		0.03589406129277		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless
+Chen2018	GLIM	242.0	GLIM	hba1c		plasma	NR	hba1c_GLIM	8.0	week	7.23112582781457				0.7921263748874695		0.050919811930877		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless
+Chen2018	GLIM	242.0	GLIM	hba1c		plasma	NR	hba1c_GLIM	16.0	week	6.99492273730684				1.051284000981839		0.0675790950951985		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless
+Chen2018	GLIM	242.0	GLIM	hba1c		plasma	NR	hba1c_GLIM	26.0	week	6.99933774834437				1.0879139697078803		0.0699337586661835		error bars of Fig2B are SE (half of the bar), sd = se x sqrt(n)	percent	percent	dimensionless

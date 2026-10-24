@@ -36,7 +36,7 @@ FDAGBCM	modR	8.0	all	height	8.0	NA	NA	172.63	NA	7.71	NA	160.0	184.0	cm	NA
 FDAGBCM	modR	8.0	all	bmi	8.0	NA	NA	26.24	NA	2.23	NA	22.4	29.1	kg/m^2	NA
 FDAGBCM	modR	8.0	all	clearance	8.0	creatinine	NA	39.3	NA	6.56	NA	30.4	48.7	ml/min	NA
 FDAGBCM	sevR	8.0	all	healthy	8.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
-FDAGBCM	sevR	8.0	all	disease	8.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	renal disease (severe)
+FDAGBCM	sevR	8.0	all	disease	8.0	NA	renal disease (severe)	NA	NA	NA	NA	NA	NA	NA	NA
 FDAGBCM	sevR	8.0	all	disease	1.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
 FDAGBCM	sevR	8.0	all	sex	5.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
 FDAGBCM	sevR	8.0	all	sex	3.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	ci	cv	comments	mean_unit	median_unit	count_unit
+Xu2022	B075	11.0	DUL075M	concentration	glucose	plasma	NR	fpg_DUL075M	0.0	day	8.996200000000002									mmol/l	mmol/l	dimensionless
+Xu2022	B075	11.0	DUL075M	concentration	glucose	plasma	NR	fpg_DUL075M	2.0	day	8.037590852699998				0.924522129122628		1.09271532815515			mmol/l	mmol/l	dimensionless
+Xu2022	B075	11.0	DUL075M	concentration	glucose	plasma	NR	fpg_DUL075M	23.0	day	6.810769798421812				0.899308277473792		1.06291445988966			mmol/l	mmol/l	dimensionless
+Xu2022	B075	11.0	DUL075M	concentration	glucose	plasma	NR	fpg_DUL075M	28.0	day	7.093882366898782				0.907712509951356		1.07284762791272			mmol/l	mmol/l	dimensionless

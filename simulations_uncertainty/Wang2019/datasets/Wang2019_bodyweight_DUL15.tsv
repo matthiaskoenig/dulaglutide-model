@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	0.0	week	73.6									kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	2.0	week	73.285649217381				1.59421840310636		0.100227652271485			kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	4.0	week	72.8391798261775				1.88407780238248		0.118450956570106			kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	8.0	week	72.4656036521686				2.17393720165865		0.13667426086873			kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	14.0	week	72.3471526955985				2.75365600021087		0.17312086946597			kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	20.0	week	72.3107060870013				3.04350987087877		0.19134382618397			kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	26.0	week	72.1193622608173				2.89858293554482		0.18223234782497			kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	39.0	week	72.1284737391763				3.18844233482093		0.20045565212359			kg	kg	dimensionless
+Wang2019	DUL15	253.0	DUL15	weight			NR	bodyweight_DUL15	52.0	week	72.5111617391248				3.18844233482093		0.20045565212359			kg	kg	dimensionless

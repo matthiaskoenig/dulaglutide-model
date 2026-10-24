@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2011	PLAC	66.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	0.0	week	94.7									kg	kg	dimensionless
+Umpierrez2011	PLAC	65.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	4.0	week	94.63907153001692				1.746562965402718		0.216634473857067			kg	kg	dimensionless
+Umpierrez2011	PLAC	64.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	8.0	week	94.57137327307711				2.382978437682672		0.297872304710334			kg	kg	dimensionless
+Umpierrez2011	PLAC	59.0	PLAC	weight (change)			NR	bodyweight_change_PLAC	16.0	week	94.58				2.995646841668757		0.39			kg	kg	dimensionless

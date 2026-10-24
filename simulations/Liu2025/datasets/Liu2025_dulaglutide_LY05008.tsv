@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	mean_se	min	max	mean_sd	cv	timeraw	comments	mean_unit	median_unit	count_unit
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	28.0	day	6.646727356499849e-07					3.209743632346908e-07		29.0		mole/meter^3	ng/ml	dimensionless
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	56.0	day	6.817155800017965e-07					3.266553474705497e-07		57.0		mole/meter^3	ng/ml	dimensionless
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	84.0	day	7.782919869440891e-07					3.1529337899883357e-07		85.0		mole/meter^3	ng/ml	dimensionless
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	112.0	day	7.328443297687532e-07					3.152934873545952e-07		113.0		mole/meter^3	ng/ml	dimensionless
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	140.0	day	7.782919869440891e-07					3.579005982341227e-07		141.0		mole/meter^3	ng/ml	dimensionless
+Liu2025	all	222.0	LY05008	concentration	dulaglutide	plasma	RIA	dulaglutide_LY05008	168.0	day	7.896539554158053e-07					3.6926256670583875e-07		169.0		mole/meter^3	ng/ml	dimensionless

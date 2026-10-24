@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	0.0	week	8.94									mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	2.0	week	7.57303792309814				1.49360340777426		0.0908978087116164			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	4.0	week	7.41921107763627				1.55104876555792		0.0943938218540683			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	13.0	week	7.29684875054954				1.49360121637433		0.0908976753472637			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	26.0	week	7.42620323728553				1.49360121637433		0.0908976753472639			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	39.0	week	7.5835262292542				1.66593948112516		0.101385848138967			mmol/l	mmol/l	dimensionless
+Umpierrez2014	DUL075	270.0	DUL075	concentration	glucose	plasma	NR	fpg_DUL075	52.0	week	7.60100656169515				2.0106182020269		0.122362327086735			mmol/l	mmol/l	dimensionless

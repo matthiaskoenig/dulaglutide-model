@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	ci	mean_se	cv	comments	mean_unit	median_unit	count_unit
+Terauchi2014	DUL025	36.0	DUL025	concentration change absolute	glucose	plasma	NR	fpg_change_DUL025	0.0	week	8.82									mmol/l	mmol/l	dimensionless
+Terauchi2014	DUL025	36.0	DUL025	concentration change absolute	glucose	plasma	NR	fpg_change_DUL025	2.0	week	7.455986201867461									mmol/l	mmol/l	dimensionless
+Terauchi2014	DUL025	36.0	DUL025	concentration change absolute	glucose	plasma	NR	fpg_change_DUL025	4.0	week	7.22981057065829									mmol/l	mmol/l	dimensionless
+Terauchi2014	DUL025	36.0	DUL025	concentration change absolute	glucose	plasma	NR	fpg_change_DUL025	8.0	week	7.44728726676061									mmol/l	mmol/l	dimensionless
+Terauchi2014	DUL025	36.0	DUL025	concentration change absolute	glucose	plasma	NR	fpg_change_DUL025	12.0	week	7.19939837939838				1.57155769400667	0.513375513375513				mmol/l	mmol/l	dimensionless

@@ -1,13 +1,13 @@
 study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
-Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	0.0	week	8.54073410922112	NA	NA	NA	0.239033124440461	NA	NA	percent	NA
-Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	13.0	week	7.01521933751119	NA	NA	NA	0.2094897045658	NA	NA	percent	NA
-Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	26.0	week	7.05550581915846	NA	NA	NA	0.25246195165623	NA	NA	percent	NA
-Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	52.0	week	7.30796777081468	NA	NA	NA	0.303491495076091	NA	NA	percent	NA
-Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	0.0	week	8.39570277529095	NA	NA	NA	0.23366159355416	NA	NA	percent	NA
-Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	13.0	week	6.89435989256938	NA	NA	NA	0.17994628469113	NA	NA	percent	NA
-Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	26.0	week	6.88898836168307	NA	NA	NA	0.209489704565801	NA	NA	percent	NA
-Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	52.0	week	7.11996418979409	NA	NA	NA	0.24171888988362	NA	NA	percent	NA
-Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	0.0	week	8.45210384959713	NA	NA	NA	0.24440465532677	NA	NA	percent	NA
-Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	13.0	week	6.89435989256938	NA	NA	NA	0.1933751119069	NA	NA	percent	NA
-Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	26.0	week	6.8272157564906	NA	NA	NA	0.20680393912265	NA	NA	percent	NA
-Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	52.0	week	7.05013428827215	NA	NA	NA	0.260519247985671	NA	NA	percent	NA
+Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	0.0	week	8.54073410922112	NA	NA	NA	1.04910239083384	0.06097783786746466	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	13.0	week	7.01521933751119	NA	NA	NA	0.919438050393712	0.053441251164744866	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	26.0	week	7.05550581915846	NA	NA	NA	1.10804072739759	0.06440355909597689	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	GLAR	296.0	GLAR	hba1c	NA	plasma	NR	hba1c_GLAR	52.0	week	7.30796777081468	NA	NA	NA	1.33200640633959	0.07742129976430881	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	0.0	week	8.39570277529095	NA	NA	NA	1.02031689351276	0.05960754937606102	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	13.0	week	6.89435989256938	NA	NA	NA	0.785761285808659	0.04590466446202294	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	26.0	week	6.88898836168307	NA	NA	NA	0.914766870045936	0.053441251164745136	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL075	293.0	DUL075	hba1c	NA	plasma	NR	hba1c_DUL075	52.0	week	7.11996418979409	NA	NA	NA	1.0555002346684	0.061662982113168174	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	0.0	week	8.45210384959713	NA	NA	NA	1.07086423688354	0.06234812635886969	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	13.0	week	6.89435989256938	NA	NA	NA	0.847277198413375	0.0493303856905357	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	26.0	week	6.8272157564906	NA	NA	NA	0.906115892747607	0.052756106919043366	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)
+Blonde2015	DUL15	295.0	DUL15	hba1c	NA	plasma	NR	hba1c_DUL15	52.0	week	7.05013428827215	NA	NA	NA	1.14147067008463	0.06645899183307957	NA	percent	error bars 95 % CI, sd = CI half-width / 1.96 x sqrt(n) (pkdb_data)

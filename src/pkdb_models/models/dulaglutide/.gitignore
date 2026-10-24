@@ -1,0 +1,6 @@
+# the results of the simulations, fits and analyses, regenerated
+/results/
+# the COMBINE archives, created by the factory
+*.omex
+# the figures of the baseline visualization
+/baseline_viz/figures

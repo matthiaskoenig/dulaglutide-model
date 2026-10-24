@@ -1,26 +1,43 @@
-"""Run all simulation experiments."""
-import shutil
-from pathlib import Path
+"""The simulation experiments of the dulaglutide model and their groups.
 
-from sbmlutils.console import console
+They are the registry of `MODEL`, the experiments its commands simulate.
+"""
 
-from pkdb_models.models.dulaglutide.helpers import run_experiments
-from pkdb_models.models.dulaglutide.experiments.studies import *
-from pkdb_models.models.dulaglutide.experiments.misc import *
-from pkdb_models.models.dulaglutide.experiments.scans import *
-import pkdb_models.models.dulaglutide as dulaglutide
+from sbmlsim.experiment import SimulationExperiment
 
-from sbmlutils import log
-from sbmlsim.plot import Figure
+from pkdb_models.models.dulaglutide import MODEL
+from pkdb_models.models.dulaglutide.experiments.misc import DoseDependencyExperiment
+from pkdb_models.models.dulaglutide.experiments.scans import DulaglutideParameterScan
+from pkdb_models.models.dulaglutide.experiments.studies import (
+    FDAGBCM,
+    FDAGBCN,
+    FDAGBDO,
+    FDAGBDR,
+    Barrington2011,
+    Barrington2011a,
+    Blonde2015,
+    Chen2018,
+    Dungan2014,
+    Dungan2016,
+    Gao2024,
+    Gerstein2019,
+    Giorgino2015,
+    Grunberger2012,
+    Liu2025,
+    Morioka2024,
+    Nauck2014,
+    Pratley2018,
+    Terauchi2014,
+    Umpierrez2011,
+    Umpierrez2014,
+    Wang2019,
+    Weinstock2015,
+    Wysham2014,
+    Xu2022,
+    Zhang2023,
+)
 
-Figure.legend_fontsize = 10
-Figure.legend_position: str = "inside"
-Figure.fig_dpi = 300
-
-
-logger = log.get_logger(__name__)
-
-EXPERIMENTS = {
+EXPERIMENTS: dict[str, list[type[SimulationExperiment]]] = {
     "studies": [
         Barrington2011,
         Barrington2011a,
@@ -35,87 +52,95 @@ EXPERIMENTS = {
         Gao2024,
         Gerstein2019,
         Giorgino2015,
+        Grunberger2012,
         Liu2025,
+        Morioka2024,
         Nauck2014,
         Pratley2018,
+        Terauchi2014,
+        Umpierrez2011,
+        Umpierrez2014,
+        Wang2019,
+        Weinstock2015,
+        Wysham2014,
         Xu2022,
-        Zhang2023
+        Zhang2023,
+    ],
+    "pharmacokinetics": [
+        Barrington2011,
+        Barrington2011a,
+        FDAGBCM,
+        FDAGBCN,
+        FDAGBDO,
+        FDAGBDR,
+        Gao2024,
+        Liu2025,
+        Xu2022,
+        Zhang2023,
     ],
     "hepatic_impairment": [
+        FDAGBDO,
     ],
     "renal_impairment": [
+        FDAGBCM,
+    ],
+    "fpg": [
+        Giorgino2015,
+        Grunberger2012,
+        Morioka2024,
+        Pratley2018,
+        Terauchi2014,
+        Umpierrez2011,
+        Umpierrez2014,
+        Wang2019,
+        Weinstock2015,
+        Wysham2014,
+        Xu2022,
+    ],
+    "hba1c": [
+        Barrington2011a,
+        Blonde2015,
+        Chen2018,
+        Dungan2014,
+        Dungan2016,
+        Gerstein2019,
+        Giorgino2015,
+        Grunberger2012,
+        Liu2025,
+        Morioka2024,
+        Pratley2018,
+        Terauchi2014,
+        Umpierrez2011,
+        Umpierrez2014,
+        Wang2019,
+        Weinstock2015,
+        Wysham2014,
+        Xu2022,
+    ],
+    "bw": [
+        Barrington2011a,
+        Blonde2015,
+        Chen2018,
+        Dungan2014,
+        Dungan2016,
+        Gerstein2019,
+        Giorgino2015,
+        Morioka2024,
+        Pratley2018,
+        Terauchi2014,
+        Umpierrez2011,
+        Umpierrez2014,
+        Wang2019,
+        Weinstock2015,
+        Wysham2014,
     ],
     "misc": [
         DoseDependencyExperiment,
     ],
-    "scan": [
-        DulaglutideParameterScan
-    ]
+    "scans": [DulaglutideParameterScan],
 }
-EXPERIMENTS["all"] = EXPERIMENTS["studies"] + EXPERIMENTS["misc"] + EXPERIMENTS["scan"]
-
-
-def run_simulation_experiments(
-        selected: str = None,
-        experiment_classes: list = None,
-        output_dir: Path = None
-) -> None:
-    """Run simulation experiments."""
-
-    # Figure.fig_dpi = 600
-    # Figure.legend_fontsize = 10
-
-    # Determine which experiments to run
-    if experiment_classes is not None:
-        experiments_to_run = experiment_classes
-        if output_dir is None:
-            output_dir = dulaglutide.RESULTS_PATH_SIMULATION / "custom_selection"
-    elif selected:
-        # Using the 'selected' parameter
-        if selected not in EXPERIMENTS:
-            console.rule(style="red bold")
-            console.print(
-                f"[red]Error: Unknown group '{selected}'. Valid groups: {', '.join(EXPERIMENTS.keys())}[/red]"
-            )
-            console.rule(style="red bold")
-            return
-        experiments_to_run = EXPERIMENTS[selected]
-        if output_dir is None:
-            output_dir = dulaglutide.RESULTS_PATH_SIMULATION / selected
-    else:
-        console.print("\n[red bold]Error: No experiments specified![/red bold]")
-        console.print("[yellow]Use selected='all' or selected='studies' or provide experiment_classes=[...][/yellow]\n")
-        return
-
-    # Run the experiments
-    run_experiments(experiment_classes=experiments_to_run, output_dir=output_dir)
-
-    # Collect figures into one folder
-    figures_dir = output_dir / "_figures"
-    figures_dir.mkdir(parents=True, exist_ok=True)
-    for f in output_dir.glob("**/*.png"):
-        if f.parent == figures_dir:
-            continue
-        try:
-            shutil.copy2(f, figures_dir / f.name)
-        except Exception as err:
-            print(f"file {f.name} in {f.parent} fails, skipping. Error: {err}")
-    console.print(f"Figures copied to: file://{figures_dir}", style="info")
+EXPERIMENTS["all"] = EXPERIMENTS["studies"] + EXPERIMENTS["misc"] + EXPERIMENTS["scans"]
 
 
 if __name__ == "__main__":
-    """
-    # Run experiments
-
-    # selected = "all"
-    # selected = "misc"
-    # selected = "studies"
-    # selected = "pharmacodynamics"
-    # selected = "dose_dependency"
-    # selected = "food"
-    # selected = "hepatic_impairment"
-    # selected = "renal_impairment"
-    # selected = "scan"
-    """
-
-    run_simulation_experiments(selected="all")
+    MODEL.run_simulation_experiments(EXPERIMENTS["all"], MODEL.simulation_dir / "all")
